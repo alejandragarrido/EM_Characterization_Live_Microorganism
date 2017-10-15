@@ -1,0 +1,151 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002017, month=000000000010, day=000000000012, hour=000000000021, min=000000000025, sec=000000000050)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000003613, lin=000000000129, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock21'
+	SolutionName='AdaptivePass'
+	SolutionID=48
+	V=555
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(1000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+$end 'SolutionBlock21'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=47, Instance=\'SetupDefinition\', Solution=-1, VersionID=322)'='SolutionBlock10'
+	'SolutionKey(SimSetup=47, Instance=\'SolutionDefinition\', Solution=48, VersionID=555)'='SolutionBlock21'
+	'SolutionKey(SimSetup=47, Instance=\'SolutionDefinition\', Solution=49, VersionID=555)'='SolutionBlock22'
+	'SolutionKey(SimSetup=47, Instance=\'SolutionDefinition\', Solution=53, VersionID=555)'='SolutionBlock23'
+	'SolutionKey(SimSetup=47, Instance=\'d=\\\'1.25mm\\\'\', Solution=-3, VersionID=322)'='SolutionBlock11'
+$end 'BlockMapName'
+$begin 'SolutionBlock22'
+	SolutionName='LastAdaptive'
+	SolutionID=49
+	V=555
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(1000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+$end 'SolutionBlock22'
+$begin 'SolutionBlock23'
+	SolutionName='Sweep'
+	SolutionID=53
+	V=555
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=true
+		SweepDefType='LIN'
+		StartFreq=10000
+		StopFreq=100000000
+		StepSize=1010000
+		SolutionType=4
+		CenterFreq=50005000
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=0
+	KeepAllFastSweepFields=false
+$end 'SolutionBlock23'
+$begin 'SolutionBlock10'
+	SimSetupID=47
+	SimSetupName='Setup1'
+	VersionID=322
+	IsImported=false
+	IsTable=false
+	SolveSetupID=0
+	$begin 'CurrMeshes'
+		M(VID=167, Ver=322, Dir='DV167_S47_V322.cmesh/')
+	$end 'CurrMeshes'
+	$begin 'RadFieldSurfMeshes'
+		SM(VID=167, Ver=322, Dir='DV167_S47_V322.sfmesh/')
+	$end 'RadFieldSurfMeshes'
+	$begin 'WaveAdapt'
+		WA(VID=167, Ver=322, A=1)
+	$end 'WaveAdapt'
+	$begin 'LastPassNumbers'
+		LP(VID=167, Ver=322, P=2)
+	$end 'LastPassNumbers'
+	$begin 'Profiles'
+		P(VID=167, Ver=322, File='DV167_S47_V322.profile')
+	$end 'Profiles'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=167, Ver=322, Dir='DV167_S47_MI0_V322.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock10'
+$begin 'SolutionBlock1'
+	ProductName='HFSS'
+	CircuitName='Con_celula'
+	VersionID=322
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=574
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='d=\'1.25mm\'', ID=167)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=167, Ver=322, Dir='DV167_V322.imesh/')
+	$end 'InitialMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=167, Ver=322, Dir='DV167_MI0_V322.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock1'
+$begin 'SolutionBlock11'
+	ConvSetupName='DrivenDeltaSConvNOV'
+	IsConverged=true
+	MaxPasses='6'
+	MinPasses='1'
+	ConvTarget='0.02'
+	ConvTargetConsecPasses='1'
+	ConvCurrentConsecPasses='1'
+	c(numtets=81708, passno=1)
+	c(numtets=106142, passno=2, magdeltas=7.383698848524799e-005)
+$end 'SolutionBlock11'
+$begin '$index$'
+	$begin '$index$'
+		SolutionBlock11(pos=3313, lin=118, lvl=0)
+		SolutionBlock21(pos=370, lin=1, lvl=0)
+		BlockMapName(pos=726, lin=19, lvl=0)
+		SolutionBlock22(pos=1327, lin=27, lvl=0)
+		SolutionBlock23(pos=1683, lin=45, lvl=0)
+		SolutionBlock10(pos=2093, lin=66, lvl=0)
+		SolutionBlock1(pos=2798, lin=95, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=3613, lin=129, lvl=0)
+	$end '$index$'
+$end '$index$'

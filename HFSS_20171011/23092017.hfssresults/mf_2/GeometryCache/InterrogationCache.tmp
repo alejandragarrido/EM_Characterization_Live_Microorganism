@@ -1,0 +1,64 @@
+$begin 'CacheDataVersion'
+	DataVersion=263
+$end 'CacheDataVersion'
+$begin 'InterrogationCache'
+	Version=1
+	$begin 'VariableValues'
+		d='1.25mm'
+	$end 'VariableValues'
+	$begin 'ValidationStatus'
+		$begin 'Options'
+			EntityCheckLevel='Strict'
+			IgnoreUnclassifiedObjects=false
+			SkipIntersectionChecks=false
+		$end 'Options'
+		Status=false
+	$end 'ValidationStatus'
+	$begin 'BodyCaches'
+		$begin '44'
+			$begin 'BoundingBox'
+				Low[3: -2.5, -0.60000000000000009, -2.5]
+				High[3: 2.5, -0.5, 2.5]
+				Exact=false
+				Valid=true
+			$end 'BoundingBox'
+		$end '44'
+		$begin '72'
+			$begin 'BoundingBox'
+				Low[3: -2.5, 0.5, -2.5]
+				High[3: 2.5, 0.60000000000000009, 2.5]
+				Exact=false
+				Valid=true
+			$end 'BoundingBox'
+		$end '72'
+		$begin '124'
+			$begin 'Properties'
+				Volume='0'
+				Area='1.25'
+				Valid=true
+			$end 'Properties'
+			$begin 'BoundingBox'
+				Low[3: 2.5, -0.5, -0.625]
+				High[3: 2.5, 0.50000000000000022, 0.62500000000000022]
+				Exact=false
+				Valid=true
+			$end 'BoundingBox'
+		$end '124'
+		$begin '199'
+			$begin 'BoundingBox'
+				Low[3: -10, -10, -10]
+				High[3: 10, 10, 10]
+				Exact=false
+				Valid=true
+			$end 'BoundingBox'
+		$end '199'
+		$begin '202'
+			$begin 'BoundingBox'
+				Low[3: -10, -10, -10]
+				High[3: 10, 10, 10]
+				Exact=false
+				Valid=true
+			$end 'BoundingBox'
+		$end '202'
+	$end 'BodyCaches'
+$end 'InterrogationCache'
