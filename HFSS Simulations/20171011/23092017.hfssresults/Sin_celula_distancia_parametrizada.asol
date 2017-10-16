@@ -1,17 +1,17 @@
 $begin '$base_index$'
   $begin 'properties'
     all_levels=000000000000
-    time(year=000000002017, month=000000000010, day=000000000012, hour=000000000021, min=000000000025, sec=000000000051)
+    time(year=000000002017, month=000000000010, day=000000000016, hour=000000000011, min=000000000009, sec=000000000006)
     version=000000000000
   $end 'properties'
   $begin '$base_index$'
     $index$(pos=000000014636, lin=000000000458, lvl=000000000000)
   $end '$base_index$'
 $end '$base_index$'
-$begin 'SolutionBlock36'
+$begin 'SolutionBlock39'
 	SolutionName='AdaptivePass'
 	SolutionID=18
-	V=488
+	V=536
 	$begin 'States'
 	$end 'States'
 	$begin 'Definition'
@@ -25,13 +25,13 @@ $begin 'SolutionBlock36'
 	IsMatrixDataTable=false
 	SweepID=-1
 	KeepAllFastSweepFields=false
-$end 'SolutionBlock36'
+$end 'SolutionBlock39'
 $begin 'BlockMapName'
 	FileHeader='SolutionBlock1'
 	'SolutionKey(SimSetup=17, Instance=\'SetupDefinition\', Solution=-1, VersionID=125)'='SolutionBlock5'
-	'SolutionKey(SimSetup=17, Instance=\'SolutionDefinition\', Solution=18, VersionID=488)'='SolutionBlock36'
-	'SolutionKey(SimSetup=17, Instance=\'SolutionDefinition\', Solution=19, VersionID=488)'='SolutionBlock37'
-	'SolutionKey(SimSetup=17, Instance=\'SolutionDefinition\', Solution=61, VersionID=488)'='SolutionBlock38'
+	'SolutionKey(SimSetup=17, Instance=\'SolutionDefinition\', Solution=18, VersionID=536)'='SolutionBlock39'
+	'SolutionKey(SimSetup=17, Instance=\'SolutionDefinition\', Solution=19, VersionID=536)'='SolutionBlock40'
+	'SolutionKey(SimSetup=17, Instance=\'SolutionDefinition\', Solution=61, VersionID=536)'='SolutionBlock41'
 	'SolutionKey(SimSetup=17, Instance=\'d1=\\\'10nm\\\'\', Solution=-3, VersionID=125)'='SolutionBlock16'
 	'SolutionKey(SimSetup=17, Instance=\'d1=\\\'11nm\\\'\', Solution=-3, VersionID=125)'='SolutionBlock17'
 	'SolutionKey(SimSetup=17, Instance=\'d1=\\\'12nm\\\'\', Solution=-3, VersionID=125)'='SolutionBlock18'
@@ -54,10 +54,10 @@ $begin 'BlockMapName'
 	'SolutionKey(SimSetup=17, Instance=\'d1=\\\'8nm\\\'\', Solution=-3, VersionID=125)'='SolutionBlock14'
 	'SolutionKey(SimSetup=17, Instance=\'d1=\\\'9nm\\\'\', Solution=-3, VersionID=125)'='SolutionBlock15'
 $end 'BlockMapName'
-$begin 'SolutionBlock37'
+$begin 'SolutionBlock40'
 	SolutionName='LastAdaptive'
 	SolutionID=19
-	V=488
+	V=536
 	$begin 'States'
 	$end 'States'
 	$begin 'Definition'
@@ -71,11 +71,11 @@ $begin 'SolutionBlock37'
 	IsMatrixDataTable=false
 	SweepID=-1
 	KeepAllFastSweepFields=false
-$end 'SolutionBlock37'
-$begin 'SolutionBlock38'
+$end 'SolutionBlock40'
+$begin 'SolutionBlock41'
 	SolutionName='Sweep'
 	SolutionID=61
-	V=488
+	V=536
 	$begin 'States'
 	$end 'States'
 	$begin 'Definition'
@@ -92,7 +92,7 @@ $begin 'SolutionBlock38'
 	IsMatrixDataTable=false
 	SweepID=0
 	KeepAllFastSweepFields=false
-$end 'SolutionBlock38'
+$end 'SolutionBlock41'
 $begin 'SolutionBlock5'
 	SimSetupID=17
 	SimSetupName='Setup1'
@@ -148,7 +148,7 @@ $begin 'SolutionBlock1'
 	VersionID=125
 	PostProcess=false
 	LossLess=true
-	NextUniqueID=507
+	NextUniqueID=555
 	MoveBackwards=false
 	$begin 'VariationIDs'
 		Map(V='d1=\'10nm\'', ID=175)
@@ -185,9 +185,6 @@ $begin 'SolutionBlock1'
 		$end 'SubData'
 	$end 'MI'
 $end 'SolutionBlock1'
-$begin 'OptimetricsResults'
-	'0:0'='OptimetricsResult1'
-$end 'OptimetricsResults'
 $begin 'OptimetricsResult1'
 	vi('d1', '2.5um', '2.5um', '2.5um')
 	gver(0)
@@ -465,37 +462,40 @@ $begin 'SolutionBlock6'
 	c(passno=1, numtets=1361)
 	c(passno=2, numtets=1751, magdeltas=0.0002822983654877)
 $end 'SolutionBlock6'
+$begin 'OptimetricsResults'
+	'0:0'='OptimetricsResult1'
+$end 'OptimetricsResults'
 $begin '$index$'
 	$begin '$index$'
-		SolutionBlock6(pos=14345, lin=447, lvl=0)
-		SolutionBlock36(pos=370, lin=1, lvl=0)
+		OptimetricsResults(pos=14554, lin=455, lvl=0)
+		SolutionBlock39(pos=370, lin=1, lvl=0)
 		BlockMapName(pos=728, lin=19, lvl=0)
-		SolutionBlock37(pos=3395, lin=47, lvl=0)
-		SolutionBlock38(pos=3753, lin=65, lvl=0)
+		SolutionBlock40(pos=3395, lin=47, lvl=0)
+		SolutionBlock41(pos=3753, lin=65, lvl=0)
 		SolutionBlock5(pos=4156, lin=86, lvl=0)
 		SolutionBlock1(pos=5919, lin=135, lvl=0)
-		OptimetricsResults(pos=7065, lin=178, lvl=0)
-		OptimetricsResult1(pos=7147, lin=181, lvl=0)
-		SolutionBlock26(pos=8433, lin=227, lvl=0)
-		SolutionBlock25(pos=8729, lin=238, lvl=0)
-		SolutionBlock24(pos=9025, lin=249, lvl=0)
-		SolutionBlock23(pos=9321, lin=260, lvl=0)
-		SolutionBlock22(pos=9617, lin=271, lvl=0)
-		SolutionBlock21(pos=9913, lin=282, lvl=0)
-		SolutionBlock20(pos=10209, lin=293, lvl=0)
-		SolutionBlock19(pos=10505, lin=304, lvl=0)
-		SolutionBlock18(pos=10801, lin=315, lvl=0)
-		SolutionBlock17(pos=11096, lin=326, lvl=0)
-		SolutionBlock16(pos=11392, lin=337, lvl=0)
-		SolutionBlock15(pos=11688, lin=348, lvl=0)
-		SolutionBlock14(pos=11983, lin=359, lvl=0)
-		SolutionBlock13(pos=12279, lin=370, lvl=0)
-		SolutionBlock12(pos=12575, lin=381, lvl=0)
-		SolutionBlock11(pos=12871, lin=392, lvl=0)
-		SolutionBlock10(pos=13167, lin=403, lvl=0)
-		SolutionBlock9(pos=13463, lin=414, lvl=0)
-		SolutionBlock8(pos=13757, lin=425, lvl=0)
-		SolutionBlock7(pos=14051, lin=436, lvl=0)
+		OptimetricsResult1(pos=7065, lin=178, lvl=0)
+		SolutionBlock26(pos=8351, lin=224, lvl=0)
+		SolutionBlock25(pos=8647, lin=235, lvl=0)
+		SolutionBlock24(pos=8943, lin=246, lvl=0)
+		SolutionBlock23(pos=9239, lin=257, lvl=0)
+		SolutionBlock22(pos=9535, lin=268, lvl=0)
+		SolutionBlock21(pos=9831, lin=279, lvl=0)
+		SolutionBlock20(pos=10127, lin=290, lvl=0)
+		SolutionBlock19(pos=10423, lin=301, lvl=0)
+		SolutionBlock18(pos=10719, lin=312, lvl=0)
+		SolutionBlock17(pos=11014, lin=323, lvl=0)
+		SolutionBlock16(pos=11310, lin=334, lvl=0)
+		SolutionBlock15(pos=11606, lin=345, lvl=0)
+		SolutionBlock14(pos=11901, lin=356, lvl=0)
+		SolutionBlock13(pos=12197, lin=367, lvl=0)
+		SolutionBlock12(pos=12493, lin=378, lvl=0)
+		SolutionBlock11(pos=12789, lin=389, lvl=0)
+		SolutionBlock10(pos=13085, lin=400, lvl=0)
+		SolutionBlock9(pos=13381, lin=411, lvl=0)
+		SolutionBlock8(pos=13675, lin=422, lvl=0)
+		SolutionBlock7(pos=13969, lin=433, lvl=0)
+		SolutionBlock6(pos=14263, lin=444, lvl=0)
 		$base_index$(pos=0, lin=1, lvl=0)
 		$index$(pos=14636, lin=458, lvl=0)
 	$end '$index$'

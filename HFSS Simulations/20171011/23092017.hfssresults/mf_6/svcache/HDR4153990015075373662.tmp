@@ -64,19 +64,6 @@ $begin 'SimValueCache'
 			$end 'ContextMap'
 			$begin 'ContextMap'
 				SolutionID=53
-				$begin 'VersionMap'
-					$begin 'ReportTypeSolnDef'
-						ReportType=0
-						SimValueContext(3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-					$end 'ReportTypeSolnDef'
-					$begin 'MajorVVMap'
-						VersionID=514
-						$begin 'MinorVVMap'
-							MajorVariation='d=\'1.25mm\' d1=\'5e-006meter\' eps0=\'8.85e-012\' s=\'2.5e-011m2\''
-							MinorCacheFile='min273E1073615078363528.tmp'
-						$end 'MinorVVMap'
-					$end 'MajorVVMap'
-				$end 'VersionMap'
 			$end 'ContextMap'
 			$begin 'ContextMap'
 				SolutionID=363
