@@ -1,58 +1,43 @@
-s = 5e-6;
-d = 5e-6;
+s = 5e-4;                                                   %[m2]   Capacitor plates surface
+d = 5e-3;                                                   %[m]    Distance between plates  
+eps_0 = 8.85*10e-12;
 
-%% Condensador con distancia parametrizada
-load('Y_sin_celula_steps.mat');
+%% Load variables
+load('imY.mat');
+load('reY.mat');
+load('Freq.mat')
+f = Freq*1e6;                                               %[Hz]   Frequency
+w = 2*pi.*f;                                                %[rad/seg]  Angular Frequency
+%% Computations
+% Free space capaciance computation
+Co = (eps_0*s)/d;
 
-Y(:,1) = []; %Admitancia 
-Y(:,21) = [] ;
+%Admitance calculation
+Y = reY11 + 1i*imY;
 
-d1 = 1e-9:1e-9:20e-9;
-Co = (8.85*10e-12*(s*s))./d1;
-permitivity = -(Y./(2*pi.*freq.*Co)).*1i;
+%Impedance calculation
+Z = 1./Y;
 
+R = real(Z);
+X = -imag(Z);
 
-real_permitivity = real(permitivity);
-real_permitivity_norm = real_permitivity/max(real_permitivity);
+%Permittivity's computation 
+eps = 1i*(Y./(w.*Co));
 
-figure 
-plot(f, real_permitivity_norm);
+eps_real = real(eps)./eps_0;
+eps_imag = -imag(eps)./eps_0;
 
-imag_permitivity = imag(permitivity);
-imag_permitivity_norm = imag_permitivity/max(imag_permitivity);
+%Permittivity plot
+figure('Name', 'Real and Imaginary Permittity');
+loglog(f, eps_real);
+hold on
+loglog(f,eps_imag);
 
-figure 
-plot(f, imag_permitivity);
+%Impedance plot
 
-%% Condensador sin paramatrizar (diferencia entre condensador con celula y condensador sin celula)
-
-
-
-
-%permittivity = (Y./(var*Co*1i));
-%permittivity_real = real(permittivity);
-%permittivity_img = imag(permittivity);
-% real_permitivity_sin = real(permitivity_sin);
-% real_permitivity_norm_sin = real_permitivity_sin/max(real_permitivity_sin);
-% 
-% imag_permitivity_sin = imag(permitivity_sin);
-% imag_permitivity_norm_sin = imag_permitivity_sin/max(imag_permitivity_sin);
-% 
-% real_permitivity_con = real(permitivity_con);
-% real_permitivity_norm_con = real_permitivity_con/max(real_permitivity_con);
-% 
-% imag_permitivity_con = imag(permitivity_con);
-% imag_permitivity_norm_con = imag_permitivity_con/max(imag_permitivity_con);
+figure('Name', 'R and X from Impedance');
+loglog(f, R);
+hold on
+loglog(f, X);
 
 
-%dif_permitivity_real = abs(permitivity_con - permitivity_sin);
-%dif_permitivity_imag = abs(permitivity_con - permitivity_sin );
-
-%figure 
-%plot(freq, dif_permitivity_real);
-
-figure 
-plot(FreqMHz, eps_real);
-
-figure
-plot(FreqMHz, eps_img);
