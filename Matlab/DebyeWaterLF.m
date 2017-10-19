@@ -5,8 +5,8 @@ close all
 
 
 % Frequency range
-f_min=1.0*1e-2;
-f_max=3.0*1e7;
+f_min=1.0*1e4;
+f_max=3.0*1e9;
 N_f=101;
 %del_f=(f_max-f_min)/(N_f-1);
 eps_ssp(1:N_f)=0+0*1i;
@@ -14,11 +14,19 @@ Frq=logspace(log10(f_min),log10(f_max),N_f);
 
 
 %Water Debye Model Parameters
+%eps_0=8.854*1e-12;
+%eps_inf=80*eps_0;
+%sgm_wat=1.5*1e-6;
+%tau_wat=0.9;
+%eps_stc=1.9*1e7*eps_0;
+
 eps_0=8.854*1e-12;
-eps_inf=80*eps_0;
-sgm_wat=1.5*1e-6;
-tau_wat=0.9;
-eps_stc=1.9*1e7*eps_0;
+eps_inf=81*eps_0;
+sgm_wat=0;
+tau_wat=0;
+eps_stc=81*eps_0;
+
+
 
 
 %Electrode dimensions
