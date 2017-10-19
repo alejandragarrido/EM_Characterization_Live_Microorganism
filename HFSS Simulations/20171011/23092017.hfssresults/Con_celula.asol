@@ -1,11 +1,11 @@
 $begin '$base_index$'
   $begin 'properties'
     all_levels=000000000000
-    time(year=000000002017, month=000000000010, day=000000000016, hour=000000000011, min=000000000009, sec=000000000006)
+    time(year=000000002017, month=000000000010, day=000000000019, hour=000000000011, min=000000000023, sec=000000000007)
     version=000000000000
   $end 'properties'
   $begin '$base_index$'
-    $index$(pos=000000003613, lin=000000000129, lvl=000000000000)
+    $index$(pos=000000004725, lin=000000000181, lvl=000000000000)
   $end '$base_index$'
 $end '$base_index$'
 $begin 'SolutionBlock24'
@@ -13,6 +13,7 @@ $begin 'SolutionBlock24'
 	SolutionID=48
 	V=605
 	$begin 'States'
+		F(VID=167, Ver=605)
 	$end 'States'
 	$begin 'Definition'
 		SamplingInterpolation=false
@@ -25,13 +26,33 @@ $begin 'SolutionBlock24'
 	IsMatrixDataTable=false
 	SweepID=-1
 	KeepAllFastSweepFields=false
+	$begin 'M'
+		$begin 'SubData'
+			ID=2
+			M(VID=167, Ver=605, File='DV167_SOL48_M2_V605.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			M(VID=167, Ver=605, File='DV167_SOL48_M3_V605.sd')
+		$end 'SubData'
+	$end 'M'
+	$begin 'A'
+		$begin 'SubData'
+			ID=2
+			A(VID=167, Ver=605, File='DV167_SOL48_A2_V605.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			A(VID=167, Ver=605, File='DV167_SOL48_A3_V605.sd')
+		$end 'SubData'
+	$end 'A'
 $end 'SolutionBlock24'
 $begin 'BlockMapName'
 	FileHeader='SolutionBlock1'
 	'SolutionKey(SimSetup=47, Instance=\'SetupDefinition\', Solution=-1, VersionID=322)'='SolutionBlock10'
 	'SolutionKey(SimSetup=47, Instance=\'SolutionDefinition\', Solution=48, VersionID=605)'='SolutionBlock24'
 	'SolutionKey(SimSetup=47, Instance=\'SolutionDefinition\', Solution=49, VersionID=605)'='SolutionBlock25'
-	'SolutionKey(SimSetup=47, Instance=\'SolutionDefinition\', Solution=53, VersionID=605)'='SolutionBlock26'
+	'SolutionKey(SimSetup=47, Instance=\'SolutionDefinition\', Solution=53, VersionID=664)'='SolutionBlock27'
 	'SolutionKey(SimSetup=47, Instance=\'d=\\\'1.25mm\\\'\', Solution=-3, VersionID=322)'='SolutionBlock11'
 $end 'BlockMapName'
 $begin 'SolutionBlock25'
@@ -39,6 +60,7 @@ $begin 'SolutionBlock25'
 	SolutionID=49
 	V=605
 	$begin 'States'
+		F(VID=167, Ver=605)
 	$end 'States'
 	$begin 'Definition'
 		SamplingInterpolation=false
@@ -51,28 +73,57 @@ $begin 'SolutionBlock25'
 	IsMatrixDataTable=false
 	SweepID=-1
 	KeepAllFastSweepFields=false
+	$begin 'M'
+		$begin 'SubData'
+			ID=0
+			M(VID=167, Ver=605, File='DV167_SOL49_M0_V605.sd')
+		$end 'SubData'
+	$end 'M'
+	$begin 'Fields'
+		IDDblMap(656, 1000000)
+		$begin 'DataMap'
+			VID=167
+			Ver=605
+			F(DblID=656, Dir='DV167_S49_V605_F656/')
+		$end 'DataMap'
+	$end 'Fields'
 $end 'SolutionBlock25'
-$begin 'SolutionBlock26'
+$begin 'SolutionBlock27'
 	SolutionName='Sweep'
 	SolutionID=53
-	V=605
+	V=664
 	$begin 'States'
+		F(VID=167, Ver=664)
 	$end 'States'
 	$begin 'Definition'
 		SamplingInterpolation=true
 		SweepDefType='LIN'
-		StartFreq=10000
+		StartFreq=10
 		StopFreq=100000000
-		StepSize=1010000
+		StepSize=1010100.909090909
 		SolutionType=4
-		CenterFreq=50005000
+		CenterFreq=50000005
 	$end 'Definition'
 	IsImported=false
 	IsTable=false
 	IsMatrixDataTable=false
 	SweepID=0
 	KeepAllFastSweepFields=false
-$end 'SolutionBlock26'
+	$begin 'M'
+		$begin 'SubData'
+			ID=0
+			M(VID=167, Ver=664, File='DV167_SOL53_M0_V664.sd')
+		$end 'SubData'
+	$end 'M'
+	$begin 'Fields'
+		IDDblMap(662, 50005000, 672, 50000005)
+		$begin 'DataMap'
+			VID=167
+			Ver=664
+			F(DblID=672, Dir='DV167_S53_V664_F672/')
+		$end 'DataMap'
+	$end 'Fields'
+$end 'SolutionBlock27'
 $begin 'SolutionBlock10'
 	SimSetupID=47
 	SimSetupName='Setup1'
@@ -90,7 +141,7 @@ $begin 'SolutionBlock10'
 		WA(VID=167, Ver=322, A=1)
 	$end 'WaveAdapt'
 	$begin 'LastPassNumbers'
-		LP(VID=167, Ver=322, P=2)
+		LP(VID=167, Ver=322, P=3)
 	$end 'LastPassNumbers'
 	$begin 'Profiles'
 		P(VID=167, Ver=322, File='DV167_S47_V322.profile')
@@ -108,7 +159,7 @@ $begin 'SolutionBlock1'
 	VersionID=322
 	PostProcess=false
 	LossLess=true
-	NextUniqueID=624
+	NextUniqueID=708
 	MoveBackwards=false
 	$begin 'VariationIDs'
 		Map(V='d=\'1.25mm\'', ID=167)
@@ -133,19 +184,20 @@ $begin 'SolutionBlock11'
 	ConvTarget='0.02'
 	ConvTargetConsecPasses='1'
 	ConvCurrentConsecPasses='1'
-	c(numtets=81708, passno=1)
-	c(numtets=106142, passno=2, magdeltas=7.383698848524799e-005)
+	c(passno=1, numtets=81708)
+	c(passno=2, numtets=106142)
+	c(passno=3, numtets=137771, magdeltas=2.528208523196216e-005)
 $end 'SolutionBlock11'
 $begin '$index$'
 	$begin '$index$'
-		SolutionBlock11(pos=3313, lin=118, lvl=0)
+		SolutionBlock11(pos=4396, lin=169, lvl=0)
 		SolutionBlock24(pos=370, lin=1, lvl=0)
-		BlockMapName(pos=726, lin=19, lvl=0)
-		SolutionBlock25(pos=1327, lin=27, lvl=0)
-		SolutionBlock26(pos=1683, lin=45, lvl=0)
-		SolutionBlock10(pos=2093, lin=66, lvl=0)
-		SolutionBlock1(pos=2798, lin=95, lvl=0)
+		BlockMapName(pos=1184, lin=40, lvl=0)
+		SolutionBlock25(pos=1785, lin=48, lvl=0)
+		SolutionBlock27(pos=2442, lin=81, lvl=0)
+		SolutionBlock10(pos=3176, lin=117, lvl=0)
+		SolutionBlock1(pos=3881, lin=146, lvl=0)
 		$base_index$(pos=0, lin=1, lvl=0)
-		$index$(pos=3613, lin=129, lvl=0)
+		$index$(pos=4725, lin=181, lvl=0)
 	$end '$index$'
 $end '$index$'
