@@ -1,13 +1,60 @@
 $begin '$base_index$'
   $begin 'properties'
     all_levels=000000000000
-    time(year=000000002017, month=000000000010, day=000000000019, hour=000000000011, min=000000000023, sec=000000000007)
+    time(year=000000002017, month=000000000010, day=000000000023, hour=000000000011, min=000000000005, sec=000000000025)
     version=000000000000
   $end 'properties'
   $begin '$base_index$'
     $index$(pos=000000007063, lin=000000000244, lvl=000000000000)
   $end '$base_index$'
 $end '$base_index$'
+$begin 'SolutionBlock1'
+	ProductName='HFSS'
+	CircuitName='Sin_celula_ideal'
+	VersionID=169
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=821
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='d=\'1.25mm\'', ID=167)
+		Map(V='d=\'1.25mm\' d1=\'5e-006meter\' eps0=\'8.85e-012\' s=\'2.5e-011m2\'', ID=311)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+		$begin 'LinkedData'
+			LinkID=361
+			LinkSSID=1
+			LinkVerID=0
+			$begin 'LinkedDir'
+				LD(VID=311, Ver=0, Dir='DV311_LINK361_S1_V0/')
+			$end 'LinkedDir'
+		$end 'LinkedData'
+	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=167, Ver=169, Dir='DV167_V169.imesh/')
+		M(VID=311, Ver=169, Dir='DV311_V169.imesh/')
+	$end 'InitialMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=167, Ver=169, Dir='DV167_MI0_V169.sd/')
+			MI(VID=311, Ver=169, Dir='DV311_MI0_V169.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock1'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=362, Instance=\'SetupDefinition\', Solution=-1, VersionID=0)'='SolutionBlock16'
+	'SolutionKey(SimSetup=362, Instance=\'SolutionDefinition\', Solution=363, VersionID=626)'='SolutionBlock31'
+	'SolutionKey(SimSetup=362, Instance=\'SolutionDefinition\', Solution=364, VersionID=626)'='SolutionBlock32'
+	'SolutionKey(SimSetup=362, Instance=\'d=\\\'1.25mm\\\' d1=\\\'5e-006meter\\\' eps0=\\\'8.85e-012\\\' s=\\\'2.5e-011m2\\\'\', Solution=-3, VersionID=0)'='SolutionBlock17'
+	'SolutionKey(SimSetup=47, Instance=\'SetupDefinition\', Solution=-1, VersionID=169)'='SolutionBlock5'
+	'SolutionKey(SimSetup=47, Instance=\'SolutionDefinition\', Solution=48, VersionID=626)'='SolutionBlock28'
+	'SolutionKey(SimSetup=47, Instance=\'SolutionDefinition\', Solution=49, VersionID=626)'='SolutionBlock29'
+	'SolutionKey(SimSetup=47, Instance=\'SolutionDefinition\', Solution=53, VersionID=626)'='SolutionBlock30'
+	'SolutionKey(SimSetup=47, Instance=\'d=\\\'1.25mm\\\' d1=\\\'5e-006meter\\\' eps0=\\\'8.85e-012\\\' s=\\\'2.5e-011m2\\\'\', Solution=-3, VersionID=169)'='SolutionBlock7'
+	'SolutionKey(SimSetup=47, Instance=\'d=\\\'1.25mm\\\'\', Solution=-3, VersionID=169)'='SolutionBlock6'
+$end 'BlockMapName'
 $begin 'SolutionBlock28'
 	SolutionName='AdaptivePass'
 	SolutionID=48
@@ -26,19 +73,6 @@ $begin 'SolutionBlock28'
 	SweepID=-1
 	KeepAllFastSweepFields=false
 $end 'SolutionBlock28'
-$begin 'BlockMapName'
-	FileHeader='SolutionBlock1'
-	'SolutionKey(SimSetup=362, Instance=\'SetupDefinition\', Solution=-1, VersionID=0)'='SolutionBlock16'
-	'SolutionKey(SimSetup=362, Instance=\'SolutionDefinition\', Solution=363, VersionID=626)'='SolutionBlock31'
-	'SolutionKey(SimSetup=362, Instance=\'SolutionDefinition\', Solution=364, VersionID=626)'='SolutionBlock32'
-	'SolutionKey(SimSetup=362, Instance=\'d=\\\'1.25mm\\\' d1=\\\'5e-006meter\\\' eps0=\\\'8.85e-012\\\' s=\\\'2.5e-011m2\\\'\', Solution=-3, VersionID=0)'='SolutionBlock17'
-	'SolutionKey(SimSetup=47, Instance=\'SetupDefinition\', Solution=-1, VersionID=169)'='SolutionBlock5'
-	'SolutionKey(SimSetup=47, Instance=\'SolutionDefinition\', Solution=48, VersionID=626)'='SolutionBlock28'
-	'SolutionKey(SimSetup=47, Instance=\'SolutionDefinition\', Solution=49, VersionID=626)'='SolutionBlock29'
-	'SolutionKey(SimSetup=47, Instance=\'SolutionDefinition\', Solution=53, VersionID=626)'='SolutionBlock30'
-	'SolutionKey(SimSetup=47, Instance=\'d=\\\'1.25mm\\\' d1=\\\'5e-006meter\\\' eps0=\\\'8.85e-012\\\' s=\\\'2.5e-011m2\\\'\', Solution=-3, VersionID=169)'='SolutionBlock7'
-	'SolutionKey(SimSetup=47, Instance=\'d=\\\'1.25mm\\\'\', Solution=-3, VersionID=169)'='SolutionBlock6'
-$end 'BlockMapName'
 $begin 'SolutionBlock29'
 	SolutionName='LastAdaptive'
 	SolutionID=49
@@ -178,51 +212,6 @@ $begin 'SolutionBlock16'
 		$end 'SubData'
 	$end 'MI'
 $end 'SolutionBlock16'
-$begin 'SolutionBlock1'
-	ProductName='HFSS'
-	CircuitName='Sin_celula_ideal'
-	VersionID=169
-	PostProcess=false
-	LossLess=true
-	NextUniqueID=770
-	MoveBackwards=false
-	$begin 'VariationIDs'
-		Map(V='d=\'1.25mm\'', ID=167)
-		Map(V='d=\'1.25mm\' d1=\'5e-006meter\' eps0=\'8.85e-012\' s=\'2.5e-011m2\'', ID=311)
-	$end 'VariationIDs'
-	$begin 'LinkedDataList'
-		$begin 'LinkedData'
-			LinkID=361
-			LinkSSID=1
-			LinkVerID=0
-			$begin 'LinkedDir'
-				LD(VID=311, Ver=0, Dir='DV311_LINK361_S1_V0/')
-			$end 'LinkedDir'
-		$end 'LinkedData'
-	$end 'LinkedDataList'
-	$begin 'InitialMeshes'
-		M(VID=167, Ver=169, Dir='DV167_V169.imesh/')
-		M(VID=311, Ver=169, Dir='DV311_V169.imesh/')
-	$end 'InitialMeshes'
-	$begin 'MI'
-		$begin 'SubData'
-			ID=0
-			MI(VID=167, Ver=169, Dir='DV167_MI0_V169.sd/')
-			MI(VID=311, Ver=169, Dir='DV311_MI0_V169.sd/')
-		$end 'SubData'
-	$end 'MI'
-$end 'SolutionBlock1'
-$begin 'SolutionBlock6'
-	ConvSetupName='DrivenDeltaSConvNOV'
-	IsConverged=true
-	MaxPasses='6'
-	MinPasses='1'
-	ConvTarget='0.02'
-	ConvTargetConsecPasses='1'
-	ConvCurrentConsecPasses='1'
-	c(numtets=1675, passno=1)
-	c(numtets=2127, passno=2, magdeltas=2.70165786947131e-005)
-$end 'SolutionBlock6'
 $begin 'SolutionBlock17'
 	ConvSetupName='DrivenDeltaSConvNOV'
 	IsConverged=true
@@ -236,6 +225,17 @@ $begin 'SolutionBlock17'
 	c(numtets=5735, passno=3)
 	c(numtets=7367, magdeltas=4.914861274734417e-006, passno=4)
 $end 'SolutionBlock17'
+$begin 'SolutionBlock6'
+	ConvSetupName='DrivenDeltaSConvNOV'
+	IsConverged=true
+	MaxPasses='6'
+	MinPasses='1'
+	ConvTarget='0.02'
+	ConvTargetConsecPasses='1'
+	ConvCurrentConsecPasses='1'
+	c(numtets=1675, passno=1)
+	c(numtets=2127, passno=2, magdeltas=2.70165786947131e-005)
+$end 'SolutionBlock6'
 $begin 'SolutionBlock7'
 	ConvSetupName='DrivenDeltaSConvNOV'
 	IsConverged=true
@@ -254,17 +254,17 @@ $end 'SolutionBlock7'
 $begin '$index$'
 	$begin '$index$'
 		SolutionBlock7(pos=6660, lin=229, lvl=0)
-		SolutionBlock28(pos=370, lin=1, lvl=0)
-		BlockMapName(pos=726, lin=19, lvl=0)
-		SolutionBlock29(pos=1988, lin=32, lvl=0)
-		SolutionBlock30(pos=2344, lin=50, lvl=0)
-		SolutionBlock5(pos=2758, lin=71, lvl=0)
-		SolutionBlock31(pos=3728, lin=106, lvl=0)
-		SolutionBlock32(pos=4085, lin=124, lvl=0)
-		SolutionBlock16(pos=4442, lin=142, lvl=0)
-		SolutionBlock1(pos=5132, lin=171, lvl=0)
-		SolutionBlock6(pos=6015, lin=205, lvl=0)
-		SolutionBlock17(pos=6309, lin=216, lvl=0)
+		BlockMapName(pos=1253, lin=35, lvl=0)
+		SolutionBlock28(pos=2515, lin=48, lvl=0)
+		SolutionBlock29(pos=2871, lin=66, lvl=0)
+		SolutionBlock30(pos=3227, lin=84, lvl=0)
+		SolutionBlock5(pos=3641, lin=105, lvl=0)
+		SolutionBlock31(pos=4611, lin=140, lvl=0)
+		SolutionBlock32(pos=4968, lin=158, lvl=0)
+		SolutionBlock16(pos=5325, lin=176, lvl=0)
+		SolutionBlock1(pos=370, lin=1, lvl=0)
+		SolutionBlock17(pos=6015, lin=205, lvl=0)
+		SolutionBlock6(pos=6366, lin=218, lvl=0)
 		$base_index$(pos=0, lin=1, lvl=0)
 		$index$(pos=7063, lin=244, lvl=0)
 	$end '$index$'

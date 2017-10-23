@@ -267,7 +267,7 @@ $begin 'AnsoftProject'
 			WorkingCS=1
 			$begin 'GeometryCore'
 				BlockVersionID=3
-				DataVersion=293
+				DataVersion=296
 				NativeKernel='ACIS'
 				NativeKernelVersionID=4
 				Units='mm'
@@ -1434,11 +1434,6 @@ $begin 'AnsoftProject'
 								Increment=0.0872664625997165
 								CreateIndexedSubsweepFlag=false
 							$end 'PostprocessSweep'
-							$begin 'Sweep'
-								Variable='d'
-								Column='1.25mm'
-								Units='mm'
-							$end 'Sweep'
 						$end 'Sweeps'
 						IsPortOnly=false
 					$end 'SimDataExtractor'
@@ -1489,11 +1484,6 @@ $begin 'AnsoftProject'
 								Increment=0.0872664625997165
 								CreateIndexedSubsweepFlag=false
 							$end 'PostprocessSweep'
-							$begin 'Sweep'
-								Variable='d'
-								Column='1.25mm'
-								Units='mm'
-							$end 'Sweep'
 						$end 'Sweeps'
 						IsPortOnly=false
 					$end 'SimDataExtractor'
@@ -1502,7 +1492,7 @@ $begin 'AnsoftProject'
 					ID=53
 					Name='Sweep'
 					$begin 'SimDataExtractor'
-						SimValue('Y(1,1)', 2, 90, false, SimValueID=689, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('Y(1,1)', 2, 90, false, SimValueID=724, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
 						$begin 'Sweeps'
 							$begin 'PostprocessSweep'
 								Variable='Freq'
@@ -1627,7 +1617,7 @@ $begin 'AnsoftProject'
 			WorkingCS=1
 			$begin 'GeometryCore'
 				BlockVersionID=3
-				DataVersion=156
+				DataVersion=159
 				NativeKernel='ACIS'
 				NativeKernelVersionID=4
 				Units='um'
@@ -2940,7 +2930,7 @@ $begin 'AnsoftProject'
 					ID=61
 					Name='Sweep'
 					$begin 'SimDataExtractor'
-						SimValue('Y(1,1)', 2, 90, false, SimValueID=594, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('Y(1,1)', 2, 90, false, SimValueID=623, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
 						$begin 'Sweeps'
 							$begin 'PostprocessSweep'
 								Variable='Freq'
@@ -3073,7 +3063,7 @@ $begin 'AnsoftProject'
 			WorkingCS=1
 			$begin 'GeometryCore'
 				BlockVersionID=3
-				DataVersion=304
+				DataVersion=307
 				NativeKernel='ACIS'
 				NativeKernelVersionID=4
 				Units='mm'
@@ -3822,7 +3812,7 @@ $begin 'AnsoftProject'
 					ID=53
 					Name='Sweep'
 					$begin 'SimDataExtractor'
-						SimValue('Y(1,1)', 2, 90, false, SimValueID=738, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('Y(1,1)', 2, 90, false, SimValueID=789, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
 						$begin 'Sweeps'
 							$begin 'PostprocessSweep'
 								Variable='Freq'
@@ -4092,7 +4082,7 @@ $begin 'AnsoftProject'
 			WorkingCS=1
 			$begin 'GeometryCore'
 				BlockVersionID=3
-				DataVersion=334
+				DataVersion=338
 				NativeKernel='ACIS'
 				NativeKernelVersionID=4
 				Units='mm'
@@ -4628,8 +4618,6 @@ $begin 'AnsoftProject'
 			$begin 'PlotDefaults'
 				Default_SolutionId=49
 				Default_PlotFolder='Automatic'
-				Default_Phase='0deg'
-				Default_Freq='0.1GHz'
 			$end 'PlotDefaults'
 			$begin 'FieldsPlotManagerID'
 				NextUniqueID=0
@@ -4848,10 +4836,10 @@ $begin 'AnsoftProject'
 					ID=53
 					Name='Sweep'
 					$begin 'SimDataExtractor'
-						SimValue('Y(1,1)', 2, 90, false, SimValueID=934, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('Y(1,1)', 2, 90, false, SimValueID=970, 3, 0, 2, 0, false, false, -2, 1, 0, 1, 1, '', 0, 0)
-						SimValue('S(1,1)', 2, 90, false, SimValueID=1114, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('Z(1,1)', 2, 90, false, SimValueID=1115, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('Y(1,1)', 2, 90, false, SimValueID=1165, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('Z(1,1)', 2, 90, false, SimValueID=1166, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('Y(1,1)', 2, 90, false, SimValueID=1167, 3, 0, 2, 0, false, false, -2, 1, 0, 1, 1, '', 0, 0)
+						SimValue('S(1,1)', 2, 90, false, SimValueID=1170, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
 						$begin 'Sweeps'
 							$begin 'PostprocessSweep'
 								Variable='Freq'
@@ -4999,7 +4987,7 @@ $begin 'AnsoftProject'
 			WorkingCS=1
 			$begin 'GeometryCore'
 				BlockVersionID=3
-				DataVersion=306
+				DataVersion=309
 				NativeKernel='ACIS'
 				NativeKernelVersionID=4
 				Units='mm'
@@ -6270,7 +6258,7 @@ $begin 'AnsoftProject'
 					ID=53
 					Name='Sweep'
 					$begin 'SimDataExtractor'
-						SimValue('Y(1,1)', 2, 90, false, SimValueID=724, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('Y(1,1)', 2, 90, false, SimValueID=787, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
 						$begin 'Sweeps'
 							$begin 'PostprocessSweep'
 								Variable='Freq'
@@ -6496,7 +6484,7 @@ $begin 'AnsoftProject'
 				DesignInstanceID=1
 				$begin 'WindowPosition'
 					$begin 'EditorWindow'
-						'3D Modeler'(Editor3d(View(WindowPos(5, -1, -1, -8, -31, 52, 52, 1213, 548), OrientationMatrix(-41.0207901000977, -65.7796020507813, 104.006690979004, 0, 123.062377929688, -21.92653465271, 34.6688957214355, 0, -1.61200375714543e-006, 109.632675170898, 69.3377990722656, 0, 0, 0, -5.74869346618652, 1, 0, -2.24355244636536, 2.32156920433044, -1.04314041137695, 0.956859588623047, 2.9213445186615, 8.57604217529297), Drawings[7: 'Intern_Membrane_Sup', 'External_Membrane_Sup', 'External_Membrane_Inf', 'Intern_Membrane_Inf', 'Conductor1', 'Conductor2', 'Rectangle1'], 'View Data'('Render Mode'=1, 'Show Ruler'=1), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
+						'3D Modeler'(Editor3d(View(WindowPos(5, -1, -1, -8, -31, 52, 52, 1213, 548), OrientationMatrix(-41.0207901000977, -65.7796020507813, 104.006690979004, 0, 123.062377929688, -21.92653465271, 34.6688957214355, 0, -1.61200375714543e-006, 109.632675170898, 69.3377990722656, 0, 0, 0, -5.74869346618652, 1, 0, -2.24355244636536, 2.32156920433044, -1.04314041137695, 0.956859588623047, 0.625198364257813, 10.8721885681152), Drawings[7: 'Intern_Membrane_Sup', 'External_Membrane_Sup', 'External_Membrane_Inf', 'Intern_Membrane_Inf', 'Conductor1', 'Conductor2', 'Rectangle1'], 'View Data'('Render Mode'=1, 'Show Ruler'=1), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
 					$end 'EditorWindow'
 				$end 'WindowPosition'
 				$begin 'ReportSetup'
@@ -7811,6 +7799,30 @@ $begin 'AnsoftProject'
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -9042,6 +9054,30 @@ $begin 'AnsoftProject'
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -10151,6 +10187,30 @@ $begin 'AnsoftProject'
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -12746,6 +12806,30 @@ $begin 'AnsoftProject'
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -13379,114 +13463,6 @@ $begin 'AnsoftProject'
 						$end 'XY Plot 2'
 					$end 'Reports'
 					$begin 'ReportsWindowInfoList'
-						$begin 'Y normalizada'
-							ReportID=18
-							$begin 'WindowInfoList'
-								$begin 'Report2D'
-									$begin 'ViewInfo'
-										$begin 'WrapperView'
-											ID(34)
-										$end 'WrapperView'
-										$begin 'WrapperDoc'
-											HiddenDrawings()
-											$begin 'DispType'
-												PlotType=1
-												$begin 'CurveMed'
-													$begin 'MedCamera'
-														$begin 'svrc'
-															svid=4
-															view(34, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0)))
-														$end 'svrc'
-													$end 'MedCamera'
-												$end 'CurveMed'
-											$end 'DispType'
-										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -8, -31, 234, 234, 1395, 730))
-									$end 'ViewInfo'
-								$end 'Report2D'
-							$end 'WindowInfoList'
-						$end 'Y normalizada'
-						$begin 'Parte imaginaria'
-							ReportID=20
-							$begin 'WindowInfoList'
-								$begin 'Report2D'
-									$begin 'ViewInfo'
-										$begin 'WrapperView'
-											ID(52)
-										$end 'WrapperView'
-										$begin 'WrapperDoc'
-											HiddenDrawings()
-											$begin 'DispType'
-												PlotType=1
-												$begin 'CurveMed'
-													$begin 'MedCamera'
-														$begin 'svrc'
-															svid=4
-															view(52, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 1.0430582619847e-008, 1.03013630611826e-011)))
-														$end 'svrc'
-													$end 'MedCamera'
-												$end 'CurveMed'
-											$end 'DispType'
-										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -8, -31, 182, 182, 1343, 678))
-									$end 'ViewInfo'
-								$end 'Report2D'
-							$end 'WindowInfoList'
-						$end 'Parte imaginaria'
-						$begin 'Parte real'
-							ReportID=22
-							$begin 'WindowInfoList'
-								$begin 'Report2D'
-									$begin 'ViewInfo'
-										$begin 'WrapperView'
-											ID(46)
-										$end 'WrapperView'
-										$begin 'WrapperDoc'
-											HiddenDrawings()
-											$begin 'DispType'
-												PlotType=1
-												$begin 'CurveMed'
-													$begin 'MedCamera'
-														$begin 'svrc'
-															svid=4
-															view(46, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 6.0493963270376e+028, 1.10220088473949e+024)))
-														$end 'svrc'
-													$end 'MedCamera'
-												$end 'CurveMed'
-											$end 'DispType'
-										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -8, -31, 208, 208, 1369, 704))
-									$end 'ViewInfo'
-								$end 'Report2D'
-							$end 'WindowInfoList'
-						$end 'Parte real'
-						$begin 'Permittivity'
-							ReportID=28
-							$begin 'WindowInfoList'
-								$begin 'Report2D'
-									$begin 'ViewInfo'
-										$begin 'WrapperView'
-											ID(30)
-										$end 'WrapperView'
-										$begin 'WrapperDoc'
-											HiddenDrawings()
-											$begin 'DispType'
-												PlotType=1
-												$begin 'CurveMed'
-													$begin 'MedCamera'
-														$begin 'svrc'
-															svid=4
-															view(30, cam(XYCam(false, true, true, true, 0.0435766167938709, 0.986972868442535, 0.015852490440011, 0.959248781204224, 0, 1, 0, 1, 0, 0)))
-														$end 'svrc'
-													$end 'MedCamera'
-												$end 'CurveMed'
-											$end 'DispType'
-										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -8, -31, 156, 156, 1317, 652))
-									$end 'ViewInfo'
-								$end 'Report2D'
-							$end 'WindowInfoList'
-						$end 'Permittivity'
 					$end 'ReportsWindowInfoList'
 				$end 'ReportSetup'
 			$end 'HfssDesignInstance'
@@ -21094,7 +21070,7 @@ $begin 'AnsoftProject'
 				DesignInstanceID=7
 				$begin 'WindowPosition'
 					$begin 'EditorWindow'
-						'3D Modeler'(Editor3d(View(WindowPos(5, -1, -1, -8, -31, 182, 182, 1160, 602), OrientationMatrix(-41.0207901000977, -65.7796020507813, 104.006690979004, 0, 123.062377929688, -21.92653465271, 34.6688957214355, 0, -1.61200375714543e-006, 109.632675170898, 69.3377990722656, 0, 0, 0, -5.74869346618652, 1, 0, -2.28701782226563, 2.49844646453857, -1.04514288902283, 1.07485723495483, 0.625198364257813, 10.8721885681152), Drawings[4: 'Rad_Box', 'Conductor1', 'Conductor2', 'Rectangle1'], 'View Data'('Render Mode'=1, 'Show Ruler'=1), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
+						'3D Modeler'(Editor3d(View(WindowPos(5, -1, -1, -8, -31, 182, 182, 1160, 602), OrientationMatrix(-41.0207901000977, -65.7796020507813, 104.006690979004, 0, 123.062377929688, -21.92653465271, 34.6688957214355, 0, -1.61200375714543e-006, 109.632675170898, 69.3377990722656, 0, 0, 0, -5.74869346618652, 1, 0, -2.28701758384705, 2.49844622612, -1.04514288902283, 1.07485723495483, 0.625198364257813, 10.8721885681152), Drawings[4: 'Rad_Box', 'Conductor1', 'Conductor2', 'Rectangle1'], 'View Data'('Render Mode'=1, 'Show Ruler'=1), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
 					$end 'EditorWindow'
 				$end 'WindowPosition'
 				$begin 'ReportSetup'
@@ -29517,7 +29493,7 @@ $begin 'AnsoftProject'
 				DesignInstanceID=11
 				$begin 'WindowPosition'
 					$begin 'EditorWindow'
-						'3D Modeler'(Editor3d(View(WindowPos(5, -1, -1, -8, -31, 156, 156, 1317, 652), OrientationMatrix(-41.0207939147949, -65.7796020507813, 104.006690979004, 0, 123.062377929688, -21.9265365600586, 34.6688995361328, 0, -4.27037889494386e-007, 109.632675170898, 69.3377990722656, 0, 1.19209289550781e-007, 2.38418579101563e-007, -5.74869346618652, 1, 0, -2.29442119598389, 2.10937690734863, -1.13414239883423, 0.985858201980591, 0.625198364257813, 10.8721885681152), Drawings[4: 'Rad_Box', 'Conductor1', 'Conductor2', 'Rectangle1'], 'View Data'('Render Mode'=1, 'Show Ruler'=1), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
+						'3D Modeler'(Editor3d(View(WindowPos(5, -1, -1, -8, -31, 156, 156, 1317, 652), OrientationMatrix(-41.0207939147949, -65.7796020507813, 104.006690979004, 0, 123.062377929688, -21.9265365600586, 34.6688995361328, 0, -4.27037889494386e-007, 109.632675170898, 69.3377990722656, 0, 1.19209289550781e-007, 2.38418579101563e-007, -5.74869346618652, 1, 0, -2.12594437599182, 1.94090008735657, -1.13414239883423, 0.985858201980591, 0.625198364257813, 10.8721885681152), Drawings[4: 'Rad_Box', 'Conductor1', 'Conductor2', 'Rectangle1'], 'View Data'('Render Mode'=1, 'Show Ruler'=1), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
 					$end 'EditorWindow'
 				$end 'WindowPosition'
 				$begin 'ReportSetup'
@@ -29775,9 +29751,9 @@ $begin 'AnsoftProject'
 									DesignInstanceID=11
 								$end 'TraceDef'
 							$end 'Real part admitance'
-							$begin 'Imaginary Permittivity in Log Scale'
-								ReportID=69
-								ReportName='Imaginary Permittivity in Log Scale'
+							$begin 'XY Plot 1'
+								ReportID=97
+								ReportName='XY Plot 1'
 								$begin 'TraceDef'
 									TraceDefinitionType='TraceDefinition'
 									$begin 'DesignSolnDefn'
@@ -29790,16 +29766,16 @@ $begin 'AnsoftProject'
 											$end 'REPORT_TYPE_SIM_VALUE_CONTEXT'
 										$end 'DESIGN_SOLUTION_SIM_VALUE_CONTEXT'
 									$end 'DesignSolnDefn'
-									ID=68
-									VersionID=203
-									Name='permittivity_img'
+									ID=96
+									VersionID=214
+									Name='im(Z(1,1))'
 									TieNameToExpr=true
 									$begin 'Components'
 										$begin 'TraceComponentDefinition'
 											Expr='Freq'
 										$end 'TraceComponentDefinition'
 										$begin 'TraceComponentDefinition'
-											Expr='permittivity_img'
+											Expr='im(Z(1,1))'
 										$end 'TraceComponentDefinition'
 									$end 'Components'
 									$begin 'ExtendedTraceInfo'
@@ -29852,243 +29828,9 @@ $begin 'AnsoftProject'
 									$end 'PointsetDefinition'
 									DesignInstanceID=11
 								$end 'TraceDef'
-							$end 'Imaginary Permittivity in Log Scale'
-							$begin 'Real Permittivity in Log Scale'
-								ReportID=71
-								ReportName='Real Permittivity in Log Scale'
-								$begin 'TraceDef'
-									TraceDefinitionType='TraceDefinition'
-									$begin 'DesignSolnDefn'
-										$begin 'DESIGN_SOLUTION_SIM_VALUE_CONTEXT'
-											DesignID=10
-											SolutionID=53
-											$begin 'REPORT_TYPE_SIM_VALUE_CONTEXT'
-												ReportType=0
-												SimValueContext(3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-											$end 'REPORT_TYPE_SIM_VALUE_CONTEXT'
-										$end 'DESIGN_SOLUTION_SIM_VALUE_CONTEXT'
-									$end 'DesignSolnDefn'
-									ID=70
-									VersionID=204
-									Name='permittivity_real'
-									TieNameToExpr=true
-									$begin 'Components'
-										$begin 'TraceComponentDefinition'
-											Expr='Freq'
-										$end 'TraceComponentDefinition'
-										$begin 'TraceComponentDefinition'
-											Expr='permittivity_real'
-										$end 'TraceComponentDefinition'
-									$end 'Components'
-									$begin 'ExtendedTraceInfo'
-										NumPoints=0
-										TraceType=0
-										Offset=0
-										XLabel=''
-										SamplingPeriod='0'
-										SamplingPeriodOffset='0'
-										AutoDelay=true
-										DelayValue='0ps'
-										AutoCompCrossAmplitude=true
-										CrossingAmplitude='0mV'
-										YAxis=1
-										AutoCompEyeMeasurementPoint=true
-										EyeMeasurementPoint='0ps'
-									$end 'ExtendedTraceInfo'
-									$begin 'TraceFamiliesDisplayDefinition'
-										DisplayFamiliesType='DisplayAll'
-									$end 'TraceFamiliesDisplayDefinition'
-									$begin 'PointsetDefinition'
-										$begin 'SubsweepDefParamsContainer'
-											$begin '0'
-												SubsweepType='Specifiable'
-												SubsweepChoiceType='All'
-												SweepVariableName='Freq'
-											$end '0'
-											$begin '1'
-												SubsweepType='Regular'
-												SubsweepChoiceType='Nominal'
-												SweepVariableName='d'
-											$end '1'
-											$begin '2'
-												SubsweepType='Regular'
-												SubsweepChoiceType='Nominal'
-												SweepVariableName='s'
-											$end '2'
-											$begin '3'
-												SubsweepType='Regular'
-												SubsweepChoiceType='Nominal'
-												SweepVariableName='d1'
-											$end '3'
-											$begin '4'
-												SubsweepType='Regular'
-												SubsweepChoiceType='Nominal'
-												SweepVariableName='eps0'
-											$end '4'
-										$end 'SubsweepDefParamsContainer'
-										FamilyBlock()
-									$end 'PointsetDefinition'
-									DesignInstanceID=11
-								$end 'TraceDef'
-							$end 'Real Permittivity in Log Scale'
-							$begin 'Permittivity'
-								ReportID=82
-								ReportName='Permittivity'
-								$begin 'TraceDef'
-									TraceDefinitionType='TraceDefinition'
-									$begin 'DesignSolnDefn'
-										$begin 'DESIGN_SOLUTION_SIM_VALUE_CONTEXT'
-											DesignID=10
-											SolutionID=53
-											$begin 'REPORT_TYPE_SIM_VALUE_CONTEXT'
-												ReportType=0
-												SimValueContext(3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-											$end 'REPORT_TYPE_SIM_VALUE_CONTEXT'
-										$end 'DESIGN_SOLUTION_SIM_VALUE_CONTEXT'
-									$end 'DesignSolnDefn'
-									ID=80
-									VersionID=205
-									Name='permittivity_img'
-									TieNameToExpr=true
-									$begin 'Components'
-										$begin 'TraceComponentDefinition'
-											Expr='Freq'
-										$end 'TraceComponentDefinition'
-										$begin 'TraceComponentDefinition'
-											Expr='permittivity_img'
-										$end 'TraceComponentDefinition'
-									$end 'Components'
-									$begin 'ExtendedTraceInfo'
-										NumPoints=0
-										TraceType=0
-										Offset=0
-										XLabel=''
-										SamplingPeriod='0'
-										SamplingPeriodOffset='0'
-										AutoDelay=true
-										DelayValue='0ps'
-										AutoCompCrossAmplitude=true
-										CrossingAmplitude='0mV'
-										YAxis=1
-										AutoCompEyeMeasurementPoint=true
-										EyeMeasurementPoint='0ps'
-									$end 'ExtendedTraceInfo'
-									$begin 'TraceFamiliesDisplayDefinition'
-										DisplayFamiliesType='DisplayAll'
-									$end 'TraceFamiliesDisplayDefinition'
-									$begin 'PointsetDefinition'
-										$begin 'SubsweepDefParamsContainer'
-											$begin '0'
-												SubsweepType='Specifiable'
-												SubsweepChoiceType='All'
-												SweepVariableName='Freq'
-											$end '0'
-											$begin '1'
-												SubsweepType='Regular'
-												SubsweepChoiceType='Nominal'
-												SweepVariableName='d'
-											$end '1'
-											$begin '2'
-												SubsweepType='Regular'
-												SubsweepChoiceType='Nominal'
-												SweepVariableName='s'
-											$end '2'
-											$begin '3'
-												SubsweepType='Regular'
-												SubsweepChoiceType='Nominal'
-												SweepVariableName='d1'
-											$end '3'
-											$begin '4'
-												SubsweepType='Regular'
-												SubsweepChoiceType='Nominal'
-												SweepVariableName='eps0'
-											$end '4'
-										$end 'SubsweepDefParamsContainer'
-										FamilyBlock()
-									$end 'PointsetDefinition'
-									DesignInstanceID=11
-								$end 'TraceDef'
-								$begin 'TraceDef'
-									TraceDefinitionType='TraceDefinition'
-									$begin 'DesignSolnDefn'
-										$begin 'DESIGN_SOLUTION_SIM_VALUE_CONTEXT'
-											DesignID=10
-											SolutionID=53
-											$begin 'REPORT_TYPE_SIM_VALUE_CONTEXT'
-												ReportType=0
-												SimValueContext(3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-											$end 'REPORT_TYPE_SIM_VALUE_CONTEXT'
-										$end 'DESIGN_SOLUTION_SIM_VALUE_CONTEXT'
-									$end 'DesignSolnDefn'
-									ID=81
-									VersionID=206
-									Name='permittivity_real'
-									TieNameToExpr=true
-									$begin 'Components'
-										$begin 'TraceComponentDefinition'
-											Expr='Freq'
-										$end 'TraceComponentDefinition'
-										$begin 'TraceComponentDefinition'
-											Expr='permittivity_real'
-										$end 'TraceComponentDefinition'
-									$end 'Components'
-									$begin 'ExtendedTraceInfo'
-										NumPoints=0
-										TraceType=0
-										Offset=0
-										XLabel=''
-										SamplingPeriod='0'
-										SamplingPeriodOffset='0'
-										AutoDelay=true
-										DelayValue='0ps'
-										AutoCompCrossAmplitude=true
-										CrossingAmplitude='0mV'
-										YAxis=1
-										AutoCompEyeMeasurementPoint=true
-										EyeMeasurementPoint='0ps'
-									$end 'ExtendedTraceInfo'
-									$begin 'TraceFamiliesDisplayDefinition'
-										DisplayFamiliesType='DisplayAll'
-									$end 'TraceFamiliesDisplayDefinition'
-									$begin 'PointsetDefinition'
-										$begin 'SubsweepDefParamsContainer'
-											$begin '0'
-												SubsweepType='Specifiable'
-												SubsweepChoiceType='All'
-												SweepVariableName='Freq'
-											$end '0'
-											$begin '1'
-												SubsweepType='Regular'
-												SubsweepChoiceType='Nominal'
-												SweepVariableName='d'
-											$end '1'
-											$begin '2'
-												SubsweepType='Regular'
-												SubsweepChoiceType='Nominal'
-												SweepVariableName='s'
-											$end '2'
-											$begin '3'
-												SubsweepType='Regular'
-												SubsweepChoiceType='Nominal'
-												SweepVariableName='d1'
-											$end '3'
-											$begin '4'
-												SubsweepType='Regular'
-												SubsweepChoiceType='Nominal'
-												SweepVariableName='eps0'
-											$end '4'
-										$end 'SubsweepDefParamsContainer'
-										FamilyBlock()
-									$end 'PointsetDefinition'
-									DesignInstanceID=11
-								$end 'TraceDef'
-							$end 'Permittivity'
-							$begin 'Real Impedance'
-								ReportID=84
-								ReportName='Real Impedance'
-							$end 'Real Impedance'
+							$end 'XY Plot 1'
 							$begin 'Resistance'
-								ReportID=93
+								ReportID=99
 								ReportName='Resistance'
 								$begin 'TraceDef'
 									TraceDefinitionType='TraceDefinition'
@@ -30102,8 +29844,8 @@ $begin 'AnsoftProject'
 											$end 'REPORT_TYPE_SIM_VALUE_CONTEXT'
 										$end 'DESIGN_SOLUTION_SIM_VALUE_CONTEXT'
 									$end 'DesignSolnDefn'
-									ID=92
-									VersionID=210
+									ID=98
+									VersionID=216
 									Name='re(Z(1,1))'
 									TieNameToExpr=true
 									$begin 'Components'
@@ -30165,9 +29907,9 @@ $begin 'AnsoftProject'
 									DesignInstanceID=11
 								$end 'TraceDef'
 							$end 'Resistance'
-							$begin 'Reactance'
-								ReportID=95
-								ReportName='Reactance'
+							$begin '- Reactance'
+								ReportID=101
+								ReportName='- Reactance'
 								$begin 'TraceDef'
 									TraceDefinitionType='TraceDefinition'
 									$begin 'DesignSolnDefn'
@@ -30180,16 +29922,16 @@ $begin 'AnsoftProject'
 											$end 'REPORT_TYPE_SIM_VALUE_CONTEXT'
 										$end 'DESIGN_SOLUTION_SIM_VALUE_CONTEXT'
 									$end 'DesignSolnDefn'
-									ID=94
-									VersionID=212
-									Name='im(Z(1,1))'
+									ID=100
+									VersionID=218
+									Name='-im(Z(1,1))'
 									TieNameToExpr=true
 									$begin 'Components'
 										$begin 'TraceComponentDefinition'
 											Expr='Freq'
 										$end 'TraceComponentDefinition'
 										$begin 'TraceComponentDefinition'
-											Expr='im(Z(1,1))'
+											Expr='-im(Z(1,1))'
 										$end 'TraceComponentDefinition'
 									$end 'Components'
 									$begin 'ExtendedTraceInfo'
@@ -30242,12 +29984,12 @@ $begin 'AnsoftProject'
 									$end 'PointsetDefinition'
 									DesignInstanceID=11
 								$end 'TraceDef'
-							$end 'Reactance'
+							$end '- Reactance'
 						$end 'Reports'
-						NextUniqueID=96
+						NextUniqueID=102
 						MoveBackwards=false
 						$begin 'NextVersID'
-							NextUniqueID=213
+							NextUniqueID=219
 							MoveBackwards=false
 						$end 'NextVersID'
 					$end 'ReportManager'
@@ -31980,6 +31722,30 @@ $begin 'AnsoftProject'
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -35868,6 +35634,30 @@ $begin 'AnsoftProject'
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -35903,24 +35693,24 @@ $begin 'AnsoftProject'
 								$end 'PlotDisplayDataManager'
 							$end 'Report2D'
 						$end 'Real part admitance'
-						$begin 'Imaginary Permittivity in Log Scale'
-							ReportID=69
+						$begin 'XY Plot 1'
+							ReportID=97
 							$begin 'Report2D'
-								name='Imaginary Permittivity in Log Scale'
-								ReportID=69
+								name='XY Plot 1'
+								ReportID=97
 								ReportType=0
 								DisplayType=1
 								Title=''
 								Domain=''
 								$begin 'Graph2DsV2'
 									$begin 'Graph2D'
-										TraceDefID=68
+										TraceDefID=96
 										Type='Continuous'
 										Axis='Y1'
 									$end 'Graph2D'
 								$end 'Graph2DsV2'
 								$begin 'PlotDisplayDataManager'
-									NextUniqueID=36
+									NextUniqueID=23
 									MoveBackwards=false
 									$begin 'PlotHeaderDataSource'
 										CompanyName=''
@@ -35942,18 +35732,6 @@ $begin 'AnsoftProject'
 														ShowYMajor=true
 														ShowBorder=true
 													$end 'CartesianGridDescAttribute'
-												$end 'SubMapItem'
-											$end 'MainMapItem'
-											$begin 'MainMapItem'
-												$begin 'SubMapItem'
-													DataSourceID=7
-													$begin 'CartesianHorizScrollerRenderAttribute'
-														Visibility=true
-														ThumbHeightUnits='mm'
-														BackgroundColor(R=255, G=255, B=255)
-														ThumbColor(R=190, G=210, B=241)
-														ThumbTrans=0
-													$end 'CartesianHorizScrollerRenderAttribute'
 												$end 'SubMapItem'
 											$end 'MainMapItem'
 											$begin 'MainMapItem'
@@ -36098,17 +35876,17 @@ $begin 'AnsoftProject'
 												$begin 'SubMapItem'
 													DataSourceID=1
 													$begin 'LineAxisRenderAttribute'
-														DecimalFieldWidth=5
+														DecimalFieldWidth=3
 														DecimalFieldPrecision=2
 														ManualTitle=''
 														AxisColor(R=0, G=0, B=0)
 														MinScale=0
-														MaxScale=30000000
-														TickSpacing=5000000
+														MaxScale=1
+														TickSpacing=1
 														ManualUnits=false
-														Units='MHz'
-														AxisScale='Logarithmic'
-														NumberFormat='Scientific'
+														Units='mm'
+														AxisScale='Linear'
+														NumberFormat='Auto'
 														$begin 'TextFont'
 															$begin 'FontAttribute'
 																$begin 'Font'
@@ -36131,7 +35909,7 @@ $begin 'AnsoftProject'
 															$end 'FontAttribute'
 														$end 'TextFont'
 														InfMapMode=false
-														InfMapValue=60000000
+														InfMapValue=1.79769313486232e+306
 														AutoRangeMin=true
 														AutoRangeMax=true
 														AutoSpacing=true
@@ -36151,2586 +35929,12 @@ $begin 'AnsoftProject'
 														DecimalFieldPrecision=2
 														ManualTitle=''
 														AxisColor(R=0, G=0, B=0)
-														MinScale=0
-														MaxScale=225
-														TickSpacing=100
+														MinScale=-1200000
+														MaxScale=-0
+														TickSpacing=200000
 														ManualUnits=false
 														Units=''
-														AxisScale='Logarithmic'
-														NumberFormat='Scientific'
-														$begin 'TextFont'
-															$begin 'FontAttribute'
-																$begin 'Font'
-																	Height=-12
-																	Width=0
-																	Escapement=0
-																	Orientation=0
-																	Weight=400
-																	Italic=0
-																	Underline=0
-																	StrikeOut=0
-																	CharSet=0
-																	OutPrecision=7
-																	ClipPrecision=48
-																	Quality=6
-																	PitchAndFamily=0
-																	FaceName='Arial'
-																$end 'Font'
-																Color(R=0, G=0, B=0)
-															$end 'FontAttribute'
-														$end 'TextFont'
-														InfMapMode=false
-														InfMapValue=450
-														AutoRangeMin=true
-														AutoRangeMax=true
-														AutoSpacing=true
-														kNumMinorDivisions=5
-														ShowAxisTitle=true
-														ShowAxisUnits=true
-														vwm='FullWnd'
-														viewWndWd=#nan
-														ActivateMargins=true
-														MarginPercent=0
-													$end 'LineAxisRenderAttribute'
-												$end 'SubMapItem'
-												$begin 'SubMapItem'
-													DataSourceID=8
-													$begin 'LineAxisRenderAttribute'
-														DecimalFieldWidth=3
-														DecimalFieldPrecision=2
-														ManualTitle=''
-														AxisColor(R=0, G=0, B=0)
-														MinScale=0
-														MaxScale=1
-														TickSpacing=1
-														ManualUnits=false
-														Units='mm'
 														AxisScale='Linear'
-														NumberFormat='Auto'
-														$begin 'TextFont'
-															$begin 'FontAttribute'
-																$begin 'Font'
-																	Height=-12
-																	Width=0
-																	Escapement=0
-																	Orientation=0
-																	Weight=400
-																	Italic=0
-																	Underline=0
-																	StrikeOut=0
-																	CharSet=0
-																	OutPrecision=7
-																	ClipPrecision=48
-																	Quality=6
-																	PitchAndFamily=0
-																	FaceName='Arial'
-																$end 'Font'
-																Color(R=0, G=0, B=0)
-															$end 'FontAttribute'
-														$end 'TextFont'
-														InfMapMode=false
-														InfMapValue=1.79769313486232e+306
-														AutoRangeMin=true
-														AutoRangeMax=true
-														AutoSpacing=true
-														kNumMinorDivisions=5
-														ShowAxisTitle=true
-														ShowAxisUnits=true
-														vwm='FullWnd'
-														viewWndWd=#nan
-														ActivateMargins=true
-														MarginPercent=0
-													$end 'LineAxisRenderAttribute'
-												$end 'SubMapItem'
-												$begin 'SubMapItem'
-													DataSourceID=9
-													$begin 'LineAxisRenderAttribute'
-														DecimalFieldWidth=3
-														DecimalFieldPrecision=2
-														ManualTitle=''
-														AxisColor(R=0, G=0, B=0)
-														MinScale=0
-														MaxScale=1
-														TickSpacing=1
-														ManualUnits=false
-														Units='mm'
-														AxisScale='Linear'
-														NumberFormat='Auto'
-														$begin 'TextFont'
-															$begin 'FontAttribute'
-																$begin 'Font'
-																	Height=-12
-																	Width=0
-																	Escapement=0
-																	Orientation=0
-																	Weight=400
-																	Italic=0
-																	Underline=0
-																	StrikeOut=0
-																	CharSet=0
-																	OutPrecision=7
-																	ClipPrecision=48
-																	Quality=6
-																	PitchAndFamily=0
-																	FaceName='Arial'
-																$end 'Font'
-																Color(R=0, G=0, B=0)
-															$end 'FontAttribute'
-														$end 'TextFont'
-														InfMapMode=false
-														InfMapValue=1.79769313486232e+306
-														AutoRangeMin=true
-														AutoRangeMax=true
-														AutoSpacing=true
-														kNumMinorDivisions=5
-														ShowAxisTitle=true
-														ShowAxisUnits=true
-														vwm='FullWnd'
-														viewWndWd=#nan
-														ActivateMargins=true
-														MarginPercent=0
-													$end 'LineAxisRenderAttribute'
-												$end 'SubMapItem'
-												$begin 'SubMapItem'
-													DataSourceID=10
-													$begin 'LineAxisRenderAttribute'
-														DecimalFieldWidth=3
-														DecimalFieldPrecision=2
-														ManualTitle=''
-														AxisColor(R=0, G=0, B=0)
-														MinScale=0
-														MaxScale=1
-														TickSpacing=1
-														ManualUnits=false
-														Units='mm'
-														AxisScale='Linear'
-														NumberFormat='Auto'
-														$begin 'TextFont'
-															$begin 'FontAttribute'
-																$begin 'Font'
-																	Height=-12
-																	Width=0
-																	Escapement=0
-																	Orientation=0
-																	Weight=400
-																	Italic=0
-																	Underline=0
-																	StrikeOut=0
-																	CharSet=0
-																	OutPrecision=7
-																	ClipPrecision=48
-																	Quality=6
-																	PitchAndFamily=0
-																	FaceName='Arial'
-																$end 'Font'
-																Color(R=0, G=0, B=0)
-															$end 'FontAttribute'
-														$end 'TextFont'
-														InfMapMode=false
-														InfMapValue=1.79769313486232e+306
-														AutoRangeMin=true
-														AutoRangeMax=true
-														AutoSpacing=true
-														kNumMinorDivisions=5
-														ShowAxisTitle=true
-														ShowAxisUnits=true
-														vwm='FullWnd'
-														viewWndWd=#nan
-														ActivateMargins=true
-														MarginPercent=0
-													$end 'LineAxisRenderAttribute'
-												$end 'SubMapItem'
-											$end 'MainMapItem'
-										$end 'PlotAttributeStoreMap'
-									$end 'DocAttributes'
-									$begin 'DocDefaultAttributes'
-										$begin 'PlotAttributeStoreMap'
-										$end 'PlotAttributeStoreMap'
-									$end 'DocDefaultAttributes'
-									$begin 'PerViewPlotAttributeStoreMap'
-										$begin 'MapItem'
-											ItemID=20
-											$begin 'PlotAttributeStoreMap'
-												$begin 'MainMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=3
-														$begin 'BasicLayoutAttribute'
-															$begin 'LayoutRect'
-																Top=916
-																Left=9291
-																Bottom=9823
-																Right=9533
-															$end 'LayoutRect'
-														$end 'BasicLayoutAttribute'
-													$end 'SubMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=4
-														$begin 'BasicLayoutAttribute'
-															$begin 'LayoutRect'
-																Top=916
-																Left=563
-																Bottom=9823
-																Right=8537
-															$end 'LayoutRect'
-														$end 'BasicLayoutAttribute'
-													$end 'SubMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=12
-														$begin 'BasicLayoutAttribute'
-															$begin 'LayoutRect'
-																Top=916
-																Left=563
-																Bottom=9823
-																Right=8537
-															$end 'LayoutRect'
-														$end 'BasicLayoutAttribute'
-													$end 'SubMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=19
-														$begin 'BasicLayoutAttribute'
-															$begin 'LayoutRect'
-																Top=75
-																Left=75
-																Bottom=9925
-																Right=428
-															$end 'LayoutRect'
-														$end 'BasicLayoutAttribute'
-													$end 'SubMapItem'
-												$end 'MainMapItem'
-												$begin 'MainMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=15
-														$begin 'CartesianAxisLayoutAttribute'
-															$begin 'AxisRect'
-																Top=75
-																Left=8537
-																Bottom=9925
-																Right=9216
-															$end 'AxisRect'
-															$begin 'GridRect'
-																Top=916
-																Left=563
-																Bottom=9823
-																Right=8537
-															$end 'GridRect'
-														$end 'CartesianAxisLayoutAttribute'
-													$end 'SubMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=16
-														$begin 'CartesianAxisLayoutAttribute'
-															$begin 'AxisRect'
-																Top=75
-																Left=453
-																Bottom=915
-																Right=8537
-															$end 'AxisRect'
-															$begin 'GridRect'
-																Top=916
-																Left=563
-																Bottom=9823
-																Right=8537
-															$end 'GridRect'
-														$end 'CartesianAxisLayoutAttribute'
-													$end 'SubMapItem'
-												$end 'MainMapItem'
-												$begin 'MainMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=4
-														$begin 'CartesianCurveGroupLayoutAttribute'
-															X_spc=100000000
-															X_fwd=3
-															X_fpr=2
-															Y1_spc=100000
-															Y1_fwd=8
-															Y1_fpr=2
-														$end 'CartesianCurveGroupLayoutAttribute'
-													$end 'SubMapItem'
-												$end 'MainMapItem'
-												$begin 'MainMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=23
-														$begin 'CartesianHorizScrollerLayoutAttribute'
-															$begin 'GridRect'
-																Top=916
-																Left=563
-																Bottom=9823
-																Right=8537
-															$end 'GridRect'
-															$begin 'ScrollAxisRect'
-																Top=75
-																Left=9533
-																Bottom=9925
-																Right=9925
-															$end 'ScrollAxisRect'
-															$begin 'ScrollThumbAreaRect'
-																Top=916
-																Left=9291
-																Bottom=9823
-																Right=9533
-															$end 'ScrollThumbAreaRect'
-														$end 'CartesianHorizScrollerLayoutAttribute'
-													$end 'SubMapItem'
-												$end 'MainMapItem'
-												$begin 'MainMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=6
-														$begin 'DockableOverlayLayoutAttribute'
-															$begin 'Dock_0'
-																$begin 'OverlayLayoutAttribute'
-																	$begin 'BoundingRect'
-																		Top=4850
-																		Left=528
-																		Bottom=9850
-																		Right=8028
-																	$end 'BoundingRect'
-																	ModifySize=false
-																	ModifyPosition=false
-																$end 'OverlayLayoutAttribute'
-															$end 'Dock_0'
-															$begin 'Dock_1'
-																$begin 'OverlayLayoutAttribute'
-																	$begin 'BoundingRect'
-																		Top=5000
-																		Left=0
-																		Bottom=10000
-																		Right=10000
-																	$end 'BoundingRect'
-																	ModifySize=false
-																	ModifyPosition=false
-																$end 'OverlayLayoutAttribute'
-															$end 'Dock_1'
-															$begin 'Dock_2'
-																$begin 'OverlayLayoutAttribute'
-																	$begin 'BoundingRect'
-																		Top=0
-																		Left=0
-																		Bottom=5000
-																		Right=10000
-																	$end 'BoundingRect'
-																	ModifySize=false
-																	ModifyPosition=false
-																$end 'OverlayLayoutAttribute'
-															$end 'Dock_2'
-														$end 'DockableOverlayLayoutAttribute'
-													$end 'SubMapItem'
-												$end 'MainMapItem'
-											$end 'PlotAttributeStoreMap'
-										$end 'MapItem'
-										$begin 'MapItem'
-											ItemID=29
-											$begin 'PlotAttributeStoreMap'
-												$begin 'MainMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=4
-														$begin 'BasicLayoutAttribute'
-															$begin 'LayoutRect'
-																Top=835
-																Left=388
-																Bottom=9703
-																Right=8904
-															$end 'LayoutRect'
-														$end 'BasicLayoutAttribute'
-													$end 'SubMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=12
-														$begin 'BasicLayoutAttribute'
-															$begin 'LayoutRect'
-																Top=835
-																Left=388
-																Bottom=9703
-																Right=8904
-															$end 'LayoutRect'
-														$end 'BasicLayoutAttribute'
-													$end 'SubMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=19
-														$begin 'BasicLayoutAttribute'
-															$begin 'LayoutRect'
-																Top=75
-																Left=75
-																Bottom=9925
-																Right=295
-															$end 'LayoutRect'
-														$end 'BasicLayoutAttribute'
-													$end 'SubMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=24
-														$begin 'BasicLayoutAttribute'
-															$begin 'LayoutRect'
-																Top=835
-																Left=9473
-																Bottom=9703
-																Right=9624
-															$end 'LayoutRect'
-														$end 'BasicLayoutAttribute'
-													$end 'SubMapItem'
-												$end 'MainMapItem'
-												$begin 'MainMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=15
-														$begin 'CartesianAxisLayoutAttribute'
-															$begin 'AxisRect'
-																Top=75
-																Left=8904
-																Bottom=9925
-																Right=9398
-															$end 'AxisRect'
-															$begin 'GridRect'
-																Top=835
-																Left=388
-																Bottom=9703
-																Right=8904
-															$end 'GridRect'
-														$end 'CartesianAxisLayoutAttribute'
-													$end 'SubMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=16
-														$begin 'CartesianAxisLayoutAttribute'
-															$begin 'AxisRect'
-																Top=75
-																Left=320
-																Bottom=834
-																Right=8904
-															$end 'AxisRect'
-															$begin 'GridRect'
-																Top=835
-																Left=388
-																Bottom=9703
-																Right=8904
-															$end 'GridRect'
-														$end 'CartesianAxisLayoutAttribute'
-													$end 'SubMapItem'
-												$end 'MainMapItem'
-												$begin 'MainMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=4
-														$begin 'CartesianCurveGroupLayoutAttribute'
-															X_spc=10000000
-															X_fwd=8
-															X_fpr=2
-															Y1_spc=100
-															Y1_fwd=8
-															Y1_fpr=2
-														$end 'CartesianCurveGroupLayoutAttribute'
-													$end 'SubMapItem'
-												$end 'MainMapItem'
-												$begin 'MainMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=23
-														$begin 'CartesianHorizScrollerLayoutAttribute'
-															$begin 'GridRect'
-																Top=835
-																Left=388
-																Bottom=9703
-																Right=8904
-															$end 'GridRect'
-															$begin 'ScrollAxisRect'
-																Top=75
-																Left=9624
-																Bottom=9925
-																Right=9925
-															$end 'ScrollAxisRect'
-															$begin 'ScrollThumbAreaRect'
-																Top=835
-																Left=9473
-																Bottom=9703
-																Right=9624
-															$end 'ScrollThumbAreaRect'
-														$end 'CartesianHorizScrollerLayoutAttribute'
-													$end 'SubMapItem'
-												$end 'MainMapItem'
-												$begin 'MainMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=6
-														$begin 'DockableOverlayLayoutAttribute'
-															$begin 'Dock_0'
-																$begin 'OverlayLayoutAttribute'
-																	$begin 'BoundingRect'
-																		Top=4850
-																		Left=395
-																		Bottom=9850
-																		Right=7895
-																	$end 'BoundingRect'
-																	ModifySize=false
-																	ModifyPosition=false
-																$end 'OverlayLayoutAttribute'
-															$end 'Dock_0'
-															$begin 'Dock_1'
-																$begin 'OverlayLayoutAttribute'
-																	$begin 'BoundingRect'
-																		Top=5000
-																		Left=0
-																		Bottom=10000
-																		Right=10000
-																	$end 'BoundingRect'
-																	ModifySize=false
-																	ModifyPosition=false
-																$end 'OverlayLayoutAttribute'
-															$end 'Dock_1'
-															$begin 'Dock_2'
-																$begin 'OverlayLayoutAttribute'
-																	$begin 'BoundingRect'
-																		Top=0
-																		Left=0
-																		Bottom=5000
-																		Right=10000
-																	$end 'BoundingRect'
-																	ModifySize=false
-																	ModifyPosition=false
-																$end 'OverlayLayoutAttribute'
-															$end 'Dock_2'
-														$end 'DockableOverlayLayoutAttribute'
-													$end 'SubMapItem'
-												$end 'MainMapItem'
-											$end 'PlotAttributeStoreMap'
-										$end 'MapItem'
-										$begin 'MapItem'
-											ItemID=35
-											$begin 'PlotAttributeStoreMap'
-												$begin 'MainMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=4
-														$begin 'BasicLayoutAttribute'
-															$begin 'LayoutRect'
-																Top=947
-																Left=563
-																Bottom=9654
-																Right=8537
-															$end 'LayoutRect'
-														$end 'BasicLayoutAttribute'
-													$end 'SubMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=12
-														$begin 'BasicLayoutAttribute'
-															$begin 'LayoutRect'
-																Top=947
-																Left=563
-																Bottom=9654
-																Right=8537
-															$end 'LayoutRect'
-														$end 'BasicLayoutAttribute'
-													$end 'SubMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=19
-														$begin 'BasicLayoutAttribute'
-															$begin 'LayoutRect'
-																Top=75
-																Left=75
-																Bottom=9925
-																Right=428
-															$end 'LayoutRect'
-														$end 'BasicLayoutAttribute'
-													$end 'SubMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=30
-														$begin 'BasicLayoutAttribute'
-															$begin 'LayoutRect'
-																Top=947
-																Left=9291
-																Bottom=9654
-																Right=9533
-															$end 'LayoutRect'
-														$end 'BasicLayoutAttribute'
-													$end 'SubMapItem'
-												$end 'MainMapItem'
-												$begin 'MainMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=15
-														$begin 'CartesianAxisLayoutAttribute'
-															$begin 'AxisRect'
-																Top=75
-																Left=8537
-																Bottom=9925
-																Right=9216
-															$end 'AxisRect'
-															$begin 'GridRect'
-																Top=947
-																Left=563
-																Bottom=9654
-																Right=8537
-															$end 'GridRect'
-														$end 'CartesianAxisLayoutAttribute'
-													$end 'SubMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=16
-														$begin 'CartesianAxisLayoutAttribute'
-															$begin 'AxisRect'
-																Top=75
-																Left=453
-																Bottom=946
-																Right=8537
-															$end 'AxisRect'
-															$begin 'GridRect'
-																Top=947
-																Left=563
-																Bottom=9654
-																Right=8537
-															$end 'GridRect'
-														$end 'CartesianAxisLayoutAttribute'
-													$end 'SubMapItem'
-												$end 'MainMapItem'
-												$begin 'MainMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=4
-														$begin 'CartesianCurveGroupLayoutAttribute'
-															X_spc=2000000000
-															X_fwd=8
-															X_fpr=2
-															Y1_spc=1.25
-															Y1_fwd=8
-															Y1_fpr=2
-														$end 'CartesianCurveGroupLayoutAttribute'
-													$end 'SubMapItem'
-												$end 'MainMapItem'
-												$begin 'MainMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=23
-														$begin 'CartesianHorizScrollerLayoutAttribute'
-															$begin 'GridRect'
-																Top=947
-																Left=563
-																Bottom=9654
-																Right=8537
-															$end 'GridRect'
-															$begin 'ScrollAxisRect'
-																Top=75
-																Left=9533
-																Bottom=9925
-																Right=9925
-															$end 'ScrollAxisRect'
-															$begin 'ScrollThumbAreaRect'
-																Top=947
-																Left=9291
-																Bottom=9654
-																Right=9533
-															$end 'ScrollThumbAreaRect'
-														$end 'CartesianHorizScrollerLayoutAttribute'
-													$end 'SubMapItem'
-												$end 'MainMapItem'
-												$begin 'MainMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=6
-														$begin 'DockableOverlayLayoutAttribute'
-															$begin 'Dock_0'
-																$begin 'OverlayLayoutAttribute'
-																	$begin 'BoundingRect'
-																		Top=4850
-																		Left=528
-																		Bottom=9850
-																		Right=8028
-																	$end 'BoundingRect'
-																	ModifySize=false
-																	ModifyPosition=false
-																$end 'OverlayLayoutAttribute'
-															$end 'Dock_0'
-															$begin 'Dock_1'
-																$begin 'OverlayLayoutAttribute'
-																	$begin 'BoundingRect'
-																		Top=5000
-																		Left=0
-																		Bottom=10000
-																		Right=10000
-																	$end 'BoundingRect'
-																	ModifySize=false
-																	ModifyPosition=false
-																$end 'OverlayLayoutAttribute'
-															$end 'Dock_1'
-															$begin 'Dock_2'
-																$begin 'OverlayLayoutAttribute'
-																	$begin 'BoundingRect'
-																		Top=0
-																		Left=0
-																		Bottom=5000
-																		Right=10000
-																	$end 'BoundingRect'
-																	ModifySize=false
-																	ModifyPosition=false
-																$end 'OverlayLayoutAttribute'
-															$end 'Dock_2'
-														$end 'DockableOverlayLayoutAttribute'
-													$end 'SubMapItem'
-												$end 'MainMapItem'
-											$end 'PlotAttributeStoreMap'
-										$end 'MapItem'
-									$end 'PerViewPlotAttributeStoreMap'
-									IsViewAttribServer=false
-									ViewID=-1
-									$begin 'SourceIDMap'
-										IDMapItem(68, 0, -1, 21)
-									$end 'SourceIDMap'
-									$begin 'TraceCharacteristicsMgr'
-									$end 'TraceCharacteristicsMgr'
-									$begin 'CartesianXMarkerManager'
-										RefMarkerID=-1
-										CurrentMarkerID=-1
-										$begin 'ReferenceCurves'
-										$end 'ReferenceCurves'
-									$end 'CartesianXMarkerManager'
-									$begin 'CartesianYMarkerManager'
-									$end 'CartesianYMarkerManager'
-									DigitalClosedRecordsItem[0:]
-									XAxisStackID=-1
-									$begin 'AllTransSrcDwg'
-										$begin 'PT'
-											ID=1
-											TransSrcDwg(-1, 0, 19, 1, 15, 2, 16, 5, 6, 7, 23, 11, 12, 21, 22)
-										$end 'PT'
-									$end 'AllTransSrcDwg'
-									$begin 'AllPtSVID'
-										PtID(1, -1, 4)
-									$end 'AllPtSVID'
-								$end 'PlotDisplayDataManager'
-							$end 'Report2D'
-						$end 'Imaginary Permittivity in Log Scale'
-						$begin 'Real Permittivity in Log Scale'
-							ReportID=71
-							$begin 'Report2D'
-								name='Real Permittivity in Log Scale'
-								ReportID=71
-								ReportType=0
-								DisplayType=1
-								Title=''
-								Domain=''
-								$begin 'Graph2DsV2'
-									$begin 'Graph2D'
-										TraceDefID=70
-										Type='Continuous'
-										Axis='Y1'
-									$end 'Graph2D'
-								$end 'Graph2DsV2'
-								$begin 'PlotDisplayDataManager'
-									NextUniqueID=36
-									MoveBackwards=false
-									$begin 'PlotHeaderDataSource'
-										CompanyName=''
-										ShowDesignName=true
-										ProjectFileName=''
-									$end 'PlotHeaderDataSource'
-									StockNameIDMap(AxisX=1, AxisY1=2, AxisY2=8, AxisY3=9, AxisY4=10, Grid=11, Header=0, Legend=5, XYHorizScroller=7)
-									$begin 'SourceList'
-									$end 'SourceList'
-									$begin 'DocAttributes'
-										$begin 'PlotAttributeStoreMap'
-											$begin 'MainMapItem'
-												$begin 'SubMapItem'
-													DataSourceID=11
-													$begin 'CartesianGridDescAttribute'
-														ShowXMinor=true
-														ShowYMinor=true
-														ShowXMajor=true
-														ShowYMajor=true
-														ShowBorder=true
-													$end 'CartesianGridDescAttribute'
-												$end 'SubMapItem'
-											$end 'MainMapItem'
-											$begin 'MainMapItem'
-												$begin 'SubMapItem'
-													DataSourceID=7
-													$begin 'CartesianHorizScrollerRenderAttribute'
-														Visibility=true
-														ThumbHeightUnits='mm'
-														BackgroundColor(R=255, G=255, B=255)
-														ThumbColor(R=190, G=210, B=241)
-														ThumbTrans=0
-													$end 'CartesianHorizScrollerRenderAttribute'
-												$end 'SubMapItem'
-											$end 'MainMapItem'
-											$begin 'MainMapItem'
-												$begin 'SubMapItem'
-													DataSourceID=21
-													$begin 'CurveCartesianAttribute'
-														YAxis='Y1'
-													$end 'CurveCartesianAttribute'
-												$end 'SubMapItem'
-											$end 'MainMapItem'
-											$begin 'MainMapItem'
-												$begin 'SubMapItem'
-													DataSourceID=21
-													$begin 'CurveRenderAttribute'
-														$begin 'LineRenderAttribute'
-															LineStyle='Solid'
-															LineWidth=1
-															LineColor(R=255, G=0, B=0)
-														$end 'LineRenderAttribute'
-														TraceType='Continuous'
-														SymbolType='HorizontalLeftTriangle'
-														SymbolColor(R=0, G=25, B=185)
-														ShowSymbols=false
-														SymbolFrequency=15
-														ShowArrows=false
-													$end 'CurveRenderAttribute'
-												$end 'SubMapItem'
-											$end 'MainMapItem'
-											$begin 'MainMapItem'
-												$begin 'SubMapItem'
-													DataSourceID=0
-													$begin 'HeaderRenderAttribute'
-														$begin 'TitleFont'
-															$begin 'FontAttribute'
-																$begin 'Font'
-																	Height=-19
-																	Width=0
-																	Escapement=0
-																	Orientation=0
-																	Weight=400
-																	Italic=0
-																	Underline=0
-																	StrikeOut=0
-																	CharSet=0
-																	OutPrecision=7
-																	ClipPrecision=48
-																	Quality=6
-																	PitchAndFamily=0
-																	FaceName='Arial'
-																$end 'Font'
-																Color(R=0, G=0, B=0)
-															$end 'FontAttribute'
-														$end 'TitleFont'
-														$begin 'SubtitleFont'
-															$begin 'FontAttribute'
-																$begin 'Font'
-																	Height=-13
-																	Width=0
-																	Escapement=0
-																	Orientation=0
-																	Weight=400
-																	Italic=0
-																	Underline=0
-																	StrikeOut=0
-																	CharSet=0
-																	OutPrecision=7
-																	ClipPrecision=48
-																	Quality=6
-																	PitchAndFamily=0
-																	FaceName='Arial'
-																$end 'Font'
-																Color(R=0, G=0, B=0)
-															$end 'FontAttribute'
-														$end 'SubtitleFont'
-													$end 'HeaderRenderAttribute'
-												$end 'SubMapItem'
-											$end 'MainMapItem'
-											$begin 'MainMapItem'
-												$begin 'SubMapItem'
-													DataSourceID=5
-													$begin 'LegendRenderAttribute'
-														$begin 'LegendTableAttrib'
-															$begin 'TableRenderAttribute'
-																$begin 'TableFontAttrib'
-																	$begin 'FontAttribute'
-																		$begin 'Font'
-																			Height=-11
-																			Width=0
-																			Escapement=0
-																			Orientation=0
-																			Weight=400
-																			Italic=0
-																			Underline=0
-																			StrikeOut=0
-																			CharSet=0
-																			OutPrecision=7
-																			ClipPrecision=48
-																			Quality=6
-																			PitchAndFamily=0
-																			FaceName='Arial'
-																		$end 'Font'
-																		Color(R=0, G=0, B=0)
-																	$end 'FontAttribute'
-																$end 'TableFontAttrib'
-																$begin 'TableTitleFontAttrib'
-																	$begin 'FontAttribute'
-																		$begin 'Font'
-																			Height=-11
-																			Width=0
-																			Escapement=0
-																			Orientation=0
-																			Weight=400
-																			Italic=0
-																			Underline=0
-																			StrikeOut=0
-																			CharSet=0
-																			OutPrecision=7
-																			ClipPrecision=48
-																			Quality=6
-																			PitchAndFamily=0
-																			FaceName='Arial'
-																		$end 'Font'
-																		Color(R=0, G=0, B=0)
-																	$end 'FontAttribute'
-																$end 'TableTitleFontAttrib'
-																TableBorderLineWidth=1
-																TableBorderLineColor=0
-																TableGridLineWidth=1
-																TableGridLineColor=12632256
-																TableBackgroundColor=16777215
-																TableHeaderBackgroundColor=14408667
-															$end 'TableRenderAttribute'
-														$end 'LegendTableAttrib'
-														ShowTraceName=true
-														ShowSolutionName=true
-														ShowVariationKey=true
-														DockMode='None'
-													$end 'LegendRenderAttribute'
-												$end 'SubMapItem'
-											$end 'MainMapItem'
-											$begin 'MainMapItem'
-												$begin 'SubMapItem'
-													DataSourceID=1
-													$begin 'LineAxisRenderAttribute'
-														DecimalFieldWidth=5
-														DecimalFieldPrecision=2
-														ManualTitle=''
-														AxisColor(R=0, G=0, B=0)
-														MinScale=0
-														MaxScale=30000000
-														TickSpacing=5000000
-														ManualUnits=false
-														Units='MHz'
-														AxisScale='Logarithmic'
-														NumberFormat='Scientific'
-														$begin 'TextFont'
-															$begin 'FontAttribute'
-																$begin 'Font'
-																	Height=-12
-																	Width=0
-																	Escapement=0
-																	Orientation=0
-																	Weight=400
-																	Italic=0
-																	Underline=0
-																	StrikeOut=0
-																	CharSet=0
-																	OutPrecision=7
-																	ClipPrecision=48
-																	Quality=6
-																	PitchAndFamily=0
-																	FaceName='Arial'
-																$end 'Font'
-																Color(R=0, G=0, B=0)
-															$end 'FontAttribute'
-														$end 'TextFont'
-														InfMapMode=false
-														InfMapValue=60000000
-														AutoRangeMin=true
-														AutoRangeMax=true
-														AutoSpacing=true
-														kNumMinorDivisions=5
-														ShowAxisTitle=true
-														ShowAxisUnits=true
-														vwm='FullWnd'
-														viewWndWd=#nan
-														ActivateMargins=true
-														MarginPercent=0
-													$end 'LineAxisRenderAttribute'
-												$end 'SubMapItem'
-												$begin 'SubMapItem'
-													DataSourceID=2
-													$begin 'LineAxisRenderAttribute'
-														DecimalFieldWidth=7
-														DecimalFieldPrecision=2
-														ManualTitle=''
-														AxisColor(R=0, G=0, B=0)
-														MinScale=500
-														MaxScale=2750
-														TickSpacing=250
-														ManualUnits=false
-														Units=''
-														AxisScale='Logarithmic'
-														NumberFormat='Scientific'
-														$begin 'TextFont'
-															$begin 'FontAttribute'
-																$begin 'Font'
-																	Height=-12
-																	Width=0
-																	Escapement=0
-																	Orientation=0
-																	Weight=400
-																	Italic=0
-																	Underline=0
-																	StrikeOut=0
-																	CharSet=0
-																	OutPrecision=7
-																	ClipPrecision=48
-																	Quality=6
-																	PitchAndFamily=0
-																	FaceName='Arial'
-																$end 'Font'
-																Color(R=0, G=0, B=0)
-															$end 'FontAttribute'
-														$end 'TextFont'
-														InfMapMode=false
-														InfMapValue=5500
-														AutoRangeMin=true
-														AutoRangeMax=true
-														AutoSpacing=true
-														kNumMinorDivisions=5
-														ShowAxisTitle=true
-														ShowAxisUnits=true
-														vwm='FullWnd'
-														viewWndWd=#nan
-														ActivateMargins=true
-														MarginPercent=0
-													$end 'LineAxisRenderAttribute'
-												$end 'SubMapItem'
-												$begin 'SubMapItem'
-													DataSourceID=8
-													$begin 'LineAxisRenderAttribute'
-														DecimalFieldWidth=3
-														DecimalFieldPrecision=2
-														ManualTitle=''
-														AxisColor(R=0, G=0, B=0)
-														MinScale=0
-														MaxScale=1
-														TickSpacing=1
-														ManualUnits=false
-														Units='mm'
-														AxisScale='Linear'
-														NumberFormat='Auto'
-														$begin 'TextFont'
-															$begin 'FontAttribute'
-																$begin 'Font'
-																	Height=-12
-																	Width=0
-																	Escapement=0
-																	Orientation=0
-																	Weight=400
-																	Italic=0
-																	Underline=0
-																	StrikeOut=0
-																	CharSet=0
-																	OutPrecision=7
-																	ClipPrecision=48
-																	Quality=6
-																	PitchAndFamily=0
-																	FaceName='Arial'
-																$end 'Font'
-																Color(R=0, G=0, B=0)
-															$end 'FontAttribute'
-														$end 'TextFont'
-														InfMapMode=false
-														InfMapValue=1.79769313486232e+306
-														AutoRangeMin=true
-														AutoRangeMax=true
-														AutoSpacing=true
-														kNumMinorDivisions=5
-														ShowAxisTitle=true
-														ShowAxisUnits=true
-														vwm='FullWnd'
-														viewWndWd=#nan
-														ActivateMargins=true
-														MarginPercent=0
-													$end 'LineAxisRenderAttribute'
-												$end 'SubMapItem'
-												$begin 'SubMapItem'
-													DataSourceID=9
-													$begin 'LineAxisRenderAttribute'
-														DecimalFieldWidth=3
-														DecimalFieldPrecision=2
-														ManualTitle=''
-														AxisColor(R=0, G=0, B=0)
-														MinScale=0
-														MaxScale=1
-														TickSpacing=1
-														ManualUnits=false
-														Units='mm'
-														AxisScale='Linear'
-														NumberFormat='Auto'
-														$begin 'TextFont'
-															$begin 'FontAttribute'
-																$begin 'Font'
-																	Height=-12
-																	Width=0
-																	Escapement=0
-																	Orientation=0
-																	Weight=400
-																	Italic=0
-																	Underline=0
-																	StrikeOut=0
-																	CharSet=0
-																	OutPrecision=7
-																	ClipPrecision=48
-																	Quality=6
-																	PitchAndFamily=0
-																	FaceName='Arial'
-																$end 'Font'
-																Color(R=0, G=0, B=0)
-															$end 'FontAttribute'
-														$end 'TextFont'
-														InfMapMode=false
-														InfMapValue=1.79769313486232e+306
-														AutoRangeMin=true
-														AutoRangeMax=true
-														AutoSpacing=true
-														kNumMinorDivisions=5
-														ShowAxisTitle=true
-														ShowAxisUnits=true
-														vwm='FullWnd'
-														viewWndWd=#nan
-														ActivateMargins=true
-														MarginPercent=0
-													$end 'LineAxisRenderAttribute'
-												$end 'SubMapItem'
-												$begin 'SubMapItem'
-													DataSourceID=10
-													$begin 'LineAxisRenderAttribute'
-														DecimalFieldWidth=3
-														DecimalFieldPrecision=2
-														ManualTitle=''
-														AxisColor(R=0, G=0, B=0)
-														MinScale=0
-														MaxScale=1
-														TickSpacing=1
-														ManualUnits=false
-														Units='mm'
-														AxisScale='Linear'
-														NumberFormat='Auto'
-														$begin 'TextFont'
-															$begin 'FontAttribute'
-																$begin 'Font'
-																	Height=-12
-																	Width=0
-																	Escapement=0
-																	Orientation=0
-																	Weight=400
-																	Italic=0
-																	Underline=0
-																	StrikeOut=0
-																	CharSet=0
-																	OutPrecision=7
-																	ClipPrecision=48
-																	Quality=6
-																	PitchAndFamily=0
-																	FaceName='Arial'
-																$end 'Font'
-																Color(R=0, G=0, B=0)
-															$end 'FontAttribute'
-														$end 'TextFont'
-														InfMapMode=false
-														InfMapValue=1.79769313486232e+306
-														AutoRangeMin=true
-														AutoRangeMax=true
-														AutoSpacing=true
-														kNumMinorDivisions=5
-														ShowAxisTitle=true
-														ShowAxisUnits=true
-														vwm='FullWnd'
-														viewWndWd=#nan
-														ActivateMargins=true
-														MarginPercent=0
-													$end 'LineAxisRenderAttribute'
-												$end 'SubMapItem'
-											$end 'MainMapItem'
-											$begin 'MainMapItem'
-												$begin 'SubMapItem'
-													DataSourceID=-1
-													$begin 'PlotRenderAttribute'
-														BackgroundColor(R=255, G=255, B=255)
-														SelectionColor(R=255, G=0, B=128)
-														PlotAreaColor(R=255, G=255, B=255)
-														SelectionThicknessEmphasis=1
-														CurveSelEmphasisThickness=2
-														CurveSelDeEmphasisThickness=1
-														FieldWidth=4
-														Precision=4
-														UseScientificNotation=true
-														DataPointSnapPixels=40
-													$end 'PlotRenderAttribute'
-												$end 'SubMapItem'
-											$end 'MainMapItem'
-										$end 'PlotAttributeStoreMap'
-									$end 'DocAttributes'
-									$begin 'DocDefaultAttributes'
-										$begin 'PlotAttributeStoreMap'
-										$end 'PlotAttributeStoreMap'
-									$end 'DocDefaultAttributes'
-									$begin 'PerViewPlotAttributeStoreMap'
-										$begin 'MapItem'
-											ItemID=20
-											$begin 'PlotAttributeStoreMap'
-												$begin 'MainMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=3
-														$begin 'BasicLayoutAttribute'
-															$begin 'LayoutRect'
-																Top=797
-																Left=9291
-																Bottom=9823
-																Right=9533
-															$end 'LayoutRect'
-														$end 'BasicLayoutAttribute'
-													$end 'SubMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=4
-														$begin 'BasicLayoutAttribute'
-															$begin 'LayoutRect'
-																Top=797
-																Left=563
-																Bottom=9823
-																Right=8537
-															$end 'LayoutRect'
-														$end 'BasicLayoutAttribute'
-													$end 'SubMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=12
-														$begin 'BasicLayoutAttribute'
-															$begin 'LayoutRect'
-																Top=797
-																Left=563
-																Bottom=9823
-																Right=8537
-															$end 'LayoutRect'
-														$end 'BasicLayoutAttribute'
-													$end 'SubMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=19
-														$begin 'BasicLayoutAttribute'
-															$begin 'LayoutRect'
-																Top=75
-																Left=75
-																Bottom=9925
-																Right=428
-															$end 'LayoutRect'
-														$end 'BasicLayoutAttribute'
-													$end 'SubMapItem'
-												$end 'MainMapItem'
-												$begin 'MainMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=15
-														$begin 'CartesianAxisLayoutAttribute'
-															$begin 'AxisRect'
-																Top=75
-																Left=8537
-																Bottom=9925
-																Right=9216
-															$end 'AxisRect'
-															$begin 'GridRect'
-																Top=797
-																Left=563
-																Bottom=9823
-																Right=8537
-															$end 'GridRect'
-														$end 'CartesianAxisLayoutAttribute'
-													$end 'SubMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=16
-														$begin 'CartesianAxisLayoutAttribute'
-															$begin 'AxisRect'
-																Top=75
-																Left=453
-																Bottom=796
-																Right=8537
-															$end 'AxisRect'
-															$begin 'GridRect'
-																Top=797
-																Left=563
-																Bottom=9823
-																Right=8537
-															$end 'GridRect'
-														$end 'CartesianAxisLayoutAttribute'
-													$end 'SubMapItem'
-												$end 'MainMapItem'
-												$begin 'MainMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=4
-														$begin 'CartesianCurveGroupLayoutAttribute'
-															X_spc=100000000
-															X_fwd=3
-															X_fpr=2
-															Y1_spc=1000
-															Y1_fwd=6
-															Y1_fpr=2
-														$end 'CartesianCurveGroupLayoutAttribute'
-													$end 'SubMapItem'
-												$end 'MainMapItem'
-												$begin 'MainMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=23
-														$begin 'CartesianHorizScrollerLayoutAttribute'
-															$begin 'GridRect'
-																Top=797
-																Left=563
-																Bottom=9823
-																Right=8537
-															$end 'GridRect'
-															$begin 'ScrollAxisRect'
-																Top=75
-																Left=9533
-																Bottom=9925
-																Right=9925
-															$end 'ScrollAxisRect'
-															$begin 'ScrollThumbAreaRect'
-																Top=797
-																Left=9291
-																Bottom=9823
-																Right=9533
-															$end 'ScrollThumbAreaRect'
-														$end 'CartesianHorizScrollerLayoutAttribute'
-													$end 'SubMapItem'
-												$end 'MainMapItem'
-												$begin 'MainMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=6
-														$begin 'DockableOverlayLayoutAttribute'
-															$begin 'Dock_0'
-																$begin 'OverlayLayoutAttribute'
-																	$begin 'BoundingRect'
-																		Top=4850
-																		Left=528
-																		Bottom=9850
-																		Right=8028
-																	$end 'BoundingRect'
-																	ModifySize=false
-																	ModifyPosition=false
-																$end 'OverlayLayoutAttribute'
-															$end 'Dock_0'
-															$begin 'Dock_1'
-																$begin 'OverlayLayoutAttribute'
-																	$begin 'BoundingRect'
-																		Top=5000
-																		Left=0
-																		Bottom=10000
-																		Right=10000
-																	$end 'BoundingRect'
-																	ModifySize=false
-																	ModifyPosition=false
-																$end 'OverlayLayoutAttribute'
-															$end 'Dock_1'
-															$begin 'Dock_2'
-																$begin 'OverlayLayoutAttribute'
-																	$begin 'BoundingRect'
-																		Top=0
-																		Left=0
-																		Bottom=5000
-																		Right=10000
-																	$end 'BoundingRect'
-																	ModifySize=false
-																	ModifyPosition=false
-																$end 'OverlayLayoutAttribute'
-															$end 'Dock_2'
-														$end 'DockableOverlayLayoutAttribute'
-													$end 'SubMapItem'
-												$end 'MainMapItem'
-											$end 'PlotAttributeStoreMap'
-										$end 'MapItem'
-										$begin 'MapItem'
-											ItemID=29
-											$begin 'PlotAttributeStoreMap'
-												$begin 'MainMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=4
-														$begin 'BasicLayoutAttribute'
-															$begin 'LayoutRect'
-																Top=947
-																Left=563
-																Bottom=9654
-																Right=8537
-															$end 'LayoutRect'
-														$end 'BasicLayoutAttribute'
-													$end 'SubMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=12
-														$begin 'BasicLayoutAttribute'
-															$begin 'LayoutRect'
-																Top=947
-																Left=563
-																Bottom=9654
-																Right=8537
-															$end 'LayoutRect'
-														$end 'BasicLayoutAttribute'
-													$end 'SubMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=19
-														$begin 'BasicLayoutAttribute'
-															$begin 'LayoutRect'
-																Top=75
-																Left=75
-																Bottom=9925
-																Right=428
-															$end 'LayoutRect'
-														$end 'BasicLayoutAttribute'
-													$end 'SubMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=24
-														$begin 'BasicLayoutAttribute'
-															$begin 'LayoutRect'
-																Top=947
-																Left=9291
-																Bottom=9654
-																Right=9533
-															$end 'LayoutRect'
-														$end 'BasicLayoutAttribute'
-													$end 'SubMapItem'
-												$end 'MainMapItem'
-												$begin 'MainMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=15
-														$begin 'CartesianAxisLayoutAttribute'
-															$begin 'AxisRect'
-																Top=75
-																Left=8537
-																Bottom=9925
-																Right=9216
-															$end 'AxisRect'
-															$begin 'GridRect'
-																Top=947
-																Left=563
-																Bottom=9654
-																Right=8537
-															$end 'GridRect'
-														$end 'CartesianAxisLayoutAttribute'
-													$end 'SubMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=16
-														$begin 'CartesianAxisLayoutAttribute'
-															$begin 'AxisRect'
-																Top=75
-																Left=453
-																Bottom=946
-																Right=8537
-															$end 'AxisRect'
-															$begin 'GridRect'
-																Top=947
-																Left=563
-																Bottom=9654
-																Right=8537
-															$end 'GridRect'
-														$end 'CartesianAxisLayoutAttribute'
-													$end 'SubMapItem'
-												$end 'MainMapItem'
-												$begin 'MainMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=4
-														$begin 'CartesianCurveGroupLayoutAttribute'
-															X_spc=12500000
-															X_fwd=8
-															X_fpr=2
-															Y1_spc=1250
-															Y1_fwd=8
-															Y1_fpr=2
-														$end 'CartesianCurveGroupLayoutAttribute'
-													$end 'SubMapItem'
-												$end 'MainMapItem'
-												$begin 'MainMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=23
-														$begin 'CartesianHorizScrollerLayoutAttribute'
-															$begin 'GridRect'
-																Top=947
-																Left=563
-																Bottom=9654
-																Right=8537
-															$end 'GridRect'
-															$begin 'ScrollAxisRect'
-																Top=75
-																Left=9533
-																Bottom=9925
-																Right=9925
-															$end 'ScrollAxisRect'
-															$begin 'ScrollThumbAreaRect'
-																Top=947
-																Left=9291
-																Bottom=9654
-																Right=9533
-															$end 'ScrollThumbAreaRect'
-														$end 'CartesianHorizScrollerLayoutAttribute'
-													$end 'SubMapItem'
-												$end 'MainMapItem'
-												$begin 'MainMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=6
-														$begin 'DockableOverlayLayoutAttribute'
-															$begin 'Dock_0'
-																$begin 'OverlayLayoutAttribute'
-																	$begin 'BoundingRect'
-																		Top=4850
-																		Left=528
-																		Bottom=9850
-																		Right=8028
-																	$end 'BoundingRect'
-																	ModifySize=false
-																	ModifyPosition=false
-																$end 'OverlayLayoutAttribute'
-															$end 'Dock_0'
-															$begin 'Dock_1'
-																$begin 'OverlayLayoutAttribute'
-																	$begin 'BoundingRect'
-																		Top=5000
-																		Left=0
-																		Bottom=10000
-																		Right=10000
-																	$end 'BoundingRect'
-																	ModifySize=false
-																	ModifyPosition=false
-																$end 'OverlayLayoutAttribute'
-															$end 'Dock_1'
-															$begin 'Dock_2'
-																$begin 'OverlayLayoutAttribute'
-																	$begin 'BoundingRect'
-																		Top=0
-																		Left=0
-																		Bottom=5000
-																		Right=10000
-																	$end 'BoundingRect'
-																	ModifySize=false
-																	ModifyPosition=false
-																$end 'OverlayLayoutAttribute'
-															$end 'Dock_2'
-														$end 'DockableOverlayLayoutAttribute'
-													$end 'SubMapItem'
-												$end 'MainMapItem'
-											$end 'PlotAttributeStoreMap'
-										$end 'MapItem'
-										$begin 'MapItem'
-											ItemID=35
-											$begin 'PlotAttributeStoreMap'
-												$begin 'MainMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=4
-														$begin 'BasicLayoutAttribute'
-															$begin 'LayoutRect'
-																Top=947
-																Left=563
-																Bottom=9654
-																Right=8537
-															$end 'LayoutRect'
-														$end 'BasicLayoutAttribute'
-													$end 'SubMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=12
-														$begin 'BasicLayoutAttribute'
-															$begin 'LayoutRect'
-																Top=947
-																Left=563
-																Bottom=9654
-																Right=8537
-															$end 'LayoutRect'
-														$end 'BasicLayoutAttribute'
-													$end 'SubMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=19
-														$begin 'BasicLayoutAttribute'
-															$begin 'LayoutRect'
-																Top=75
-																Left=75
-																Bottom=9925
-																Right=428
-															$end 'LayoutRect'
-														$end 'BasicLayoutAttribute'
-													$end 'SubMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=30
-														$begin 'BasicLayoutAttribute'
-															$begin 'LayoutRect'
-																Top=947
-																Left=9291
-																Bottom=9654
-																Right=9533
-															$end 'LayoutRect'
-														$end 'BasicLayoutAttribute'
-													$end 'SubMapItem'
-												$end 'MainMapItem'
-												$begin 'MainMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=15
-														$begin 'CartesianAxisLayoutAttribute'
-															$begin 'AxisRect'
-																Top=75
-																Left=8537
-																Bottom=9925
-																Right=9216
-															$end 'AxisRect'
-															$begin 'GridRect'
-																Top=947
-																Left=563
-																Bottom=9654
-																Right=8537
-															$end 'GridRect'
-														$end 'CartesianAxisLayoutAttribute'
-													$end 'SubMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=16
-														$begin 'CartesianAxisLayoutAttribute'
-															$begin 'AxisRect'
-																Top=75
-																Left=453
-																Bottom=946
-																Right=8537
-															$end 'AxisRect'
-															$begin 'GridRect'
-																Top=947
-																Left=563
-																Bottom=9654
-																Right=8537
-															$end 'GridRect'
-														$end 'CartesianAxisLayoutAttribute'
-													$end 'SubMapItem'
-												$end 'MainMapItem'
-												$begin 'MainMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=4
-														$begin 'CartesianCurveGroupLayoutAttribute'
-															X_spc=2000000000
-															X_fwd=8
-															X_fpr=2
-															Y1_spc=1250
-															Y1_fwd=8
-															Y1_fpr=2
-														$end 'CartesianCurveGroupLayoutAttribute'
-													$end 'SubMapItem'
-												$end 'MainMapItem'
-												$begin 'MainMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=23
-														$begin 'CartesianHorizScrollerLayoutAttribute'
-															$begin 'GridRect'
-																Top=947
-																Left=563
-																Bottom=9654
-																Right=8537
-															$end 'GridRect'
-															$begin 'ScrollAxisRect'
-																Top=75
-																Left=9533
-																Bottom=9925
-																Right=9925
-															$end 'ScrollAxisRect'
-															$begin 'ScrollThumbAreaRect'
-																Top=947
-																Left=9291
-																Bottom=9654
-																Right=9533
-															$end 'ScrollThumbAreaRect'
-														$end 'CartesianHorizScrollerLayoutAttribute'
-													$end 'SubMapItem'
-												$end 'MainMapItem'
-												$begin 'MainMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=6
-														$begin 'DockableOverlayLayoutAttribute'
-															$begin 'Dock_0'
-																$begin 'OverlayLayoutAttribute'
-																	$begin 'BoundingRect'
-																		Top=4850
-																		Left=528
-																		Bottom=9850
-																		Right=8028
-																	$end 'BoundingRect'
-																	ModifySize=false
-																	ModifyPosition=false
-																$end 'OverlayLayoutAttribute'
-															$end 'Dock_0'
-															$begin 'Dock_1'
-																$begin 'OverlayLayoutAttribute'
-																	$begin 'BoundingRect'
-																		Top=5000
-																		Left=0
-																		Bottom=10000
-																		Right=10000
-																	$end 'BoundingRect'
-																	ModifySize=false
-																	ModifyPosition=false
-																$end 'OverlayLayoutAttribute'
-															$end 'Dock_1'
-															$begin 'Dock_2'
-																$begin 'OverlayLayoutAttribute'
-																	$begin 'BoundingRect'
-																		Top=0
-																		Left=0
-																		Bottom=5000
-																		Right=10000
-																	$end 'BoundingRect'
-																	ModifySize=false
-																	ModifyPosition=false
-																$end 'OverlayLayoutAttribute'
-															$end 'Dock_2'
-														$end 'DockableOverlayLayoutAttribute'
-													$end 'SubMapItem'
-												$end 'MainMapItem'
-											$end 'PlotAttributeStoreMap'
-										$end 'MapItem'
-									$end 'PerViewPlotAttributeStoreMap'
-									IsViewAttribServer=false
-									ViewID=-1
-									$begin 'SourceIDMap'
-										IDMapItem(70, 0, -1, 21)
-									$end 'SourceIDMap'
-									$begin 'TraceCharacteristicsMgr'
-									$end 'TraceCharacteristicsMgr'
-									$begin 'CartesianXMarkerManager'
-										RefMarkerID=-1
-										CurrentMarkerID=-1
-										$begin 'ReferenceCurves'
-										$end 'ReferenceCurves'
-									$end 'CartesianXMarkerManager'
-									$begin 'CartesianYMarkerManager'
-									$end 'CartesianYMarkerManager'
-									DigitalClosedRecordsItem[0:]
-									XAxisStackID=-1
-									$begin 'AllTransSrcDwg'
-										$begin 'PT'
-											ID=1
-											TransSrcDwg(-1, 0, 19, 1, 15, 2, 16, 5, 6, 7, 23, 11, 12, 21, 22)
-										$end 'PT'
-									$end 'AllTransSrcDwg'
-									$begin 'AllPtSVID'
-										PtID(1, -1, 4)
-									$end 'AllPtSVID'
-								$end 'PlotDisplayDataManager'
-							$end 'Report2D'
-						$end 'Real Permittivity in Log Scale'
-						$begin 'Permittivity'
-							ReportID=82
-							$begin 'Report2D'
-								name='Permittivity'
-								ReportID=82
-								ReportType=0
-								DisplayType=1
-								Title=''
-								Domain=''
-								$begin 'Graph2DsV2'
-									$begin 'Graph2D'
-										TraceDefID=80
-										Type='Continuous'
-										Axis='Y1'
-									$end 'Graph2D'
-									$begin 'Graph2D'
-										TraceDefID=81
-										Type='Continuous'
-										Axis='Y1'
-									$end 'Graph2D'
-								$end 'Graph2DsV2'
-								$begin 'PlotDisplayDataManager'
-									NextUniqueID=25
-									MoveBackwards=false
-									$begin 'PlotHeaderDataSource'
-										CompanyName=''
-										ShowDesignName=true
-										ProjectFileName=''
-									$end 'PlotHeaderDataSource'
-									StockNameIDMap(AxisX=1, AxisY1=2, AxisY2=8, AxisY3=9, AxisY4=10, Grid=11, Header=0, Legend=5, XYHorizScroller=7)
-									$begin 'SourceList'
-									$end 'SourceList'
-									$begin 'DocAttributes'
-										$begin 'PlotAttributeStoreMap'
-											$begin 'MainMapItem'
-												$begin 'SubMapItem'
-													DataSourceID=11
-													$begin 'CartesianGridDescAttribute'
-														ShowXMinor=true
-														ShowYMinor=true
-														ShowXMajor=true
-														ShowYMajor=true
-														ShowBorder=true
-													$end 'CartesianGridDescAttribute'
-												$end 'SubMapItem'
-											$end 'MainMapItem'
-											$begin 'MainMapItem'
-												$begin 'SubMapItem'
-													DataSourceID=21
-													$begin 'CurveCartesianAttribute'
-														YAxis='Y1'
-													$end 'CurveCartesianAttribute'
-												$end 'SubMapItem'
-												$begin 'SubMapItem'
-													DataSourceID=23
-													$begin 'CurveCartesianAttribute'
-														YAxis='Y1'
-													$end 'CurveCartesianAttribute'
-												$end 'SubMapItem'
-											$end 'MainMapItem'
-											$begin 'MainMapItem'
-												$begin 'SubMapItem'
-													DataSourceID=21
-													$begin 'CurveRenderAttribute'
-														$begin 'LineRenderAttribute'
-															LineStyle='Solid'
-															LineWidth=1
-															LineColor(R=255, G=0, B=0)
-														$end 'LineRenderAttribute'
-														TraceType='Continuous'
-														SymbolType='HorizontalLeftTriangle'
-														SymbolColor(R=0, G=25, B=185)
-														ShowSymbols=false
-														SymbolFrequency=15
-														ShowArrows=false
-													$end 'CurveRenderAttribute'
-												$end 'SubMapItem'
-												$begin 'SubMapItem'
-													DataSourceID=23
-													$begin 'CurveRenderAttribute'
-														$begin 'LineRenderAttribute'
-															LineStyle='Solid'
-															LineWidth=1
-															LineColor(R=128, G=64, B=100)
-														$end 'LineRenderAttribute'
-														TraceType='Continuous'
-														SymbolType='HollowCircle'
-														SymbolColor(R=128, G=0, B=128)
-														ShowSymbols=false
-														SymbolFrequency=15
-														ShowArrows=false
-													$end 'CurveRenderAttribute'
-												$end 'SubMapItem'
-											$end 'MainMapItem'
-											$begin 'MainMapItem'
-												$begin 'SubMapItem'
-													DataSourceID=0
-													$begin 'HeaderRenderAttribute'
-														$begin 'TitleFont'
-															$begin 'FontAttribute'
-																$begin 'Font'
-																	Height=-19
-																	Width=0
-																	Escapement=0
-																	Orientation=0
-																	Weight=400
-																	Italic=0
-																	Underline=0
-																	StrikeOut=0
-																	CharSet=0
-																	OutPrecision=7
-																	ClipPrecision=48
-																	Quality=6
-																	PitchAndFamily=0
-																	FaceName='Arial'
-																$end 'Font'
-																Color(R=0, G=0, B=0)
-															$end 'FontAttribute'
-														$end 'TitleFont'
-														$begin 'SubtitleFont'
-															$begin 'FontAttribute'
-																$begin 'Font'
-																	Height=-13
-																	Width=0
-																	Escapement=0
-																	Orientation=0
-																	Weight=400
-																	Italic=0
-																	Underline=0
-																	StrikeOut=0
-																	CharSet=0
-																	OutPrecision=7
-																	ClipPrecision=48
-																	Quality=6
-																	PitchAndFamily=0
-																	FaceName='Arial'
-																$end 'Font'
-																Color(R=0, G=0, B=0)
-															$end 'FontAttribute'
-														$end 'SubtitleFont'
-													$end 'HeaderRenderAttribute'
-												$end 'SubMapItem'
-											$end 'MainMapItem'
-											$begin 'MainMapItem'
-												$begin 'SubMapItem'
-													DataSourceID=5
-													$begin 'LegendRenderAttribute'
-														$begin 'LegendTableAttrib'
-															$begin 'TableRenderAttribute'
-																$begin 'TableFontAttrib'
-																	$begin 'FontAttribute'
-																		$begin 'Font'
-																			Height=-11
-																			Width=0
-																			Escapement=0
-																			Orientation=0
-																			Weight=400
-																			Italic=0
-																			Underline=0
-																			StrikeOut=0
-																			CharSet=0
-																			OutPrecision=7
-																			ClipPrecision=48
-																			Quality=6
-																			PitchAndFamily=0
-																			FaceName='Arial'
-																		$end 'Font'
-																		Color(R=0, G=0, B=0)
-																	$end 'FontAttribute'
-																$end 'TableFontAttrib'
-																$begin 'TableTitleFontAttrib'
-																	$begin 'FontAttribute'
-																		$begin 'Font'
-																			Height=-11
-																			Width=0
-																			Escapement=0
-																			Orientation=0
-																			Weight=400
-																			Italic=0
-																			Underline=0
-																			StrikeOut=0
-																			CharSet=0
-																			OutPrecision=7
-																			ClipPrecision=48
-																			Quality=6
-																			PitchAndFamily=0
-																			FaceName='Arial'
-																		$end 'Font'
-																		Color(R=0, G=0, B=0)
-																	$end 'FontAttribute'
-																$end 'TableTitleFontAttrib'
-																TableBorderLineWidth=1
-																TableBorderLineColor=0
-																TableGridLineWidth=1
-																TableGridLineColor=12632256
-																TableBackgroundColor=16777215
-																TableHeaderBackgroundColor=14408667
-															$end 'TableRenderAttribute'
-														$end 'LegendTableAttrib'
-														ShowTraceName=true
-														ShowSolutionName=true
-														ShowVariationKey=true
-														DockMode='None'
-													$end 'LegendRenderAttribute'
-												$end 'SubMapItem'
-											$end 'MainMapItem'
-											$begin 'MainMapItem'
-												$begin 'SubMapItem'
-													DataSourceID=1
-													$begin 'LineAxisRenderAttribute'
-														DecimalFieldWidth=4
-														DecimalFieldPrecision=2
-														ManualTitle=''
-														AxisColor(R=0, G=0, B=0)
-														MinScale=0
-														MaxScale=3000000000
-														TickSpacing=5000000000
-														ManualUnits=false
-														Units='GHz'
-														AxisScale='Logarithmic'
-														NumberFormat='Auto'
-														$begin 'TextFont'
-															$begin 'FontAttribute'
-																$begin 'Font'
-																	Height=-12
-																	Width=0
-																	Escapement=0
-																	Orientation=0
-																	Weight=400
-																	Italic=0
-																	Underline=0
-																	StrikeOut=0
-																	CharSet=0
-																	OutPrecision=7
-																	ClipPrecision=48
-																	Quality=6
-																	PitchAndFamily=0
-																	FaceName='Arial'
-																$end 'Font'
-																Color(R=0, G=0, B=0)
-															$end 'FontAttribute'
-														$end 'TextFont'
-														InfMapMode=false
-														InfMapValue=6000000000
-														AutoRangeMin=true
-														AutoRangeMax=true
-														AutoSpacing=true
-														kNumMinorDivisions=5
-														ShowAxisTitle=true
-														ShowAxisUnits=true
-														vwm='FullWnd'
-														viewWndWd=#nan
-														ActivateMargins=true
-														MarginPercent=0
-													$end 'LineAxisRenderAttribute'
-												$end 'SubMapItem'
-												$begin 'SubMapItem'
-													DataSourceID=2
-													$begin 'LineAxisRenderAttribute'
-														DecimalFieldWidth=7
-														DecimalFieldPrecision=2
-														ManualTitle=''
-														AxisColor(R=0, G=0, B=0)
-														MinScale=-500
-														MaxScale=2000
-														TickSpacing=1000
-														ManualUnits=false
-														Units=''
-														AxisScale='Logarithmic'
-														NumberFormat='Auto'
-														$begin 'TextFont'
-															$begin 'FontAttribute'
-																$begin 'Font'
-																	Height=-12
-																	Width=0
-																	Escapement=0
-																	Orientation=0
-																	Weight=400
-																	Italic=0
-																	Underline=0
-																	StrikeOut=0
-																	CharSet=0
-																	OutPrecision=7
-																	ClipPrecision=48
-																	Quality=6
-																	PitchAndFamily=0
-																	FaceName='Arial'
-																$end 'Font'
-																Color(R=0, G=0, B=0)
-															$end 'FontAttribute'
-														$end 'TextFont'
-														InfMapMode=false
-														InfMapValue=4000
-														AutoRangeMin=true
-														AutoRangeMax=true
-														AutoSpacing=true
-														kNumMinorDivisions=5
-														ShowAxisTitle=true
-														ShowAxisUnits=true
-														vwm='FullWnd'
-														viewWndWd=#nan
-														ActivateMargins=true
-														MarginPercent=0
-													$end 'LineAxisRenderAttribute'
-												$end 'SubMapItem'
-												$begin 'SubMapItem'
-													DataSourceID=8
-													$begin 'LineAxisRenderAttribute'
-														DecimalFieldWidth=3
-														DecimalFieldPrecision=2
-														ManualTitle=''
-														AxisColor(R=0, G=0, B=0)
-														MinScale=0
-														MaxScale=1
-														TickSpacing=1
-														ManualUnits=false
-														Units='mm'
-														AxisScale='Linear'
-														NumberFormat='Auto'
-														$begin 'TextFont'
-															$begin 'FontAttribute'
-																$begin 'Font'
-																	Height=-12
-																	Width=0
-																	Escapement=0
-																	Orientation=0
-																	Weight=400
-																	Italic=0
-																	Underline=0
-																	StrikeOut=0
-																	CharSet=0
-																	OutPrecision=7
-																	ClipPrecision=48
-																	Quality=6
-																	PitchAndFamily=0
-																	FaceName='Arial'
-																$end 'Font'
-																Color(R=0, G=0, B=0)
-															$end 'FontAttribute'
-														$end 'TextFont'
-														InfMapMode=false
-														InfMapValue=1.79769313486232e+306
-														AutoRangeMin=true
-														AutoRangeMax=true
-														AutoSpacing=true
-														kNumMinorDivisions=5
-														ShowAxisTitle=true
-														ShowAxisUnits=true
-														vwm='FullWnd'
-														viewWndWd=#nan
-														ActivateMargins=true
-														MarginPercent=0
-													$end 'LineAxisRenderAttribute'
-												$end 'SubMapItem'
-												$begin 'SubMapItem'
-													DataSourceID=9
-													$begin 'LineAxisRenderAttribute'
-														DecimalFieldWidth=3
-														DecimalFieldPrecision=2
-														ManualTitle=''
-														AxisColor(R=0, G=0, B=0)
-														MinScale=0
-														MaxScale=1
-														TickSpacing=1
-														ManualUnits=false
-														Units='mm'
-														AxisScale='Linear'
-														NumberFormat='Auto'
-														$begin 'TextFont'
-															$begin 'FontAttribute'
-																$begin 'Font'
-																	Height=-12
-																	Width=0
-																	Escapement=0
-																	Orientation=0
-																	Weight=400
-																	Italic=0
-																	Underline=0
-																	StrikeOut=0
-																	CharSet=0
-																	OutPrecision=7
-																	ClipPrecision=48
-																	Quality=6
-																	PitchAndFamily=0
-																	FaceName='Arial'
-																$end 'Font'
-																Color(R=0, G=0, B=0)
-															$end 'FontAttribute'
-														$end 'TextFont'
-														InfMapMode=false
-														InfMapValue=1.79769313486232e+306
-														AutoRangeMin=true
-														AutoRangeMax=true
-														AutoSpacing=true
-														kNumMinorDivisions=5
-														ShowAxisTitle=true
-														ShowAxisUnits=true
-														vwm='FullWnd'
-														viewWndWd=#nan
-														ActivateMargins=true
-														MarginPercent=0
-													$end 'LineAxisRenderAttribute'
-												$end 'SubMapItem'
-												$begin 'SubMapItem'
-													DataSourceID=10
-													$begin 'LineAxisRenderAttribute'
-														DecimalFieldWidth=3
-														DecimalFieldPrecision=2
-														ManualTitle=''
-														AxisColor(R=0, G=0, B=0)
-														MinScale=0
-														MaxScale=1
-														TickSpacing=1
-														ManualUnits=false
-														Units='mm'
-														AxisScale='Linear'
-														NumberFormat='Auto'
-														$begin 'TextFont'
-															$begin 'FontAttribute'
-																$begin 'Font'
-																	Height=-12
-																	Width=0
-																	Escapement=0
-																	Orientation=0
-																	Weight=400
-																	Italic=0
-																	Underline=0
-																	StrikeOut=0
-																	CharSet=0
-																	OutPrecision=7
-																	ClipPrecision=48
-																	Quality=6
-																	PitchAndFamily=0
-																	FaceName='Arial'
-																$end 'Font'
-																Color(R=0, G=0, B=0)
-															$end 'FontAttribute'
-														$end 'TextFont'
-														InfMapMode=false
-														InfMapValue=1.79769313486232e+306
-														AutoRangeMin=true
-														AutoRangeMax=true
-														AutoSpacing=true
-														kNumMinorDivisions=5
-														ShowAxisTitle=true
-														ShowAxisUnits=true
-														vwm='FullWnd'
-														viewWndWd=#nan
-														ActivateMargins=true
-														MarginPercent=0
-													$end 'LineAxisRenderAttribute'
-												$end 'SubMapItem'
-											$end 'MainMapItem'
-											$begin 'MainMapItem'
-												$begin 'SubMapItem'
-													DataSourceID=-1
-													$begin 'PlotRenderAttribute'
-														BackgroundColor(R=255, G=255, B=255)
-														SelectionColor(R=255, G=0, B=128)
-														PlotAreaColor(R=255, G=255, B=255)
-														SelectionThicknessEmphasis=1
-														CurveSelEmphasisThickness=2
-														CurveSelDeEmphasisThickness=1
-														FieldWidth=4
-														Precision=4
-														UseScientificNotation=true
-														DataPointSnapPixels=40
-													$end 'PlotRenderAttribute'
-												$end 'SubMapItem'
-											$end 'MainMapItem'
-										$end 'PlotAttributeStoreMap'
-									$end 'DocAttributes'
-									$begin 'DocDefaultAttributes'
-										$begin 'PlotAttributeStoreMap'
-										$end 'PlotAttributeStoreMap'
-									$end 'DocDefaultAttributes'
-									$begin 'PerViewPlotAttributeStoreMap'
-										$begin 'MapItem'
-											ItemID=20
-											$begin 'PlotAttributeStoreMap'
-												$begin 'MainMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=4
-														$begin 'BasicLayoutAttribute'
-															$begin 'LayoutRect'
-																Top=777
-																Left=388
-																Bottom=9760
-																Right=9431
-															$end 'LayoutRect'
-														$end 'BasicLayoutAttribute'
-													$end 'SubMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=12
-														$begin 'BasicLayoutAttribute'
-															$begin 'LayoutRect'
-																Top=777
-																Left=388
-																Bottom=9760
-																Right=9431
-															$end 'LayoutRect'
-														$end 'BasicLayoutAttribute'
-													$end 'SubMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=19
-														$begin 'BasicLayoutAttribute'
-															$begin 'LayoutRect'
-																Top=75
-																Left=75
-																Bottom=9925
-																Right=295
-															$end 'LayoutRect'
-														$end 'BasicLayoutAttribute'
-													$end 'SubMapItem'
-												$end 'MainMapItem'
-												$begin 'MainMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=15
-														$begin 'CartesianAxisLayoutAttribute'
-															$begin 'AxisRect'
-																Top=75
-																Left=9431
-																Bottom=9925
-																Right=9925
-															$end 'AxisRect'
-															$begin 'GridRect'
-																Top=777
-																Left=388
-																Bottom=9760
-																Right=9431
-															$end 'GridRect'
-														$end 'CartesianAxisLayoutAttribute'
-													$end 'SubMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=16
-														$begin 'CartesianAxisLayoutAttribute'
-															$begin 'AxisRect'
-																Top=75
-																Left=320
-																Bottom=776
-																Right=9431
-															$end 'AxisRect'
-															$begin 'GridRect'
-																Top=777
-																Left=388
-																Bottom=9760
-																Right=9431
-															$end 'GridRect'
-														$end 'CartesianAxisLayoutAttribute'
-													$end 'SubMapItem'
-												$end 'MainMapItem'
-												$begin 'MainMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=4
-														$begin 'CartesianCurveGroupLayoutAttribute'
-															X_spc=5000000000
-															X_fwd=4
-															X_fpr=2
-															Y1_spc=10000
-															Y1_fwd=7
-															Y1_fpr=2
-														$end 'CartesianCurveGroupLayoutAttribute'
-													$end 'SubMapItem'
-												$end 'MainMapItem'
-												$begin 'MainMapItem'
-													$begin 'SubMapItem'
-														DataSourceID=6
-														$begin 'DockableOverlayLayoutAttribute'
-															$begin 'Dock_0'
-																$begin 'OverlayLayoutAttribute'
-																	$begin 'BoundingRect'
-																		Top=4850
-																		Left=395
-																		Bottom=9850
-																		Right=7895
-																	$end 'BoundingRect'
-																	ModifySize=false
-																	ModifyPosition=false
-																$end 'OverlayLayoutAttribute'
-															$end 'Dock_0'
-															$begin 'Dock_1'
-																$begin 'OverlayLayoutAttribute'
-																	$begin 'BoundingRect'
-																		Top=5000
-																		Left=0
-																		Bottom=10000
-																		Right=10000
-																	$end 'BoundingRect'
-																	ModifySize=false
-																	ModifyPosition=false
-																$end 'OverlayLayoutAttribute'
-															$end 'Dock_1'
-															$begin 'Dock_2'
-																$begin 'OverlayLayoutAttribute'
-																	$begin 'BoundingRect'
-																		Top=0
-																		Left=0
-																		Bottom=5000
-																		Right=10000
-																	$end 'BoundingRect'
-																	ModifySize=false
-																	ModifyPosition=false
-																$end 'OverlayLayoutAttribute'
-															$end 'Dock_2'
-														$end 'DockableOverlayLayoutAttribute'
-													$end 'SubMapItem'
-												$end 'MainMapItem'
-											$end 'PlotAttributeStoreMap'
-										$end 'MapItem'
-									$end 'PerViewPlotAttributeStoreMap'
-									IsViewAttribServer=false
-									ViewID=-1
-									$begin 'SourceIDMap'
-										IDMapItem(80, 0, -1, 21)
-										IDMapItem(81, 0, -1, 23)
-									$end 'SourceIDMap'
-									$begin 'TraceCharacteristicsMgr'
-									$end 'TraceCharacteristicsMgr'
-									$begin 'CartesianXMarkerManager'
-										RefMarkerID=-1
-										CurrentMarkerID=-1
-										$begin 'ReferenceCurves'
-										$end 'ReferenceCurves'
-									$end 'CartesianXMarkerManager'
-									$begin 'CartesianYMarkerManager'
-									$end 'CartesianYMarkerManager'
-									DigitalClosedRecordsItem[0:]
-									XAxisStackID=-1
-									$begin 'AllTransSrcDwg'
-										$begin 'PT'
-											ID=1
-											TransSrcDwg(-1, 0, 19, 1, 15, 2, 16, 5, 6, 11, 12, 21, 22, 23, 24)
-										$end 'PT'
-									$end 'AllTransSrcDwg'
-									$begin 'AllPtSVID'
-										PtID(1, -1, 4)
-									$end 'AllPtSVID'
-								$end 'PlotDisplayDataManager'
-							$end 'Report2D'
-						$end 'Permittivity'
-						$begin 'Real Impedance'
-							ReportID=84
-							$begin 'Report2D'
-								name='Real Impedance'
-								ReportID=84
-								ReportType=0
-								DisplayType=1
-								Title=''
-								Domain=''
-								$begin 'PlotDisplayDataManager'
-									NextUniqueID=25
-									MoveBackwards=false
-									$begin 'PlotHeaderDataSource'
-										CompanyName=''
-										ShowDesignName=true
-										ProjectFileName=''
-									$end 'PlotHeaderDataSource'
-									StockNameIDMap(AxisX=1, AxisY1=2, AxisY2=8, AxisY3=9, AxisY4=10, Grid=11, Header=0, Legend=5, XYHorizScroller=7)
-									$begin 'SourceList'
-									$end 'SourceList'
-									$begin 'DocAttributes'
-										$begin 'PlotAttributeStoreMap'
-											$begin 'MainMapItem'
-												$begin 'SubMapItem'
-													DataSourceID=11
-													$begin 'CartesianGridDescAttribute'
-														ShowXMinor=true
-														ShowYMinor=true
-														ShowXMajor=true
-														ShowYMajor=true
-														ShowBorder=true
-													$end 'CartesianGridDescAttribute'
-												$end 'SubMapItem'
-											$end 'MainMapItem'
-											$begin 'MainMapItem'
-											$end 'MainMapItem'
-											$begin 'MainMapItem'
-											$end 'MainMapItem'
-											$begin 'MainMapItem'
-												$begin 'SubMapItem'
-													DataSourceID=0
-													$begin 'HeaderRenderAttribute'
-														$begin 'TitleFont'
-															$begin 'FontAttribute'
-																$begin 'Font'
-																	Height=-19
-																	Width=0
-																	Escapement=0
-																	Orientation=0
-																	Weight=400
-																	Italic=0
-																	Underline=0
-																	StrikeOut=0
-																	CharSet=0
-																	OutPrecision=7
-																	ClipPrecision=48
-																	Quality=6
-																	PitchAndFamily=0
-																	FaceName='Arial'
-																$end 'Font'
-																Color(R=0, G=0, B=0)
-															$end 'FontAttribute'
-														$end 'TitleFont'
-														$begin 'SubtitleFont'
-															$begin 'FontAttribute'
-																$begin 'Font'
-																	Height=-13
-																	Width=0
-																	Escapement=0
-																	Orientation=0
-																	Weight=400
-																	Italic=0
-																	Underline=0
-																	StrikeOut=0
-																	CharSet=0
-																	OutPrecision=7
-																	ClipPrecision=48
-																	Quality=6
-																	PitchAndFamily=0
-																	FaceName='Arial'
-																$end 'Font'
-																Color(R=0, G=0, B=0)
-															$end 'FontAttribute'
-														$end 'SubtitleFont'
-													$end 'HeaderRenderAttribute'
-												$end 'SubMapItem'
-											$end 'MainMapItem'
-											$begin 'MainMapItem'
-												$begin 'SubMapItem'
-													DataSourceID=5
-													$begin 'LegendRenderAttribute'
-														$begin 'LegendTableAttrib'
-															$begin 'TableRenderAttribute'
-																$begin 'TableFontAttrib'
-																	$begin 'FontAttribute'
-																		$begin 'Font'
-																			Height=-11
-																			Width=0
-																			Escapement=0
-																			Orientation=0
-																			Weight=400
-																			Italic=0
-																			Underline=0
-																			StrikeOut=0
-																			CharSet=0
-																			OutPrecision=7
-																			ClipPrecision=48
-																			Quality=6
-																			PitchAndFamily=0
-																			FaceName='Arial'
-																		$end 'Font'
-																		Color(R=0, G=0, B=0)
-																	$end 'FontAttribute'
-																$end 'TableFontAttrib'
-																$begin 'TableTitleFontAttrib'
-																	$begin 'FontAttribute'
-																		$begin 'Font'
-																			Height=-11
-																			Width=0
-																			Escapement=0
-																			Orientation=0
-																			Weight=400
-																			Italic=0
-																			Underline=0
-																			StrikeOut=0
-																			CharSet=0
-																			OutPrecision=7
-																			ClipPrecision=48
-																			Quality=6
-																			PitchAndFamily=0
-																			FaceName='Arial'
-																		$end 'Font'
-																		Color(R=0, G=0, B=0)
-																	$end 'FontAttribute'
-																$end 'TableTitleFontAttrib'
-																TableBorderLineWidth=1
-																TableBorderLineColor=0
-																TableGridLineWidth=1
-																TableGridLineColor=12632256
-																TableBackgroundColor=16777215
-																TableHeaderBackgroundColor=14408667
-															$end 'TableRenderAttribute'
-														$end 'LegendTableAttrib'
-														ShowTraceName=true
-														ShowSolutionName=true
-														ShowVariationKey=true
-														DockMode='None'
-													$end 'LegendRenderAttribute'
-												$end 'SubMapItem'
-											$end 'MainMapItem'
-											$begin 'MainMapItem'
-												$begin 'SubMapItem'
-													DataSourceID=1
-													$begin 'LineAxisRenderAttribute'
-														DecimalFieldWidth=8
-														DecimalFieldPrecision=2
-														ManualTitle=''
-														AxisColor(R=0, G=0, B=0)
-														MinScale=0
-														MaxScale=30000000
-														TickSpacing=10000000
-														ManualUnits=false
-														Units='MHz'
-														AxisScale='Logarithmic'
-														NumberFormat='Auto'
-														$begin 'TextFont'
-															$begin 'FontAttribute'
-																$begin 'Font'
-																	Height=-12
-																	Width=0
-																	Escapement=0
-																	Orientation=0
-																	Weight=400
-																	Italic=0
-																	Underline=0
-																	StrikeOut=0
-																	CharSet=0
-																	OutPrecision=7
-																	ClipPrecision=48
-																	Quality=6
-																	PitchAndFamily=0
-																	FaceName='Arial'
-																$end 'Font'
-																Color(R=0, G=0, B=0)
-															$end 'FontAttribute'
-														$end 'TextFont'
-														InfMapMode=false
-														InfMapValue=60000000
-														AutoRangeMin=true
-														AutoRangeMax=true
-														AutoSpacing=true
-														kNumMinorDivisions=5
-														ShowAxisTitle=true
-														ShowAxisUnits=true
-														vwm='FullWnd'
-														viewWndWd=#nan
-														ActivateMargins=true
-														MarginPercent=0
-													$end 'LineAxisRenderAttribute'
-												$end 'SubMapItem'
-												$begin 'SubMapItem'
-													DataSourceID=2
-													$begin 'LineAxisRenderAttribute'
-														DecimalFieldWidth=8
-														DecimalFieldPrecision=2
-														ManualTitle=''
-														AxisColor(R=0, G=0, B=0)
-														MinScale=0
-														MaxScale=1200000
-														TickSpacing=1000000
-														ManualUnits=false
-														Units=''
-														AxisScale='Logarithmic'
 														NumberFormat='Auto'
 														$begin 'TextFont'
 															$begin 'FontAttribute'
@@ -38930,7 +36134,7 @@ $begin 'AnsoftProject'
 														DataSourceID=4
 														$begin 'BasicLayoutAttribute'
 															$begin 'LayoutRect'
-																Top=631
+																Top=982
 																Left=563
 																Bottom=9812
 																Right=9246
@@ -38941,7 +36145,7 @@ $begin 'AnsoftProject'
 														DataSourceID=12
 														$begin 'BasicLayoutAttribute'
 															$begin 'LayoutRect'
-																Top=631
+																Top=982
 																Left=563
 																Bottom=9812
 																Right=9246
@@ -38971,7 +36175,7 @@ $begin 'AnsoftProject'
 																Right=9925
 															$end 'AxisRect'
 															$begin 'GridRect'
-																Top=631
+																Top=982
 																Left=563
 																Bottom=9812
 																Right=9246
@@ -38984,11 +36188,11 @@ $begin 'AnsoftProject'
 															$begin 'AxisRect'
 																Top=75
 																Left=453
-																Bottom=630
+																Bottom=981
 																Right=9246
 															$end 'AxisRect'
 															$begin 'GridRect'
-																Top=631
+																Top=982
 																Left=563
 																Bottom=9812
 																Right=9246
@@ -39000,11 +36204,11 @@ $begin 'AnsoftProject'
 													$begin 'SubMapItem'
 														DataSourceID=4
 														$begin 'CartesianCurveGroupLayoutAttribute'
-															X_spc=100000
+															X_spc=100000000
 															X_fwd=3
 															X_fpr=2
-															Y1_spc=0.1
-															Y1_fwd=3
+															Y1_spc=200000
+															Y1_fwd=8
 															Y1_fpr=2
 														$end 'CartesianCurveGroupLayoutAttribute'
 													$end 'SubMapItem'
@@ -39034,6 +36238,7 @@ $begin 'AnsoftProject'
 									IsViewAttribServer=false
 									ViewID=-1
 									$begin 'SourceIDMap'
+										IDMapItem(96, 0, -1, 21)
 									$end 'SourceIDMap'
 									$begin 'TraceCharacteristicsMgr'
 									$end 'TraceCharacteristicsMgr'
@@ -39050,7 +36255,7 @@ $begin 'AnsoftProject'
 									$begin 'AllTransSrcDwg'
 										$begin 'PT'
 											ID=1
-											TransSrcDwg(-1, 0, 19, 1, 15, 2, 16, 5, 6, 11, 12, 21, 22, 23, 24)
+											TransSrcDwg(-1, 0, 19, 1, 15, 2, 16, 5, 6, 11, 12, 21, 22)
 										$end 'PT'
 									$end 'AllTransSrcDwg'
 									$begin 'AllPtSVID'
@@ -39058,19 +36263,19 @@ $begin 'AnsoftProject'
 									$end 'AllPtSVID'
 								$end 'PlotDisplayDataManager'
 							$end 'Report2D'
-						$end 'Real Impedance'
+						$end 'XY Plot 1'
 						$begin 'Resistance'
-							ReportID=93
+							ReportID=99
 							$begin 'Report2D'
 								name='Resistance'
-								ReportID=93
+								ReportID=99
 								ReportType=0
 								DisplayType=1
 								Title=''
 								Domain=''
 								$begin 'Graph2DsV2'
 									$begin 'Graph2D'
-										TraceDefID=92
+										TraceDefID=98
 										Type='Continuous'
 										Axis='Y1'
 									$end 'Graph2D'
@@ -39242,15 +36447,15 @@ $begin 'AnsoftProject'
 												$begin 'SubMapItem'
 													DataSourceID=1
 													$begin 'LineAxisRenderAttribute'
-														DecimalFieldWidth=8
-														DecimalFieldPrecision=2
+														DecimalFieldWidth=6
+														DecimalFieldPrecision=5
 														ManualTitle=''
 														AxisColor(R=0, G=0, B=0)
 														MinScale=0
 														MaxScale=1000000000
-														TickSpacing=100000000
-														ManualUnits=true
-														Units='Hz'
+														TickSpacing=200000000
+														ManualUnits=false
+														Units='GHz'
 														AxisScale='Logarithmic'
 														NumberFormat='Auto'
 														$begin 'TextFont'
@@ -39301,7 +36506,7 @@ $begin 'AnsoftProject'
 														ManualUnits=false
 														Units=''
 														AxisScale='Logarithmic'
-														NumberFormat='Scientific'
+														NumberFormat='Auto'
 														$begin 'TextFont'
 															$begin 'FontAttribute'
 																$begin 'Font'
@@ -39500,9 +36705,9 @@ $begin 'AnsoftProject'
 														DataSourceID=4
 														$begin 'BasicLayoutAttribute'
 															$begin 'LayoutRect'
-																Top=947
+																Top=693
 																Left=563
-																Bottom=9654
+																Bottom=9724
 																Right=9246
 															$end 'LayoutRect'
 														$end 'BasicLayoutAttribute'
@@ -39511,9 +36716,9 @@ $begin 'AnsoftProject'
 														DataSourceID=12
 														$begin 'BasicLayoutAttribute'
 															$begin 'LayoutRect'
-																Top=947
+																Top=693
 																Left=563
-																Bottom=9654
+																Bottom=9724
 																Right=9246
 															$end 'LayoutRect'
 														$end 'BasicLayoutAttribute'
@@ -39541,9 +36746,9 @@ $begin 'AnsoftProject'
 																Right=9925
 															$end 'AxisRect'
 															$begin 'GridRect'
-																Top=947
+																Top=693
 																Left=563
-																Bottom=9654
+																Bottom=9724
 																Right=9246
 															$end 'GridRect'
 														$end 'CartesianAxisLayoutAttribute'
@@ -39554,13 +36759,13 @@ $begin 'AnsoftProject'
 															$begin 'AxisRect'
 																Top=75
 																Left=453
-																Bottom=946
+																Bottom=692
 																Right=9246
 															$end 'AxisRect'
 															$begin 'GridRect'
-																Top=947
+																Top=693
 																Left=563
-																Bottom=9654
+																Bottom=9724
 																Right=9246
 															$end 'GridRect'
 														$end 'CartesianAxisLayoutAttribute'
@@ -39570,11 +36775,11 @@ $begin 'AnsoftProject'
 													$begin 'SubMapItem'
 														DataSourceID=4
 														$begin 'CartesianCurveGroupLayoutAttribute'
-															X_spc=200000000
-															X_fwd=8
+															X_spc=100000000
+															X_fwd=3
 															X_fpr=2
 															Y1_spc=1
-															Y1_fwd=8
+															Y1_fwd=4
 															Y1_fpr=2
 														$end 'CartesianCurveGroupLayoutAttribute'
 													$end 'SubMapItem'
@@ -39604,7 +36809,7 @@ $begin 'AnsoftProject'
 									IsViewAttribServer=false
 									ViewID=-1
 									$begin 'SourceIDMap'
-										IDMapItem(92, 0, -1, 21)
+										IDMapItem(98, 0, -1, 21)
 									$end 'SourceIDMap'
 									$begin 'TraceCharacteristicsMgr'
 									$end 'TraceCharacteristicsMgr'
@@ -39630,18 +36835,18 @@ $begin 'AnsoftProject'
 								$end 'PlotDisplayDataManager'
 							$end 'Report2D'
 						$end 'Resistance'
-						$begin 'Reactance'
-							ReportID=95
+						$begin '- Reactance'
+							ReportID=101
 							$begin 'Report2D'
-								name='Reactance'
-								ReportID=95
+								name='- Reactance'
+								ReportID=101
 								ReportType=0
 								DisplayType=1
 								Title=''
 								Domain=''
 								$begin 'Graph2DsV2'
 									$begin 'Graph2D'
-										TraceDefID=94
+										TraceDefID=100
 										Type='Continuous'
 										Axis='Y1'
 									$end 'Graph2D'
@@ -39817,9 +37022,9 @@ $begin 'AnsoftProject'
 														DecimalFieldPrecision=2
 														ManualTitle=''
 														AxisColor(R=0, G=0, B=0)
-														MinScale=0.1
-														MaxScale=1
-														TickSpacing=0.2
+														MinScale=0
+														MaxScale=1000000000
+														TickSpacing=200000000
 														ManualUnits=true
 														Units='Hz'
 														AxisScale='Logarithmic'
@@ -39846,7 +37051,7 @@ $begin 'AnsoftProject'
 															$end 'FontAttribute'
 														$end 'TextFont'
 														InfMapMode=false
-														InfMapValue=2
+														InfMapValue=2000000000
 														AutoRangeMin=true
 														AutoRangeMax=true
 														AutoSpacing=true
@@ -39862,17 +37067,17 @@ $begin 'AnsoftProject'
 												$begin 'SubMapItem'
 													DataSourceID=2
 													$begin 'LineAxisRenderAttribute'
-														DecimalFieldWidth=3
+														DecimalFieldWidth=8
 														DecimalFieldPrecision=2
 														ManualTitle=''
 														AxisColor(R=0, G=0, B=0)
-														MinScale=0.1
-														MaxScale=1
-														TickSpacing=0.1
+														MinScale=0
+														MaxScale=1200000
+														TickSpacing=200000
 														ManualUnits=false
 														Units=''
 														AxisScale='Logarithmic'
-														NumberFormat='Auto'
+														NumberFormat='Scientific'
 														$begin 'TextFont'
 															$begin 'FontAttribute'
 																$begin 'Font'
@@ -39895,7 +37100,7 @@ $begin 'AnsoftProject'
 															$end 'FontAttribute'
 														$end 'TextFont'
 														InfMapMode=false
-														InfMapValue=2
+														InfMapValue=2400000
 														AutoRangeMin=true
 														AutoRangeMax=true
 														AutoSpacing=true
@@ -40071,7 +37276,7 @@ $begin 'AnsoftProject'
 														DataSourceID=4
 														$begin 'BasicLayoutAttribute'
 															$begin 'LayoutRect'
-																Top=576
+																Top=835
 																Left=388
 																Bottom=9703
 																Right=9431
@@ -40082,7 +37287,7 @@ $begin 'AnsoftProject'
 														DataSourceID=12
 														$begin 'BasicLayoutAttribute'
 															$begin 'LayoutRect'
-																Top=576
+																Top=835
 																Left=388
 																Bottom=9703
 																Right=9431
@@ -40112,7 +37317,7 @@ $begin 'AnsoftProject'
 																Right=9925
 															$end 'AxisRect'
 															$begin 'GridRect'
-																Top=576
+																Top=835
 																Left=388
 																Bottom=9703
 																Right=9431
@@ -40125,11 +37330,11 @@ $begin 'AnsoftProject'
 															$begin 'AxisRect'
 																Top=75
 																Left=320
-																Bottom=575
+																Bottom=834
 																Right=9431
 															$end 'AxisRect'
 															$begin 'GridRect'
-																Top=576
+																Top=835
 																Left=388
 																Bottom=9703
 																Right=9431
@@ -40141,11 +37346,11 @@ $begin 'AnsoftProject'
 													$begin 'SubMapItem'
 														DataSourceID=4
 														$begin 'CartesianCurveGroupLayoutAttribute'
-															X_spc=0.1
+															X_spc=100000000
 															X_fwd=8
 															X_fpr=2
-															Y1_spc=0.1
-															Y1_fwd=3
+															Y1_spc=1000000
+															Y1_fwd=8
 															Y1_fpr=2
 														$end 'CartesianCurveGroupLayoutAttribute'
 													$end 'SubMapItem'
@@ -40175,7 +37380,7 @@ $begin 'AnsoftProject'
 									IsViewAttribServer=false
 									ViewID=-1
 									$begin 'SourceIDMap'
-										IDMapItem(94, 0, -1, 21)
+										IDMapItem(100, 0, -1, 21)
 									$end 'SourceIDMap'
 									$begin 'TraceCharacteristicsMgr'
 									$end 'TraceCharacteristicsMgr'
@@ -40200,65 +37405,11 @@ $begin 'AnsoftProject'
 									$end 'AllPtSVID'
 								$end 'PlotDisplayDataManager'
 							$end 'Report2D'
-						$end 'Reactance'
+						$end '- Reactance'
 					$end 'Reports'
 					$begin 'ReportsWindowInfoList'
-						$begin 'Imaginary Part admitance'
-							ReportID=20
-							$begin 'WindowInfoList'
-								$begin 'Report2D'
-									$begin 'ViewInfo'
-										$begin 'WrapperView'
-											ID(76)
-										$end 'WrapperView'
-										$begin 'WrapperDoc'
-											HiddenDrawings()
-											$begin 'DispType'
-												PlotType=1
-												$begin 'CurveMed'
-													$begin 'MedCamera'
-														$begin 'svrc'
-															svid=4
-															view(76, cam(XYCam(false, true, true, true, -0.0440651923418045, 1.01593565940857, -0.0167329907417297, 1.04326784610748, 0, 1, 0, 1, 1.0430582619847e-008, 1.03013630611826e-011)))
-														$end 'svrc'
-													$end 'MedCamera'
-												$end 'CurveMed'
-											$end 'DispType'
-										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -8, -31, 0, 0, 1161, 496))
-									$end 'ViewInfo'
-								$end 'Report2D'
-							$end 'WindowInfoList'
-						$end 'Imaginary Part admitance'
-						$begin 'Real part admitance'
-							ReportID=55
-							$begin 'WindowInfoList'
-								$begin 'Report2D'
-									$begin 'ViewInfo'
-										$begin 'WrapperView'
-											ID(46)
-										$end 'WrapperView'
-										$begin 'WrapperDoc'
-											HiddenDrawings()
-											$begin 'DispType'
-												PlotType=1
-												$begin 'CurveMed'
-													$begin 'MedCamera'
-														$begin 'svrc'
-															svid=4
-															view(46, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 4.59184627412124e-039, 5.23470035242104e-039)))
-														$end 'svrc'
-													$end 'MedCamera'
-												$end 'CurveMed'
-											$end 'DispType'
-										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -8, -31, 26, 26, 1187, 522))
-									$end 'ViewInfo'
-								$end 'Report2D'
-							$end 'WindowInfoList'
-						$end 'Real part admitance'
-						$begin 'Real Impedance'
-							ReportID=84
+						$begin 'XY Plot 1'
+							ReportID=97
 							$begin 'WindowInfoList'
 								$begin 'Report2D'
 									$begin 'ViewInfo'
@@ -40279,13 +37430,13 @@ $begin 'AnsoftProject'
 												$end 'CurveMed'
 											$end 'DispType'
 										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -8, -31, 182, 182, 1343, 678))
+										WindowPos(WindowPos(5, -1, -1, -8, -31, 208, 208, 1369, 704))
 									$end 'ViewInfo'
 								$end 'Report2D'
 							$end 'WindowInfoList'
-						$end 'Real Impedance'
+						$end 'XY Plot 1'
 						$begin 'Resistance'
-							ReportID=93
+							ReportID=99
 							$begin 'WindowInfoList'
 								$begin 'Report2D'
 									$begin 'ViewInfo'
@@ -40306,13 +37457,13 @@ $begin 'AnsoftProject'
 												$end 'CurveMed'
 											$end 'DispType'
 										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -8, -31, 52, 52, 1213, 548))
+										WindowPos(WindowPos(5, -1, -1, -8, -31, 234, 234, 1395, 730))
 									$end 'ViewInfo'
 								$end 'Report2D'
 							$end 'WindowInfoList'
 						$end 'Resistance'
-						$begin 'Reactance'
-							ReportID=95
+						$begin '- Reactance'
+							ReportID=101
 							$begin 'WindowInfoList'
 								$begin 'Report2D'
 									$begin 'ViewInfo'
@@ -40327,17 +37478,17 @@ $begin 'AnsoftProject'
 													$begin 'MedCamera'
 														$begin 'svrc'
 															svid=4
-															view(20, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 4.59184627412124e-039, 5.23470035242104e-039)))
+															view(20, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 2.7684647256237e+020, 1.48647453114855e+022)))
 														$end 'svrc'
 													$end 'MedCamera'
 												$end 'CurveMed'
 											$end 'DispType'
 										$end 'WrapperDoc'
-										WindowPos(WindowPos(3, -1, -1, -8, -31, 234, 234, 1395, 730))
+										WindowPos(WindowPos(3, -1, -1, -8, -31, 0, 0, 1161, 496))
 									$end 'ViewInfo'
 								$end 'Report2D'
 							$end 'WindowInfoList'
-						$end 'Reactance'
+						$end '- Reactance'
 					$end 'ReportsWindowInfoList'
 				$end 'ReportSetup'
 			$end 'HfssDesignInstance'
@@ -40348,7 +37499,7 @@ $begin 'AnsoftProject'
 				DesignInstanceID=13
 				$begin 'WindowPosition'
 					$begin 'EditorWindow'
-						'3D Modeler'(Editor3d(View(WindowPos(5, -1, -1, -8, -31, 26, 26, 1187, 522), OrientationMatrix(-41.0207939147949, -65.7796020507813, 104.006690979004, 0, 123.062377929688, -21.9265365600586, 34.6688995361328, 0, -4.27037889494386e-007, 109.632675170898, 69.3377990722656, 0, 1.19209289550781e-007, 2.38418579101563e-007, -5.74869346618652, 1, 0, -1.95091784000397, 1.89436745643616, -0.8235684633255, 0.861067891120911, 0.625198364257813, 10.8721885681152), Drawings[7: 'Conductor1', 'Conductor2', 'Rectangle1', 'Intern_Membrane_Sup', 'External_Membrane_Sup', 'External_Membrane_Inf', 'Intern_Membrane_Inf'], 'View Data'('Render Mode'=1, 'Show Ruler'=1), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
+						'3D Modeler'(Editor3d(View(WindowPos(5, -1, -1, -8, -31, 26, 26, 1187, 522), OrientationMatrix(-41.0207939147949, -65.7796020507813, 104.006690979004, 0, 123.062377929688, -21.9265365600586, 34.6688995361328, 0, -4.27037889494386e-007, 109.632675170898, 69.3377990722656, 0, 1.19209289550781e-007, 2.38418579101563e-007, -5.74869346618652, 1, 0, -1.95091772079468, 1.89436733722687, -0.8235684633255, 0.861067891120911, 0.625198364257813, 10.8721885681152), Drawings[7: 'Conductor1', 'Conductor2', 'Rectangle1', 'Intern_Membrane_Sup', 'External_Membrane_Sup', 'External_Membrane_Inf', 'Intern_Membrane_Inf'], 'View Data'('Render Mode'=1, 'Show Ruler'=1), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
 					$end 'EditorWindow'
 				$end 'WindowPosition'
 				$begin 'ReportSetup'

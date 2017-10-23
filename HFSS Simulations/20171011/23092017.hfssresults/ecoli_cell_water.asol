@@ -1,13 +1,56 @@
 $begin '$base_index$'
   $begin 'properties'
     all_levels=000000000000
-    time(year=000000002017, month=000000000010, day=000000000019, hour=000000000011, min=000000000023, sec=000000000007)
+    time(year=000000002017, month=000000000010, day=000000000023, hour=000000000011, min=000000000005, sec=000000000025)
     version=000000000000
   $end 'properties'
   $begin '$base_index$'
     $index$(pos=000000008046, lin=000000000308, lvl=000000000000)
   $end '$base_index$'
 $end '$base_index$'
+$begin 'SolutionBlock1'
+	ProductName='HFSS'
+	CircuitName='ecoli_cell_water'
+	VersionID=557
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=819
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='d=\'1.25mm\' d1=\'5e-006meter\' eps0=\'8.85e-012\' s=\'2.5e-011m2\'', ID=555)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+		$begin 'LinkedData'
+			LinkID=361
+			LinkSSID=1
+			LinkVerID=0
+			$begin 'LinkedDir'
+				LD(VID=555, Ver=0, Dir='DV555_LINK361_S1_V0/')
+			$end 'LinkedDir'
+		$end 'LinkedData'
+	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=555, Ver=557, Dir='DV555_V557.imesh/')
+	$end 'InitialMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=555, Ver=557, Dir='DV555_MI0_V557.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock1'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=362, Instance=\'SetupDefinition\', Solution=-1, VersionID=557)'='SolutionBlock8'
+	'SolutionKey(SimSetup=362, Instance=\'SolutionDefinition\', Solution=363, VersionID=563)'='SolutionBlock6'
+	'SolutionKey(SimSetup=362, Instance=\'SolutionDefinition\', Solution=364, VersionID=563)'='SolutionBlock7'
+	'SolutionKey(SimSetup=362, Instance=\'d=\\\'1.25mm\\\' d1=\\\'5e-006meter\\\' eps0=\\\'8.85e-012\\\' s=\\\'2.5e-011m2\\\'\', Solution=-3, VersionID=557)'='SolutionBlock10'
+	'SolutionKey(SimSetup=47, Instance=\'SetupDefinition\', Solution=-1, VersionID=557)'='SolutionBlock5'
+	'SolutionKey(SimSetup=47, Instance=\'SolutionDefinition\', Solution=48, VersionID=563)'='SolutionBlock2'
+	'SolutionKey(SimSetup=47, Instance=\'SolutionDefinition\', Solution=49, VersionID=563)'='SolutionBlock3'
+	'SolutionKey(SimSetup=47, Instance=\'SolutionDefinition\', Solution=53, VersionID=563)'='SolutionBlock4'
+	'SolutionKey(SimSetup=47, Instance=\'d=\\\'1.25mm\\\' d1=\\\'5e-006meter\\\' eps0=\\\'8.85e-012\\\' s=\\\'2.5e-011m2\\\'\', Solution=-3, VersionID=557)'='SolutionBlock9'
+$end 'BlockMapName'
 $begin 'SolutionBlock2'
 	SolutionName='AdaptivePass'
 	SolutionID=48
@@ -51,18 +94,6 @@ $begin 'SolutionBlock2'
 		$end 'SubData'
 	$end 'A'
 $end 'SolutionBlock2'
-$begin 'BlockMapName'
-	FileHeader='SolutionBlock1'
-	'SolutionKey(SimSetup=362, Instance=\'SetupDefinition\', Solution=-1, VersionID=557)'='SolutionBlock8'
-	'SolutionKey(SimSetup=362, Instance=\'SolutionDefinition\', Solution=363, VersionID=563)'='SolutionBlock6'
-	'SolutionKey(SimSetup=362, Instance=\'SolutionDefinition\', Solution=364, VersionID=563)'='SolutionBlock7'
-	'SolutionKey(SimSetup=362, Instance=\'d=\\\'1.25mm\\\' d1=\\\'5e-006meter\\\' eps0=\\\'8.85e-012\\\' s=\\\'2.5e-011m2\\\'\', Solution=-3, VersionID=557)'='SolutionBlock10'
-	'SolutionKey(SimSetup=47, Instance=\'SetupDefinition\', Solution=-1, VersionID=557)'='SolutionBlock5'
-	'SolutionKey(SimSetup=47, Instance=\'SolutionDefinition\', Solution=48, VersionID=563)'='SolutionBlock2'
-	'SolutionKey(SimSetup=47, Instance=\'SolutionDefinition\', Solution=49, VersionID=563)'='SolutionBlock3'
-	'SolutionKey(SimSetup=47, Instance=\'SolutionDefinition\', Solution=53, VersionID=563)'='SolutionBlock4'
-	'SolutionKey(SimSetup=47, Instance=\'d=\\\'1.25mm\\\' d1=\\\'5e-006meter\\\' eps0=\\\'8.85e-012\\\' s=\\\'2.5e-011m2\\\'\', Solution=-3, VersionID=557)'='SolutionBlock9'
-$end 'BlockMapName'
 $begin 'SolutionBlock3'
 	SolutionName='LastAdaptive'
 	SolutionID=49
@@ -262,37 +293,6 @@ $begin 'SolutionBlock8'
 		$end 'SubData'
 	$end 'MI'
 $end 'SolutionBlock8'
-$begin 'SolutionBlock1'
-	ProductName='HFSS'
-	CircuitName='ecoli_cell_water'
-	VersionID=557
-	PostProcess=false
-	LossLess=true
-	NextUniqueID=756
-	MoveBackwards=false
-	$begin 'VariationIDs'
-		Map(V='d=\'1.25mm\' d1=\'5e-006meter\' eps0=\'8.85e-012\' s=\'2.5e-011m2\'', ID=555)
-	$end 'VariationIDs'
-	$begin 'LinkedDataList'
-		$begin 'LinkedData'
-			LinkID=361
-			LinkSSID=1
-			LinkVerID=0
-			$begin 'LinkedDir'
-				LD(VID=555, Ver=0, Dir='DV555_LINK361_S1_V0/')
-			$end 'LinkedDir'
-		$end 'LinkedData'
-	$end 'LinkedDataList'
-	$begin 'InitialMeshes'
-		M(VID=555, Ver=557, Dir='DV555_V557.imesh/')
-	$end 'InitialMeshes'
-	$begin 'MI'
-		$begin 'SubData'
-			ID=0
-			MI(VID=555, Ver=557, Dir='DV555_MI0_V557.sd/')
-		$end 'SubData'
-	$end 'MI'
-$end 'SolutionBlock1'
 $begin 'SolutionBlock10'
 	ConvSetupName='DrivenDeltaSConvNOV'
 	IsConverged=true
@@ -318,15 +318,15 @@ $end 'SolutionBlock9'
 $begin '$index$'
 	$begin '$index$'
 		SolutionBlock9(pos=7748, lin=297, lvl=0)
-		SolutionBlock2(pos=370, lin=1, lvl=0)
-		BlockMapName(pos=1280, lin=44, lvl=0)
-		SolutionBlock3(pos=2436, lin=56, lvl=0)
-		SolutionBlock4(pos=3091, lin=89, lvl=0)
-		SolutionBlock5(pos=3806, lin=125, lvl=0)
-		SolutionBlock6(pos=4509, lin=154, lvl=0)
-		SolutionBlock7(pos=5326, lin=193, lvl=0)
-		SolutionBlock8(pos=5984, lin=226, lvl=0)
-		SolutionBlock1(pos=6694, lin=255, lvl=0)
+		BlockMapName(pos=1124, lin=32, lvl=0)
+		SolutionBlock2(pos=2280, lin=44, lvl=0)
+		SolutionBlock3(pos=3190, lin=87, lvl=0)
+		SolutionBlock4(pos=3845, lin=120, lvl=0)
+		SolutionBlock5(pos=4560, lin=156, lvl=0)
+		SolutionBlock6(pos=5263, lin=185, lvl=0)
+		SolutionBlock7(pos=6080, lin=224, lvl=0)
+		SolutionBlock8(pos=6738, lin=257, lvl=0)
+		SolutionBlock1(pos=370, lin=1, lvl=0)
 		SolutionBlock10(pos=7448, lin=286, lvl=0)
 		$base_index$(pos=0, lin=1, lvl=0)
 		$index$(pos=8046, lin=308, lvl=0)

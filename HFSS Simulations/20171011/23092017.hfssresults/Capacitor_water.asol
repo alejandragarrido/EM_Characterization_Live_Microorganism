@@ -1,13 +1,50 @@
 $begin '$base_index$'
   $begin 'properties'
     all_levels=000000000000
-    time(year=000000002017, month=000000000010, day=000000000019, hour=000000000011, min=000000000023, sec=000000000007)
+    time(year=000000002017, month=000000000010, day=000000000023, hour=000000000011, min=000000000005, sec=000000000025)
     version=000000000000
   $end 'properties'
   $begin '$base_index$'
-    $index$(pos=000000005876, lin=000000000197, lvl=000000000000)
+    $index$(pos=000000005877, lin=000000000197, lvl=000000000000)
   $end '$base_index$'
 $end '$base_index$'
+$begin 'SolutionBlock1'
+	ProductName='HFSS'
+	CircuitName='Capacitor_water'
+	VersionID=169
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=1188
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='d=\'1.25mm\' d1=\'0.005meter\' eps0=\'8.85e-012\' s=\'0.0005m2\'', ID=1121)
+		Map(V='d=\'1.25mm\' d1=\'5e-006meter\' eps0=\'8.85e-012\' s=\'2.5e-011m2\'', ID=555)
+		Map(V='d=\'1.25mm\' d1=\'5e-006meter\' eps0=\'8.85e-012\' s=\'5cm2\'', ID=1120)
+		Map(V='d=\'1.25mm\' d1=\'5e-006meter\' eps0=\'8.85e-012\' s=\'5m2\'', ID=1119)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=555, Ver=169, Dir='DV555_V169.imesh/')
+		M(VID=1121, Ver=169, Dir='DV1121_V169.imesh/')
+	$end 'InitialMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=555, Ver=169, Dir='DV555_MI0_V169.sd/')
+			MI(VID=1121, Ver=169, Dir='DV1121_MI0_V169.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock1'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=47, Instance=\'SetupDefinition\', Solution=-1, VersionID=169)'='SolutionBlock5'
+	'SolutionKey(SimSetup=47, Instance=\'SolutionDefinition\', Solution=48, VersionID=1122)'='SolutionBlock18'
+	'SolutionKey(SimSetup=47, Instance=\'SolutionDefinition\', Solution=49, VersionID=1122)'='SolutionBlock19'
+	'SolutionKey(SimSetup=47, Instance=\'SolutionDefinition\', Solution=53, VersionID=1122)'='SolutionBlock20'
+	'SolutionKey(SimSetup=47, Instance=\'d=\\\'1.25mm\\\' d1=\\\'0.005meter\\\' eps0=\\\'8.85e-012\\\' s=\\\'0.0005m2\\\'\', Solution=-3, VersionID=169)'='SolutionBlock17'
+	'SolutionKey(SimSetup=47, Instance=\'d=\\\'1.25mm\\\' d1=\\\'5e-006meter\\\' eps0=\\\'8.85e-012\\\' s=\\\'2.5e-011m2\\\'\', Solution=-3, VersionID=169)'='SolutionBlock9'
+$end 'BlockMapName'
 $begin 'SolutionBlock5'
 	SimSetupID=47
 	SimSetupName='Setup1'
@@ -43,15 +80,34 @@ $begin 'SolutionBlock5'
 		$end 'SubData'
 	$end 'MI'
 $end 'SolutionBlock5'
-$begin 'BlockMapName'
-	FileHeader='SolutionBlock1'
-	'SolutionKey(SimSetup=47, Instance=\'SetupDefinition\', Solution=-1, VersionID=169)'='SolutionBlock5'
-	'SolutionKey(SimSetup=47, Instance=\'SolutionDefinition\', Solution=48, VersionID=1122)'='SolutionBlock18'
-	'SolutionKey(SimSetup=47, Instance=\'SolutionDefinition\', Solution=49, VersionID=1122)'='SolutionBlock19'
-	'SolutionKey(SimSetup=47, Instance=\'SolutionDefinition\', Solution=53, VersionID=1122)'='SolutionBlock20'
-	'SolutionKey(SimSetup=47, Instance=\'d=\\\'1.25mm\\\' d1=\\\'0.005meter\\\' eps0=\\\'8.85e-012\\\' s=\\\'0.0005m2\\\'\', Solution=-3, VersionID=169)'='SolutionBlock17'
-	'SolutionKey(SimSetup=47, Instance=\'d=\\\'1.25mm\\\' d1=\\\'5e-006meter\\\' eps0=\\\'8.85e-012\\\' s=\\\'2.5e-011m2\\\'\', Solution=-3, VersionID=169)'='SolutionBlock9'
-$end 'BlockMapName'
+$begin 'SolutionBlock20'
+	SolutionName='Sweep'
+	SolutionID=53
+	V=1122
+	$begin 'States'
+		F(VID=1121, Ver=1122)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=true
+		SweepDefType='LIN'
+		StartFreq=10000
+		StopFreq=1000000000
+		StepSize=10100909.09090909
+		SolutionType=5
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=0
+	KeepAllFastSweepFields=false
+	$begin 'M'
+		$begin 'SubData'
+			ID=0
+			M(VID=1121, Ver=1122, File='DV1121_SOL53_M0_V1122.sd')
+		$end 'SubData'
+	$end 'M'
+$end 'SolutionBlock20'
 $begin 'SolutionBlock18'
 	SolutionName='AdaptivePass'
 	SolutionID=48
@@ -124,62 +180,6 @@ $begin 'SolutionBlock19'
 		$end 'DataMap'
 	$end 'Fields'
 $end 'SolutionBlock19'
-$begin 'SolutionBlock20'
-	SolutionName='Sweep'
-	SolutionID=53
-	V=1122
-	$begin 'States'
-		F(VID=1121, Ver=1122)
-	$end 'States'
-	$begin 'Definition'
-		SamplingInterpolation=true
-		SweepDefType='LIN'
-		StartFreq=10000
-		StopFreq=1000000000
-		StepSize=10100909.09090909
-		SolutionType=5
-		CenterFreq=0
-	$end 'Definition'
-	IsImported=false
-	IsTable=false
-	IsMatrixDataTable=false
-	SweepID=0
-	KeepAllFastSweepFields=true
-	$begin 'M'
-		$begin 'SubData'
-			ID=0
-			M(VID=1121, Ver=1122, File='DV1121_SOL53_M0_V1122.sd')
-		$end 'SubData'
-	$end 'M'
-$end 'SolutionBlock20'
-$begin 'SolutionBlock1'
-	ProductName='HFSS'
-	CircuitName='Capacitor_water'
-	VersionID=169
-	PostProcess=false
-	LossLess=true
-	NextUniqueID=1150
-	MoveBackwards=false
-	$begin 'VariationIDs'
-		Map(V='d=\'1.25mm\' d1=\'0.005meter\' eps0=\'8.85e-012\' s=\'0.0005m2\'', ID=1121)
-		Map(V='d=\'1.25mm\' d1=\'5e-006meter\' eps0=\'8.85e-012\' s=\'2.5e-011m2\'', ID=555)
-		Map(V='d=\'1.25mm\' d1=\'5e-006meter\' eps0=\'8.85e-012\' s=\'5cm2\'', ID=1120)
-		Map(V='d=\'1.25mm\' d1=\'5e-006meter\' eps0=\'8.85e-012\' s=\'5m2\'', ID=1119)
-	$end 'VariationIDs'
-	$begin 'LinkedDataList'
-	$end 'LinkedDataList'
-	$begin 'InitialMeshes'
-		M(VID=555, Ver=169, Dir='DV555_V169.imesh/')
-		M(VID=1121, Ver=169, Dir='DV1121_V169.imesh/')
-	$end 'InitialMeshes'
-	$begin 'MI'
-		$begin 'SubData'
-			ID=0
-			MI(VID=555, Ver=169, Dir='DV555_MI0_V169.sd/')
-			MI(VID=1121, Ver=169, Dir='DV1121_MI0_V169.sd/')
-		$end 'SubData'
-	$end 'MI'
-$end 'SolutionBlock1'
 $begin 'SolutionBlock17'
 	ConvSetupName='DrivenDeltaSConvNOV'
 	IsConverged=true
@@ -206,15 +206,15 @@ $begin 'SolutionBlock9'
 $end 'SolutionBlock9'
 $begin '$index$'
 	$begin '$index$'
-		SolutionBlock9(pos=5523, lin=185, lvl=0)
-		BlockMapName(pos=1350, lin=36, lvl=0)
-		SolutionBlock18(pos=2188, lin=45, lvl=0)
-		SolutionBlock19(pos=3023, lin=84, lvl=0)
-		SolutionBlock20(pos=3712, lin=117, lvl=0)
-		SolutionBlock5(pos=370, lin=1, lvl=0)
-		SolutionBlock1(pos=4274, lin=145, lvl=0)
-		SolutionBlock17(pos=5199, lin=173, lvl=0)
+		SolutionBlock9(pos=5524, lin=185, lvl=0)
+		BlockMapName(pos=1295, lin=29, lvl=0)
+		SolutionBlock18(pos=3676, lin=101, lvl=0)
+		SolutionBlock19(pos=4511, lin=140, lvl=0)
+		SolutionBlock20(pos=3113, lin=73, lvl=0)
+		SolutionBlock5(pos=2133, lin=38, lvl=0)
+		SolutionBlock1(pos=370, lin=1, lvl=0)
+		SolutionBlock17(pos=5200, lin=173, lvl=0)
 		$base_index$(pos=0, lin=1, lvl=0)
-		$index$(pos=5876, lin=197, lvl=0)
+		$index$(pos=5877, lin=197, lvl=0)
 	$end '$index$'
 $end '$index$'

@@ -310,4 +310,23 @@ $begin 'Profile'
 		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
 		ProfileTask('Solution Process', 0, 0, 0, 0, 0, 'Elapsed time : 00:00:00 , Hfss ComEngine Memory : 76.7 M', false, true)
 	$end 'ProfileGroup'
+	$begin 'ProfileGroup'
+		StartInfo='Time:  10/23/2017 09:49:03, Host EEFANT36, HFSS Version 13.0.0'
+		TotalInfo='Time:  10/23/2017 09:49:03, Status: Normal Completion'
+		ProfileTask('', 0, 0, 0, 0, 0, 'Desired RAM limit not set.', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'Solution Basis Order: 1', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Adaptive Process', 0, 0, 0, 0, 0, 'Elapsed time : 00:00:00 , Hfss ComEngine Memory : 76.6 M', false, true)
+	$end 'ProfileGroup'
+	$begin 'ProfileGroup'
+		StartInfo='Time:  10/23/2017 09:49:03, Host EEFANT36, HFSS Version 13.0.0'
+		TotalInfo='Time:  10/23/2017 09:49:03, Status: Normal Completion'
+		ProfileTask('', 0, 0, 0, 0, 0, 'Desired RAM limit not set.', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'Solution Basis Order: 1', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Solution Sweep', 0, 0, 0, 0, 0, 'Interpolating Sweep', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'From 1E-005 GHz to 1 GHz, 99 Steps', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Solution Process', 0, 0, 0, 0, 0, 'Elapsed time : 00:00:00 , Hfss ComEngine Memory : 76.8 M', false, true)
+	$end 'ProfileGroup'
 $end 'Profile'
