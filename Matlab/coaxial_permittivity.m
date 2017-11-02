@@ -1,4 +1,11 @@
 %% Coaxial phisic parameters
+% Frequency range
+f_min=1e4;                  %[Hz]       10kHz
+f_max=3e9;                  %[Hz]       1GHz
+N_f=101;
+freq = logspace(log10(f_min),log10(f_max),N_f);
+w = 2*pi.*freq;
+
 r_cob = 6;                                      % [mm] radi ext coaxial
 z_cox = 50;                                     % [ohms] vacuum impedance
 r_coa = r_cob/(exp(z_cox/60));
@@ -34,10 +41,29 @@ cylinder(r_coa);
 
 %% TEM waves coaxial propagation
 % e^-jkz = e^-j*bet*z*e^alf*z
+z = 3e-3;
 c = 3e8;                                %[m/s] light speed
-b = 2*pi.*f.*(sqrt(e_rea))/c;           % beta
-a = 60*pi*sgm./sqrt(e_rea);              % alfa
-S21 = exp(-1i*b*z).*exp(-a*z);           % S parameter (2->1)
+% Load permitivities 
+%%%%%%% WATER %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+e_rea_w = e_rea_wat;
+sgm_w = eps_0*e_img_wat.*w;
+
+b_wat = w.*(sqrt(e_rea_w))/c;                       % beta
+a_wat = 60*pi*sgm_w./sqrt(e_rea_w);                 % alfa
+S21_wat = exp(-1i.*b_wat.*z).*exp(-a_wat.*z);           % S parameter (2->1)
+
+%%%%%%%% CULTURE MEDIUM %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+e_rea_c = eps_rea_cul;
+
+b_cul = w.*(sqrt(e_rea_c))/c;                       % beta
+a_cul = 60*pi*sgm_cul./sqrt(e_rea_c);               % alfa
+S21_cul = exp(-1i.*b_cul.*z).*exp(-a_cul.*z);           % S parameter (2->1)
+
+%%%%%%%% VACUUM  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+b_vac = w.*(sqrt(eps_0))/c;                       % beta
+a_vac = 60*pi*0./sqrt(eps_0);               % alfa
+S21_vac = exp(-1i.*b_vac.*z).*exp(-a_vac.*z);           % S parameter (2->1)
 
 
 

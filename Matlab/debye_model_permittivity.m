@@ -3,11 +3,6 @@
 eps_0 = 8.85e-12;               %[F/m]      Free space permittivity
 d = 0.5e-3;                     %[m]        Distance between plates
 S = 0.0005;                     %[m2]       Plate surface
-% Frequency range
-f_min=1e4;                  %[Hz]       10kHz
-f_max=3e9;                  %[Hz]       1GHz
-N_f=101;
-freq = logspace(log10(f_min),log10(f_max),N_f);
 
 %Dielectric parameters Debye Model
 eps_infinite = 80*eps_0;        %           Permittivity at upper frequency
