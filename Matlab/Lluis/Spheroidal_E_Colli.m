@@ -7,7 +7,7 @@ close all
 % Frequency range
 f_min=1*1e4;
 f_max=3.0*1e9;
-N_f=5001;
+N_f=101;
 %del_f=(f_max-f_min)/(N_f-1);
 eps_ssp(1:N_f)=0+0*1i;
 Frq=logspace(log10(f_min),log10(f_max),N_f);

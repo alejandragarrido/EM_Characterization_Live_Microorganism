@@ -45,8 +45,8 @@ z = 3e-3;
 c = 3e8;                                %[m/s] light speed
 % Load permitivities 
 %%%%%%% WATER %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-e_rea_w = e_rea_wat;
-sgm_w = eps_0*e_img_wat.*w;
+e_rea_w = eps_real_w;
+sgm_w = eps_0*eps_imag_w.*w;
 
 b_wat = w.*(sqrt(e_rea_w))/c;                       % beta
 a_wat = 60*pi*sgm_w./sqrt(e_rea_w);                 % alfa
@@ -61,10 +61,16 @@ S21_cul = exp(-1i.*b_cul.*z).*exp(-a_cul.*z);           % S parameter (2->1)
 
 %%%%%%%% VACUUM  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-b_vac = w.*(sqrt(eps_0))/c;                       % beta
+b_vac = w.*(sqrt(eps_0))./c;                       % beta
 a_vac = 60*pi*0./sqrt(eps_0);               % alfa
 S21_vac = exp(-1i.*b_vac.*z).*exp(-a_vac.*z);           % S parameter (2->1)
 
+
+%%%%%% S21_water - S21_culture || S21_vacuum - S21_culture %%%%%%%%%%%%%%%%
+%Falta cambiar las dimensiones de los vectores
+
+dif_cul_vac = (S21_cul - S21_vac);
+dif_cul_wat = (S21_cul - S21_wat);
 
 
 
