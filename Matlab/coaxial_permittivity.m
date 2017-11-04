@@ -69,9 +69,23 @@ S21_vac = exp(-1i.*b_vac.*z).*exp(-a_vac.*z);           % S parameter (2->1)
 %%%%%% S21_water - S21_culture || S21_vacuum - S21_culture %%%%%%%%%%%%%%%%
 %Falta cambiar las dimensiones de los vectores
 
-dif_cul_vac = (S21_cul - S21_vac);
-dif_cul_wat = (S21_cul - S21_wat);
+dif_cul_vac = abs(S21_cul - S21_vac);
+dif_cul_wat = abs(S21_cul - S21_wat);
 
+figure('Name', 'S21 en el vacio');
+plot(freq, S21_vac);
+
+figure('Name', 'S21 con el cultivo');
+plot(freq,S21_cul);
+
+figure ('Name', 'S21 con agua');
+plot(freq,S21_wat);
+
+figure('Name', 'Diferencia vacio - cultivo');
+plot(freq, dif_cul_vac);
+
+figure('Name', 'Diferencia vacio - water');
+plot(freq, dif_cul_wat);
 
 
 %
