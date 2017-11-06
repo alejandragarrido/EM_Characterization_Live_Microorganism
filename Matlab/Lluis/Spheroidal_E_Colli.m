@@ -88,8 +88,5 @@ semilogx(X, eps_rea)
 figure('Name', 'sigma');
 semilogx(X,-sgm)
 
-save('eps_rea.mat', eps_rea);
-save('sgm.mat',sgm);
-
 
 
