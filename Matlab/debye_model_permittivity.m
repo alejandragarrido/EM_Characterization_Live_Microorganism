@@ -6,7 +6,7 @@ S = 0.0005;                     %[m2]       Plate surface
 
 %Dielectric parameters Debye Model
 eps_infinite = 80*eps_0;        %           Permittivity at upper frequency
-eps_static = 1.9e7*eps_0;      %           Permittivity at DC
+eps_static = 1.9e7*eps_0;      %            Permittivity at DC
 % eps_static = 81;
 conductivity = 15e-6;          %[S/m]      Conducttivity
 % conductivity = 0;               %[S/m]      Conducttivity
