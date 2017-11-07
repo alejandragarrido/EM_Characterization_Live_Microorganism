@@ -77,7 +77,7 @@ Num_1(n_f)=(((2/9)*vol_rt)*((eps_inx(n_f))+(eps_iny(n_f))+(eps_inz(n_f))));
 Den_1(n_f)=((vol_rt/9)*(eps_inx(n_f)+eps_iny(n_f)+eps_inz(n_f)));
 eps_ssp_1(n_f)=eps_md(n_f)*(Num_1(n_f)+1)/(1-Den_1(n_f));
 eps_rea(n_f)=real (eps_ssp(n_f));
-sgm(n_f)=imag(eps_ssp(n_f)*2*pi*frq*eps_0);
+sgm(n_f)=-imag(eps_ssp(n_f)*2*pi*frq*eps_0);
 %eps_ssp(n_f)=eps_md(n_f)*(((2/9)*vol_rt)*((eps_inx(n_f)+1)+(eps_iny(n_f)+1)+(eps_inz(n_f)+1))+1)/(1-((vol_rt/9)*(eps_inx(n_f)+eps_iny(n_f)+eps_inz(n_f))))
 end
 save
@@ -86,7 +86,7 @@ figure('Name', 'eps_real');
 semilogx(X, eps_rea)
 
 figure('Name', 'sigma');
-semilogx(X,-sgm)
+semilogx(X,sgm)
 
 
 
