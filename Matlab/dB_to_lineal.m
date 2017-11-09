@@ -1,5 +1,7 @@
-%%Script to plot S21 linear.
-freq = FreqGHz*10^9;
-S12 = 10.^(dBS12./10);
-figure
-plot(freq, S12);
+function [ output_lineal ] = dB_to_lineal( input_dB )
+%UNTITLED3 Summary of this function goes here
+%   Detailed explanation goes here
+output_lineal = 10.^(input_dB./10);
+
+end
+

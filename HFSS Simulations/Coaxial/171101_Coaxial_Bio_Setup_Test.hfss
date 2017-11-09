@@ -153,7 +153,7 @@ $begin 'AnsoftProject'
 			WorkingCS=1
 			$begin 'GeometryCore'
 				BlockVersionID=3
-				DataVersion=61
+				DataVersion=62
 				NativeKernel='ACIS'
 				NativeKernelVersionID=4
 				Units='mm'
@@ -1602,7 +1602,7 @@ $begin 'AnsoftProject'
 			WorkingCS=1
 			$begin 'GeometryCore'
 				BlockVersionID=3
-				DataVersion=70
+				DataVersion=71
 				NativeKernel='ACIS'
 				NativeKernelVersionID=4
 				Units='mm'
@@ -5710,8 +5710,8 @@ $begin 'AnsoftProject'
 					ID=86
 					Name='Sweep'
 					$begin 'SimDataExtractor'
-						SimValue('S(1,1)', 2, 90, false, SimValueID=357, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('S(1,2)', 2, 90, false, SimValueID=358, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('S(1,1)', 2, 90, false, SimValueID=394, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('S(1,2)', 2, 90, false, SimValueID=395, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
 						$begin 'Sweeps'
 							$begin 'PostprocessSweep'
 								Variable='Freq'
@@ -5828,7 +5828,7 @@ $begin 'AnsoftProject'
 			WorkingCS=1
 			$begin 'GeometryCore'
 				BlockVersionID=3
-				DataVersion=70
+				DataVersion=71
 				NativeKernel='ACIS'
 				NativeKernelVersionID=4
 				Units='mm'
@@ -9936,9 +9936,8 @@ $begin 'AnsoftProject'
 					ID=86
 					Name='Sweep'
 					$begin 'SimDataExtractor'
-						SimValue('S(1,1)', 2, 90, false, SimValueID=348, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('S(1,2)', 2, 90, false, SimValueID=349, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('S(2,1)', 2, 90, false, SimValueID=370, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('S(1,1)', 2, 90, false, SimValueID=386, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('S(1,2)', 2, 90, false, SimValueID=387, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
 						$begin 'Sweeps'
 							$begin 'PostprocessSweep'
 								Variable='Freq'
@@ -10055,7 +10054,7 @@ $begin 'AnsoftProject'
 			WorkingCS=1
 			$begin 'GeometryCore'
 				BlockVersionID=3
-				DataVersion=71
+				DataVersion=72
 				NativeKernel='ACIS'
 				NativeKernelVersionID=4
 				Units='mm'
@@ -14163,8 +14162,8 @@ $begin 'AnsoftProject'
 					ID=86
 					Name='Sweep'
 					$begin 'SimDataExtractor'
-						SimValue('S(1,1)', 2, 90, false, SimValueID=347, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('S(1,2)', 2, 90, false, SimValueID=348, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('S(1,1)', 2, 90, false, SimValueID=384, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('S(1,2)', 2, 90, false, SimValueID=385, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
 						$begin 'Sweeps'
 							$begin 'PostprocessSweep'
 								Variable='Freq'
@@ -14281,7 +14280,7 @@ $begin 'AnsoftProject'
 			WorkingCS=1
 			$begin 'GeometryCore'
 				BlockVersionID=3
-				DataVersion=71
+				DataVersion=72
 				NativeKernel='ACIS'
 				NativeKernelVersionID=4
 				Units='mm'
@@ -18224,8 +18223,6 @@ $begin 'AnsoftProject'
 			$begin 'PlotDefaults'
 				Default_SolutionId=82
 				Default_PlotFolder='Automatic'
-				Default_Phase='0deg'
-				Default_Freq='1GHz'
 			$end 'PlotDefaults'
 			$begin 'FieldsPlotManagerID'
 				NextUniqueID=0
@@ -18391,8 +18388,8 @@ $begin 'AnsoftProject'
 					ID=86
 					Name='Sweep'
 					$begin 'SimDataExtractor'
-						SimValue('S(1,1)', 2, 90, false, SimValueID=305, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('S(1,2)', 2, 90, false, SimValueID=306, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('S(1,1)', 2, 90, false, SimValueID=360, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('S(1,2)', 2, 90, false, SimValueID=361, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
 						$begin 'Sweeps'
 							$begin 'PostprocessSweep'
 								Variable='Freq'
@@ -18509,7 +18506,7 @@ $begin 'AnsoftProject'
 			WorkingCS=1
 			$begin 'GeometryCore'
 				BlockVersionID=3
-				DataVersion=71
+				DataVersion=72
 				NativeKernel='ACIS'
 				NativeKernelVersionID=4
 				Units='mm'
@@ -22615,8 +22612,8 @@ $begin 'AnsoftProject'
 					ID=86
 					Name='Sweep'
 					$begin 'SimDataExtractor'
-						SimValue('S(1,1)', 2, 90, false, SimValueID=329, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('S(1,2)', 2, 90, false, SimValueID=330, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('S(1,1)', 2, 90, false, SimValueID=361, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('S(1,2)', 2, 90, false, SimValueID=362, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
 						$begin 'Sweeps'
 							$begin 'PostprocessSweep'
 								Variable='Freq'
@@ -22691,7 +22688,7 @@ $begin 'AnsoftProject'
 		Notes=$begin_cdata$		$end_cdata$
 		$begin 'AnimationSetups'
 		$end 'AnimationSetups'
-		CacheHeaderFile='HDR4E565952151004697615.tmp'
+		CacheHeaderFile='HDR1559587615102231273.tmp'
 	$end 'HFSSModel'
 	$begin 'DataInstances'
 		$begin 'Instance'
@@ -22700,7 +22697,7 @@ $begin 'AnsoftProject'
 				DesignInstanceID=7
 				$begin 'WindowPosition'
 					$begin 'EditorWindow'
-						'3D Modeler'(Editor3d(View(WindowPos(5, -1, -1, -8, -31, 182, 182, 1091, 601), OrientationMatrix(-0.00481070205569267, -0.00771428551524878, 0.0121973557397723, 0, 0.014432106167078, -0.00257142866030335, 0.00406578602269292, 0, 2.48906451005837e-010, 0.0128571419045329, 0.00813157204538584, 0, -1.19209289550781e-007, 0, -5.49118328094482, 1, 0, -1.77663826942444, 1.87506175041199, -1.073166847229, 1.17403316497803, 0.733389377593994, 10.2489776611328), Drawings[20: 'Coax_Out_Inn_Cond', 'Coax_Inn_Out_Cond', 'Coax_Out_Out_Cond', 'Coax_Dwn_Cone_Inn_Out_Cond', 'Coax_Upp_Cone_Inn_Out_Cond', 'Coax_Dwn_Cone_Out_Out_Cond', 'Coax_Upp_Cone_Out_Inn_Cond', 'Coax_Dwn_Cone_Out_Inn_Cond', 'Coax_Upp_Cone_Out_Out_Cond', 'Coax_SMA_Upp_Out_Inn_Cond', 'Coax_SMA_Upp_Inn_Out_Cond', 'Coax_SMA_Upp_Out_Out_Cond', 'Coax_SMA_Dwn_Out_Inn_Cond', 'Coax_SMA_Dwn_Inn_Out_Cond', 'Coax_SMA_Dwn_Out_Out_Cond', 'Samp_Hold_Out_Inn_Pls', 'Samp_Hold_Inn_Inn_Pls', 'Samp_Hold_Inn_Out_Pls', 'Samp_Hold_Out_Out_Pls', 'Samp_Hold_Base_Pls'], 'View Data'('Render Mode'=1, 'Show Ruler'=1), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
+						'3D Modeler'(Editor3d(View(WindowPos(3, -1, -1, -8, -31, 182, 182, 1091, 601), OrientationMatrix(-0.00481070205569267, -0.00771428551524878, 0.0121973557397723, 0, 0.014432106167078, -0.00257142866030335, 0.00406578602269292, 0, 2.48906451005837e-010, 0.0128571419045329, 0.00813157204538584, 0, -1.19209289550781e-007, 0, -5.49118328094482, 1, 0, -0.723682582378387, 0.519119739532471, 0.0827618911862373, 0.785467743873596, 0.733389377593994, 10.2489776611328), Drawings[20: 'Coax_Out_Inn_Cond', 'Coax_Inn_Out_Cond', 'Coax_Out_Out_Cond', 'Coax_Dwn_Cone_Inn_Out_Cond', 'Coax_Upp_Cone_Inn_Out_Cond', 'Coax_Dwn_Cone_Out_Out_Cond', 'Coax_Upp_Cone_Out_Inn_Cond', 'Coax_Dwn_Cone_Out_Inn_Cond', 'Coax_Upp_Cone_Out_Out_Cond', 'Coax_SMA_Upp_Out_Inn_Cond', 'Coax_SMA_Upp_Inn_Out_Cond', 'Coax_SMA_Upp_Out_Out_Cond', 'Coax_SMA_Dwn_Out_Inn_Cond', 'Coax_SMA_Dwn_Inn_Out_Cond', 'Coax_SMA_Dwn_Out_Out_Cond', 'Samp_Hold_Out_Inn_Pls', 'Samp_Hold_Inn_Inn_Pls', 'Samp_Hold_Inn_Out_Pls', 'Samp_Hold_Out_Out_Pls', 'Samp_Hold_Base_Pls'], 'View Data'('Render Mode'=1, 'Show Ruler'=1), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
 					$end 'EditorWindow'
 				$end 'WindowPosition'
 				$begin 'ReportSetup'
@@ -23790,6 +23787,30 @@ $begin 'AnsoftProject'
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -24889,6 +24910,30 @@ $begin 'AnsoftProject'
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -24926,60 +24971,6 @@ $begin 'AnsoftProject'
 						$end 'S21 Vacuum'
 					$end 'Reports'
 					$begin 'ReportsWindowInfoList'
-						$begin 'S11 Vacuum'
-							ReportID=1
-							$begin 'WindowInfoList'
-								$begin 'Report2D'
-									$begin 'ViewInfo'
-										$begin 'WrapperView'
-											ID(40)
-										$end 'WrapperView'
-										$begin 'WrapperDoc'
-											HiddenDrawings()
-											$begin 'DispType'
-												PlotType=1
-												$begin 'CurveMed'
-													$begin 'MedCamera'
-														$begin 'svrc'
-															svid=4
-															view(40, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 4.59184627412124e-039, 5.23470035242104e-039)))
-														$end 'svrc'
-													$end 'MedCamera'
-												$end 'CurveMed'
-											$end 'DispType'
-										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -8, -31, 78, 78, 1239, 574))
-									$end 'ViewInfo'
-								$end 'Report2D'
-							$end 'WindowInfoList'
-						$end 'S11 Vacuum'
-						$begin 'S21 Vacuum'
-							ReportID=4
-							$begin 'WindowInfoList'
-								$begin 'Report2D'
-									$begin 'ViewInfo'
-										$begin 'WrapperView'
-											ID(48)
-										$end 'WrapperView'
-										$begin 'WrapperDoc'
-											HiddenDrawings()
-											$begin 'DispType'
-												PlotType=1
-												$begin 'CurveMed'
-													$begin 'MedCamera'
-														$begin 'svrc'
-															svid=4
-															view(48, cam(XYCam(false, true, true, true, -0.195755556225777, 1.22276449203491, -0.335173487663269, 1.08334720134735, 0, 1, 0, 1, 6.0493963270376e+028, 1.10220088473949e+024)))
-														$end 'svrc'
-													$end 'MedCamera'
-												$end 'CurveMed'
-											$end 'DispType'
-										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -8, -31, 52, 52, 1213, 548))
-									$end 'ViewInfo'
-								$end 'Report2D'
-							$end 'WindowInfoList'
-						$end 'S21 Vacuum'
 					$end 'ReportsWindowInfoList'
 				$end 'ReportSetup'
 			$end 'HfssDesignInstance'
@@ -24990,7 +24981,7 @@ $begin 'AnsoftProject'
 				DesignInstanceID=15
 				$begin 'WindowPosition'
 					$begin 'EditorWindow'
-						'3D Modeler'(Editor3d(View(WindowPos(5, -1, -1, -8, -31, 52, 52, 1213, 548), OrientationMatrix(-0.00481070205569267, -0.00771428551524878, 0.0121973557397723, 0, 0.014432106167078, -0.00257142866030335, 0.00406578602269292, 0, 2.48906451005837e-010, 0.0128571419045329, 0.00813157204538584, 0, 0, 0, -5.49118375778198, 1, 0, -1.67549669742584, 1.67549669742584, -1, 1, 0.733389377593994, 10.2489776611328), Drawings[7: 'Coax_Inn_Cond', 'Coax_SMA_Upp_Out_Out_Cond', 'Samp_Hold', 'Samp_Hold_Base_Pls', 'Coax_Air', 'Coax_Air_Sacrif', 'Samp_Hold_Out_Inn_Pls_Sacrif_6_3'], 'View Data'('Render Mode'=1, 'Show Ruler'=1), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
+						'3D Modeler'(Editor3d(View(WindowPos(5, -1, -1, -8, -31, 52, 52, 1213, 548), OrientationMatrix(-0.00481070205569267, -0.00771428551524878, 0.0121973557397723, 0, 0.014432106167078, -0.00257142866030335, 0.00406578602269292, 0, 2.48906451005837e-010, 0.0128571419045329, 0.00813157204538584, 0, 0, 0, -5.49118375778198, 1, 0, -2.2825608253479, 2.2825608253479, -1, 1, 0.733389377593994, 10.2489776611328), Drawings[7: 'Coax_Inn_Cond', 'Coax_SMA_Upp_Out_Out_Cond', 'Samp_Hold', 'Samp_Hold_Base_Pls', 'Coax_Air', 'Coax_Air_Sacrif', 'Samp_Hold_Out_Inn_Pls_Sacrif_6_3'], 'View Data'('Render Mode'=1, 'Show Ruler'=1), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
 					$end 'EditorWindow'
 				$end 'WindowPosition'
 				$begin 'ReportSetup'
@@ -26053,6 +26044,30 @@ $begin 'AnsoftProject'
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -27152,6 +27167,30 @@ $begin 'AnsoftProject'
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -27189,60 +27228,6 @@ $begin 'AnsoftProject'
 						$end 'S21 Sea Water'
 					$end 'Reports'
 					$begin 'ReportsWindowInfoList'
-						$begin 'S11 Sea Water'
-							ReportID=1
-							$begin 'WindowInfoList'
-								$begin 'Report2D'
-									$begin 'ViewInfo'
-										$begin 'WrapperView'
-											ID(40)
-										$end 'WrapperView'
-										$begin 'WrapperDoc'
-											HiddenDrawings()
-											$begin 'DispType'
-												PlotType=1
-												$begin 'CurveMed'
-													$begin 'MedCamera'
-														$begin 'svrc'
-															svid=4
-															view(40, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 1.0430582619847e-008, 1.03013630611826e-011)))
-														$end 'svrc'
-													$end 'MedCamera'
-												$end 'CurveMed'
-											$end 'DispType'
-										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -8, -31, 234, 234, 1395, 730))
-									$end 'ViewInfo'
-								$end 'Report2D'
-							$end 'WindowInfoList'
-						$end 'S11 Sea Water'
-						$begin 'S21 Sea Water'
-							ReportID=4
-							$begin 'WindowInfoList'
-								$begin 'Report2D'
-									$begin 'ViewInfo'
-										$begin 'WrapperView'
-											ID(48)
-										$end 'WrapperView'
-										$begin 'WrapperDoc'
-											HiddenDrawings()
-											$begin 'DispType'
-												PlotType=1
-												$begin 'CurveMed'
-													$begin 'MedCamera'
-														$begin 'svrc'
-															svid=4
-															view(48, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 1.79594782379261e+022, 205030481199104)))
-														$end 'svrc'
-													$end 'MedCamera'
-												$end 'CurveMed'
-											$end 'DispType'
-										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -8, -31, 208, 208, 1369, 704))
-									$end 'ViewInfo'
-								$end 'Report2D'
-							$end 'WindowInfoList'
-						$end 'S21 Sea Water'
 					$end 'ReportsWindowInfoList'
 				$end 'ReportSetup'
 			$end 'HfssDesignInstance'
@@ -27253,7 +27238,7 @@ $begin 'AnsoftProject'
 				DesignInstanceID=17
 				$begin 'WindowPosition'
 					$begin 'EditorWindow'
-						'3D Modeler'(Editor3d(View(WindowPos(3, -1, -1, -8, -31, 78, 78, 1239, 574), OrientationMatrix(-0.00481070205569267, -0.00771428551524878, 0.0121973557397723, 0, 0.014432106167078, -0.00257142866030335, 0.00406578602269292, 0, 2.48906451005837e-010, 0.0128571419045329, 0.00813157204538584, 0, 0, 0, -5.49118375778198, 1, 0, -1.19283747673035, 1.19283747673035, -1, 1, 0.733389377593994, 10.2489776611328), Drawings[7: 'Coax_Inn_Cond', 'Coax_SMA_Upp_Out_Out_Cond', 'Samp_Hold', 'Samp_Hold_Base_Pls', 'Coax_Air', 'Coax_Air_Sacrif', 'Samp_Hold_Out_Inn_Pls_Sacrif_6_3'], 'View Data'('Render Mode'=1, 'Show Ruler'=1), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
+						'3D Modeler'(Editor3d(View(WindowPos(5, -1, -1, -8, -31, 78, 78, 1239, 574), OrientationMatrix(-0.00481070205569267, -0.00771428551524878, 0.0121973557397723, 0, 0.014432106167078, -0.00257142866030335, 0.00406578602269292, 0, 2.48906451005837e-010, 0.0128571419045329, 0.00813157204538584, 0, 0, 0, -5.49118375778198, 1, 0, -1.77483439445496, 1.77483439445496, -1, 1, 0.733389377593994, 10.2489776611328), Drawings[7: 'Coax_Inn_Cond', 'Coax_SMA_Upp_Out_Out_Cond', 'Samp_Hold', 'Samp_Hold_Base_Pls', 'Coax_Air', 'Coax_Air_Sacrif', 'Samp_Hold_Out_Inn_Pls_Sacrif_6_3'], 'View Data'('Render Mode'=1, 'Show Ruler'=1), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
 					$end 'EditorWindow'
 				$end 'WindowPosition'
 				$begin 'ReportSetup'
@@ -28316,6 +28301,30 @@ $begin 'AnsoftProject'
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -29415,6 +29424,30 @@ $begin 'AnsoftProject'
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -29452,60 +29485,6 @@ $begin 'AnsoftProject'
 						$end 'S21 with Distilled Water'
 					$end 'Reports'
 					$begin 'ReportsWindowInfoList'
-						$begin 'S11 Distilled Water'
-							ReportID=1
-							$begin 'WindowInfoList'
-								$begin 'Report2D'
-									$begin 'ViewInfo'
-										$begin 'WrapperView'
-											ID(40)
-										$end 'WrapperView'
-										$begin 'WrapperDoc'
-											HiddenDrawings()
-											$begin 'DispType'
-												PlotType=1
-												$begin 'CurveMed'
-													$begin 'MedCamera'
-														$begin 'svrc'
-															svid=4
-															view(40, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 4.59184627412124e-039, 5.23470035242104e-039)))
-														$end 'svrc'
-													$end 'MedCamera'
-												$end 'CurveMed'
-											$end 'DispType'
-										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -8, -31, 156, 156, 1317, 652))
-									$end 'ViewInfo'
-								$end 'Report2D'
-							$end 'WindowInfoList'
-						$end 'S11 Distilled Water'
-						$begin 'S21 with Distilled Water'
-							ReportID=4
-							$begin 'WindowInfoList'
-								$begin 'Report2D'
-									$begin 'ViewInfo'
-										$begin 'WrapperView'
-											ID(48)
-										$end 'WrapperView'
-										$begin 'WrapperDoc'
-											HiddenDrawings()
-											$begin 'DispType'
-												PlotType=1
-												$begin 'CurveMed'
-													$begin 'MedCamera'
-														$begin 'svrc'
-															svid=4
-															view(48, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 6.04722262174554e+028, 4.2322616904711e+021)))
-														$end 'svrc'
-													$end 'MedCamera'
-												$end 'CurveMed'
-											$end 'DispType'
-										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -8, -31, 182, 182, 1343, 678))
-									$end 'ViewInfo'
-								$end 'Report2D'
-							$end 'WindowInfoList'
-						$end 'S21 with Distilled Water'
 					$end 'ReportsWindowInfoList'
 				$end 'ReportSetup'
 			$end 'HfssDesignInstance'
@@ -29516,7 +29495,7 @@ $begin 'AnsoftProject'
 				DesignInstanceID=19
 				$begin 'WindowPosition'
 					$begin 'EditorWindow'
-						'3D Modeler'(Editor3d(View(WindowPos(5, -1, -1, -8, -31, 104, 104, 1265, 600), OrientationMatrix(-0.00481070205569267, -0.00771428551524878, 0.0121973557397723, 0, 0.014432106167078, -0.00257142866030335, 0.00406578602269292, 0, 2.48906451005837e-010, 0.0128571419045329, 0.00813157204538584, 0, 0, 0, -5.49118423461914, 1, 0, -0.871683299541473, 0.922005534172058, -0.097292423248291, 0.846425414085388, 0.733389377593994, 10.2489776611328), Drawings[7: 'Coax_Inn_Cond', 'Coax_SMA_Upp_Out_Out_Cond', 'Samp_Hold', 'Samp_Hold_Base_Pls', 'Coax_Air', 'Coax_Air_Sacrif', 'Samp_Hold_Out_Inn_Pls_Sacrif_6_3'], 'View Data'('Render Mode'=1, 'Show Ruler'=1), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
+						'3D Modeler'(Editor3d(View(WindowPos(5, -1, -1, -8, -31, 104, 104, 1265, 600), OrientationMatrix(-0.00481070205569267, -0.00771428551524878, 0.0121973557397723, 0, 0.014432106167078, -0.00257142866030335, 0.00406578602269292, 0, 2.48906451005837e-010, 0.0128571419045329, 0.00813157204538584, 0, 0, 0, -5.49118423461914, 1, 0, -1.07266688346863, 1.53354227542877, -0.221888542175293, 1.19711709022522, 0.733389377593994, 10.2489776611328), Drawings[7: 'Coax_Inn_Cond', 'Coax_SMA_Upp_Out_Out_Cond', 'Samp_Hold', 'Samp_Hold_Base_Pls', 'Coax_Air', 'Coax_Air_Sacrif', 'Samp_Hold_Out_Inn_Pls_Sacrif_6_3'], 'View Data'('Render Mode'=1, 'Show Ruler'=1), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
 					$end 'EditorWindow'
 				$end 'WindowPosition'
 				$begin 'ReportSetup'
@@ -30637,6 +30616,30 @@ $begin 'AnsoftProject'
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -31604,6 +31607,30 @@ $begin 'AnsoftProject'
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -32175,6 +32202,30 @@ $begin 'AnsoftProject'
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -32212,87 +32263,6 @@ $begin 'AnsoftProject'
 						$end 'XY Plot 3'
 					$end 'Reports'
 					$begin 'ReportsWindowInfoList'
-						$begin 'S11 Culture medium without cells'
-							ReportID=1
-							$begin 'WindowInfoList'
-								$begin 'Report2D'
-									$begin 'ViewInfo'
-										$begin 'WrapperView'
-											ID(40)
-										$end 'WrapperView'
-										$begin 'WrapperDoc'
-											HiddenDrawings()
-											$begin 'DispType'
-												PlotType=1
-												$begin 'CurveMed'
-													$begin 'MedCamera'
-														$begin 'svrc'
-															svid=4
-															view(40, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 7.62247930446738e-039, 1.06530590854719e-038)))
-														$end 'svrc'
-													$end 'MedCamera'
-												$end 'CurveMed'
-											$end 'DispType'
-										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -8, -31, 104, 104, 1265, 600))
-									$end 'ViewInfo'
-								$end 'Report2D'
-							$end 'WindowInfoList'
-						$end 'S11 Culture medium without cells'
-						$begin 'S21 Culture medium without cells'
-							ReportID=4
-							$begin 'WindowInfoList'
-								$begin 'Report2D'
-									$begin 'ViewInfo'
-										$begin 'WrapperView'
-											ID(42)
-										$end 'WrapperView'
-										$begin 'WrapperDoc'
-											HiddenDrawings()
-											$begin 'DispType'
-												PlotType=1
-												$begin 'CurveMed'
-													$begin 'MedCamera'
-														$begin 'svrc'
-															svid=4
-															view(42, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 4.49998415329243e-039, 4.50001638315711e-039)))
-														$end 'svrc'
-													$end 'MedCamera'
-												$end 'CurveMed'
-											$end 'DispType'
-										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -8, -31, 130, 130, 1291, 626))
-									$end 'ViewInfo'
-								$end 'Report2D'
-							$end 'WindowInfoList'
-						$end 'S21 Culture medium without cells'
-						$begin 'XY Plot 3'
-							ReportID=6
-							$begin 'WindowInfoList'
-								$begin 'Report2D'
-									$begin 'ViewInfo'
-										$begin 'WrapperView'
-											ID(20)
-										$end 'WrapperView'
-										$begin 'WrapperDoc'
-											HiddenDrawings()
-											$begin 'DispType'
-												PlotType=1
-												$begin 'CurveMed'
-													$begin 'MedCamera'
-														$begin 'svrc'
-															svid=4
-															view(20, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 2.7684647256237e+020, 1.48647453114855e+022)))
-														$end 'svrc'
-													$end 'MedCamera'
-												$end 'CurveMed'
-											$end 'DispType'
-										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -8, -31, 156, 156, 1317, 652))
-									$end 'ViewInfo'
-								$end 'Report2D'
-							$end 'WindowInfoList'
-						$end 'XY Plot 3'
 					$end 'ReportsWindowInfoList'
 				$end 'ReportSetup'
 			$end 'HfssDesignInstance'
@@ -32303,7 +32273,7 @@ $begin 'AnsoftProject'
 				DesignInstanceID=21
 				$begin 'WindowPosition'
 					$begin 'EditorWindow'
-						'3D Modeler'(Editor3d(View(WindowPos(5, -1, -1, -8, -31, 182, 182, 1343, 678), OrientationMatrix(-0.00481070205569267, -0.00771428551524878, 0.0121973557397723, 0, 0.014432106167078, -0.00257142866030335, 0.00406578602269292, 0, 2.48906451005837e-010, 0.0128571419045329, 0.00813157204538584, 0, 0, 0, -5.49118375778198, 1, 0, -1.91169965267181, 1.91169965267181, -1, 1, 0.733389377593994, 10.2489776611328), Drawings[7: 'Coax_Inn_Cond', 'Coax_SMA_Upp_Out_Out_Cond', 'Samp_Hold', 'Samp_Hold_Base_Pls', 'Coax_Air', 'Coax_Air_Sacrif', 'Samp_Hold_Out_Inn_Pls_Sacrif_6_3'], 'View Data'('Render Mode'=1, 'Show Ruler'=1), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
+						'3D Modeler'(Editor3d(View(WindowPos(5, -1, -1, -8, -31, 182, 182, 1343, 678), OrientationMatrix(-0.00481070205569267, -0.00771428551524878, 0.0121973557397723, 0, 0.014432106167078, -0.00257142866030335, 0.00406578602269292, 0, 2.48906451005837e-010, 0.0128571419045329, 0.00813157204538584, 0, 0, 0, -5.49118375778198, 1, 0, -2.2825608253479, 2.2825608253479, -1, 1, 0.733389377593994, 10.2489776611328), Drawings[7: 'Coax_Inn_Cond', 'Coax_SMA_Upp_Out_Out_Cond', 'Samp_Hold', 'Samp_Hold_Base_Pls', 'Coax_Air', 'Coax_Air_Sacrif', 'Samp_Hold_Out_Inn_Pls_Sacrif_6_3'], 'View Data'('Render Mode'=1, 'Show Ruler'=1), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
 					$end 'EditorWindow'
 				$end 'WindowPosition'
 				$begin 'ReportSetup'
@@ -34547,6 +34517,30 @@ $begin 'AnsoftProject'
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -35179,33 +35173,6 @@ $begin 'AnsoftProject'
 						$end 'XY Plot 3'
 					$end 'Reports'
 					$begin 'ReportsWindowInfoList'
-						$begin 'S21 Culture Medium with 0.1 % cells'
-							ReportID=4
-							$begin 'WindowInfoList'
-								$begin 'Report2D'
-									$begin 'ViewInfo'
-										$begin 'WrapperView'
-											ID(48)
-										$end 'WrapperView'
-										$begin 'WrapperDoc'
-											HiddenDrawings()
-											$begin 'DispType'
-												PlotType=1
-												$begin 'CurveMed'
-													$begin 'MedCamera'
-														$begin 'svrc'
-															svid=4
-															view(48, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 4.49998415329243e-039, 4.50001638315711e-039)))
-														$end 'svrc'
-													$end 'MedCamera'
-												$end 'CurveMed'
-											$end 'DispType'
-										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -8, -31, 26, 26, 1187, 522))
-									$end 'ViewInfo'
-								$end 'Report2D'
-							$end 'WindowInfoList'
-						$end 'S21 Culture Medium with 0.1 % cells'
 					$end 'ReportsWindowInfoList'
 				$end 'ReportSetup'
 			$end 'HfssDesignInstance'

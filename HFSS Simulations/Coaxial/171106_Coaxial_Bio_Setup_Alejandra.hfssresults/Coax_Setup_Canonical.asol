@@ -1,7 +1,7 @@
 $begin '$base_index$'
   $begin 'properties'
     all_levels=000000000000
-    time(year=000000002017, month=000000000011, day=000000000006, hour=000000000010, min=000000000052, sec=000000000031)
+    time(year=000000002017, month=000000000011, day=000000000009, hour=000000000011, min=000000000025, sec=000000000030)
     version=000000000000
   $end 'properties'
   $begin '$base_index$'
@@ -11,10 +11,10 @@ $end '$base_index$'
 $begin 'SolutionBlock1'
 	ProductName='HFSS'
 	CircuitName='Coax_Setup_Canonical'
-	VersionID=69
+	VersionID=74
 	PostProcess=false
 	LossLess=true
-	NextUniqueID=71
+	NextUniqueID=76
 	MoveBackwards=false
 	$begin 'LinkedDataList'
 	$end 'LinkedDataList'
