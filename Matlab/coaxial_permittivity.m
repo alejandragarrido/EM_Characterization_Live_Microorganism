@@ -57,63 +57,128 @@ plot(freq,S21_cul);xlabel('Frequency in Hz') % x-axis label
 ylabel('|S21|') % y-axis label
 
 
-%% Sensitivitys Plots
+%% Sensitivitys Plots 7
 
-figure('Name', 'Sensitivity Vacuum - Culture Medium withour cells');
-dif_cul_0_vac = abs(S21_cul_0 - S21_vac);
+%Definiendo la sensibilidad como la relacion entre amplitudes de la
+%potencia transmitida en dinstintos medios, es decir, la division de
+%amplitudes.
+
+figure
+title('Sensitivity Vacuum - Culture Medium withour cells');
+dif_cul_0_vac = (S21_cul_0 ./ S21_vac);
 plot(freq, dif_cul_0_vac);
 xlabel('Frequency in Hz') % x-axis label
-ylabel('|?S21|') % y-axis label
+ylabel('|S21_cul_0 / S21_vac|') % y-axis label
 
-figure('Name', 'Sensitivity Vacuum - Culture Medium (P=0.1)'); 
-dif_cul_vac = abs(S21_cul - S21_vac);
+hold on
+title('Sensitivity Vacuum - Culture Medium (P=0.1)');
+dif_cul_vac = (S21_cul ./ S21_vac);
 plot(freq,dif_cul_vac);
 xlabel('Frequency in Hz') % x-axis label
-ylabel('|?S21|') % y-axis label
+ylabel('|S21_cul / S21_vac|') % y-axis label
 
 figure('Name', 'Sensitivity Vacuum - Destilled Water'); 
-dif_vac_wat = abs(S21_vac - S21_wat);
+dif_vac_wat = (S21_wat ./ S21_vac);
 plot(freq,dif_vac_wat);
 xlabel('Frequency in Hz') % x-axis label
-ylabel('|?S21|') % y-axis label
+ylabel('|S21_vac / S21_wat|') % y-axis label
+hold on
 
-figure('Name', 'Sensitivity Vacuum - Sea Water'); 
-dif_vac_sea = abs(S21_vac - S21_sea);
+title('Sensitivity Vacuum - Sea Water'); 
+dif_vac_sea = (S21_sea ./ S21_vac );
 plot(freq,dif_vac_sea);
 xlabel('Frequency in Hz') % x-axis label
-ylabel('|?S21|') % y-axis label
+ylabel('|S21_vac / S21_sea|') % y-axis label
+hold on
 
-figure('Name', 'Sensitivity Culture Medium without cells - Destilled Water'); 
-dif_cul_0_wat = abs(S21_cul_0 - S21_wat);
+title('Sensitivity Culture Medium without cells - Destilled Water'); 
+dif_cul_0_wat = (S21_wat ./ S21_cul_0);
 plot(freq, dif_cul_0_wat);
 xlabel('Frequency in Hz') % x-axis label
-ylabel('|?S21|') % y-axis label
+ylabel('|S21_wat / S21_cul_0|') % y-axis label
+hold on
 
 figure('Name', 'Sensitivity Culture Medium without cells - Sea Water');
-dif_cul_0_sea = abs(S21_cul_0 - S21_sea);
+dif_cul_0_sea = ( S21_sea ./  S21_cul_0);
 plot(freq, dif_cul_0_sea);
 xlabel('Frequency in Hz') % x-axis label
-ylabel('|?S21|') % y-axis label
+ylabel('|S21_cul_0 / S21_sea|') % y-axis label
 
 figure('Name', 'Sensitivity Culture Medium without cells - Culture Medium P=0.1');
-dif_cul_0_cul = abs(S21_cul_0 - S21_cul);
+dif_cul_0_cul = (S21_cul ./  S21_cul_0);
 plot(freq, dif_cul_0_cul);
 xlabel('Frequency in Hz') % x-axis label
-ylabel('|?S21|') % y-axis label
+ylabel('|S21_cul_0 / S21_cul|') % y-axis label
 
 figure('Name', 'Sensitivity Culture Medium with cells - Destilled Water'); 
-dif_cul_wat = abs(S21_cul - S21_wat);
+dif_cul_wat = (S21_cul ./  S21_wat);
 plot(freq, dif_cul_wat);
 xlabel('Frequency in Hz') % x-axis label
-ylabel('|?S21|') % y-axis label
+ylabel('|S21_cul / S21_wat|') % y-axis label
 
 figure('Name', 'Sensitivity Culture Medium with cells - Sea Water');
-dif_cul_sea = abs(S21_cul - S21_sea);
+dif_cul_sea = ( S21_sea ./  S21_cul);
 plot(freq, dif_cul_sea);
 xlabel('Frequency in Hz') % x-axis label
-ylabel('|?S21|') % y-axis label
+ylabel('|S21_cul / S21_sea|') % y-axis label
+
+% definiendo la sesibilidad como la diferencia entre amplitudes de la
+% potencia transmitida en distintos medios
 
 
+figure('Name', 'Sensitivity Vacuum - Culture Medium withour cells');
+dif_cul_0_vac = (S21_cul_0 - S21_vac);
+plot(freq, dif_cul_0_vac);
+xlabel('Frequency in Hz') % x-axis label
+ylabel('|S21_cul_0 - S21_vac|') % y-axis label
+
+figure('Name', 'Sensitivity Vacuum - Culture Medium (P=0.1)'); 
+dif_cul_vac = (S21_cul - S21_vac);
+plot(freq,dif_cul_vac);
+xlabel('Frequency in Hz') % x-axis label
+ylabel('|S21_cul - S21_vac|') % y-axis label
+
+figure('Name', 'Sensitivity Vacuum - Destilled Water'); 
+dif_vac_wat = (S21_vac - S21_wat);
+plot(freq,dif_vac_wat);
+xlabel('Frequency in Hz') % x-axis label
+ylabel('|S21_vac - S21_wat|') % y-axis label
+
+figure('Name', 'Sensitivity Vacuum - Sea Water'); 
+dif_vac_sea = (S21_vac - S21_sea);
+plot(freq,dif_vac_sea);
+xlabel('Frequency in Hz') % x-axis label
+ylabel('|S21_vac - S21_sea|') % y-axis label
+
+figure('Name', 'Sensitivity Culture Medium without cells - Destilled Water'); 
+dif_cul_0_wat = (S21_wat - S21_cul_0);
+plot(freq, dif_cul_0_wat);
+xlabel('Frequency in Hz') % x-axis label
+ylabel('|S21_wat - S21_cul_0t|') % y-axis label
+
+figure('Name', 'Sensitivity Culture Medium without cells - Sea Water');
+dif_cul_0_sea = (S21_cul_0 - S21_sea);
+plot(freq, dif_cul_0_sea);
+xlabel('Frequency in Hz') % x-axis label
+ylabel('|S21_cul_0 - S21_sea|') % y-axis label
+
+figure('Name', 'Sensitivity Culture Medium without cells - Culture Medium P=0.1');
+dif_cul_0_cul = (S21_cul_0 - S21_cul);
+plot(freq, dif_cul_0_cul);
+xlabel('Frequency in Hz') % x-axis label
+ylabel('|S21_cul_0 - S21_cul|') % y-axis label
+
+figure('Name', 'Sensitivity Culture Medium with cells - Destilled Water'); 
+dif_cul_wat = (S21_wat - S21_cul);
+plot(freq, dif_cul_wat);
+xlabel('Frequency in Hz') % x-axis label
+ylabel('|S21_cul - S21_wat|') % y-axis label
+
+figure('Name', 'Sensitivity Culture Medium with cells - Sea Water');
+dif_cul_sea = (S21_cul - S21_sea);
+plot(freq, dif_cul_sea);
+xlabel('Frequency in Hz') % x-axis label
+ylabel('|S21_cul - S21_sea|') % y-axis label
 
 
 
@@ -123,6 +188,7 @@ function [S21_modul, S21_fase] = S21( eps_rea, sgm, w)
 % w : angular frequency [rad/s]
 % c : light speed 3e8 [m/s]
 % z : thickness (3e-3 [m] )
+
 z = 3e-3;
 c = 3e8; 	
 b = w.*(sqrt(eps_rea))/c;                              % beta
@@ -141,7 +207,7 @@ output_lineal = 10.^(input_dB./10);
 end
 
 function [ r_coa ] = coaxial_geometry( r_cob, z_cox )
-%UNTITLED4 Summary of this function goes here
+
 %r_cob [mm] radi ext coaxial
 %z_cox [ohms] vacuum impedance
 r_coa = r_cob/(exp(z_cox/60));
