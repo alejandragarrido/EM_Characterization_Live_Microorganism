@@ -1,6 +1,6 @@
 SimValueCacheVersionID=1
 $begin 'SimValueInfos'
-	NextUniqueID=2
+	NextUniqueID=3
 	MoveBackwards=false
 	$begin 'SimValue'
 		ID=0
@@ -13,6 +13,13 @@ $begin 'SimValueInfos'
 		ID=1
 		$begin 'SimValueParams'
 			QuantityName='S(1,2)'
+			ValueState(90, 15, 1, 2)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=2
+		$begin 'SimValueParams'
+			QuantityName='S(2,1)'
 			ValueState(90, 15, 1, 2)
 		$end 'SimValueParams'
 	$end 'SimValue'

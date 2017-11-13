@@ -22,7 +22,7 @@ thk_om=7*1e-9;
 thk_im=7*1e-9;
 thk_pp=10*1e-9;
 eps_0=8.854*1e-12;
-vol_rt=0; %Volum fraction (<0.1)
+vol_rt=0.0125; %Volum fraction (<0.1)
 %eps_ssp(N_f)=0+0*1i;
 
 for n_f=1:N_f
@@ -76,8 +76,10 @@ eps_ssp(n_f)=eps_md(n_f)*((((2/9)*vol_rt)*((eps_inx(n_f))+(eps_iny(n_f))+(eps_in
 Num_1(n_f)=(((2/9)*vol_rt)*((eps_inx(n_f))+(eps_iny(n_f))+(eps_inz(n_f))));
 Den_1(n_f)=((vol_rt/9)*(eps_inx(n_f)+eps_iny(n_f)+eps_inz(n_f)));
 eps_ssp_1(n_f)=eps_md(n_f)*(Num_1(n_f)+1)/(1-Den_1(n_f));
-eps_rea(n_f)=real (eps_ssp(n_f));
+eps_rea(n_f)=real(eps_ssp(n_f));
+eps_img(n_f)=-imag(eps_ssp(n_f));
 sgm(n_f)=-imag(eps_ssp(n_f)*2*pi*frq*eps_0);
+tg_del(n_f)= -imag(eps_ssp(n_f))/real(eps_ssp(n_f));
 %eps_ssp(n_f)=eps_md(n_f)*(((2/9)*vol_rt)*((eps_inx(n_f)+1)+(eps_iny(n_f)+1)+(eps_inz(n_f)+1))+1)/(1-((vol_rt/9)*(eps_inx(n_f)+eps_iny(n_f)+eps_inz(n_f))))
 end
 save

@@ -1,41 +1,19 @@
 $begin '$base_index$'
   $begin 'properties'
     all_levels=000000000000
-    time(year=000000002017, month=000000000011, day=000000000009, hour=000000000011, min=000000000025, sec=000000000027)
+    time(year=000000002017, month=000000000011, day=000000000013, hour=000000000011, min=000000000014, sec=000000000047)
     version=000000000000
   $end 'properties'
   $begin '$base_index$'
-    $index$(pos=000000002510, lin=000000000091, lvl=000000000000)
+    $index$(pos=000000004504, lin=000000000173, lvl=000000000000)
   $end '$base_index$'
 $end '$base_index$'
-$begin 'SolutionBlock1'
-	ProductName='HFSS'
-	CircuitName='Coaxial_Bio_Setup_Third_CultureMedium_01'
-	VersionID=331
-	PostProcess=false
-	LossLess=true
-	NextUniqueID=386
-	MoveBackwards=false
-	$begin 'VariationIDs'
-		Map(V='', ID=328)
-	$end 'VariationIDs'
-	$begin 'LinkedDataList'
-	$end 'LinkedDataList'
-	$begin 'MI'
-	$end 'MI'
-$end 'SolutionBlock1'
-$begin 'BlockMapName'
-	FileHeader='SolutionBlock1'
-	'SolutionKey(SimSetup=80, Instance=\'SetupDefinition\', Solution=-1, VersionID=331)'='SolutionBlock5'
-	'SolutionKey(SimSetup=80, Instance=\'SolutionDefinition\', Solution=81, VersionID=331)'='SolutionBlock2'
-	'SolutionKey(SimSetup=80, Instance=\'SolutionDefinition\', Solution=82, VersionID=331)'='SolutionBlock3'
-	'SolutionKey(SimSetup=80, Instance=\'SolutionDefinition\', Solution=86, VersionID=331)'='SolutionBlock4'
-$end 'BlockMapName'
-$begin 'SolutionBlock2'
+$begin 'SolutionBlock6'
 	SolutionName='AdaptivePass'
 	SolutionID=81
-	V=331
+	V=392
 	$begin 'States'
+		F(VID=328, Ver=392)
 	$end 'States'
 	$begin 'Definition'
 		SamplingInterpolation=false
@@ -48,12 +26,45 @@ $begin 'SolutionBlock2'
 	IsMatrixDataTable=false
 	SweepID=-1
 	KeepAllFastSweepFields=false
-$end 'SolutionBlock2'
-$begin 'SolutionBlock3'
+	$begin 'M'
+		$begin 'SubData'
+			ID=1
+			M(VID=328, Ver=392, File='DV328_SOL81_M1_V392.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			M(VID=328, Ver=392, File='DV328_SOL81_M2_V392.sd')
+		$end 'SubData'
+	$end 'M'
+	$begin 'A'
+		$begin 'SubData'
+			ID=0
+			A(VID=328, Ver=392, File='DV328_SOL81_A0_V392.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=1
+			A(VID=328, Ver=392, File='DV328_SOL81_A1_V392.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			A(VID=328, Ver=392, File='DV328_SOL81_A2_V392.sd')
+		$end 'SubData'
+	$end 'A'
+$end 'SolutionBlock6'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=80, Instance=\'\', Solution=-3, VersionID=331)'='SolutionBlock9'
+	'SolutionKey(SimSetup=80, Instance=\'SetupDefinition\', Solution=-1, VersionID=331)'='SolutionBlock5'
+	'SolutionKey(SimSetup=80, Instance=\'SolutionDefinition\', Solution=81, VersionID=392)'='SolutionBlock6'
+	'SolutionKey(SimSetup=80, Instance=\'SolutionDefinition\', Solution=82, VersionID=392)'='SolutionBlock7'
+	'SolutionKey(SimSetup=80, Instance=\'SolutionDefinition\', Solution=86, VersionID=392)'='SolutionBlock8'
+$end 'BlockMapName'
+$begin 'SolutionBlock7'
 	SolutionName='LastAdaptive'
 	SolutionID=82
-	V=331
+	V=392
 	$begin 'States'
+		F(VID=328, Ver=392)
 	$end 'States'
 	$begin 'Definition'
 		SamplingInterpolation=false
@@ -66,12 +77,27 @@ $begin 'SolutionBlock3'
 	IsMatrixDataTable=false
 	SweepID=-1
 	KeepAllFastSweepFields=false
-$end 'SolutionBlock3'
-$begin 'SolutionBlock4'
+	$begin 'M'
+		$begin 'SubData'
+			ID=0
+			M(VID=328, Ver=392, File='DV328_SOL82_M0_V392.sd')
+		$end 'SubData'
+	$end 'M'
+	$begin 'Fields'
+		IDDblMap(423, 1000000000)
+		$begin 'DataMap'
+			VID=328
+			Ver=392
+			F(DblID=423, Dir='DV328_S82_V392_F423/')
+		$end 'DataMap'
+	$end 'Fields'
+$end 'SolutionBlock7'
+$begin 'SolutionBlock8'
 	SolutionName='Sweep'
 	SolutionID=86
-	V=331
+	V=392
 	$begin 'States'
+		F(VID=328, Ver=392)
 	$end 'States'
 	$begin 'Definition'
 		SamplingInterpolation=true
@@ -87,7 +113,13 @@ $begin 'SolutionBlock4'
 	IsMatrixDataTable=false
 	SweepID=0
 	KeepAllFastSweepFields=false
-$end 'SolutionBlock4'
+	$begin 'M'
+		$begin 'SubData'
+			ID=0
+			M(VID=328, Ver=392, File='DV328_SOL86_M0_V392.sd')
+		$end 'SubData'
+	$end 'M'
+$end 'SolutionBlock8'
 $begin 'SolutionBlock5'
 	SimSetupID=80
 	SimSetupName='Setup1'
@@ -95,18 +127,69 @@ $begin 'SolutionBlock5'
 	IsImported=false
 	IsTable=false
 	SolveSetupID=0
+	$begin 'CurrMeshes'
+		M(VID=328, Ver=331, Dir='DV328_S80_V331.cmesh/')
+	$end 'CurrMeshes'
+	$begin 'WaveAdapt'
+		WA(VID=328, Ver=331, A=1)
+	$end 'WaveAdapt'
+	$begin 'LastPassNumbers'
+		LP(VID=328, Ver=331, P=2)
+	$end 'LastPassNumbers'
+	$begin 'Profiles'
+		P(VID=328, Ver=331, File='DV328_S80_V331.profile')
+	$end 'Profiles'
 	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=328, Ver=331, Dir='DV328_S80_MI0_V331.sd/')
+		$end 'SubData'
 	$end 'MI'
 $end 'SolutionBlock5'
+$begin 'SolutionBlock1'
+	ProductName='HFSS'
+	CircuitName='Coaxial_Bio_Setup_Third_CultureMedium_01'
+	VersionID=331
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=430
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='', ID=328)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=328, Ver=331, Dir='DV328_V331.imesh/')
+	$end 'InitialMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=328, Ver=331, Dir='DV328_MI0_V331.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock1'
+$begin 'SolutionBlock9'
+	ConvSetupName='DrivenDeltaSConvNOV'
+	IsConverged=true
+	MaxPasses='6'
+	MinPasses='1'
+	ConvTarget='0.02'
+	ConvTargetConsecPasses='1'
+	ConvCurrentConsecPasses='1'
+	c(passno=1, numtets=10648)
+	c(passno=2, numtets=12277, magdeltas=0.003412876801809456)
+$end 'SolutionBlock9'
 $begin '$index$'
 	$begin '$index$'
-		BlockMapName(pos=716, lin=17, lvl=0)
-		SolutionBlock2(pos=1208, lin=24, lvl=0)
-		SolutionBlock3(pos=1565, lin=42, lvl=0)
-		SolutionBlock4(pos=1922, lin=60, lvl=0)
-		SolutionBlock5(pos=2338, lin=81, lvl=0)
-		SolutionBlock1(pos=370, lin=1, lvl=0)
+		SolutionBlock9(pos=4209, lin=162, lvl=0)
+		SolutionBlock6(pos=370, lin=1, lvl=0)
+		BlockMapName(pos=1283, lin=44, lvl=0)
+		SolutionBlock7(pos=1863, lin=52, lvl=0)
+		SolutionBlock8(pos=2524, lin=85, lvl=0)
+		SolutionBlock5(pos=3082, lin=113, lvl=0)
+		SolutionBlock1(pos=3676, lin=139, lvl=0)
 		$base_index$(pos=0, lin=1, lvl=0)
-		$index$(pos=2510, lin=91, lvl=0)
+		$index$(pos=4504, lin=173, lvl=0)
 	$end '$index$'
 $end '$index$'
