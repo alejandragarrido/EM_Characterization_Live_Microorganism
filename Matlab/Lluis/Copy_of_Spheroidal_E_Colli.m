@@ -22,7 +22,7 @@ thk_om=7*1e-9;
 thk_im=7*1e-9;
 thk_pp=10*1e-9;
 eps_0=8.854*1e-12;
-vol_rt=0.1; %Volum fraction (<0.1)
+vol_rt=0.0125; %Volum fraction (<0.1)
 %eps_ssp(N_f)=0+0*1i;
 
 for n_f=1:N_f
