@@ -20,28 +20,20 @@ sgm_sea = 4;
 
 %Vacuum
 [S21_vac, phs_vac] = S21(eps_rea_vac, sgm_vac, w, z);
-plotValors(freq,S21_vac,'S21 Vacuum','Frequency (Hz)','mod(S21)');
 %Distilled Water
 [S21_wat, phs_wat] = S21(eps_rea_wat,sgm_wat,w, z);
-plotValors(freq,S21_vac,'S21 Distilled Water','Frequency (Hz)','mod(S21)');
 %Water Sea
 [S21_sea, phs_sea] = S21(eps_rea_sea,sgm_sea,w, z);
-plotValors(freq,S21_vac,'S21 Sea Water','Frequency (Hz)','mod(S21)');
 %Culture Medium without cells
 [S21_cul_0, phs_cul_0] = S21(eps_rea_cul_0,sgm_cul_0,w, z);
-plotValors(freq,S21_vac,'S21 Culture Medium without cells','Frequency (Hz)','mod(S21)');
 %Culture Medium with P= 0.1 cells
 [S21_cul_01, phs_cul_01] = S21(eps_rea_cul,sgm_cul,w, z);
-plotValors(freq,S21_vac,'S21 Culture Medium with 0.1 volum cell','Frequency (Hz)','mod(S21)');
 %Culture Medium with P= 0.05 cells
 [S21_cul_05, phs_cul_05] = S21(eps_rea_cul_05,sgm_cul_05,w, z);
-plotValors(freq,S21_vac,'S21 Culture Medium with 0.05 volum cell','Frequency (Hz)','mod(S21)');
 %Culture Medium with P= 0.025 cells
 [S21_cul_025, phs_cul_025] = S21(eps_rea_cul_025,sgm_cul_025,w, z);
-plotValors(freq,S21_vac,'S21 Culture Medium with 0.025 volum cell','Frequency (Hz)','mod(S21)');
 %Culture Medium with P= 0.0125 cells
 [S21_cul_0125, phs_cul_0125] = S21(eps_rea_cul_0125,sgm_cul_0125,w, z);
-plotValors(freq,S21_vac,'S21 Culture Medium with 0.0125 volum cell','Frequency (Hz)','mod(S21)');
 
 %% Sensibilidad
 sen_00_01 = sensibility(S21_cul_01, S21_cul_0);
@@ -76,36 +68,42 @@ S21_f_4_GHz = [S21_cul_01(f_4);S21_cul_05(f_4);S21_cul_025(f_4);S21_cul_0125(f_4
 % T2 = table(Cell_Proportion_total,S21_f_1_GHz,S21_f_2_GHz,S21_f_3_GHz,S21_f_4_GHz);
 % writetable(T2, 's21.xls');
 % type 's21.xls'
-% 
+
 
 %% Sensitivities 
 
 %Definiendo la sensibilidad como la relacion entre amplitudes de la
 %potencia transmitida en dinstintos medios, es decir, la division de
 %amplitudes.
-% dif_cul_0_vac = (S21_cul_0 ./ S21_vac); 
-% dif_cul_vac = (S21_cul_01 ./ S21_vac); 
-% dif_vac_wat = (S21_wat ./ S21_vac);
-% dif_vac_sea = (S21_sea ./ S21_vac ); 
-% dif_cul_0_wat = (S21_wat ./ S21_cul_0); 
-% dif_cul_0_sea = ( S21_sea ./  S21_cul_0); 
-% dif_cul_0_cul = (S21_cul_01 ./  S21_cul_0);
-% dif_cul_wat = (S21_cul_01 ./  S21_wat);
-% dif_cul_sea = ( S21_sea ./  S21_cul_01);
+i = 2;
+
+if i == 0
+    dif_cul_0_vac = (S21_cul_0 ./ S21_vac); 
+    dif_cul_vac = (S21_cul_01 ./ S21_vac); 
+    dif_vac_wat = (S21_wat ./ S21_vac);
+    dif_vac_sea = (S21_sea ./ S21_vac ); 
+    dif_cul_0_wat = (S21_wat ./ S21_cul_0); 
+    dif_cul_0_sea = ( S21_sea ./  S21_cul_0); 
+    dif_cul_0_cul = (S21_cul_01 ./  S21_cul_0);
+    dif_cul_wat = (S21_cul_01 ./  S21_wat);
+    dif_cul_sea = ( S21_sea ./  S21_cul_01);
+elseif i == 1
 
 % definiendo la sesibilidad como la diferencia entre amplitudes de la 
 %potencia transmitida en distintos medios
 
-% dif_cul_0_vac = (S21_cul_0 - S21_vac); 
-% dif_cul_vac = (S21_cul_01 - S21_vac); 
-% dif_vac_wat = (S21_vac - S21_wat);
-% dif_vac_sea = (S21_vac - S21_sea);
-% dif_cul_0_wat = (S21_wat - S21_cul_0);
-% dif_cul_0_sea = (S21_cul_0 - S21_sea);
-% dif_cul_0_cul = (S21_cul_0 - S21_cul_01); 
-% dif_cul_wat = (S21_wat - S21_cul_01); 
-% dif_cul_sea = (S21_cul_01 - S21_sea);
-
+    dif_cul_0_vac = (S21_cul_0 - S21_vac); 
+    dif_cul_vac = (S21_cul_01 - S21_vac); 
+    dif_vac_wat = (S21_vac - S21_wat);
+    dif_vac_sea = (S21_vac - S21_sea);
+    dif_cul_0_wat = (S21_wat - S21_cul_0);
+    dif_cul_0_sea = (S21_cul_0 - S21_sea);
+    dif_cul_0_cul = (S21_cul_0 - S21_cul_01); 
+    dif_cul_wat = (S21_wat - S21_cul_01); 
+    dif_cul_sea = (S21_cul_01 - S21_sea);
+else
+    ext = 'no compute sensittivity'
+end
 
 %% Plots
 
@@ -133,6 +131,18 @@ S21_f_4_GHz = [S21_cul_01(f_4);S21_cul_05(f_4);S21_cul_025(f_4);S21_cul_0125(f_4
 % title('Sensitivity S21_a - S21_b'); 
 % legend('|S21_c_0 -S21_v|','|S21_c - S21_v|', '|S21_v - S21_w|', '|S21_v - S21_s|', '|S21_w- S21_c_0|','|S21_c_0 - S21_s|', '|S21_c_0 - S21_c|', '|S21_c - S21_w|','|S21_c - S21_s|');
 
+% %S21 modulo para disintos materiales
+% plotValors(freq,S21_vac,'S21 Vacuum','Frequency (Hz)','mod(S21)');
+% plotValors(freq,S21_vac,'S21 Distilled Water','Frequency (Hz)','mod(S21)');
+% plotValors(freq,S21_vac,'S21 Sea Water','Frequency (Hz)','mod(S21)');
+% plotValors(freq,S21_vac,'S21 Culture Medium without cells','Frequency (Hz)','mod(S21)');
+% plotValors(freq,S21_vac,'S21 Culture Medium with 0.1 volum cell','Frequency (Hz)','mod(S21)');
+% plotValors(freq,S21_vac,'S21 Culture Medium with 0.1 volum cell','Frequency (Hz)','mod(S21)');
+% plotValors(freq,S21_vac,'S21 Culture Medium with 0.05 volum cell','Frequency (Hz)','mod(S21)');
+% plotValors(freq,S21_vac,'S21 Culture Medium with 0.025 volum cell','Frequency (Hz)','mod(S21)');
+% plotValors(freq,S21_vac,'S21 Culture Medium with 0.0125 volum cell','Frequency (Hz)','mod(S21)');
+
+%Sensibilidades
 figure('Name', 'Sensitivity for differents P')
 semilogx(freq, sen_00_01)
 hold on
@@ -142,6 +152,10 @@ semilogx(freq, sen_00_025)
 hold on
 semilogx(freq, sen_00_0125)
 hold on
+title('Sensitivity for differents P'); 
+xlabel('Frequency (Hz)') % x-axis label
+ylabel('(S21_p - S21_0) / S21_p') %y-axis label 
+legend('P = 0.1','P = 0.05', 'P = 0.025', 'P = 0.0125');
 
 %% Functions
 
@@ -171,7 +185,7 @@ output_lineal = 10.^(input_dB./10);
 end
 function [ output_dB ] = lineal_to_dB( input_lineal )
 
-output_dB = 20.*log(input_lineal);
+output_dB = 20.*log10(input_lineal);
 
 end
 function [ r_coa ] = coaxial_geometry( r_cob, Z_cox )
