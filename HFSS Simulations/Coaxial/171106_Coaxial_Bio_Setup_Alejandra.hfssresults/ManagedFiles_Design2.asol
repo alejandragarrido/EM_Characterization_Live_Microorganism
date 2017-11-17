@@ -1,4 +1,4 @@
 IsBigEndian false
 $begin 'ManagedFiles'
-	svcache[1: 'HDR1A1C981215101331913.tmp']
+	svcache[3: 'HDR1A1C981215101331913.tmp', 'HDR7A5E10912151094348611.tmp', 'min1AA10912151094405819.tmp']
 $end 'ManagedFiles'

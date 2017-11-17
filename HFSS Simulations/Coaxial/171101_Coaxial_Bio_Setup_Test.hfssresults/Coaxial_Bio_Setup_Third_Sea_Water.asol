@@ -1,7 +1,7 @@
 $begin '$base_index$'
   $begin 'properties'
     all_levels=000000000000
-    time(year=000000002017, month=000000000011, day=000000000014, hour=000000000011, min=000000000030, sec=000000000028)
+    time(year=000000002017, month=000000000011, day=000000000017, hour=000000000020, min=000000000007, sec=000000000031)
     version=000000000000
   $end 'properties'
   $begin '$base_index$'
@@ -14,7 +14,7 @@ $begin 'SolutionBlock1'
 	VersionID=269
 	PostProcess=false
 	LossLess=true
-	NextUniqueID=483
+	NextUniqueID=520
 	MoveBackwards=false
 	$begin 'VariationIDs'
 		Map(V='', ID=300)

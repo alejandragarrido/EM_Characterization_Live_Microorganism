@@ -2,7 +2,7 @@ close all
 clear all
 load('permittivities_sgm.mat');
 %Frequency range
-z = 3e-3;
+z = 10e-3;
 f_min=1e4;                  %[Hz]       10kHz
 f_max=3e9;                  %[Hz]       1GHz
 N_f=101;
@@ -144,15 +144,21 @@ end
 
 %Sensibilidades
 figure('Name', 'Sensitivity for differents P')
-semilogx(freq, sen_00_01)
+ 
+semilogx(freq, sen_00_01, '-.')
 hold on
-semilogx(freq, sen_00_05)
+semilogx(freq, sen_00_05, '--o')
 hold on
-semilogx(freq, sen_00_025)
+semilogx(freq, sen_00_025, ':s')
 hold on
-semilogx(freq, sen_00_0125)
+semilogx(freq, sen_00_0125, '+' )
 hold on
-title('Sensitivity for differents P'); 
+if z==3e-3
+
+    title('Sensitivity for differents P for z = 3mm'); 
+else
+    title('Sensitivity for differents P for z = 10mm'); 
+end  
 xlabel('Frequency (Hz)') % x-axis label
 ylabel('(S21_p - S21_0) / S21_p') %y-axis label 
 legend('P = 0.1','P = 0.05', 'P = 0.025', 'P = 0.0125');
