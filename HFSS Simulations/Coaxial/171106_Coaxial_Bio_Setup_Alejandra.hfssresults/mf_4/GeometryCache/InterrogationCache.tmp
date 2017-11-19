@@ -1,5 +1,5 @@
 $begin 'CacheDataVersion'
-	DataVersion=94
+	DataVersion=93
 $end 'CacheDataVersion'
 $begin 'InterrogationCache'
 	Version=1
@@ -11,14 +11,10 @@ $begin 'InterrogationCache'
 			IgnoreUnclassifiedObjects=false
 			SkipIntersectionChecks=false
 		$end 'Options'
-		Status=true
+		Status=false
 	$end 'ValidationStatus'
 	$begin 'BodyCaches'
 		$begin '256'
-			$begin 'CheckStatus'
-				CheckLevel=20
-				Status=true
-			$end 'CheckStatus'
 			$begin 'BoundingBox'
 				Low[3: -11.5, -11.5, -50]
 				High[3: 11.5, 11.5, 50]
@@ -27,10 +23,6 @@ $begin 'InterrogationCache'
 			$end 'BoundingBox'
 		$end '256'
 		$begin '301'
-			$begin 'CheckStatus'
-				CheckLevel=20
-				Status=true
-			$end 'CheckStatus'
 			$begin 'BoundingBox'
 				Low[3: -5, -5, -60]
 				High[3: 5, 5, 60]
@@ -39,10 +31,6 @@ $begin 'InterrogationCache'
 			$end 'BoundingBox'
 		$end '301'
 		$begin '310'
-			$begin 'CheckStatus'
-				CheckLevel=20
-				Status=true
-			$end 'CheckStatus'
 			$begin 'BoundingBox'
 				Low[3: -2.0699999999999998, -2.0699999999999998, 50]
 				High[3: 2.0699999999999998, 2.0699999999999998, 60]
@@ -51,10 +39,6 @@ $begin 'InterrogationCache'
 			$end 'BoundingBox'
 		$end '310'
 		$begin '337'
-			$begin 'CheckStatus'
-				CheckLevel=20
-				Status=true
-			$end 'CheckStatus'
 			$begin 'BoundingBox'
 				Low[3: -2.0699999999999998, -2.0699999999999998, -60]
 				High[3: 2.0699999999999998, 2.0699999999999998, -50]
@@ -63,10 +47,6 @@ $begin 'InterrogationCache'
 			$end 'BoundingBox'
 		$end '337'
 		$begin '346'
-			$begin 'CheckStatus'
-				CheckLevel=20
-				Status=true
-			$end 'CheckStatus'
 			$begin 'BoundingBox'
 				Low[3: -12.5, -12.5, -60]
 				High[3: 12.5, 12.5, 60]
@@ -75,10 +55,6 @@ $begin 'InterrogationCache'
 			$end 'BoundingBox'
 		$end '346'
 		$begin '373'
-			$begin 'CheckStatus'
-				CheckLevel=20
-				Status=true
-			$end 'CheckStatus'
 			$begin 'BoundingBox'
 				Low[3: -10.5, -10.5, -1]
 				High[3: 10.5, 10.5, 2]
@@ -87,10 +63,6 @@ $begin 'InterrogationCache'
 			$end 'BoundingBox'
 		$end '373'
 		$begin '391'
-			$begin 'CheckStatus'
-				CheckLevel=20
-				Status=true
-			$end 'CheckStatus'
 			$begin 'BoundingBox'
 				Low[3: -11.5, -11.5, -2]
 				High[3: 11.5, 11.5, 2]

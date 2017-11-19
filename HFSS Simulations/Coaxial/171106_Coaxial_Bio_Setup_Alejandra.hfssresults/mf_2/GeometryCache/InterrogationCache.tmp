@@ -11,38 +11,90 @@ $begin 'InterrogationCache'
 			IgnoreUnclassifiedObjects=false
 			SkipIntersectionChecks=false
 		$end 'Options'
-		Status=true
+		Status=false
 	$end 'ValidationStatus'
 	$begin 'BodyCaches'
-		$begin '256'
-			$begin 'CheckStatus'
-				CheckLevel=20
-				Status=true
-			$end 'CheckStatus'
+		$begin '220'
+			$begin 'BoundingBox'
+				Low[3: -5, -5, -30]
+				High[3: 5, 5, 30]
+				Exact=false
+				Valid=true
+			$end 'BoundingBox'
+		$end '220'
+		$begin '229'
+			$begin 'BoundingBox'
+				Low[3: -11.5, -11.5, -30]
+				High[3: 11.5, 11.5, 30]
+				Exact=false
+				Valid=true
+			$end 'BoundingBox'
+		$end '229'
+		$begin '238'
+			$begin 'BoundingBox'
+				Low[3: -12.5, -12.5, -30]
+				High[3: 12.5, 12.5, 30]
+				Exact=false
+				Valid=true
+			$end 'BoundingBox'
+		$end '238'
+		$begin '247'
 			$begin 'BoundingBox'
 				Low[3: -11.5, -11.5, -50]
+				High[3: 11.5, 11.5, -30]
+				Exact=false
+				Valid=true
+			$end 'BoundingBox'
+		$end '247'
+		$begin '256'
+			$begin 'BoundingBox'
+				Low[3: -11.5, -11.5, 30]
 				High[3: 11.5, 11.5, 50]
 				Exact=false
 				Valid=true
 			$end 'BoundingBox'
 		$end '256'
-		$begin '301'
-			$begin 'CheckStatus'
-				CheckLevel=20
-				Status=true
-			$end 'CheckStatus'
+		$begin '265'
 			$begin 'BoundingBox'
-				Low[3: -5, -5, -60]
-				High[3: 5, 5, 60]
+				Low[3: -12.5, -12.5, -50]
+				High[3: 12.5, 12.5, -30]
+				Exact=false
+				Valid=true
+			$end 'BoundingBox'
+		$end '265'
+		$begin '274'
+			$begin 'BoundingBox'
+				Low[3: -5, -5, 30]
+				High[3: 5, 5, 50]
+				Exact=false
+				Valid=true
+			$end 'BoundingBox'
+		$end '274'
+		$begin '283'
+			$begin 'BoundingBox'
+				Low[3: -5, -5, -50]
+				High[3: 5, 5, -30]
+				Exact=false
+				Valid=true
+			$end 'BoundingBox'
+		$end '283'
+		$begin '292'
+			$begin 'BoundingBox'
+				Low[3: -12.5, -12.5, 30]
+				High[3: 12.5, 12.5, 50]
+				Exact=false
+				Valid=true
+			$end 'BoundingBox'
+		$end '292'
+		$begin '301'
+			$begin 'BoundingBox'
+				Low[3: -0.63500000000000001, -0.63500000000000001, 50]
+				High[3: 0.63500000000000001, 0.63500000000000001, 60]
 				Exact=false
 				Valid=true
 			$end 'BoundingBox'
 		$end '301'
 		$begin '310'
-			$begin 'CheckStatus'
-				CheckLevel=20
-				Status=true
-			$end 'CheckStatus'
 			$begin 'BoundingBox'
 				Low[3: -2.0699999999999998, -2.0699999999999998, 50]
 				High[3: 2.0699999999999998, 2.0699999999999998, 60]
@@ -50,11 +102,23 @@ $begin 'InterrogationCache'
 				Valid=true
 			$end 'BoundingBox'
 		$end '310'
+		$begin '319'
+			$begin 'BoundingBox'
+				Low[3: -3.0699999999999998, -3.0699999999999998, 50]
+				High[3: 3.0699999999999998, 3.0699999999999998, 60]
+				Exact=false
+				Valid=true
+			$end 'BoundingBox'
+		$end '319'
+		$begin '328'
+			$begin 'BoundingBox'
+				Low[3: -0.63500000000000001, -0.63500000000000001, -60]
+				High[3: 0.63500000000000001, 0.63500000000000001, -50]
+				Exact=false
+				Valid=true
+			$end 'BoundingBox'
+		$end '328'
 		$begin '337'
-			$begin 'CheckStatus'
-				CheckLevel=20
-				Status=true
-			$end 'CheckStatus'
 			$begin 'BoundingBox'
 				Low[3: -2.0699999999999998, -2.0699999999999998, -60]
 				High[3: 2.0699999999999998, 2.0699999999999998, -50]
@@ -63,22 +127,30 @@ $begin 'InterrogationCache'
 			$end 'BoundingBox'
 		$end '337'
 		$begin '346'
-			$begin 'CheckStatus'
-				CheckLevel=20
-				Status=true
-			$end 'CheckStatus'
 			$begin 'BoundingBox'
-				Low[3: -12.5, -12.5, -60]
-				High[3: 12.5, 12.5, 60]
+				Low[3: -3.0699999999999998, -3.0699999999999998, -60]
+				High[3: 3.0699999999999998, 3.0699999999999998, -50]
 				Exact=false
 				Valid=true
 			$end 'BoundingBox'
 		$end '346'
+		$begin '355'
+			$begin 'BoundingBox'
+				Low[3: -6, -6, -1]
+				High[3: 6, 6, 2]
+				Exact=false
+				Valid=true
+			$end 'BoundingBox'
+		$end '355'
+		$begin '364'
+			$begin 'BoundingBox'
+				Low[3: -5, -5, -2]
+				High[3: 5, 5, 2]
+				Exact=false
+				Valid=true
+			$end 'BoundingBox'
+		$end '364'
 		$begin '373'
-			$begin 'CheckStatus'
-				CheckLevel=20
-				Status=true
-			$end 'CheckStatus'
 			$begin 'BoundingBox'
 				Low[3: -10.5, -10.5, -1]
 				High[3: 10.5, 10.5, 2]
@@ -86,14 +158,18 @@ $begin 'InterrogationCache'
 				Valid=true
 			$end 'BoundingBox'
 		$end '373'
+		$begin '382'
+			$begin 'BoundingBox'
+				Low[3: -11.5, -11.5, -1]
+				High[3: 11.5, 11.5, 2]
+				Exact=false
+				Valid=true
+			$end 'BoundingBox'
+		$end '382'
 		$begin '391'
-			$begin 'CheckStatus'
-				CheckLevel=20
-				Status=true
-			$end 'CheckStatus'
 			$begin 'BoundingBox'
 				Low[3: -11.5, -11.5, -2]
-				High[3: 11.5, 11.5, 2]
+				High[3: 11.5, 11.5, -1]
 				Exact=false
 				Valid=true
 			$end 'BoundingBox'
