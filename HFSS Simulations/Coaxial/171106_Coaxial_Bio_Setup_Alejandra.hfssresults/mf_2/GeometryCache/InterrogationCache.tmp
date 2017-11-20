@@ -1,5 +1,5 @@
 $begin 'CacheDataVersion'
-	DataVersion=91
+	DataVersion=101
 $end 'CacheDataVersion'
 $begin 'InterrogationCache'
 	Version=1

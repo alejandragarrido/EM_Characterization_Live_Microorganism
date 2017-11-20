@@ -3,7 +3,7 @@ clear all
 load('permittivities_sgm.mat');
 %Frequency range
 z = 10e-3;
-f_min=1e4;                  %[Hz]       10kHz
+f_min=1e8;                  %[Hz]       10kHz
 f_max=3e9;                  %[Hz]       1GHz
 N_f=101;
 freq = logspace(log10(f_min),log10(f_max),N_f);
@@ -36,6 +36,12 @@ sgm_sea = 4;
 [S21_cul_0125, phs_cul_0125] = S21(eps_rea_cul_0125,sgm_cul_0125,w, z);
 
 %% Sensibilidad
+S21_cul_0 = S21_cul_0.';
+S21_cul_01 = S21_cul_01.';
+S21_cul_05 = S21_cul_05.';
+S21_cul_025 = S21_cul_025.';
+S21_cul_0125 = S21_cul_0125.';
+
 sen_00_01 = sensibility(S21_cul_01, S21_cul_0);
 sen_00_05 = sensibility(S21_cul_05, S21_cul_0);
 sen_00_025 = sensibility(S21_cul_025, S21_cul_0);
@@ -132,15 +138,14 @@ end
 % legend('|S21_c_0 -S21_v|','|S21_c - S21_v|', '|S21_v - S21_w|', '|S21_v - S21_s|', '|S21_w- S21_c_0|','|S21_c_0 - S21_s|', '|S21_c_0 - S21_c|', '|S21_c - S21_w|','|S21_c - S21_s|');
 
 % %S21 modulo para disintos materiales
-% plotValors(freq,S21_vac,'S21 Vacuum','Frequency (Hz)','mod(S21)');
-% plotValors(freq,S21_vac,'S21 Distilled Water','Frequency (Hz)','mod(S21)');
-% plotValors(freq,S21_vac,'S21 Sea Water','Frequency (Hz)','mod(S21)');
-% plotValors(freq,S21_vac,'S21 Culture Medium without cells','Frequency (Hz)','mod(S21)');
-% plotValors(freq,S21_vac,'S21 Culture Medium with 0.1 volum cell','Frequency (Hz)','mod(S21)');
-% plotValors(freq,S21_vac,'S21 Culture Medium with 0.1 volum cell','Frequency (Hz)','mod(S21)');
-% plotValors(freq,S21_vac,'S21 Culture Medium with 0.05 volum cell','Frequency (Hz)','mod(S21)');
-% plotValors(freq,S21_vac,'S21 Culture Medium with 0.025 volum cell','Frequency (Hz)','mod(S21)');
-% plotValors(freq,S21_vac,'S21 Culture Medium with 0.0125 volum cell','Frequency (Hz)','mod(S21)');
+plotValors(freq,S21_vac,'S21 Vacuum','Frequency (Hz)','mod(S21)');
+plotValors(freq,S21_wat,'S21 Distilled Water','Frequency (Hz)','mod(S21)');
+plotValors(freq,S21_sea,'S21 Sea Water','Frequency (Hz)','mod(S21)');
+plotValors(freq,S21_cul_0,'S21 Culture Medium without cells','Frequency (Hz)','mod(S21)');
+plotValors(freq,S21_cul_01,'S21 Culture Medium with 0.1 volum cell','Frequency (Hz)','mod(S21)');
+plotValors(freq,S21_cul_05,'S21 Culture Medium with 0.05 volum cell','Frequency (Hz)','mod(S21)');
+plotValors(freq,S21_cul_025,'S21 Culture Medium with 0.025 volum cell','Frequency (Hz)','mod(S21)');
+plotValors(freq,S21_cul_0125,'S21 Culture Medium with 0.0125 volum cell','Frequency (Hz)','mod(S21)');
 
 %Sensibilidades
 figure('Name', 'Sensitivity for differents P')
