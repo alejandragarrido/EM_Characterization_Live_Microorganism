@@ -1,11 +1,11 @@
 $begin '$base_index$'
   $begin 'properties'
     all_levels=000000000000
-    time(year=000000002017, month=000000000010, day=000000000023, hour=000000000011, min=000000000005, sec=000000000025)
+    time(year=000000002017, month=000000000011, day=000000000022, hour=000000000020, min=000000000028, sec=000000000046)
     version=000000000000
   $end 'properties'
   $begin '$base_index$'
-    $index$(pos=000000005877, lin=000000000197, lvl=000000000000)
+    $index$(pos=000000004923, lin=000000000154, lvl=000000000000)
   $end '$base_index$'
 $end '$base_index$'
 $begin 'SolutionBlock1'
@@ -14,7 +14,7 @@ $begin 'SolutionBlock1'
 	VersionID=169
 	PostProcess=false
 	LossLess=true
-	NextUniqueID=1188
+	NextUniqueID=1236
 	MoveBackwards=false
 	$begin 'VariationIDs'
 		Map(V='d=\'1.25mm\' d1=\'0.005meter\' eps0=\'8.85e-012\' s=\'0.0005m2\'', ID=1121)
@@ -39,12 +39,69 @@ $end 'SolutionBlock1'
 $begin 'BlockMapName'
 	FileHeader='SolutionBlock1'
 	'SolutionKey(SimSetup=47, Instance=\'SetupDefinition\', Solution=-1, VersionID=169)'='SolutionBlock5'
-	'SolutionKey(SimSetup=47, Instance=\'SolutionDefinition\', Solution=48, VersionID=1122)'='SolutionBlock18'
-	'SolutionKey(SimSetup=47, Instance=\'SolutionDefinition\', Solution=49, VersionID=1122)'='SolutionBlock19'
-	'SolutionKey(SimSetup=47, Instance=\'SolutionDefinition\', Solution=53, VersionID=1122)'='SolutionBlock20'
+	'SolutionKey(SimSetup=47, Instance=\'SolutionDefinition\', Solution=48, VersionID=1205)'='SolutionBlock21'
+	'SolutionKey(SimSetup=47, Instance=\'SolutionDefinition\', Solution=49, VersionID=1205)'='SolutionBlock22'
+	'SolutionKey(SimSetup=47, Instance=\'SolutionDefinition\', Solution=53, VersionID=1205)'='SolutionBlock23'
 	'SolutionKey(SimSetup=47, Instance=\'d=\\\'1.25mm\\\' d1=\\\'0.005meter\\\' eps0=\\\'8.85e-012\\\' s=\\\'0.0005m2\\\'\', Solution=-3, VersionID=169)'='SolutionBlock17'
 	'SolutionKey(SimSetup=47, Instance=\'d=\\\'1.25mm\\\' d1=\\\'5e-006meter\\\' eps0=\\\'8.85e-012\\\' s=\\\'2.5e-011m2\\\'\', Solution=-3, VersionID=169)'='SolutionBlock9'
 $end 'BlockMapName'
+$begin 'SolutionBlock21'
+	SolutionName='AdaptivePass'
+	SolutionID=48
+	V=1205
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(100000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+$end 'SolutionBlock21'
+$begin 'SolutionBlock22'
+	SolutionName='LastAdaptive'
+	SolutionID=49
+	V=1205
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(100000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+$end 'SolutionBlock22'
+$begin 'SolutionBlock23'
+	SolutionName='Sweep'
+	SolutionID=53
+	V=1205
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=true
+		SweepDefType='LIN'
+		StartFreq=10000
+		StopFreq=1000000000
+		StepSize=10100909.09090909
+		SolutionType=5
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=0
+	KeepAllFastSweepFields=false
+$end 'SolutionBlock23'
 $begin 'SolutionBlock5'
 	SimSetupID=47
 	SimSetupName='Setup1'
@@ -80,106 +137,6 @@ $begin 'SolutionBlock5'
 		$end 'SubData'
 	$end 'MI'
 $end 'SolutionBlock5'
-$begin 'SolutionBlock20'
-	SolutionName='Sweep'
-	SolutionID=53
-	V=1122
-	$begin 'States'
-		F(VID=1121, Ver=1122)
-	$end 'States'
-	$begin 'Definition'
-		SamplingInterpolation=true
-		SweepDefType='LIN'
-		StartFreq=10000
-		StopFreq=1000000000
-		StepSize=10100909.09090909
-		SolutionType=5
-		CenterFreq=0
-	$end 'Definition'
-	IsImported=false
-	IsTable=false
-	IsMatrixDataTable=false
-	SweepID=0
-	KeepAllFastSweepFields=false
-	$begin 'M'
-		$begin 'SubData'
-			ID=0
-			M(VID=1121, Ver=1122, File='DV1121_SOL53_M0_V1122.sd')
-		$end 'SubData'
-	$end 'M'
-$end 'SolutionBlock20'
-$begin 'SolutionBlock18'
-	SolutionName='AdaptivePass'
-	SolutionID=48
-	V=1122
-	$begin 'States'
-		F(VID=1121, Ver=1122)
-	$end 'States'
-	$begin 'Definition'
-		SamplingInterpolation=false
-		Frequencies(100000000)
-		SolutionType=6
-		CenterFreq=0
-	$end 'Definition'
-	IsImported=false
-	IsTable=false
-	IsMatrixDataTable=false
-	SweepID=-1
-	KeepAllFastSweepFields=false
-	$begin 'M'
-		$begin 'SubData'
-			ID=2
-			M(VID=1121, Ver=1122, File='DV1121_SOL48_M2_V1122.sd')
-		$end 'SubData'
-		$begin 'SubData'
-			ID=3
-			M(VID=1121, Ver=1122, File='DV1121_SOL48_M3_V1122.sd')
-		$end 'SubData'
-	$end 'M'
-	$begin 'A'
-		$begin 'SubData'
-			ID=2
-			A(VID=1121, Ver=1122, File='DV1121_SOL48_A2_V1122.sd')
-		$end 'SubData'
-		$begin 'SubData'
-			ID=3
-			A(VID=1121, Ver=1122, File='DV1121_SOL48_A3_V1122.sd')
-		$end 'SubData'
-	$end 'A'
-$end 'SolutionBlock18'
-$begin 'SolutionBlock19'
-	SolutionName='LastAdaptive'
-	SolutionID=49
-	V=1122
-	$begin 'States'
-		F(VID=1121, Ver=1122)
-	$end 'States'
-	$begin 'Definition'
-		SamplingInterpolation=false
-		Frequencies(100000000)
-		SolutionType=6
-		CenterFreq=0
-	$end 'Definition'
-	IsImported=false
-	IsTable=false
-	IsMatrixDataTable=false
-	SweepID=-1
-	KeepAllFastSweepFields=false
-	$begin 'M'
-		$begin 'SubData'
-			ID=0
-			M(VID=1121, Ver=1122, File='DV1121_SOL49_M0_V1122.sd')
-		$end 'SubData'
-	$end 'M'
-	$begin 'Fields'
-		IDDblMap(593, 1000000, 1113, 100000000)
-		$begin 'DataMap'
-			VID=1121
-			Ver=1122
-			F(DblID=1113, Dir='DV1121_S49_V1122_F1113/')
-		$end 'DataMap'
-	$end 'Fields'
-$end 'SolutionBlock19'
 $begin 'SolutionBlock17'
 	ConvSetupName='DrivenDeltaSConvNOV'
 	IsConverged=true
@@ -206,15 +163,15 @@ $begin 'SolutionBlock9'
 $end 'SolutionBlock9'
 $begin '$index$'
 	$begin '$index$'
-		SolutionBlock9(pos=5524, lin=185, lvl=0)
-		BlockMapName(pos=1295, lin=29, lvl=0)
-		SolutionBlock18(pos=3676, lin=101, lvl=0)
-		SolutionBlock19(pos=4511, lin=140, lvl=0)
-		SolutionBlock20(pos=3113, lin=73, lvl=0)
-		SolutionBlock5(pos=2133, lin=38, lvl=0)
+		SolutionBlock9(pos=4570, lin=142, lvl=0)
+		SolutionBlock21(pos=2133, lin=38, lvl=0)
+		SolutionBlock22(pos=2492, lin=56, lvl=0)
+		SolutionBlock23(pos=2851, lin=74, lvl=0)
+		SolutionBlock5(pos=3266, lin=95, lvl=0)
 		SolutionBlock1(pos=370, lin=1, lvl=0)
-		SolutionBlock17(pos=5200, lin=173, lvl=0)
+		BlockMapName(pos=1295, lin=29, lvl=0)
+		SolutionBlock17(pos=4246, lin=130, lvl=0)
 		$base_index$(pos=0, lin=1, lvl=0)
-		$index$(pos=5877, lin=197, lvl=0)
+		$index$(pos=4923, lin=154, lvl=0)
 	$end '$index$'
 $end '$index$'

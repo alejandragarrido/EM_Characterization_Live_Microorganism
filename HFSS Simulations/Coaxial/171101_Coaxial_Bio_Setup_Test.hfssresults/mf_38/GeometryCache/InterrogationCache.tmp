@@ -1,10 +1,10 @@
 $begin 'CacheDataVersion'
-	DataVersion=138
+	DataVersion=169
 $end 'CacheDataVersion'
 $begin 'InterrogationCache'
 	Version=1
 	$begin 'VariableValues'
-		h='3mm'
+		h='4mm'
 		rhe='11.5mm'
 		rhi='5mm'
 	$end 'VariableValues'
@@ -35,16 +35,16 @@ $begin 'InterrogationCache'
 		$end '114'
 		$begin '177'
 			$begin 'BoundingBox'
-				Low[3: -11.5, -11.5, -0.5]
-				High[3: 11.5, 11.5, 1.5]
+				Low[3: -11.5, -11.5, -1]
+				High[3: 11.5, 11.5, 2]
 				Exact=false
 				Valid=true
 			$end 'BoundingBox'
 		$end '177'
 		$begin '195'
 			$begin 'BoundingBox'
-				Low[3: -11.5, -11.5, -1.5]
-				High[3: 11.5, 11.5, -0.5]
+				Low[3: -11.5, -11.5, -2]
+				High[3: 11.5, 11.5, -1]
 				Exact=false
 				Valid=true
 			$end 'BoundingBox'

@@ -205,8 +205,10 @@ $begin 'AnsoftProject'
 				$end 'AttachedData'
 				$begin 'ModifierData'
 				$end 'ModifierData'
-				permittivity='81'
-				ModTime=1508397631
+				permittivity='234'
+				conductivity='0'
+				delta_H_freq='1000000'
+				ModTime=1511378117
 				Library=''
 				LibLocation='Project'
 			$end 'Culture_medium_wtihout_sgm'
@@ -267,7 +269,7 @@ $begin 'AnsoftProject'
 			WorkingCS=1
 			$begin 'GeometryCore'
 				BlockVersionID=3
-				DataVersion=296
+				DataVersion=297
 				NativeKernel='ACIS'
 				NativeKernelVersionID=4
 				Units='mm'
@@ -1492,7 +1494,7 @@ $begin 'AnsoftProject'
 					ID=53
 					Name='Sweep'
 					$begin 'SimDataExtractor'
-						SimValue('Y(1,1)', 2, 90, false, SimValueID=724, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('Y(1,1)', 2, 90, false, SimValueID=759, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
 						$begin 'Sweeps'
 							$begin 'PostprocessSweep'
 								Variable='Freq'
@@ -1617,7 +1619,7 @@ $begin 'AnsoftProject'
 			WorkingCS=1
 			$begin 'GeometryCore'
 				BlockVersionID=3
-				DataVersion=159
+				DataVersion=160
 				NativeKernel='ACIS'
 				NativeKernelVersionID=4
 				Units='um'
@@ -2930,7 +2932,7 @@ $begin 'AnsoftProject'
 					ID=61
 					Name='Sweep'
 					$begin 'SimDataExtractor'
-						SimValue('Y(1,1)', 2, 90, false, SimValueID=623, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('Y(1,1)', 2, 90, false, SimValueID=652, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
 						$begin 'Sweeps'
 							$begin 'PostprocessSweep'
 								Variable='Freq'
@@ -3063,7 +3065,7 @@ $begin 'AnsoftProject'
 			WorkingCS=1
 			$begin 'GeometryCore'
 				BlockVersionID=3
-				DataVersion=307
+				DataVersion=308
 				NativeKernel='ACIS'
 				NativeKernelVersionID=4
 				Units='mm'
@@ -3812,7 +3814,7 @@ $begin 'AnsoftProject'
 					ID=53
 					Name='Sweep'
 					$begin 'SimDataExtractor'
-						SimValue('Y(1,1)', 2, 90, false, SimValueID=789, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('Y(1,1)', 2, 90, false, SimValueID=840, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
 						$begin 'Sweeps'
 							$begin 'PostprocessSweep'
 								Variable='Freq'
@@ -4082,7 +4084,7 @@ $begin 'AnsoftProject'
 			WorkingCS=1
 			$begin 'GeometryCore'
 				BlockVersionID=3
-				DataVersion=338
+				DataVersion=339
 				NativeKernel='ACIS'
 				NativeKernelVersionID=4
 				Units='mm'
@@ -4738,26 +4740,6 @@ $begin 'AnsoftProject'
 								Increment=0.0872664625997165
 								CreateIndexedSubsweepFlag=false
 							$end 'PostprocessSweep'
-							$begin 'Sweep'
-								Variable='d'
-								Column='1.25mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='s'
-								Column='0.0005m2'
-								Units='m2'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='d1'
-								Column='0.005meter'
-								Units='meter'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='eps0'
-								Column='8.85e-012'
-								Units=''
-							$end 'Sweep'
 						$end 'Sweeps'
 						IsPortOnly=false
 					$end 'SimDataExtractor'
@@ -4808,26 +4790,6 @@ $begin 'AnsoftProject'
 								Increment=0.0872664625997165
 								CreateIndexedSubsweepFlag=false
 							$end 'PostprocessSweep'
-							$begin 'Sweep'
-								Variable='d'
-								Column='1.25mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='s'
-								Column='0.0005m2'
-								Units='m2'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='d1'
-								Column='0.005meter'
-								Units='meter'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='eps0'
-								Column='8.85e-012'
-								Units=''
-							$end 'Sweep'
 						$end 'Sweeps'
 						IsPortOnly=false
 					$end 'SimDataExtractor'
@@ -4836,10 +4798,8 @@ $begin 'AnsoftProject'
 					ID=53
 					Name='Sweep'
 					$begin 'SimDataExtractor'
-						SimValue('Y(1,1)', 2, 90, false, SimValueID=1165, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('Z(1,1)', 2, 90, false, SimValueID=1166, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('Y(1,1)', 2, 90, false, SimValueID=1167, 3, 0, 2, 0, false, false, -2, 1, 0, 1, 1, '', 0, 0)
-						SimValue('S(1,1)', 2, 90, false, SimValueID=1170, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('Y(1,1)', 2, 90, false, SimValueID=1203, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('Z(1,1)', 2, 90, false, SimValueID=1204, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
 						$begin 'Sweeps'
 							$begin 'PostprocessSweep'
 								Variable='Freq'
@@ -4916,9 +4876,9 @@ $begin 'AnsoftProject'
 				$begin 'Setup'
 					N='Setup1'
 					V=169
-					Soln(N='AdaptivePass', V=1122)
-					Soln(N='LastAdaptive', V=1122)
-					Soln(N='Sweep', V=1122)
+					Soln(N='AdaptivePass', V=1205)
+					Soln(N='LastAdaptive', V=1205)
+					Soln(N='Sweep', V=1205)
 				$end 'Setup'
 			$end 'Version ID Map'
 			$begin 'ID Map'
@@ -4987,7 +4947,7 @@ $begin 'AnsoftProject'
 			WorkingCS=1
 			$begin 'GeometryCore'
 				BlockVersionID=3
-				DataVersion=309
+				DataVersion=310
 				NativeKernel='ACIS'
 				NativeKernelVersionID=4
 				Units='mm'
@@ -6258,7 +6218,7 @@ $begin 'AnsoftProject'
 					ID=53
 					Name='Sweep'
 					$begin 'SimDataExtractor'
-						SimValue('Y(1,1)', 2, 90, false, SimValueID=787, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('Y(1,1)', 2, 90, false, SimValueID=850, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
 						$begin 'Sweeps'
 							$begin 'PostprocessSweep'
 								Variable='Freq'
@@ -6484,7 +6444,7 @@ $begin 'AnsoftProject'
 				DesignInstanceID=1
 				$begin 'WindowPosition'
 					$begin 'EditorWindow'
-						'3D Modeler'(Editor3d(View(WindowPos(5, -1, -1, -8, -31, 52, 52, 1213, 548), OrientationMatrix(-41.0207901000977, -65.7796020507813, 104.006690979004, 0, 123.062377929688, -21.92653465271, 34.6688957214355, 0, -1.61200375714543e-006, 109.632675170898, 69.3377990722656, 0, 0, 0, -5.74869346618652, 1, 0, -2.24355244636536, 2.32156920433044, -1.04314041137695, 0.956859588623047, 0.625198364257813, 10.8721885681152), Drawings[7: 'Intern_Membrane_Sup', 'External_Membrane_Sup', 'External_Membrane_Inf', 'Intern_Membrane_Inf', 'Conductor1', 'Conductor2', 'Rectangle1'], 'View Data'('Render Mode'=1, 'Show Ruler'=1), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
+						'3D Modeler'(Editor3d(View(WindowPos(5, -1, -1, -8, -31, 52, 52, 1213, 548), OrientationMatrix(-41.0207901000977, -65.7796020507813, 104.006690979004, 0, 123.062377929688, -21.92653465271, 34.6688957214355, 0, -1.61200375714543e-006, 109.632675170898, 69.3377990722656, 0, 0, 0, -5.74869346618652, 1, 0, -2.24355220794678, 2.32156896591187, -1.04314041137695, 0.956859588623047, 0.625198364257813, 10.8721885681152), Drawings[7: 'Intern_Membrane_Sup', 'External_Membrane_Sup', 'External_Membrane_Inf', 'Intern_Membrane_Inf', 'Conductor1', 'Conductor2', 'Rectangle1'], 'View Data'('Render Mode'=1, 'Show Ruler'=1), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
 					$end 'EditorWindow'
 				$end 'WindowPosition'
 				$begin 'ReportSetup'
@@ -13473,7 +13433,7 @@ $begin 'AnsoftProject'
 				DesignInstanceID=5
 				$begin 'WindowPosition'
 					$begin 'EditorWindow'
-						'3D Modeler'(Editor3d())
+						'3D Modeler'(Editor3d(View(WindowPos(5, -1, -1, -8, -31, 208, 208, 1325, 704), OrientationMatrix(-0.018708286806941, -0.0299999974668026, 0.0474341623485088, 0, 0.0561248585581779, -0.00999999791383743, 0.0158113855868578, 0, -4.97812902011674e-010, 0.0499999970197678, 0.0316227786242962, 0, 0, 2.38418579101563e-007, -5.7486834526062, 1, 0, -1.85871958732605, 1.85871958732605, -1, 1, 0.625207901000977, 10.8721580505371), Drawings[6: 'Sphere1', 'Box1', 'Box2', 'Box3', 'Box4', 'Rectangle1'], 'View Data'('Render Mode'=1, 'Show Ruler'=1), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
 					$end 'EditorWindow'
 				$end 'WindowPosition'
 				$begin 'ReportSetup'
@@ -21070,7 +21030,7 @@ $begin 'AnsoftProject'
 				DesignInstanceID=7
 				$begin 'WindowPosition'
 					$begin 'EditorWindow'
-						'3D Modeler'(Editor3d(View(WindowPos(5, -1, -1, -8, -31, 182, 182, 1160, 602), OrientationMatrix(-41.0207901000977, -65.7796020507813, 104.006690979004, 0, 123.062377929688, -21.92653465271, 34.6688957214355, 0, -1.61200375714543e-006, 109.632675170898, 69.3377990722656, 0, 0, 0, -5.74869346618652, 1, 0, -2.28701758384705, 2.49844622612, -1.04514288902283, 1.07485723495483, 0.625198364257813, 10.8721885681152), Drawings[4: 'Rad_Box', 'Conductor1', 'Conductor2', 'Rectangle1'], 'View Data'('Render Mode'=1, 'Show Ruler'=1), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
+						'3D Modeler'(Editor3d(View(WindowPos(5, -1, -1, -8, -31, 182, 182, 1160, 602), OrientationMatrix(-41.0207901000977, -65.7796020507813, 104.006690979004, 0, 123.062377929688, -21.92653465271, 34.6688957214355, 0, -1.61200375714543e-006, 109.632675170898, 69.3377990722656, 0, 0, 0, -5.74869346618652, 1, 0, -2.28701782226563, 2.49844646453857, -1.04514288902283, 1.07485723495483, 0.625198364257813, 10.8721885681152), Drawings[4: 'Rad_Box', 'Conductor1', 'Conductor2', 'Rectangle1'], 'View Data'('Render Mode'=1, 'Show Ruler'=1), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
 					$end 'EditorWindow'
 				$end 'WindowPosition'
 				$begin 'ReportSetup'
@@ -29493,7 +29453,7 @@ $begin 'AnsoftProject'
 				DesignInstanceID=11
 				$begin 'WindowPosition'
 					$begin 'EditorWindow'
-						'3D Modeler'(Editor3d(View(WindowPos(5, -1, -1, -8, -31, 156, 156, 1317, 652), OrientationMatrix(-41.0207939147949, -65.7796020507813, 104.006690979004, 0, 123.062377929688, -21.9265365600586, 34.6688995361328, 0, -4.27037889494386e-007, 109.632675170898, 69.3377990722656, 0, 1.19209289550781e-007, 2.38418579101563e-007, -5.74869346618652, 1, 0, -2.12594437599182, 1.94090008735657, -1.13414239883423, 0.985858201980591, 0.625198364257813, 10.8721885681152), Drawings[4: 'Rad_Box', 'Conductor1', 'Conductor2', 'Rectangle1'], 'View Data'('Render Mode'=1, 'Show Ruler'=1), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
+						'3D Modeler'(Editor3d(View(WindowPos(3, -1, -1, -8, -31, 156, 156, 1317, 652), OrientationMatrix(-41.0207939147949, -65.7796020507813, 104.006690979004, 0, 123.062377929688, -21.9265365600586, 34.6688995361328, 0, -4.27037889494386e-007, 109.632675170898, 69.3377990722656, 0, 1.19209289550781e-007, 2.38418579101563e-007, -5.74869346618652, 1, 0, -1.69420301914215, 1.5091587305069, -1.13414239883423, 0.985858201980591, 0.625198364257813, 10.8721885681152), Drawings[4: 'Rad_Box', 'Conductor1', 'Conductor2', 'Rectangle1'], 'View Data'('Render Mode'=1, 'Show Ruler'=1), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
 					$end 'EditorWindow'
 				$end 'WindowPosition'
 				$begin 'ReportSetup'
@@ -36229,6 +36189,30 @@ $begin 'AnsoftProject'
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -36800,6 +36784,30 @@ $begin 'AnsoftProject'
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -37371,6 +37379,30 @@ $begin 'AnsoftProject'
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -37408,87 +37440,6 @@ $begin 'AnsoftProject'
 						$end '- Reactance'
 					$end 'Reports'
 					$begin 'ReportsWindowInfoList'
-						$begin 'XY Plot 1'
-							ReportID=97
-							$begin 'WindowInfoList'
-								$begin 'Report2D'
-									$begin 'ViewInfo'
-										$begin 'WrapperView'
-											ID(20)
-										$end 'WrapperView'
-										$begin 'WrapperDoc'
-											HiddenDrawings()
-											$begin 'DispType'
-												PlotType=1
-												$begin 'CurveMed'
-													$begin 'MedCamera'
-														$begin 'svrc'
-															svid=4
-															view(20, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 1.0430582619847e-008, 1.03013630611826e-011)))
-														$end 'svrc'
-													$end 'MedCamera'
-												$end 'CurveMed'
-											$end 'DispType'
-										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -8, -31, 208, 208, 1369, 704))
-									$end 'ViewInfo'
-								$end 'Report2D'
-							$end 'WindowInfoList'
-						$end 'XY Plot 1'
-						$begin 'Resistance'
-							ReportID=99
-							$begin 'WindowInfoList'
-								$begin 'Report2D'
-									$begin 'ViewInfo'
-										$begin 'WrapperView'
-											ID(20)
-										$end 'WrapperView'
-										$begin 'WrapperDoc'
-											HiddenDrawings()
-											$begin 'DispType'
-												PlotType=1
-												$begin 'CurveMed'
-													$begin 'MedCamera'
-														$begin 'svrc'
-															svid=4
-															view(20, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 2.7684647256237e+020, 1.48647453114855e+022)))
-														$end 'svrc'
-													$end 'MedCamera'
-												$end 'CurveMed'
-											$end 'DispType'
-										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -8, -31, 234, 234, 1395, 730))
-									$end 'ViewInfo'
-								$end 'Report2D'
-							$end 'WindowInfoList'
-						$end 'Resistance'
-						$begin '- Reactance'
-							ReportID=101
-							$begin 'WindowInfoList'
-								$begin 'Report2D'
-									$begin 'ViewInfo'
-										$begin 'WrapperView'
-											ID(20)
-										$end 'WrapperView'
-										$begin 'WrapperDoc'
-											HiddenDrawings()
-											$begin 'DispType'
-												PlotType=1
-												$begin 'CurveMed'
-													$begin 'MedCamera'
-														$begin 'svrc'
-															svid=4
-															view(20, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 2.7684647256237e+020, 1.48647453114855e+022)))
-														$end 'svrc'
-													$end 'MedCamera'
-												$end 'CurveMed'
-											$end 'DispType'
-										$end 'WrapperDoc'
-										WindowPos(WindowPos(3, -1, -1, -8, -31, 0, 0, 1161, 496))
-									$end 'ViewInfo'
-								$end 'Report2D'
-							$end 'WindowInfoList'
-						$end '- Reactance'
 					$end 'ReportsWindowInfoList'
 				$end 'ReportSetup'
 			$end 'HfssDesignInstance'
@@ -45616,7 +45567,7 @@ f/Z'
 		DesignName='Capacitor_water'
 		Notes=''
 		Factory='HFSS'
-		IsSolved=true
+		IsSolved=false
 		'Nominal Setups'[1: 'Setup1']
 		'Optimetrics Setups'[0:]
 		Image64='/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQE\

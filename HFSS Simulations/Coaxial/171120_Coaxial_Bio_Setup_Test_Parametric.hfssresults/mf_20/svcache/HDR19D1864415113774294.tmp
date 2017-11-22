@@ -1,0 +1,87 @@
+SimValueCacheVersionID=1
+$begin 'SimValueInfos'
+	NextUniqueID=3
+	MoveBackwards=false
+	$begin 'SimValue'
+		ID=0
+		$begin 'SimValueParams'
+			QuantityName='S(2,1)'
+			ValueState(90, 15, 1, 2)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=1
+		$begin 'SimValueParams'
+			QuantityName='S(1,1)'
+			ValueState(90, 15, 1, 2)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=2
+		$begin 'SimValueParams'
+			QuantityName='S(2,2)'
+			ValueState(90, 15, 1, 2)
+		$end 'SimValueParams'
+	$end 'SimValue'
+$end 'SimValueInfos'
+$begin 'SimValueCache'
+	$begin 'DesignMap'
+		DesignID=20
+		$begin 'SolutionMap'
+			$begin 'ContextMap'
+				SolutionID=81
+			$end 'ContextMap'
+			$begin 'ContextMap'
+				SolutionID=82
+			$end 'ContextMap'
+			$begin 'ContextMap'
+				SolutionID=86
+				$begin 'VersionMap'
+					$begin 'ReportTypeSolnDef'
+						ReportType=0
+						SimValueContext(3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+					$end 'ReportTypeSolnDef'
+					$begin 'MajorVVMap'
+						VersionID=539
+						$begin 'MinorVVMap'
+							MajorVariation='h=\'4mm\' rhe=\'11.5mm\' rhi=\'5mm\''
+							MinorCacheFile='min1A8B864415113774869.tmp'
+						$end 'MinorVVMap'
+					$end 'MajorVVMap'
+				$end 'VersionMap'
+			$end 'ContextMap'
+			$begin 'ContextMap'
+				SolutionID=572
+				$begin 'VersionMap'
+					$begin 'ReportTypeSolnDef'
+						ReportType=0
+						SimValueContext(3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+					$end 'ReportTypeSolnDef'
+					$begin 'MajorVVMap'
+						VersionID=0
+						$begin 'MinorVVMap'
+							MajorVariation='h=\'4mm\' rhe=\'11.5mm\' rhi=\'5mm\''
+							MinorCacheFile='min20948644151137795923.tmp'
+						$end 'MinorVVMap'
+					$end 'MajorVVMap'
+				$end 'VersionMap'
+			$end 'ContextMap'
+			$begin 'ContextMap'
+				SolutionID=583
+				$begin 'VersionMap'
+					$begin 'ReportTypeSolnDef'
+						ReportType=0
+						SimValueContext(3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+					$end 'ReportTypeSolnDef'
+					$begin 'MajorVVMap'
+						VersionID=0
+						$begin 'MinorVVMap'
+							MajorVariation='h=\'4mm\' rhe=\'11.5mm\' rhi=\'5mm\''
+							MinorCacheFile='min21318644151137800726.tmp'
+						$end 'MinorVVMap'
+					$end 'MajorVVMap'
+				$end 'VersionMap'
+			$end 'ContextMap'
+		$end 'SolutionMap'
+	$end 'DesignMap'
+$end 'SimValueCache'

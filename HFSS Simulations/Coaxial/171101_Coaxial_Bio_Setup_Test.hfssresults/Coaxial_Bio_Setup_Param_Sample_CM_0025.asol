@@ -1,13 +1,69 @@
 $begin '$base_index$'
   $begin 'properties'
     all_levels=000000000000
-    time(year=000000002017, month=000000000011, day=000000000020, hour=000000000011, min=000000000018, sec=000000000040)
+    time(year=000000002017, month=000000000011, day=000000000022, hour=000000000020, min=000000000013, sec=000000000031)
     version=000000000000
   $end 'properties'
   $begin '$base_index$'
-    $index$(pos=000000017695, lin=000000000497, lvl=000000000000)
+    $index$(pos=000000015353, lin=000000000443, lvl=000000000000)
   $end '$base_index$'
 $end '$base_index$'
+$begin 'SolutionBlock6'
+	ProductName='HFSS'
+	CircuitName='Coaxial_Bio_Setup_Param_Sample_CM_0025'
+	VersionID=510
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=800
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='h=\'3mm\' rhe=\'10.5mm\' rhi=\'5mm\'', ID=666)
+		Map(V='h=\'3mm\' rhe=\'10.5mm\' rhi=\'6mm\'', ID=604)
+		Map(V='h=\'3mm\' rhe=\'10mm\' rhi=\'5mm\'', ID=667)
+		Map(V='h=\'3mm\' rhe=\'11.5mm\' rhi=\'5mm\'', ID=627)
+		Map(V='h=\'3mm\' rhe=\'5.5mm\' rhi=\'5mm\'', ID=676)
+		Map(V='h=\'3mm\' rhe=\'5mm\' rhi=\'5mm\'', ID=677)
+		Map(V='h=\'3mm\' rhe=\'6.5mm\' rhi=\'5mm\'', ID=674)
+		Map(V='h=\'3mm\' rhe=\'6mm\' rhi=\'5mm\'', ID=675)
+		Map(V='h=\'3mm\' rhe=\'7.5mm\' rhi=\'5mm\'', ID=672)
+		Map(V='h=\'3mm\' rhe=\'7mm\' rhi=\'5mm\'', ID=673)
+		Map(V='h=\'3mm\' rhe=\'8.5mm\' rhi=\'5mm\'', ID=670)
+		Map(V='h=\'3mm\' rhe=\'8mm\' rhi=\'5mm\'', ID=671)
+		Map(V='h=\'3mm\' rhe=\'9.5mm\' rhi=\'5mm\'', ID=668)
+		Map(V='h=\'3mm\' rhe=\'9mm\' rhi=\'5mm\'', ID=669)
+		Map(V='h=\'4mm\' rhe=\'11.5mm\' rhi=\'5mm\'', ID=694)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=627, Ver=510, Dir='DV627_V510.imesh/')
+	$end 'InitialMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=627, Ver=510, Dir='DV627_MI0_V510.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock6'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock6'
+	'SolutionKey(SimSetup=80, Instance=\'SetupDefinition\', Solution=-1, VersionID=510)'='SolutionBlock5'
+	'SolutionKey(SimSetup=80, Instance=\'SolutionDefinition\', Solution=81, VersionID=606)'='SolutionBlock2'
+	'SolutionKey(SimSetup=80, Instance=\'SolutionDefinition\', Solution=82, VersionID=606)'='SolutionBlock3'
+	'SolutionKey(SimSetup=80, Instance=\'SolutionDefinition\', Solution=86, VersionID=606)'='SolutionBlock4'
+	'SolutionKey(SimSetup=80, Instance=\'h=\\\'3mm\\\' rhe=\\\'10.5mm\\\' rhi=\\\'5mm\\\'\', Solution=-3, VersionID=510)'='SolutionBlock8'
+	'SolutionKey(SimSetup=80, Instance=\'h=\\\'3mm\\\' rhe=\\\'10mm\\\' rhi=\\\'5mm\\\'\', Solution=-3, VersionID=510)'='SolutionBlock9'
+	'SolutionKey(SimSetup=80, Instance=\'h=\\\'3mm\\\' rhe=\\\'11.5mm\\\' rhi=\\\'5mm\\\'\', Solution=-3, VersionID=510)'='SolutionBlock7'
+	'SolutionKey(SimSetup=80, Instance=\'h=\\\'3mm\\\' rhe=\\\'5.5mm\\\' rhi=\\\'5mm\\\'\', Solution=-3, VersionID=510)'='SolutionBlock18'
+	'SolutionKey(SimSetup=80, Instance=\'h=\\\'3mm\\\' rhe=\\\'6.5mm\\\' rhi=\\\'5mm\\\'\', Solution=-3, VersionID=510)'='SolutionBlock16'
+	'SolutionKey(SimSetup=80, Instance=\'h=\\\'3mm\\\' rhe=\\\'6mm\\\' rhi=\\\'5mm\\\'\', Solution=-3, VersionID=510)'='SolutionBlock17'
+	'SolutionKey(SimSetup=80, Instance=\'h=\\\'3mm\\\' rhe=\\\'7.5mm\\\' rhi=\\\'5mm\\\'\', Solution=-3, VersionID=510)'='SolutionBlock14'
+	'SolutionKey(SimSetup=80, Instance=\'h=\\\'3mm\\\' rhe=\\\'7mm\\\' rhi=\\\'5mm\\\'\', Solution=-3, VersionID=510)'='SolutionBlock15'
+	'SolutionKey(SimSetup=80, Instance=\'h=\\\'3mm\\\' rhe=\\\'8.5mm\\\' rhi=\\\'5mm\\\'\', Solution=-3, VersionID=510)'='SolutionBlock12'
+	'SolutionKey(SimSetup=80, Instance=\'h=\\\'3mm\\\' rhe=\\\'8mm\\\' rhi=\\\'5mm\\\'\', Solution=-3, VersionID=510)'='SolutionBlock13'
+	'SolutionKey(SimSetup=80, Instance=\'h=\\\'3mm\\\' rhe=\\\'9.5mm\\\' rhi=\\\'5mm\\\'\', Solution=-3, VersionID=510)'='SolutionBlock10'
+	'SolutionKey(SimSetup=80, Instance=\'h=\\\'3mm\\\' rhe=\\\'9mm\\\' rhi=\\\'5mm\\\'\', Solution=-3, VersionID=510)'='SolutionBlock11'
+$end 'BlockMapName'
 $begin 'SolutionBlock2'
 	SolutionName='AdaptivePass'
 	SolutionID=81
@@ -73,69 +129,17 @@ $begin 'SolutionBlock2'
 		$begin 'SubData'
 			ID=0
 			A(VID=627, Ver=606, File='DV627_SOL81_A0_V606.sd')
-			A(VID=666, Ver=606, File='DV666_SOL81_A0_V606.sd')
-			A(VID=667, Ver=606, File='DV667_SOL81_A0_V606.sd')
-			A(VID=668, Ver=606, File='DV668_SOL81_A0_V606.sd')
-			A(VID=669, Ver=606, File='DV669_SOL81_A0_V606.sd')
-			A(VID=670, Ver=606, File='DV670_SOL81_A0_V606.sd')
-			A(VID=671, Ver=606, File='DV671_SOL81_A0_V606.sd')
-			A(VID=672, Ver=606, File='DV672_SOL81_A0_V606.sd')
-			A(VID=673, Ver=606, File='DV673_SOL81_A0_V606.sd')
-			A(VID=674, Ver=606, File='DV674_SOL81_A0_V606.sd')
-			A(VID=675, Ver=606, File='DV675_SOL81_A0_V606.sd')
-			A(VID=676, Ver=606, File='DV676_SOL81_A0_V606.sd')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=1
 			A(VID=627, Ver=606, File='DV627_SOL81_A1_V606.sd')
-			A(VID=666, Ver=606, File='DV666_SOL81_A1_V606.sd')
-			A(VID=667, Ver=606, File='DV667_SOL81_A1_V606.sd')
-			A(VID=668, Ver=606, File='DV668_SOL81_A1_V606.sd')
-			A(VID=669, Ver=606, File='DV669_SOL81_A1_V606.sd')
-			A(VID=670, Ver=606, File='DV670_SOL81_A1_V606.sd')
-			A(VID=671, Ver=606, File='DV671_SOL81_A1_V606.sd')
-			A(VID=672, Ver=606, File='DV672_SOL81_A1_V606.sd')
-			A(VID=673, Ver=606, File='DV673_SOL81_A1_V606.sd')
-			A(VID=674, Ver=606, File='DV674_SOL81_A1_V606.sd')
-			A(VID=675, Ver=606, File='DV675_SOL81_A1_V606.sd')
-			A(VID=676, Ver=606, File='DV676_SOL81_A1_V606.sd')
 		$end 'SubData'
 		$begin 'SubData'
 			ID=2
 			A(VID=627, Ver=606, File='DV627_SOL81_A2_V606.sd')
-			A(VID=666, Ver=606, File='DV666_SOL81_A2_V606.sd')
-			A(VID=667, Ver=606, File='DV667_SOL81_A2_V606.sd')
-			A(VID=668, Ver=606, File='DV668_SOL81_A2_V606.sd')
-			A(VID=669, Ver=606, File='DV669_SOL81_A2_V606.sd')
-			A(VID=670, Ver=606, File='DV670_SOL81_A2_V606.sd')
-			A(VID=671, Ver=606, File='DV671_SOL81_A2_V606.sd')
-			A(VID=672, Ver=606, File='DV672_SOL81_A2_V606.sd')
-			A(VID=673, Ver=606, File='DV673_SOL81_A2_V606.sd')
-			A(VID=674, Ver=606, File='DV674_SOL81_A2_V606.sd')
-			A(VID=675, Ver=606, File='DV675_SOL81_A2_V606.sd')
-			A(VID=676, Ver=606, File='DV676_SOL81_A2_V606.sd')
 		$end 'SubData'
 	$end 'A'
 $end 'SolutionBlock2'
-$begin 'BlockMapName'
-	FileHeader='SolutionBlock6'
-	'SolutionKey(SimSetup=80, Instance=\'SetupDefinition\', Solution=-1, VersionID=510)'='SolutionBlock5'
-	'SolutionKey(SimSetup=80, Instance=\'SolutionDefinition\', Solution=81, VersionID=606)'='SolutionBlock2'
-	'SolutionKey(SimSetup=80, Instance=\'SolutionDefinition\', Solution=82, VersionID=606)'='SolutionBlock3'
-	'SolutionKey(SimSetup=80, Instance=\'SolutionDefinition\', Solution=86, VersionID=606)'='SolutionBlock4'
-	'SolutionKey(SimSetup=80, Instance=\'h=\\\'3mm\\\' rhe=\\\'10.5mm\\\' rhi=\\\'5mm\\\'\', Solution=-3, VersionID=510)'='SolutionBlock8'
-	'SolutionKey(SimSetup=80, Instance=\'h=\\\'3mm\\\' rhe=\\\'10mm\\\' rhi=\\\'5mm\\\'\', Solution=-3, VersionID=510)'='SolutionBlock9'
-	'SolutionKey(SimSetup=80, Instance=\'h=\\\'3mm\\\' rhe=\\\'11.5mm\\\' rhi=\\\'5mm\\\'\', Solution=-3, VersionID=510)'='SolutionBlock7'
-	'SolutionKey(SimSetup=80, Instance=\'h=\\\'3mm\\\' rhe=\\\'5.5mm\\\' rhi=\\\'5mm\\\'\', Solution=-3, VersionID=510)'='SolutionBlock18'
-	'SolutionKey(SimSetup=80, Instance=\'h=\\\'3mm\\\' rhe=\\\'6.5mm\\\' rhi=\\\'5mm\\\'\', Solution=-3, VersionID=510)'='SolutionBlock16'
-	'SolutionKey(SimSetup=80, Instance=\'h=\\\'3mm\\\' rhe=\\\'6mm\\\' rhi=\\\'5mm\\\'\', Solution=-3, VersionID=510)'='SolutionBlock17'
-	'SolutionKey(SimSetup=80, Instance=\'h=\\\'3mm\\\' rhe=\\\'7.5mm\\\' rhi=\\\'5mm\\\'\', Solution=-3, VersionID=510)'='SolutionBlock14'
-	'SolutionKey(SimSetup=80, Instance=\'h=\\\'3mm\\\' rhe=\\\'7mm\\\' rhi=\\\'5mm\\\'\', Solution=-3, VersionID=510)'='SolutionBlock15'
-	'SolutionKey(SimSetup=80, Instance=\'h=\\\'3mm\\\' rhe=\\\'8.5mm\\\' rhi=\\\'5mm\\\'\', Solution=-3, VersionID=510)'='SolutionBlock12'
-	'SolutionKey(SimSetup=80, Instance=\'h=\\\'3mm\\\' rhe=\\\'8mm\\\' rhi=\\\'5mm\\\'\', Solution=-3, VersionID=510)'='SolutionBlock13'
-	'SolutionKey(SimSetup=80, Instance=\'h=\\\'3mm\\\' rhe=\\\'9.5mm\\\' rhi=\\\'5mm\\\'\', Solution=-3, VersionID=510)'='SolutionBlock10'
-	'SolutionKey(SimSetup=80, Instance=\'h=\\\'3mm\\\' rhe=\\\'9mm\\\' rhi=\\\'5mm\\\'\', Solution=-3, VersionID=510)'='SolutionBlock11'
-$end 'BlockMapName'
 $begin 'SolutionBlock3'
 	SolutionName='LastAdaptive'
 	SolutionID=82
@@ -253,31 +257,9 @@ $begin 'SolutionBlock5'
 	$end 'CurrMeshes'
 	$begin 'WaveAdapt'
 		WA(VID=627, Ver=510, A=1)
-		WA(VID=666, Ver=510, A=1)
-		WA(VID=667, Ver=510, A=1)
-		WA(VID=668, Ver=510, A=1)
-		WA(VID=669, Ver=510, A=1)
-		WA(VID=670, Ver=510, A=1)
-		WA(VID=671, Ver=510, A=1)
-		WA(VID=672, Ver=510, A=1)
-		WA(VID=673, Ver=510, A=1)
-		WA(VID=674, Ver=510, A=1)
-		WA(VID=675, Ver=510, A=1)
-		WA(VID=676, Ver=510, A=1)
 	$end 'WaveAdapt'
 	$begin 'LastPassNumbers'
 		LP(VID=627, Ver=510, P=2)
-		LP(VID=666, Ver=510, P=2)
-		LP(VID=667, Ver=510, P=2)
-		LP(VID=668, Ver=510, P=2)
-		LP(VID=669, Ver=510, P=2)
-		LP(VID=670, Ver=510, P=2)
-		LP(VID=671, Ver=510, P=2)
-		LP(VID=672, Ver=510, P=2)
-		LP(VID=673, Ver=510, P=2)
-		LP(VID=674, Ver=510, P=2)
-		LP(VID=675, Ver=510, P=2)
-		LP(VID=676, Ver=510, P=2)
 	$end 'LastPassNumbers'
 	$begin 'Profiles'
 		P(VID=627, Ver=510, File='DV627_S80_V510.profile')
@@ -301,42 +283,6 @@ $begin 'SolutionBlock5'
 		$end 'SubData'
 	$end 'MI'
 $end 'SolutionBlock5'
-$begin 'SolutionBlock6'
-	ProductName='HFSS'
-	CircuitName='Coaxial_Bio_Setup_Param_Sample_CM_0025'
-	VersionID=510
-	PostProcess=false
-	LossLess=true
-	NextUniqueID=678
-	MoveBackwards=false
-	$begin 'VariationIDs'
-		Map(V='h=\'3mm\' rhe=\'10.5mm\' rhi=\'5mm\'', ID=666)
-		Map(V='h=\'3mm\' rhe=\'10.5mm\' rhi=\'6mm\'', ID=604)
-		Map(V='h=\'3mm\' rhe=\'10mm\' rhi=\'5mm\'', ID=667)
-		Map(V='h=\'3mm\' rhe=\'11.5mm\' rhi=\'5mm\'', ID=627)
-		Map(V='h=\'3mm\' rhe=\'5.5mm\' rhi=\'5mm\'', ID=676)
-		Map(V='h=\'3mm\' rhe=\'5mm\' rhi=\'5mm\'', ID=677)
-		Map(V='h=\'3mm\' rhe=\'6.5mm\' rhi=\'5mm\'', ID=674)
-		Map(V='h=\'3mm\' rhe=\'6mm\' rhi=\'5mm\'', ID=675)
-		Map(V='h=\'3mm\' rhe=\'7.5mm\' rhi=\'5mm\'', ID=672)
-		Map(V='h=\'3mm\' rhe=\'7mm\' rhi=\'5mm\'', ID=673)
-		Map(V='h=\'3mm\' rhe=\'8.5mm\' rhi=\'5mm\'', ID=670)
-		Map(V='h=\'3mm\' rhe=\'8mm\' rhi=\'5mm\'', ID=671)
-		Map(V='h=\'3mm\' rhe=\'9.5mm\' rhi=\'5mm\'', ID=668)
-		Map(V='h=\'3mm\' rhe=\'9mm\' rhi=\'5mm\'', ID=669)
-	$end 'VariationIDs'
-	$begin 'LinkedDataList'
-	$end 'LinkedDataList'
-	$begin 'InitialMeshes'
-		M(VID=627, Ver=510, Dir='DV627_V510.imesh/')
-	$end 'InitialMeshes'
-	$begin 'MI'
-		$begin 'SubData'
-			ID=0
-			MI(VID=627, Ver=510, Dir='DV627_MI0_V510.sd/')
-		$end 'SubData'
-	$end 'MI'
-$end 'SolutionBlock6'
 $begin 'OptimetricsResults'
 	'0:0'='OptimetricsResult1'
 $end 'OptimetricsResults'
@@ -506,27 +452,27 @@ $begin 'SolutionBlock7'
 $end 'SolutionBlock7'
 $begin '$index$'
 	$begin '$index$'
-		SolutionBlock7(pos=17399, lin=486, lvl=0)
-		SolutionBlock2(pos=370, lin=1, lvl=0)
-		BlockMapName(pos=4495, lin=110, lvl=0)
-		SolutionBlock3(pos=6609, lin=129, lvl=0)
-		SolutionBlock4(pos=8106, lin=184, lvl=0)
-		SolutionBlock5(pos=9498, lin=234, lvl=0)
-		SolutionBlock6(pos=11344, lin=294, lvl=0)
-		OptimetricsResults(pos=12617, lin=330, lvl=0)
-		SolutionBlock8(pos=12699, lin=333, lvl=0)
-		SolutionBlock9(pos=12994, lin=344, lvl=0)
-		SolutionBlock10(pos=13289, lin=355, lvl=0)
-		SolutionBlock11(pos=13586, lin=366, lvl=0)
-		SolutionBlock12(pos=13883, lin=377, lvl=0)
-		SolutionBlock13(pos=14180, lin=388, lvl=0)
-		SolutionBlock14(pos=14477, lin=399, lvl=0)
-		SolutionBlock15(pos=14772, lin=410, lvl=0)
-		SolutionBlock16(pos=15068, lin=421, lvl=0)
-		SolutionBlock17(pos=15365, lin=432, lvl=0)
-		SolutionBlock18(pos=15663, lin=443, lvl=0)
-		OptimetricsResult1(pos=15961, lin=454, lvl=0)
+		SolutionBlock7(pos=15057, lin=432, lvl=0)
+		BlockMapName(pos=1699, lin=38, lvl=0)
+		SolutionBlock2(pos=3813, lin=57, lvl=0)
+		SolutionBlock3(pos=6156, lin=133, lvl=0)
+		SolutionBlock4(pos=7653, lin=188, lvl=0)
+		SolutionBlock5(pos=9045, lin=238, lvl=0)
+		SolutionBlock6(pos=370, lin=1, lvl=0)
+		OptimetricsResults(pos=10275, lin=276, lvl=0)
+		SolutionBlock8(pos=10357, lin=279, lvl=0)
+		SolutionBlock9(pos=10652, lin=290, lvl=0)
+		SolutionBlock10(pos=10947, lin=301, lvl=0)
+		SolutionBlock11(pos=11244, lin=312, lvl=0)
+		SolutionBlock12(pos=11541, lin=323, lvl=0)
+		SolutionBlock13(pos=11838, lin=334, lvl=0)
+		SolutionBlock14(pos=12135, lin=345, lvl=0)
+		SolutionBlock15(pos=12430, lin=356, lvl=0)
+		SolutionBlock16(pos=12726, lin=367, lvl=0)
+		SolutionBlock17(pos=13023, lin=378, lvl=0)
+		SolutionBlock18(pos=13321, lin=389, lvl=0)
+		OptimetricsResult1(pos=13619, lin=400, lvl=0)
 		$base_index$(pos=0, lin=1, lvl=0)
-		$index$(pos=17695, lin=497, lvl=0)
+		$index$(pos=15353, lin=443, lvl=0)
 	$end '$index$'
 $end '$index$'
