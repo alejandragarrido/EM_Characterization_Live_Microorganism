@@ -73,4 +73,88 @@ $begin 'Profile'
 		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
 		ProfileTask('Solution Process', 0, 0, 0, 0, 0, 'Elapsed time : 00:00:07 , Hfss ComEngine Memory : 78.8 M', false, true)
 	$end 'ProfileGroup'
+	$begin 'ProfileGroup'
+		StartInfo='Time:  11/23/2017 10:52:44, Host EEFANT36, HFSS Version 13.0.0'
+		TotalInfo='Time:  11/23/2017 10:52:56, Status: Normal Completion'
+		ProfileTask('', 0, 0, 0, 0, 0, 'Desired RAM limit not set.', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'Solution Basis Order: 1', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Adaptive Pass 2', 0, 0, 0, 0, 0, ' Frequency: 1  GHz', false, true)
+		ProfileTask('Simulation Setup', 0, 0, 0, 0, 36944, 'Disk = 0 KBytes', true, true)
+		ProfileTask('Matrix Assembly', 0, 0, 0, 0, 53164, 'Disk = 74 KBytes, 6228 tetrahedra , 1: 104 triangles , 2: 106 triangles ', true, true)
+		ProfileTask('Solver MCS1', 0, 0, 0, 0, 97892, 'Disk = 0 KBytes, matrix size 32006 , matrix bandwidth  16.6 ', true, true)
+		ProfileTask('Field Recovery', 0, 0, 0, 0, 97896, 'Disk = 3791 KBytes, 2 excitations ', true, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Adaptive Pass 3', 0, 0, 0, 0, 0, ' Frequency: 1  GHz', false, true)
+		ProfileTask('  Mesh (volume, adaptive)', 0, 0, 0, 0, 39116, '13237 tetrahedra', true, true)
+		ProfileTask('Simulation Setup', 0, 0, 0, 0, 38496, 'Disk = 0 KBytes', true, true)
+		ProfileTask('Matrix Assembly', 0, 0, 0, 0, 57480, 'Disk = 0 KBytes, 7401 tetrahedra , 1: 104 triangles , 2: 106 triangles ', true, true)
+		ProfileTask('Solver MCS1', 0, 0, 0, 0, 120500, 'Disk = 0 KBytes, matrix size 39030 , matrix bandwidth  17.3 ', true, true)
+		ProfileTask('Field Recovery', 0, 0, 0, 0, 120520, 'Disk = 3837 KBytes, 2 excitations ', true, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'Adaptive Passes converged', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Adaptive Process', 0, 0, 0, 0, 0, 'Elapsed time : 00:00:11 , Hfss ComEngine Memory : 78.8 M', false, true)
+	$end 'ProfileGroup'
+	$begin 'ProfileGroup'
+		StartInfo='Time:  11/23/2017 10:52:56, Host EEFANT36, HFSS Version 13.0.0'
+		TotalInfo='Time:  11/23/2017 10:52:59, Status: Normal Completion'
+		ProfileTask('', 0, 0, 0, 0, 0, 'Desired RAM limit not set.', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'Solution Basis Order: 1', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Solution OneFreq', 0, 0, 0, 0, 0, 'Interpolating Sweep', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'From 1 GHz to 1.01 GHz, 1 Steps', false, true)
+		ProfileTask('Frequency: 1.01 GHz', 0, 0, 0, 0, 0, 'Full Solution # 1', false, true)
+		ProfileTask('Simulation Setup', 0, 0, 0, 0, 38580, 'Disk = 0 KBytes', true, true)
+		ProfileTask('Matrix Assembly', 0, 0, 0, 0, 57388, 'Disk = 0 KBytes, 7401 tetrahedra , 1: 104 triangles , 2: 106 triangles ', true, true)
+		ProfileTask('Solver MCS1', 0, 0, 0, 0, 120836, 'Disk = 0 KBytes, matrix size 39030 , matrix bandwidth  17.3 ', true, true)
+		ProfileTask('Field Recovery', 0, 0, 0, 0, 120840, 'Disk = 0 KBytes, 2 excitations ', true, true)
+		ProfileTask('Frequency: 1 GHz', 0, 0, 0, 0, 0, 'Frequency has already been solved.', false, true)
+		ProfileTask('Frequency: 1.005 GHz', 0, 0, 0, 0, 0, 'Full Solution # 3', false, true)
+		ProfileTask('Simulation Setup', 0, 0, 0, 0, 38516, 'Disk = 0 KBytes', true, true)
+		ProfileTask('Matrix Assembly', 0, 0, 0, 0, 57332, 'Disk = 0 KBytes, 7401 tetrahedra , 1: 104 triangles , 2: 106 triangles ', true, true)
+		ProfileTask('Solver MCS1', 0, 0, 0, 0, 120708, 'Disk = 0 KBytes, matrix size 39030 , matrix bandwidth  17.3 ', true, true)
+		ProfileTask('Field Recovery', 0, 0, 0, 0, 120712, 'Disk = 0 KBytes, 2 excitations ', true, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'Interpolation Error:  error        0 %', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'Interpolating sweep converged', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Solution Process', 0, 0, 0, 0, 0, 'Elapsed time : 00:00:03 , Hfss ComEngine Memory : 78.8 M', false, true)
+	$end 'ProfileGroup'
+	$begin 'ProfileGroup'
+		StartInfo='Time:  11/23/2017 10:55:12, Host EEFANT36, HFSS Version 13.0.0'
+		TotalInfo='Time:  11/23/2017 10:55:12, Status: Normal Completion'
+		ProfileTask('', 0, 0, 0, 0, 0, 'Desired RAM limit not set.', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'Solution Basis Order: 1', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Adaptive Process', 0, 0, 0, 0, 0, 'Elapsed time : 00:00:00 , Hfss ComEngine Memory : 77.9 M', false, true)
+	$end 'ProfileGroup'
+	$begin 'ProfileGroup'
+		StartInfo='Time:  11/23/2017 10:55:12, Host EEFANT36, HFSS Version 13.0.0'
+		TotalInfo='Time:  11/23/2017 10:55:18, Status: Normal Completion'
+		ProfileTask('', 0, 0, 0, 0, 0, 'Desired RAM limit not set.', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'Solution Basis Order: 1', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Solution OneFreq', 0, 0, 0, 0, 0, 'Interpolating Sweep', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'From 0.9 GHz to 1.1 GHz, 1 Steps', false, true)
+		ProfileTask('Frequency: 1.1 GHz', 0, 0, 0, 0, 0, 'Full Solution # 1', false, true)
+		ProfileTask('Simulation Setup', 0, 0, 0, 0, 38476, 'Disk = 0 KBytes', true, true)
+		ProfileTask('Matrix Assembly', 0, 0, 0, 0, 57292, 'Disk = 0 KBytes, 7401 tetrahedra , 1: 104 triangles , 2: 106 triangles ', true, true)
+		ProfileTask('Solver MCS1', 0, 0, 0, 0, 120132, 'Disk = 0 KBytes, matrix size 39030 , matrix bandwidth  17.3 ', true, true)
+		ProfileTask('Field Recovery', 0, 0, 0, 0, 120136, 'Disk = 1 KBytes, 2 excitations ', true, true)
+		ProfileTask('Frequency: 0.9 GHz', 0, 0, 0, 0, 0, 'Full Solution # 2', false, true)
+		ProfileTask('Simulation Setup', 0, 0, 0, 0, 38484, 'Disk = 0 KBytes', true, true)
+		ProfileTask('Matrix Assembly', 0, 0, 0, 0, 57292, 'Disk = 0 KBytes, 7401 tetrahedra , 1: 104 triangles , 2: 106 triangles ', true, true)
+		ProfileTask('Solver MCS1', 0, 0, 0, 0, 120132, 'Disk = 0 KBytes, matrix size 39030 , matrix bandwidth  17.3 ', true, true)
+		ProfileTask('Field Recovery', 0, 0, 0, 0, 120136, 'Disk = 0 KBytes, 2 excitations ', true, true)
+		ProfileTask('Frequency: 1 GHz', 0, 0, 0, 0, 0, 'Frequency has already been solved.', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'Interpolation Error: S Matrix error  3.71515 %', false, true)
+		ProfileTask('Frequency: 0.95 GHz', 0, 0, 0, 0, 0, 'Full Solution # 4', false, true)
+		ProfileTask('Simulation Setup', 0, 0, 0, 0, 38432, 'Disk = 0 KBytes', true, true)
+		ProfileTask('Matrix Assembly', 0, 0, 0, 0, 57420, 'Disk = 0 KBytes, 7401 tetrahedra , 1: 104 triangles , 2: 106 triangles ', true, true)
+		ProfileTask('Solver MCS1', 0, 0, 0, 0, 120544, 'Disk = 0 KBytes, matrix size 39030 , matrix bandwidth  17.3 ', true, true)
+		ProfileTask('Field Recovery', 0, 0, 0, 0, 120548, 'Disk = 0 KBytes, 2 excitations ', true, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'Interpolation Error: S Matrix error        0 %', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, 'Interpolating sweep converged', false, true)
+		ProfileTask('', 0, 0, 0, 0, 0, '', false, true)
+		ProfileTask('Solution Process', 0, 0, 0, 0, 0, 'Elapsed time : 00:00:05 , Hfss ComEngine Memory : 78.2 M', false, true)
+	$end 'ProfileGroup'
 $end 'Profile'

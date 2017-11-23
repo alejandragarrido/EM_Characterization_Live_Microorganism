@@ -1,13 +1,13 @@
-close all
-clear all
-load('Parameters\permittivities_sgm_scenario.mat');
+% close all
+% clear all
+% load('Parameters\permittivities_sgm_scenario.mat');
 %Frequency range
-z = 10e-3;
-f_min=1e8;                  %[Hz]       10kHz
-f_max=3e9;                  %[Hz]       1GHz
-N_f=101;
-freq = logspace(log10(f_min),log10(f_max),N_f);
-% freq = [1*10^6, 100*10^6, 1*10^9];
+z = 3e-3;
+% f_min=1e8;                  %[Hz]       10kHz
+% f_max=3e9;                  %[Hz]       1GHz
+% N_f=101;
+% freq = logspace(log10(f_min),log10(f_max),N_f);
+freq = [1*10^6, 100*10^6, 1*10^9];
 w = 2*pi.*freq;
 %%TEM waves coaxial propagation
 % eps_rea_vac = 1;
@@ -20,28 +20,28 @@ w = 2*pi.*freq;
 %% S21 
 
 %Vacuum
-[alpha_vac, beta_vacm ,S21_vac, phs_vac] = S21(eps_rea_vac, sgm_vac, w, z);
+% [alpha_vac, beta_vacm ,S21_vac, phs_vac] = S21(eps_rea_vac, sgm_vac, w, z);
 %Distilled Water
-[alpha_wat, beta_wat, S21_wat, phs_wat] = S21(eps_rea_wat,sgm_wat,w, z);
+% [alpha_wat, beta_wat, S21_wat, phs_wat] = S21(eps_rea_wat,sgm_wat,w, z);
 %Water Sea
-[alpha_sea, beta_sea, S21_sea, phs_sea] = S21(eps_rea_sea,sgm_sea,w, z);
+% [alpha_sea, beta_sea, S21_sea, phs_sea] = S21(eps_rea_sea,sgm_sea,w, z);
 %Culture Medium without cells
-[alpha_cul_0, beta_cul_0, S21_cmx_cul_0, S21_cul_0, phs_cul_0] = S21(eps_rea_cul_0,sgm_cul_0,w, z);
+[rho_cul_0, tau_cul_0, S21_cmx_cul_0, S21_cul_0, phs_cul_0] = S21(eps_rea_cul_0,sgm_cul_0,w, z)
 %Culture Medium with P= 0.1 cells
-[alpha_cul_01,beta_cul_01, S21_cmx_cul_01, S21_cul_01, phs_cul_01] = S21(eps_rea_cul_01,sgm_cul_01,w, z);
+[rho_cul_01,tau_cul_01, S21_cmx_cul_01, S21_cul_01, phs_cul_01] = S21(eps_rea_cul_01,sgm_cul_01,w, z)
 %Culture Medium with P= 0.05 cells
-[alpha_cul_05, beta_cul_05,S21_cmx_cul_05, S21_cul_05, phs_cul_05] = S21(eps_rea_cul_05,sgm_cul_05,w, z);
-%Culture Medium with P= 0.025 cells
-[alpha_cul_025, beta_cul_025,S21_cmx_cul_025, S21_cul_025, phs_cul_025] = S21(eps_rea_cul_025,sgm_cul_025,w, z);
-%Culture Medium with P= 0.0125 cells
-[aplha_cul_0125, beta_cul_0125,S21_cmx_cul_0125, S21_cul_0125, phs_cul_0125] = S21(eps_rea_cul_0125,sgm_cul_0125,w, z);
+% [alpha_cul_05, beta_cul_05,S21_cmx_cul_05, S21_cul_05, phs_cul_05] = S21(eps_rea_cul_05,sgm_cul_05,w, z);
+% %Culture Medium with P= 0.025 cells
+% [alpha_cul_025, beta_cul_025,S21_cmx_cul_025, S21_cul_025, phs_cul_025] = S21(eps_rea_cul_025,sgm_cul_025,w, z);
+% %Culture Medium with P= 0.0125 cells
+% [aplha_cul_0125, beta_cul_0125,S21_cmx_cul_0125, S21_cul_0125, phs_cul_0125] = S21(eps_rea_cul_0125,sgm_cul_0125,w, z);
 
 % Sensibilidad
 
 sen_00_01 = sensibility(S21_cul_01, S21_cul_0);
-sen_00_05 = sensibility(S21_cul_05, S21_cul_0);
-sen_00_025 = sensibility(S21_cul_025, S21_cul_0);
-sen_00_0125 = sensibility(S21_cul_0125, S21_cul_0);
+% sen_00_05 = sensibility(S21_cul_05, S21_cul_0);
+% sen_00_025 = sensibility(S21_cul_025, S21_cul_0);
+% sen_00_0125 = sensibility(S21_cul_0125, S21_cul_0);
 
 %% Table
 % Cell_Proportion_4 = [0.1;0.05;0.025;0.0125];
@@ -147,12 +147,12 @@ figure('Name', 'Sensitivity for differents P')
  
 semilogx(freq, sen_00_01, '-.')
 hold on
-semilogx(freq, sen_00_05, '--o')
-hold on
-semilogx(freq, sen_00_025, ':s')
-hold on
-semilogx(freq, sen_00_0125, '+' )
-hold on
+% semilogx(freq, sen_00_05, '--o')
+% hold on
+% semilogx(freq, sen_00_025, ':s')
+% hold on
+% semilogx(freq, sen_00_0125, '+' )
+% hold on
 if z==3e-3
 
     title('Sensitivity for differents P for z = 3mm'); 
@@ -165,17 +165,34 @@ legend('P = 0.1','P = 0.05', 'P = 0.025', 'P = 0.0125');
 
 %% Functions
 
-function [alpha, beta, S21_cmx, S21_modul, S21_fase] = S21( eps_rea, sgm, w, z)
+% function [alpha, beta, S21_cmx, S21_modul, S21_fase] = S21( eps_rea, sgm, w, z)
+% % w : angular frequency [rad/s]
+% % c : light speed 3e8 [m/s]
+% % z : thickness (3e-3 [m] )
+% 
+% 
+% c = 3e8; 	
+% beta = w.*(sqrt(eps_rea))/c;                                   % beta
+% alpha = 60*pi*sgm./sqrt(eps_rea);                                % alfa
+% S21_cmx = exp(-1i.*beta.*z).*exp(-alpha.*z);                        % S parameter (2->1)
+% S21_modul = exp(-alpha.*z);                                      % [W]
+% S21_fase = exp(-1i.*beta.*z);                                   % [rad]
+% 
+% 
+% end
+
+function [rho, tau, S21_cmx, S21_modul, S21_fase] = S21( eps_rea, sgm, w, z)
 % w : angular frequency [rad/s]
 % c : light speed 3e8 [m/s]
 % z : thickness (3e-3 [m] )
-
-
+eps_0 = 1;
+rho = ((sqrt(eps_rea) - sqrt(eps_0))./(sqrt(eps_rea)+sqrt(eps_0)));
+tau = 1 - abs(rho).^2;
 c = 3e8; 	
 beta = w.*(sqrt(eps_rea))/c;                                   % beta
 alpha = 60*pi*sgm./sqrt(eps_rea);                                % alfa
 S21_cmx = exp(-1i.*beta.*z).*exp(-alpha.*z);                        % S parameter (2->1)
-S21_modul = exp(-alpha.*z);                                      % [W]
+S21_modul = sqrt(tau).*exp(-alpha.*z);                                      % [W]
 S21_fase = exp(-1i.*beta.*z);                                   % [rad]
 
 
