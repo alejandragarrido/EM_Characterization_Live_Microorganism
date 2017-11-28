@@ -1,11 +1,11 @@
 $begin '$base_index$'
   $begin 'properties'
     all_levels=000000000000
-    time(year=000000002017, month=000000000011, day=000000000021, hour=000000000011, min=000000000017, sec=000000000039)
+    time(year=000000002017, month=000000000011, day=000000000028, hour=000000000009, min=000000000022, sec=000000000016)
     version=000000000000
   $end 'properties'
   $begin '$base_index$'
-    $index$(pos=000000004511, lin=000000000173, lvl=000000000000)
+    $index$(pos=000000004683, lin=000000000183, lvl=000000000000)
   $end '$base_index$'
 $end '$base_index$'
 $begin 'SolutionBlock6'
@@ -182,14 +182,16 @@ $begin 'SolutionBlock7'
 $end 'SolutionBlock7'
 $begin '$index$'
 	$begin '$index$'
-		SolutionBlock7(pos=4216, lin=162, lvl=0)
-		BlockMapName(pos=887, lin=24, lvl=0)
-		SolutionBlock2(pos=1475, lin=32, lvl=0)
-		SolutionBlock3(pos=2394, lin=75, lvl=0)
-		SolutionBlock4(pos=3058, lin=108, lvl=0)
-		SolutionBlock5(pos=3618, lin=136, lvl=0)
-		SolutionBlock6(pos=370, lin=1, lvl=0)
+		SolutionBlock6(pos=370, lin=11, lvl=0)
+		BlockMapName(pos=910, lin=34, lvl=0)
+		SolutionBlock2(pos=1506, lin=42, lvl=0)
+		SolutionBlock3(pos=2468, lin=85, lvl=0)
+		SolutionBlock4(pos=3165, lin=118, lvl=0)
+		SolutionBlock5(pos=3753, lin=146, lvl=0)
+		SolutionBlock7(pos=4377, lin=172, lvl=0)
 		$base_index$(pos=0, lin=1, lvl=0)
-		$index$(pos=4511, lin=173, lvl=0)
+		$index$(pos=4683, lin=183, lvl=0)
 	$end '$index$'
 $end '$index$'
+ '$index$'
+          
