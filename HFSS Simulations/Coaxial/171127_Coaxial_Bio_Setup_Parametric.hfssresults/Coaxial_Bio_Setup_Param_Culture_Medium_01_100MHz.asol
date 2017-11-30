@@ -1,0 +1,112 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002017, month=000000000011, day=000000000030, hour=000000000011, min=000000000010, sec=000000000045)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000002558, lin=000000000091, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock2'
+	SolutionName='AdaptivePass'
+	SolutionID=98
+	V=242
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(1000000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+$end 'SolutionBlock2'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=97, Instance=\'SetupDefinition\', Solution=-1, VersionID=155)'='SolutionBlock5'
+	'SolutionKey(SimSetup=97, Instance=\'SolutionDefinition\', Solution=141, VersionID=242)'='SolutionBlock4'
+	'SolutionKey(SimSetup=97, Instance=\'SolutionDefinition\', Solution=98, VersionID=242)'='SolutionBlock2'
+	'SolutionKey(SimSetup=97, Instance=\'SolutionDefinition\', Solution=99, VersionID=242)'='SolutionBlock3'
+$end 'BlockMapName'
+$begin 'SolutionBlock3'
+	SolutionName='LastAdaptive'
+	SolutionID=99
+	V=242
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(1000000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+$end 'SolutionBlock3'
+$begin 'SolutionBlock4'
+	SolutionName='Sweep100MHz'
+	SolutionID=141
+	V=242
+	$begin 'States'
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=true
+		SweepDefType='LIN'
+		StartFreq=100000000
+		StopFreq=101000000
+		StepSize=100000
+		SolutionType=5
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=1
+	KeepAllFastSweepFields=false
+$end 'SolutionBlock4'
+$begin 'SolutionBlock5'
+	SimSetupID=97
+	SimSetupName='Setup1'
+	VersionID=155
+	IsImported=false
+	IsTable=false
+	SolveSetupID=0
+	$begin 'MI'
+	$end 'MI'
+$end 'SolutionBlock5'
+$begin 'SolutionBlock1'
+	ProductName=''
+	CircuitName='Coaxial_Bio_Setup_Param_Culture_Medium_01_100MHz'
+	VersionID=155
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=265
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='h=\'30mm\' hb=\'0mm\' rhe=\'11.5mm\' rhi=\'5mm\'', ID=263)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'MI'
+	$end 'MI'
+$end 'SolutionBlock1'
+$begin '$index$'
+	$begin '$index$'
+		SolutionBlock1(pos=2160, lin=75, lvl=0)
+		SolutionBlock2(pos=370, lin=1, lvl=0)
+		BlockMapName(pos=727, lin=19, lvl=0)
+		SolutionBlock3(pos=1220, lin=26, lvl=0)
+		SolutionBlock4(pos=1577, lin=44, lvl=0)
+		SolutionBlock5(pos=1988, lin=65, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=2558, lin=91, lvl=0)
+	$end '$index$'
+$end '$index$'

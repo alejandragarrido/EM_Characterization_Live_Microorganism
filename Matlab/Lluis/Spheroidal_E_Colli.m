@@ -5,14 +5,14 @@ close all
 
 
 % Frequency range
-f_min=1*1e4;
-f_max=3.0*1e9;
-N_f=101;
-% N_f=3;
-del_f=(f_max-f_min)/(N_f-1);
+% f_min=1*1e4;
+% f_max=3.0*1e9;
+% N_f=101;
+N_f=3;
+% del_f=(f_max-f_min)/(N_f-1);
 eps_ssp(1:N_f)=0+0*1i;
-Frq=logspace(log10(f_min),log10(f_max),N_f);
-% Frq = [1*10^6, 100*10^6, 1*10^9];
+% Frq=logspace(log10(f_min),log10(f_max),N_f);
+Frq = [1*10^6, 100*10^6, 1*10^9];
 
 % Dimensions and Permitivities of the different layers
 % Constant with frequency
@@ -24,7 +24,7 @@ thk_om=7*1e-9;
 thk_im=7*1e-9;
 thk_pp=10*1e-9;
 eps_0=8.854*1e-12;
-vol_rt=0.1; %Volum fraction (<0.1)
+vol_rt=0.0125; %Volum fraction (<0.1)
 %eps_ssp(N_f)=0+0*1i;
 
 for n_f=1:N_f

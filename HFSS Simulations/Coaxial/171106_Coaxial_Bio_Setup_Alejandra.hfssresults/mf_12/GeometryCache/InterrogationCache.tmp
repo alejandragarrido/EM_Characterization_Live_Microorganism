@@ -1,5 +1,5 @@
 $begin 'CacheDataVersion'
-	DataVersion=109
+	DataVersion=110
 $end 'CacheDataVersion'
 $begin 'InterrogationCache'
 	Version=1
@@ -57,7 +57,7 @@ $begin 'InterrogationCache'
 		$begin '373'
 			$begin 'BoundingBox'
 				Low[3: -10.5, -10.5, -1]
-				High[3: 10.5, 10.5, 2]
+				High[3: 10.5, 10.5, 29]
 				Exact=false
 				Valid=true
 			$end 'BoundingBox'

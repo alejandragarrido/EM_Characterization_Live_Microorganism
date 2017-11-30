@@ -3,8 +3,8 @@
 z = 30e-3;
 % freq = [1*10^6, 100*10^6, 1*10^9];
 % freq = 1e6;
-f_min=1e8;                  %[Hz]       10kHz
-f_max=3e9;                  %[Hz]       1GHz
+f_min=1e8;                  %[Hz]       1MHz
+f_max=1e9;                  %[Hz]       3GHz
 N_f=101;
 freq = logspace(log10(f_min),log10(f_max),N_f);
 
@@ -12,14 +12,6 @@ w = 2*pi.*freq;
 eps_0 = 1;
 e0 = 8.85e-12;
 mu0 = pi*4e-7;
-% eps_rea_cul_0 = 81;
-% sgm_cul_0 = 0.35;
-% eps_1 = eps_rea_cul_01
-% eps_cmp_1 = eps_ssp_cul_0
-% sgm1_1 = sgm_cul_01
-% eps_cmp_1 = e0
-% sgm1_1 = 0
-% eps_1 = eps_0
 eps_b = eps_0;
 sgm_wat_dis = 0.002;
 eps_rea_wat_dis = 81;
@@ -43,45 +35,45 @@ sens_05 = sensibility(S21_cul_05_mod,S21_cul_0_mod);
 sens_025 = sensibility(S21_cul_025_mod,S21_cul_0_mod);
 sens_0125 = sensibility(S21_cul_0125_mod,S21_cul_0_mod);
 
-% Plot Sensibilidades
-figure('Name', 'Sensitivity for differents P')
- 
-semilogx(freq, sens_01, '-.')
-hold on
-semilogx(freq, sens_05, '--o')
-hold on
-semilogx(freq, sens_025, ':s')
-hold on
-semilogx(freq, sens_0125, '+' )
-hold on
-if z==3e-3
-
-    title('Sensitivity for differents P for z = 3mm'); 
-else
-    title('Sensitivity for differents P for z = 30mm'); 
-end  
-xlabel('Frequency (Hz)') % x-axis label
-ylabel('(S21_p - S21_0) / S21_p') %y-axis label 
-legend('P = 0.1','P = 0.05', 'P = 0.025', 'P = 0.0125');
+% % Plot Sensibilidades
+% figure('Name', 'Sensitivity for differents P')
+%  
+% semilogx(freq, sens_01, '-.')
+% hold on
+% semilogx(freq, sens_05, '--o')
+% hold on
+% semilogx(freq, sens_025, ':s')
+% hold on
+% semilogx(freq, sens_0125, '+' )
+% hold on
+% if z==3e-3
+% 
+%     title('Sensitivity for differents P for z = 3mm'); 
+% else
+%     title('Sensitivity for differents P for z = 30mm'); 
+% end  
+% xlabel('Frequency (Hz)') % x-axis label
+% ylabel('(S21_p - S21_0) / S21_p') %y-axis label 
+% legend('P = 0.1','P = 0.05', 'P = 0.025', 'P = 0.0125');
 
 % Plot S21
 figure('Name', 'S21 for differents P')
  
 semilogx(freq, S21_cul_01_mod, '-.')
 hold on
-semilogx(freq, S21_cul_05_mod, '--o')
-hold on
-semilogx(freq, S21_cul_025_mod, ':s')
-hold on
-semilogx(freq, S21_cul_0125_mod, '+' )
-hold on
-semilogx(freq, S21_cul_0_mod, '*' )
-hold on
+% semilogx(freq, S21_cul_05_mod, '--o')
+% hold on
+% semilogx(freq, S21_cul_025_mod, ':s')
+% hold on
+% semilogx(freq, S21_cul_0125_mod, '+' )
+% hold on
+% semilogx(freq, S21_cul_0_mod )
+% hold on
 
-xlabel('Frequency (Hz)') % x-axis label
-ylabel('(S21_p') %y-axis label 
-legend('P = 0.1','P = 0.05', 'P = 0.025', 'P = 0.0125', 'P=0');
-
+% xlabel('Frequency (Hz)') % x-axis label
+% ylabel('(S21_p') %y-axis label 
+% legend('P = 0.1','P = 0.05', 'P = 0.025', 'P = 0.0125', 'P=0');
+% 
 
 function [S21, S21_mod] = evaluateCoaxial(eps_1,sgm_1, eps_b,w,z)
 n1 = sqrt(eps_1);
