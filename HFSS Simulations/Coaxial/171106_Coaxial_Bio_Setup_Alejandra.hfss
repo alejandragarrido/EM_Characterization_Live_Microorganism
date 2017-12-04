@@ -247,7 +247,7 @@ $begin 'AnsoftProject'
 			WorkingCS=1
 			$begin 'GeometryCore'
 				BlockVersionID=3
-				DataVersion=102
+				DataVersion=103
 				NativeKernel='ACIS'
 				NativeKernelVersionID=4
 				Units='mm'
@@ -1870,7 +1870,7 @@ $begin 'AnsoftProject'
 			WorkingCS=1
 			$begin 'GeometryCore'
 				BlockVersionID=3
-				DataVersion=104
+				DataVersion=105
 				NativeKernel='ACIS'
 				NativeKernelVersionID=4
 				Units='mm'
@@ -6051,8 +6051,8 @@ $begin 'AnsoftProject'
 					ID=123
 					Name='Sweep'
 					$begin 'SimDataExtractor'
-						SimValue('S(2,1)', 2, 90, false, SimValueID=279, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('S(1,1)', 2, 90, false, SimValueID=280, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('S(2,1)', 2, 90, false, SimValueID=316, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('S(1,1)', 2, 90, false, SimValueID=317, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
 						$begin 'Sweeps'
 							$begin 'PostprocessSweep'
 								Variable='Freq'
@@ -6169,7 +6169,7 @@ $begin 'AnsoftProject'
 			WorkingCS=1
 			$begin 'GeometryCore'
 				BlockVersionID=3
-				DataVersion=107
+				DataVersion=108
 				NativeKernel='ACIS'
 				NativeKernelVersionID=4
 				Units='mm'
@@ -10350,8 +10350,8 @@ $begin 'AnsoftProject'
 					ID=123
 					Name='Sweep'
 					$begin 'SimDataExtractor'
-						SimValue('S(2,1)', 2, 90, false, SimValueID=301, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('S(1,1)', 2, 90, false, SimValueID=302, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('S(2,1)', 2, 90, false, SimValueID=338, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('S(1,1)', 2, 90, false, SimValueID=339, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
 						$begin 'Sweeps'
 							$begin 'PostprocessSweep'
 								Variable='Freq'
@@ -10468,7 +10468,7 @@ $begin 'AnsoftProject'
 			WorkingCS=1
 			$begin 'GeometryCore'
 				BlockVersionID=3
-				DataVersion=107
+				DataVersion=108
 				NativeKernel='ACIS'
 				NativeKernelVersionID=4
 				Units='mm'
@@ -14649,8 +14649,8 @@ $begin 'AnsoftProject'
 					ID=123
 					Name='Sweep'
 					$begin 'SimDataExtractor'
-						SimValue('S(2,1)', 2, 90, false, SimValueID=325, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('S(1,1)', 2, 90, false, SimValueID=326, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('S(2,1)', 2, 90, false, SimValueID=362, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('S(1,1)', 2, 90, false, SimValueID=363, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
 						$begin 'Sweeps'
 							$begin 'PostprocessSweep'
 								Variable='Freq'
@@ -14767,7 +14767,7 @@ $begin 'AnsoftProject'
 			WorkingCS=1
 			$begin 'GeometryCore'
 				BlockVersionID=3
-				DataVersion=111
+				DataVersion=112
 				NativeKernel='ACIS'
 				NativeKernelVersionID=4
 				Units='mm'
@@ -18948,8 +18948,8 @@ $begin 'AnsoftProject'
 					ID=123
 					Name='Sweep'
 					$begin 'SimDataExtractor'
-						SimValue('S(2,1)', 2, 90, false, SimValueID=328, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('S(1,1)', 2, 90, false, SimValueID=329, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('S(2,1)', 2, 90, false, SimValueID=365, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('S(1,1)', 2, 90, false, SimValueID=366, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
 						$begin 'Sweeps'
 							$begin 'PostprocessSweep'
 								Variable='Freq'
@@ -19066,7 +19066,7 @@ $begin 'AnsoftProject'
 			WorkingCS=1
 			$begin 'GeometryCore'
 				BlockVersionID=3
-				DataVersion=109
+				DataVersion=110
 				NativeKernel='ACIS'
 				NativeKernelVersionID=4
 				Units='mm'
@@ -19083,7 +19083,7 @@ $begin 'AnsoftProject'
 							IDServerObjectTypeID=0
 							IDServerRangeMin=0
 							IDServerRangeMax=2146483647
-							NextUniqueID=772
+							NextUniqueID=778
 							MoveBackwards=false
 						$end 'AnsoftRangedIDServer'
 						$begin 'AnsoftRangedIDServer'
@@ -19921,7 +19921,7 @@ $begin 'AnsoftProject'
 										YCenter='0mm'
 										ZCenter='-1mm'
 										Radius='10.5mm'
-										Height='3mm'
+										Height='30mm'
 										WhichAxis='Z'
 										NumSides='0'
 									$end 'CylinderParameters'
@@ -19976,7 +19976,7 @@ $begin 'AnsoftProject'
 										$begin 'Topology'
 											NumLumps=1
 											NumShells=1
-											NumFaces=4
+											NumFaces=5
 											NumWires=0
 											NumLoops=8
 											NumCoedges=8
@@ -19984,10 +19984,10 @@ $begin 'AnsoftProject'
 											NumVertices=4
 										$end 'Topology'
 										BodyID=-1
-										StartFaceID=565
-										StartEdgeID=566
-										StartVertexID=568
-										NumNewFaces=1
+										StartFaceID=772
+										StartEdgeID=774
+										StartVertexID=776
+										NumNewFaces=2
 										NumNewEdges=2
 										NumNewVertices=2
 										FaceNameAndIDMap()
@@ -19997,7 +19997,7 @@ $begin 'AnsoftProject'
 											$begin 'NewFaces'
 												$begin 'Face'
 													NormalizedSerialNum=0
-													ID=565
+													ID=772
 													$begin 'FaceGeomTopol'
 														FaceTopol(2, 2, 2, 2)
 														$begin 'FaceGeometry'
@@ -20010,12 +20010,26 @@ $begin 'AnsoftProject'
 														$end 'FaceGeometry'
 													$end 'FaceGeomTopol'
 												$end 'Face'
+												$begin 'Face'
+													NormalizedSerialNum=1
+													ID=773
+													$begin 'FaceGeomTopol'
+														FaceTopol(1, 1, 1, 1)
+														$begin 'FaceGeometry'
+															Area=113.097335529233
+															FcUVMid(-4.44089209850063e-016, -4.44089209850063e-016, 2)
+															$begin 'FcTolVts'
+																TolVt(6, 0, 2, 0)
+															$end 'FcTolVts'
+														$end 'FaceGeometry'
+													$end 'FaceGeomTopol'
+												$end 'Face'
 											$end 'NewFaces'
 											$begin 'NewEdges'
 												$begin 'Edge'
 													NormalizedSerialNum=0
-													ID=566
-													EdgeFaces(375, 565)
+													ID=774
+													EdgeFaces(375, 772)
 													$begin 'EdTolVts'
 														TolVt(6, 0, -1, 0)
 													$end 'EdTolVts'
@@ -20023,23 +20037,23 @@ $begin 'AnsoftProject'
 												$end 'Edge'
 												$begin 'Edge'
 													NormalizedSerialNum=1
-													ID=567
-													EdgeFaces(376, 565)
+													ID=775
+													EdgeFaces(772, 773)
 													$begin 'EdTolVts'
 														TolVt(6, 0, 2, 0)
 													$end 'EdTolVts'
-													EdgeMidPoint(-6, -7.34763812293426e-016, 2)
+													EdgeMidPoint(-6, 7.34763812293426e-016, 2)
 												$end 'Edge'
 											$end 'NewEdges'
 											$begin 'NewVertices'
 												$begin 'Vertex'
 													NormalizedSerialNum=0
-													ID=568
+													ID=776
 													VtPos(6, 0, -1)
 												$end 'Vertex'
 												$begin 'Vertex'
 													NormalizedSerialNum=1
-													ID=569
+													ID=777
 													VtPos(6, 0, 2)
 												$end 'Vertex'
 											$end 'NewVertices'
@@ -21673,10 +21687,10 @@ $begin 'AnsoftProject'
 														FaceTopol(2, 2, 2, 2)
 														$begin 'FaceGeometry'
 															Area=197.920337176157
-															FcUVMid(10.5, 0, 0.5)
+															FcUVMid(10.5, 0, 0.500000000000002)
 															$begin 'FcTolVts'
+																TolVt(-10.5, 1.2858366715135e-015, 2, 0)
 																TolVt(10.5, 0, -1, 0)
-																TolVt(10.5, 0, 2, 0)
 															$end 'FcTolVts'
 														$end 'FaceGeometry'
 													$end 'FaceGeomTopol'
@@ -21686,32 +21700,32 @@ $begin 'AnsoftProject'
 												$begin 'Edge'
 													NormalizedSerialNum=0
 													ID=496
+													EdgeFaces(385, 495)
+													$begin 'EdTolVts'
+														TolVt(-10.5, 1.2858366715135e-015, 2, 0)
+													$end 'EdTolVts'
+													EdgeMidPoint(10.5, 0, 2)
+												$end 'Edge'
+												$begin 'Edge'
+													NormalizedSerialNum=1
+													ID=497
 													EdgeFaces(384, 495)
 													$begin 'EdTolVts'
 														TolVt(10.5, 0, -1, 0)
 													$end 'EdTolVts'
 													EdgeMidPoint(-10.5, 1.2858366715135e-015, -1)
 												$end 'Edge'
-												$begin 'Edge'
-													NormalizedSerialNum=1
-													ID=497
-													EdgeFaces(385, 495)
-													$begin 'EdTolVts'
-														TolVt(10.5, 0, 2, 0)
-													$end 'EdTolVts'
-													EdgeMidPoint(-10.5, -1.2858366715135e-015, 2)
-												$end 'Edge'
 											$end 'NewEdges'
 											$begin 'NewVertices'
 												$begin 'Vertex'
 													NormalizedSerialNum=0
 													ID=498
-													VtPos(10.5, 0, -1)
+													VtPos(-10.5, 1.2858366715135e-015, 2)
 												$end 'Vertex'
 												$begin 'Vertex'
 													NormalizedSerialNum=1
 													ID=499
-													VtPos(10.5, 0, 2)
+													VtPos(10.5, 0, -1)
 												$end 'Vertex'
 											$end 'NewVertices'
 										$end 'GeomTopolBasedOperationIdentityHelper'
@@ -23247,8 +23261,8 @@ $begin 'AnsoftProject'
 					ID=123
 					Name='Sweep'
 					$begin 'SimDataExtractor'
-						SimValue('S(2,1)', 2, 90, false, SimValueID=325, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('S(1,1)', 2, 90, false, SimValueID=326, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('S(2,1)', 2, 90, false, SimValueID=362, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('S(1,1)', 2, 90, false, SimValueID=363, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
 						$begin 'Sweeps'
 							$begin 'PostprocessSweep'
 								Variable='Freq'
@@ -23301,13 +23315,13 @@ $begin 'AnsoftProject'
 				$end 'Solution'
 			$end 'SimSetup'
 			$begin 'Version ID Map'
-				V=113
+				V=364
 				$begin 'Setup'
 					N='Setup1'
-					V=128
-					Soln(N='AdaptivePass', V=182)
-					Soln(N='LastAdaptive', V=182)
-					Soln(N='Sweep', V=182)
+					V=364
+					Soln(N='AdaptivePass', V=364)
+					Soln(N='LastAdaptive', V=364)
+					Soln(N='Sweep', V=364)
 				$end 'Setup'
 			$end 'Version ID Map'
 			$begin 'ID Map'
@@ -23365,7 +23379,7 @@ $begin 'AnsoftProject'
 			WorkingCS=1
 			$begin 'GeometryCore'
 				BlockVersionID=3
-				DataVersion=110
+				DataVersion=111
 				NativeKernel='ACIS'
 				NativeKernelVersionID=4
 				Units='mm'
@@ -27546,8 +27560,8 @@ $begin 'AnsoftProject'
 					ID=123
 					Name='Sweep'
 					$begin 'SimDataExtractor'
-						SimValue('S(2,1)', 2, 90, false, SimValueID=324, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('S(1,1)', 2, 90, false, SimValueID=325, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('S(2,1)', 2, 90, false, SimValueID=361, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('S(1,1)', 2, 90, false, SimValueID=362, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
 						$begin 'Sweeps'
 							$begin 'PostprocessSweep'
 								Variable='Freq'
@@ -27664,7 +27678,7 @@ $begin 'AnsoftProject'
 			WorkingCS=1
 			$begin 'GeometryCore'
 				BlockVersionID=3
-				DataVersion=110
+				DataVersion=111
 				NativeKernel='ACIS'
 				NativeKernelVersionID=4
 				Units='mm'
@@ -31845,8 +31859,8 @@ $begin 'AnsoftProject'
 					ID=123
 					Name='Sweep'
 					$begin 'SimDataExtractor'
-						SimValue('S(2,1)', 2, 90, false, SimValueID=348, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('S(1,1)', 2, 90, false, SimValueID=349, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('S(2,1)', 2, 90, false, SimValueID=385, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('S(1,1)', 2, 90, false, SimValueID=386, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
 						$begin 'Sweeps'
 							$begin 'PostprocessSweep'
 								Variable='Freq'
@@ -31963,7 +31977,7 @@ $begin 'AnsoftProject'
 			WorkingCS=1
 			$begin 'GeometryCore'
 				BlockVersionID=3
-				DataVersion=110
+				DataVersion=111
 				NativeKernel='ACIS'
 				NativeKernelVersionID=4
 				Units='mm'
@@ -36144,8 +36158,8 @@ $begin 'AnsoftProject'
 					ID=123
 					Name='Sweep'
 					$begin 'SimDataExtractor'
-						SimValue('S(2,1)', 2, 90, false, SimValueID=348, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('S(1,1)', 2, 90, false, SimValueID=349, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('S(2,1)', 2, 90, false, SimValueID=385, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('S(1,1)', 2, 90, false, SimValueID=386, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
 						$begin 'Sweeps'
 							$begin 'PostprocessSweep'
 								Variable='Freq'
@@ -36229,7 +36243,7 @@ $begin 'AnsoftProject'
 				DesignInstanceID=3
 				$begin 'WindowPosition'
 					$begin 'EditorWindow'
-						'3D Modeler'(Editor3d(View(WindowPos(5, -1, -1, -8, -31, 0, 0, 1113, 492), OrientationMatrix(-0.00481070298701525, -0.00771428598091006, 0.0121973566710949, 0, 0.0144321070984006, -0.00257142866030335, 0.00406578602269292, 0, 0, 0.0128571428358555, 0.00813157204538584, 0, 0, 0, -5.49118328094482, 1, 0, -1.60356342792511, 1.60356342792511, -1, 1, 0.733388900756836, 10.2489776611328), Drawings[20: 'Coax_Out_Inn_Cond', 'Coax_Inn_Out_Cond', 'Coax_Out_Out_Cond', 'Coax_Dwn_Cone_Inn_Out_Cond', 'Coax_Upp_Cone_Inn_Out_Cond', 'Coax_Dwn_Cone_Out_Out_Cond', 'Coax_Upp_Cone_Out_Inn_Cond', 'Coax_Dwn_Cone_Out_Inn_Cond', 'Coax_Upp_Cone_Out_Out_Cond', 'Coax_SMA_Upp_Out_Inn_Cond', 'Coax_SMA_Upp_Inn_Out_Cond', 'Coax_SMA_Upp_Out_Out_Cond', 'Coax_SMA_Dwn_Out_Inn_Cond', 'Coax_SMA_Dwn_Inn_Out_Cond', 'Coax_SMA_Dwn_Out_Out_Cond', 'Samp_Hold_Out_Inn_Pls', 'Samp_Hold_Inn_Inn_Pls', 'Samp_Hold_Inn_Out_Pls', 'Samp_Hold_Out_Out_Pls', 'Samp_Hold_Base_Pls'], 'View Data'('Render Mode'=1, 'Show Ruler'=1), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
+						'3D Modeler'(Editor3d(View(WindowPos(5, -1, -1, -8, -31, 0, 0, 1113, 492), OrientationMatrix(-0.00481070298701525, -0.00771428598091006, 0.0121973566710949, 0, 0.0144321070984006, -0.00257142866030335, 0.00406578602269292, 0, 0, 0.0128571428358555, 0.00813157204538584, 0, 0, 0, -5.49118328094482, 1, 0, -2.19599103927612, 2.19599103927612, -1, 1, 0.733388900756836, 10.2489776611328), Drawings[20: 'Coax_Out_Inn_Cond', 'Coax_Inn_Out_Cond', 'Coax_Out_Out_Cond', 'Coax_Dwn_Cone_Inn_Out_Cond', 'Coax_Upp_Cone_Inn_Out_Cond', 'Coax_Dwn_Cone_Out_Out_Cond', 'Coax_Upp_Cone_Out_Inn_Cond', 'Coax_Dwn_Cone_Out_Inn_Cond', 'Coax_Upp_Cone_Out_Out_Cond', 'Coax_SMA_Upp_Out_Inn_Cond', 'Coax_SMA_Upp_Inn_Out_Cond', 'Coax_SMA_Upp_Out_Out_Cond', 'Coax_SMA_Dwn_Out_Inn_Cond', 'Coax_SMA_Dwn_Inn_Out_Cond', 'Coax_SMA_Dwn_Out_Out_Cond', 'Samp_Hold_Out_Inn_Pls', 'Samp_Hold_Inn_Inn_Pls', 'Samp_Hold_Inn_Out_Pls', 'Samp_Hold_Out_Out_Pls', 'Samp_Hold_Base_Pls'], 'View Data'('Render Mode'=1, 'Show Ruler'=1), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
 					$end 'EditorWindow'
 				$end 'WindowPosition'
 				$begin 'ReportSetup'
@@ -37721,7 +37735,7 @@ $begin 'AnsoftProject'
 				DesignInstanceID=7
 				$begin 'WindowPosition'
 					$begin 'EditorWindow'
-						'3D Modeler'(Editor3d())
+						'3D Modeler'(Editor3d(View(WindowPos(5, -1, -1, -8, -31, 78, 78, 1213, 574), OrientationMatrix(-0.00481070205569267, -0.00771428551524878, 0.0121973557397723, 0, 0.014432106167078, -0.00257142866030335, 0.00406578602269292, 0, 2.48906451005837e-010, 0.0128571419045329, 0.00813157204538584, 0, 0, 0, -5.49118375778198, 1, 0, -1.93598234653473, 1.93598234653473, -1, 1, 0.733389377593994, 10.2489776611328), Drawings[7: 'Coax_Upp_Cone_Vac', 'Coax_SMA_Upp_Inn_Cond', 'Coax_SMA_Upp_Tef', 'Coax_SMA_Dwn_Tef', 'Coax_SMA_Dwn_Out_Cond', 'Samp_Hold', 'Samp_Hold_Base_Pls'], 'View Data'('Render Mode'=1, 'Show Ruler'=1), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
 					$end 'EditorWindow'
 				$end 'WindowPosition'
 				$begin 'ReportSetup'
@@ -43344,7 +43358,7 @@ $begin 'AnsoftProject'
 				DesignInstanceID=13
 				$begin 'WindowPosition'
 					$begin 'EditorWindow'
-						'3D Modeler'(Editor3d())
+						'3D Modeler'(Editor3d(View(WindowPos(3, -1, -1, -8, -31, 104, 104, 1239, 600), OrientationMatrix(-0.00481070205569267, -0.00771428551524878, 0.0121973557397723, 0, 0.014432106167078, -0.00257142866030335, 0.00406578602269292, 0, 2.48906451005837e-010, 0.0128571419045329, 0.00813157204538584, 0, 0, 0, -5.49118375778198, 1, 0, -1.7327823638916, 1.7327823638916, -1, 1, 0.733389377593994, 10.2489776611328), Drawings[7: 'Coax_Upp_Cone_Vac', 'Coax_SMA_Upp_Inn_Cond', 'Coax_SMA_Upp_Tef', 'Coax_SMA_Dwn_Tef', 'Coax_SMA_Dwn_Out_Cond', 'Samp_Hold', 'Samp_Hold_Base_Pls'], 'View Data'('Render Mode'=1, 'Show Ruler'=1), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
 					$end 'EditorWindow'
 				$end 'WindowPosition'
 				$begin 'ReportSetup'
@@ -43492,7 +43506,7 @@ $begin 'AnsoftProject'
 									$end 'Graph2D'
 								$end 'Graph2DsV2'
 								$begin 'PlotDisplayDataManager'
-									NextUniqueID=47
+									NextUniqueID=53
 									MoveBackwards=false
 									$begin 'PlotHeaderDataSource'
 										CompanyName=''
@@ -44568,6 +44582,114 @@ $begin 'AnsoftProject'
 												$end 'MainMapItem'
 											$end 'PlotAttributeStoreMap'
 										$end 'MapItem'
+										$begin 'MapItem'
+											ItemID=52
+											$begin 'PlotAttributeStoreMap'
+												$begin 'MainMapItem'
+													$begin 'SubMapItem'
+														DataSourceID=4
+														$begin 'BasicLayoutAttribute'
+															$begin 'LayoutRect'
+																Top=638
+																Left=563
+																Bottom=9809
+																Right=9246
+															$end 'LayoutRect'
+														$end 'BasicLayoutAttribute'
+													$end 'SubMapItem'
+													$begin 'SubMapItem'
+														DataSourceID=12
+														$begin 'BasicLayoutAttribute'
+															$begin 'LayoutRect'
+																Top=638
+																Left=563
+																Bottom=9809
+																Right=9246
+															$end 'LayoutRect'
+														$end 'BasicLayoutAttribute'
+													$end 'SubMapItem'
+													$begin 'SubMapItem'
+														DataSourceID=19
+														$begin 'BasicLayoutAttribute'
+															$begin 'LayoutRect'
+																Top=75
+																Left=75
+																Bottom=9925
+																Right=428
+															$end 'LayoutRect'
+														$end 'BasicLayoutAttribute'
+													$end 'SubMapItem'
+												$end 'MainMapItem'
+												$begin 'MainMapItem'
+													$begin 'SubMapItem'
+														DataSourceID=15
+														$begin 'CartesianAxisLayoutAttribute'
+															$begin 'AxisRect'
+																Top=75
+																Left=9246
+																Bottom=9925
+																Right=9925
+															$end 'AxisRect'
+															$begin 'GridRect'
+																Top=638
+																Left=563
+																Bottom=9809
+																Right=9246
+															$end 'GridRect'
+														$end 'CartesianAxisLayoutAttribute'
+													$end 'SubMapItem'
+													$begin 'SubMapItem'
+														DataSourceID=16
+														$begin 'CartesianAxisLayoutAttribute'
+															$begin 'AxisRect'
+																Top=75
+																Left=453
+																Bottom=637
+																Right=9246
+															$end 'AxisRect'
+															$begin 'GridRect'
+																Top=638
+																Left=563
+																Bottom=9809
+																Right=9246
+															$end 'GridRect'
+														$end 'CartesianAxisLayoutAttribute'
+													$end 'SubMapItem'
+												$end 'MainMapItem'
+												$begin 'MainMapItem'
+													$begin 'SubMapItem'
+														DataSourceID=4
+														$begin 'CartesianCurveGroupLayoutAttribute'
+															X_spc=500000000
+															X_fwd=3
+															X_fpr=2
+															Y1_spc=0.02
+															Y1_fwd=3
+															Y1_fpr=2
+														$end 'CartesianCurveGroupLayoutAttribute'
+													$end 'SubMapItem'
+												$end 'MainMapItem'
+												$begin 'MainMapItem'
+													$begin 'SubMapItem'
+														DataSourceID=6
+														$begin 'DockableOverlayLayoutAttribute'
+															$begin 'Dock_0'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=4850
+																		Left=528
+																		Bottom=9850
+																		Right=8028
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_0'
+														$end 'DockableOverlayLayoutAttribute'
+													$end 'SubMapItem'
+												$end 'MainMapItem'
+											$end 'PlotAttributeStoreMap'
+										$end 'MapItem'
 									$end 'PerViewPlotAttributeStoreMap'
 									IsViewAttribServer=false
 									ViewID=-1
@@ -45459,6 +45581,33 @@ $begin 'AnsoftProject'
 						$end 'S11'
 					$end 'Reports'
 					$begin 'ReportsWindowInfoList'
+						$begin 'S21'
+							ReportID=1
+							$begin 'WindowInfoList'
+								$begin 'Report2D'
+									$begin 'ViewInfo'
+										$begin 'WrapperView'
+											ID(52)
+										$end 'WrapperView'
+										$begin 'WrapperDoc'
+											HiddenDrawings()
+											$begin 'DispType'
+												PlotType=1
+												$begin 'CurveMed'
+													$begin 'MedCamera'
+														$begin 'svrc'
+															svid=4
+															view(52, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 9.80908925027372e-045, 3.58732406867153e-043)))
+														$end 'svrc'
+													$end 'MedCamera'
+												$end 'CurveMed'
+											$end 'DispType'
+										$end 'WrapperDoc'
+										WindowPos(WindowPos(5, -1, -1, -8, -31, 78, 78, 1213, 574))
+									$end 'ViewInfo'
+								$end 'Report2D'
+							$end 'WindowInfoList'
+						$end 'S21'
 					$end 'ReportsWindowInfoList'
 				$end 'ReportSetup'
 			$end 'HfssDesignInstance'
@@ -51819,7 +51968,7 @@ FFAH//Z'
 		DesignName='Coax_Setup_Cul_Med_01'
 		Notes=''
 		Factory='HFSS'
-		IsSolved=true
+		IsSolved=false
 		'Nominal Setups'[1: 'Setup1']
 		'Optimetrics Setups'[0:]
 		Image64='/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQE\

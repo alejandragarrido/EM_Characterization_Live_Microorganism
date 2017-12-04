@@ -235,7 +235,7 @@ $begin 'AnsoftProject'
 			WorkingCS=1
 			$begin 'GeometryCore'
 				BlockVersionID=3
-				DataVersion=172
+				DataVersion=173
 				NativeKernel='ACIS'
 				NativeKernelVersionID=4
 				Units='mm'
@@ -1690,7 +1690,7 @@ $begin 'AnsoftProject'
 			WorkingCS=1
 			$begin 'GeometryCore'
 				BlockVersionID=3
-				DataVersion=184
+				DataVersion=185
 				NativeKernel='ACIS'
 				NativeKernelVersionID=4
 				Units='mm'
@@ -5813,7 +5813,7 @@ $begin 'AnsoftProject'
 					ID=103
 					Name='Sweep_1MHz'
 					$begin 'SimDataExtractor'
-						SimValue('S(2,1)', 2, 90, false, SimValueID=239, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('S(2,1)', 2, 90, false, SimValueID=247, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
 						$begin 'Sweeps'
 							$begin 'PostprocessSweep'
 								Variable='Freq'
@@ -5888,7 +5888,7 @@ $begin 'AnsoftProject'
 					ID=141
 					Name='Sweep100MHz'
 					$begin 'SimDataExtractor'
-						SimValue('S(2,1)', 2, 90, false, SimValueID=240, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('S(2,1)', 2, 90, false, SimValueID=248, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
 						$begin 'Sweeps'
 							$begin 'PostprocessSweep'
 								Variable='Freq'
@@ -5963,7 +5963,7 @@ $begin 'AnsoftProject'
 					ID=199
 					Name='Sweep1GHz'
 					$begin 'SimDataExtractor'
-						SimValue('S(2,1)', 2, 90, false, SimValueID=241, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('S(2,1)', 2, 90, false, SimValueID=249, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
 						$begin 'Sweeps'
 							$begin 'PostprocessSweep'
 								Variable='Freq'
@@ -6110,7 +6110,7 @@ $begin 'AnsoftProject'
 			WorkingCS=1
 			$begin 'GeometryCore'
 				BlockVersionID=3
-				DataVersion=181
+				DataVersion=182
 				NativeKernel='ACIS'
 				NativeKernelVersionID=4
 				Units='mm'
@@ -10191,7 +10191,7 @@ $begin 'AnsoftProject'
 					ID=199
 					Name='Sweep1GHz'
 					$begin 'SimDataExtractor'
-						SimValue('S(2,1)', 2, 90, false, SimValueID=264, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('S(2,1)', 2, 90, false, SimValueID=268, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
 						$begin 'Sweeps'
 							$begin 'PostprocessSweep'
 								Variable='Freq'
@@ -10334,7 +10334,7 @@ $begin 'AnsoftProject'
 			WorkingCS=1
 			$begin 'GeometryCore'
 				BlockVersionID=3
-				DataVersion=182
+				DataVersion=183
 				NativeKernel='ACIS'
 				NativeKernelVersionID=4
 				Units='mm'
@@ -14415,7 +14415,7 @@ $begin 'AnsoftProject'
 					ID=103
 					Name='Sweep_1MHz'
 					$begin 'SimDataExtractor'
-						SimValue('S(2,1)', 2, 90, false, SimValueID=264, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('S(2,1)', 2, 90, false, SimValueID=268, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
 						$begin 'Sweeps'
 							$begin 'PostprocessSweep'
 								Variable='Freq'
@@ -14558,7 +14558,7 @@ $begin 'AnsoftProject'
 			WorkingCS=1
 			$begin 'GeometryCore'
 				BlockVersionID=3
-				DataVersion=183
+				DataVersion=184
 				NativeKernel='ACIS'
 				NativeKernelVersionID=4
 				Units='mm'
@@ -18639,7 +18639,7 @@ $begin 'AnsoftProject'
 					ID=141
 					Name='Sweep100MHz'
 					$begin 'SimDataExtractor'
-						SimValue('S(2,1)', 2, 90, false, SimValueID=264, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('S(2,1)', 2, 90, false, SimValueID=268, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
 						$begin 'Sweeps'
 							$begin 'PostprocessSweep'
 								Variable='Freq'
@@ -18782,7 +18782,7 @@ $begin 'AnsoftProject'
 			WorkingCS=1
 			$begin 'GeometryCore'
 				BlockVersionID=3
-				DataVersion=188
+				DataVersion=189
 				NativeKernel='ACIS'
 				NativeKernelVersionID=4
 				Units='mm'
@@ -22905,7 +22905,7 @@ $begin 'AnsoftProject'
 					ID=103
 					Name='Sweep_1MHz'
 					$begin 'SimDataExtractor'
-						SimValue('S(2,1)', 2, 90, false, SimValueID=276, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('S(2,1)', 2, 90, false, SimValueID=284, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
 						$begin 'Sweeps'
 							$begin 'PostprocessSweep'
 								Variable='Freq'
@@ -22980,7 +22980,7 @@ $begin 'AnsoftProject'
 					ID=141
 					Name='Sweep100MHz'
 					$begin 'SimDataExtractor'
-						SimValue('S(2,1)', 2, 90, false, SimValueID=277, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('S(2,1)', 2, 90, false, SimValueID=285, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
 						$begin 'Sweeps'
 							$begin 'PostprocessSweep'
 								Variable='Freq'
@@ -23055,7 +23055,7 @@ $begin 'AnsoftProject'
 					ID=199
 					Name='Sweep1GHz'
 					$begin 'SimDataExtractor'
-						SimValue('S(2,1)', 2, 90, false, SimValueID=278, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('S(2,1)', 2, 90, false, SimValueID=286, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
 						$begin 'Sweeps'
 							$begin 'PostprocessSweep'
 								Variable='Freq'
@@ -23202,7 +23202,7 @@ $begin 'AnsoftProject'
 			WorkingCS=1
 			$begin 'GeometryCore'
 				BlockVersionID=3
-				DataVersion=190
+				DataVersion=191
 				NativeKernel='ACIS'
 				NativeKernelVersionID=4
 				Units='mm'
@@ -27120,8 +27120,6 @@ $begin 'AnsoftProject'
 			$begin 'PlotDefaults'
 				Default_SolutionId=289
 				Default_PlotFolder='Automatic'
-				Default_Phase='0deg'
-				Default_Freq='1GHz'
 			$end 'PlotDefaults'
 			$begin 'FieldsPlotManagerID'
 				NextUniqueID=0
@@ -27229,26 +27227,6 @@ $begin 'AnsoftProject'
 								Increment=0.0872664625997165
 								CreateIndexedSubsweepFlag=false
 							$end 'PostprocessSweep'
-							$begin 'Sweep'
-								Variable='rhi'
-								Column='5mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='h'
-								Column='30mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='rhe'
-								Column='11.5mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='hb'
-								Column='0mm'
-								Units='mm'
-							$end 'Sweep'
 						$end 'Sweeps'
 						IsPortOnly=false
 					$end 'SimDataExtractor'
@@ -27299,26 +27277,6 @@ $begin 'AnsoftProject'
 								Increment=0.0872664625997165
 								CreateIndexedSubsweepFlag=false
 							$end 'PostprocessSweep'
-							$begin 'Sweep'
-								Variable='rhi'
-								Column='5mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='h'
-								Column='30mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='rhe'
-								Column='11.5mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='hb'
-								Column='0mm'
-								Units='mm'
-							$end 'Sweep'
 						$end 'Sweeps'
 						IsPortOnly=false
 					$end 'SimDataExtractor'
@@ -27327,8 +27285,7 @@ $begin 'AnsoftProject'
 					ID=292
 					Name='Sweep'
 					$begin 'SimDataExtractor'
-						SimValue('S(1,1)', 2, 90, false, SimValueID=294, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
-						SimValue('S(2,1)', 2, 90, false, SimValueID=295, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('S(2,1)', 2, 90, false, SimValueID=422, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
 						$begin 'Sweeps'
 							$begin 'PostprocessSweep'
 								Variable='Freq'
@@ -27423,7 +27380,7 @@ $begin 'AnsoftProject'
 		Notes=$begin_cdata$		$end_cdata$
 		$begin 'AnimationSetups'
 		$end 'AnimationSetups'
-		CacheHeaderFile='HDR30957688151203144724.tmp'
+		CacheHeaderFile='HDR325266747615123827862.tmp'
 	$end 'HFSSModel'
 	$begin 'HFSSModel'
 		RepRewriteV2=true
@@ -27471,7 +27428,7 @@ $begin 'AnsoftProject'
 			WorkingCS=1
 			$begin 'GeometryCore'
 				BlockVersionID=3
-				DataVersion=194
+				DataVersion=195
 				NativeKernel='ACIS'
 				NativeKernelVersionID=4
 				Units='mm'
@@ -31379,8 +31336,6 @@ $begin 'AnsoftProject'
 			$begin 'PlotDefaults'
 				Default_SolutionId=289
 				Default_PlotFolder='Automatic'
-				Default_Phase='0deg'
-				Default_Freq='1GHz'
 			$end 'PlotDefaults'
 			$begin 'FieldsPlotManagerID'
 				NextUniqueID=0
@@ -31488,26 +31443,6 @@ $begin 'AnsoftProject'
 								Increment=0.0872664625997165
 								CreateIndexedSubsweepFlag=false
 							$end 'PostprocessSweep'
-							$begin 'Sweep'
-								Variable='rhi'
-								Column='5mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='h'
-								Column='30mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='rhe'
-								Column='11.5mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='hb'
-								Column='0mm'
-								Units='mm'
-							$end 'Sweep'
 						$end 'Sweeps'
 						IsPortOnly=false
 					$end 'SimDataExtractor'
@@ -31558,26 +31493,6 @@ $begin 'AnsoftProject'
 								Increment=0.0872664625997165
 								CreateIndexedSubsweepFlag=false
 							$end 'PostprocessSweep'
-							$begin 'Sweep'
-								Variable='rhi'
-								Column='5mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='h'
-								Column='30mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='rhe'
-								Column='11.5mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='hb'
-								Column='0mm'
-								Units='mm'
-							$end 'Sweep'
 						$end 'Sweeps'
 						IsPortOnly=false
 					$end 'SimDataExtractor'
@@ -31586,7 +31501,7 @@ $begin 'AnsoftProject'
 					ID=292
 					Name='Sweep'
 					$begin 'SimDataExtractor'
-						SimValue('S(2,1)', 2, 90, false, SimValueID=320, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('S(2,1)', 2, 90, false, SimValueID=431, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
 						$begin 'Sweeps'
 							$begin 'Sweep'
 								Variable='Freq'
@@ -31677,7 +31592,7 @@ $begin 'AnsoftProject'
 		Notes=$begin_cdata$		$end_cdata$
 		$begin 'AnimationSetups'
 		$end 'AnimationSetups'
-		CacheHeaderFile='HDR5C697688151203488330.tmp'
+		CacheHeaderFile='HDR325666747615123827873.tmp'
 	$end 'HFSSModel'
 	$begin 'HFSSModel'
 		RepRewriteV2=true
@@ -31725,7 +31640,7 @@ $begin 'AnsoftProject'
 			WorkingCS=1
 			$begin 'GeometryCore'
 				BlockVersionID=3
-				DataVersion=194
+				DataVersion=195
 				NativeKernel='ACIS'
 				NativeKernelVersionID=4
 				Units='mm'
@@ -35738,26 +35653,6 @@ $begin 'AnsoftProject'
 								Increment=0.0872664625997165
 								CreateIndexedSubsweepFlag=false
 							$end 'PostprocessSweep'
-							$begin 'Sweep'
-								Variable='rhi'
-								Column='5mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='h'
-								Column='30mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='rhe'
-								Column='11.5mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='hb'
-								Column='0mm'
-								Units='mm'
-							$end 'Sweep'
 						$end 'Sweeps'
 						IsPortOnly=false
 					$end 'SimDataExtractor'
@@ -35808,26 +35703,6 @@ $begin 'AnsoftProject'
 								Increment=0.0872664625997165
 								CreateIndexedSubsweepFlag=false
 							$end 'PostprocessSweep'
-							$begin 'Sweep'
-								Variable='rhi'
-								Column='5mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='h'
-								Column='30mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='rhe'
-								Column='11.5mm'
-								Units='mm'
-							$end 'Sweep'
-							$begin 'Sweep'
-								Variable='hb'
-								Column='0mm'
-								Units='mm'
-							$end 'Sweep'
 						$end 'Sweeps'
 						IsPortOnly=false
 					$end 'SimDataExtractor'
@@ -35836,7 +35711,7 @@ $begin 'AnsoftProject'
 					ID=292
 					Name='Sweep'
 					$begin 'SimDataExtractor'
-						SimValue('S(2,1)', 2, 90, false, SimValueID=389, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						SimValue('S(2,1)', 2, 90, false, SimValueID=420, 3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
 						$begin 'Sweeps'
 							$begin 'Sweep'
 								Variable='Freq'
@@ -35927,7 +35802,7 @@ $begin 'AnsoftProject'
 		Notes=$begin_cdata$		$end_cdata$
 		$begin 'AnimationSetups'
 		$end 'AnimationSetups'
-		CacheHeaderFile='HDR72F07688151203664940.tmp'
+		CacheHeaderFile='HDR325C66747615123827894.tmp'
 	$end 'HFSSModel'
 	$begin 'DataInstances'
 		$begin 'Instance'
@@ -44623,7 +44498,7 @@ $begin 'AnsoftProject'
 				DesignInstanceID=27
 				$begin 'WindowPosition'
 					$begin 'EditorWindow'
-						'3D Modeler'(Editor3d(View(WindowPos(5, -1, -1, -8, -31, 130, 130, 1265, 626), OrientationMatrix(-0.00481070205569267, -0.00771428551524878, 0.0121973557397723, 0, 0.014432106167078, -0.00257142866030335, 0.00406578602269292, 0, 2.48906451005837e-010, 0.0128571419045329, 0.00813157204538584, 0, 0, 0, -5.49118375778198, 1, 0, -2.22516560554504, 2.22516560554504, -1, 1, 0.733389377593994, 10.2489776611328), Drawings[7: 'Coax_Vacuum', 'Coaxial_Out_Conductor', 'Coaxial_Inn_Conductor', 'Coax_SMA_Upp_Teflon', 'Coax_SMA_Dwn_Teflon', 'Samp_Holder', 'Samp_Hold_Base_Pls'], 'View Data'('Render Mode'=1, 'Show Ruler'=1), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
+						'3D Modeler'(Editor3d())
 					$end 'EditorWindow'
 				$end 'WindowPosition'
 				$begin 'ReportSetup'
@@ -45252,6 +45127,30 @@ $begin 'AnsoftProject'
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -45289,33 +45188,6 @@ $begin 'AnsoftProject'
 						$end 'S21'
 					$end 'Reports'
 					$begin 'ReportsWindowInfoList'
-						$begin 'S21'
-							ReportID=9
-							$begin 'WindowInfoList'
-								$begin 'Report2D'
-									$begin 'ViewInfo'
-										$begin 'WrapperView'
-											ID(20)
-										$end 'WrapperView'
-										$begin 'WrapperDoc'
-											HiddenDrawings()
-											$begin 'DispType'
-												PlotType=1
-												$begin 'CurveMed'
-													$begin 'MedCamera'
-														$begin 'svrc'
-															svid=4
-															view(20, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 4.59184627412124e-039, 5.23470035242104e-039)))
-														$end 'svrc'
-													$end 'MedCamera'
-												$end 'CurveMed'
-											$end 'DispType'
-										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -8, -31, 156, 156, 1291, 652))
-									$end 'ViewInfo'
-								$end 'Report2D'
-							$end 'WindowInfoList'
-						$end 'S21'
 					$end 'ReportsWindowInfoList'
 				$end 'ReportSetup'
 			$end 'HfssDesignInstance'
@@ -45326,7 +45198,7 @@ $begin 'AnsoftProject'
 				DesignInstanceID=29
 				$begin 'WindowPosition'
 					$begin 'EditorWindow'
-						'3D Modeler'(Editor3d(View(WindowPos(5, -1, -1, -8, -31, 156, 156, 1291, 652), OrientationMatrix(-0.00481070205569267, -0.00771428551524878, 0.0121973557397723, 0, 0.014432106167078, -0.00257142866030335, 0.00406578602269292, 0, 2.48906451005837e-010, 0.0128571419045329, 0.00813157204538584, 0, 0, 0, -5.49118375778198, 1, 0, -1.88079464435577, 1.88079464435577, -1, 1, 0.733389377593994, 10.2489776611328), Drawings[7: 'Coax_Vacuum', 'Coaxial_Out_Conductor', 'Coaxial_Inn_Conductor', 'Coax_SMA_Upp_Teflon', 'Coax_SMA_Dwn_Teflon', 'Samp_Holder', 'Samp_Hold_Base_Pls'], 'View Data'('Render Mode'=1, 'Show Ruler'=1), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
+						'3D Modeler'(Editor3d())
 					$end 'EditorWindow'
 				$end 'WindowPosition'
 				$begin 'ReportSetup'
@@ -46087,6 +45959,30 @@ $begin 'AnsoftProject'
 																	ModifyPosition=false
 																$end 'OverlayLayoutAttribute'
 															$end 'Dock_0'
+															$begin 'Dock_1'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=5000
+																		Left=0
+																		Bottom=10000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_1'
+															$begin 'Dock_2'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=0
+																		Left=0
+																		Bottom=5000
+																		Right=10000
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_2'
 														$end 'DockableOverlayLayoutAttribute'
 													$end 'SubMapItem'
 												$end 'MainMapItem'
@@ -46124,33 +46020,6 @@ $begin 'AnsoftProject'
 						$end 'S21'
 					$end 'Reports'
 					$begin 'ReportsWindowInfoList'
-						$begin 'S21'
-							ReportID=9
-							$begin 'WindowInfoList'
-								$begin 'Report2D'
-									$begin 'ViewInfo'
-										$begin 'WrapperView'
-											ID(28)
-										$end 'WrapperView'
-										$begin 'WrapperDoc'
-											HiddenDrawings()
-											$begin 'DispType'
-												PlotType=1
-												$begin 'CurveMed'
-													$begin 'MedCamera'
-														$begin 'svrc'
-															svid=4
-															view(28, cam(XYCam(false, true, true, true, 0.10454048961401, 0.946859359741211, 0.0694065019488335, 0.911725521087646, 0, 1, 0, 1, 6.06127586978153e-039, 1.01938872098758e-038)))
-														$end 'svrc'
-													$end 'MedCamera'
-												$end 'CurveMed'
-											$end 'DispType'
-										$end 'WrapperDoc'
-										WindowPos(WindowPos(5, -1, -1, -8, -31, 156, 156, 1291, 652))
-									$end 'ViewInfo'
-								$end 'Report2D'
-							$end 'WindowInfoList'
-						$end 'S21'
 					$end 'ReportsWindowInfoList'
 				$end 'ReportSetup'
 			$end 'HfssDesignInstance'
@@ -46161,7 +46030,7 @@ $begin 'AnsoftProject'
 				DesignInstanceID=31
 				$begin 'WindowPosition'
 					$begin 'EditorWindow'
-						'3D Modeler'(Editor3d(View(WindowPos(3, -1, -1, -8, -31, 130, 130, 1265, 626), OrientationMatrix(-0.00481070205569267, -0.00771428551524878, 0.0121973557397723, 0, 0.014432106167078, -0.00257142866030335, 0.00406578602269292, 0, 2.48906451005837e-010, 0.0128571419045329, 0.00813157204538584, 0, 0, 0, -5.49118375778198, 1, 0, -1.7327823638916, 1.7327823638916, -1, 1, 0.733389377593994, 10.2489776611328), Drawings[7: 'Coax_Vacuum', 'Coaxial_Out_Conductor', 'Coaxial_Inn_Conductor', 'Coax_SMA_Upp_Teflon', 'Coax_SMA_Dwn_Teflon', 'Samp_Holder', 'Samp_Hold_Base_Pls'], 'View Data'('Render Mode'=1, 'Show Ruler'=1), ClipPlanes(ClipPlaneOptions(DisableWhenDrawingNewPlane=true, ForceOpqaueForUnclipped=false, ShowClipped=false, Transparency=0, HandleColor=16776960)))))
+						'3D Modeler'(Editor3d())
 					$end 'EditorWindow'
 				$end 'WindowPosition'
 				$begin 'ReportSetup'
