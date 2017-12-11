@@ -1,12 +1,12 @@
 $begin 'CacheDataVersion'
-	DataVersion=103
+	DataVersion=104
 $end 'CacheDataVersion'
 $begin 'InterrogationCache'
 	Version=1
 	$begin 'VariableValues'
-		rhe='10.5mm'
 		rhi='5mm'
 		h='4mm'
+		rhe='10.5mm'
 	$end 'VariableValues'
 	$begin 'ValidationStatus'
 		$begin 'Options'

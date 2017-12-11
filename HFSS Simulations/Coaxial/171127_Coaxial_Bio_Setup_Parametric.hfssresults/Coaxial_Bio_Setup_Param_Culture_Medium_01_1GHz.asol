@@ -1,11 +1,11 @@
 $begin '$base_index$'
   $begin 'properties'
     all_levels=000000000000
-    time(year=000000002017, month=000000000012, day=000000000005, hour=000000000011, min=000000000031, sec=000000000012)
+    time(year=000000002017, month=000000000012, day=000000000010, hour=000000000012, min=000000000051, sec=000000000018)
     version=000000000000
   $end 'properties'
   $begin '$base_index$'
-    $index$(pos=000000002559, lin=000000000091, lvl=000000000000)
+    $index$(pos=000000002626, lin=000000000092, lvl=000000000000)
   $end '$base_index$'
 $end '$base_index$'
 $begin 'SolutionBlock2'
@@ -88,10 +88,11 @@ $begin 'SolutionBlock1'
 	VersionID=155
 	PostProcess=false
 	LossLess=true
-	NextUniqueID=346
+	NextUniqueID=401
 	MoveBackwards=false
 	$begin 'VariationIDs'
 		Map(V='h=\'30mm\' hb=\'0mm\' rhe=\'11.5mm\' rhi=\'5mm\'', ID=263)
+		Map(V='h=\'3mm\' hb=\'1mm\' rhe=\'11.5mm\' rhi=\'5mm\'', ID=346)
 	$end 'VariationIDs'
 	$begin 'LinkedDataList'
 	$end 'LinkedDataList'
@@ -107,6 +108,6 @@ $begin '$index$'
 		SolutionBlock4(pos=1577, lin=44, lvl=0)
 		SolutionBlock5(pos=1991, lin=65, lvl=0)
 		$base_index$(pos=0, lin=1, lvl=0)
-		$index$(pos=2559, lin=91, lvl=0)
+		$index$(pos=2626, lin=92, lvl=0)
 	$end '$index$'
 $end '$index$'

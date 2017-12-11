@@ -1,71 +1,13 @@
 $begin '$base_index$'
   $begin 'properties'
     all_levels=000000000000
-    time(year=000000002017, month=000000000012, day=000000000005, hour=000000000011, min=000000000031, sec=000000000014)
+    time(year=000000002017, month=000000000012, day=000000000010, hour=000000000012, min=000000000051, sec=000000000018)
     version=000000000000
   $end 'properties'
   $begin '$base_index$'
     $index$(pos=000000004687, lin=000000000174, lvl=000000000000)
   $end '$base_index$'
 $end '$base_index$'
-$begin 'SolutionBlock1'
-	ProductName=''
-	CircuitName='Coaxial_Bio_Setup_Param_Culture_Medium_01_100MHz'
-	VersionID=348
-	PostProcess=false
-	LossLess=true
-	NextUniqueID=386
-	MoveBackwards=false
-	$begin 'VariationIDs'
-		Map(V='h=\'30mm\' hb=\'0mm\' rhe=\'11.5mm\' rhi=\'5mm\'', ID=263)
-		Map(V='h=\'3mm\' hb=\'1mm\' rhe=\'11.5mm\' rhi=\'5mm\'', ID=346)
-	$end 'VariationIDs'
-	$begin 'LinkedDataList'
-	$end 'LinkedDataList'
-	$begin 'InitialMeshes'
-		M(VID=346, Ver=348, Dir='DV346_V348.imesh/')
-	$end 'InitialMeshes'
-	$begin 'MI'
-		$begin 'SubData'
-			ID=0
-			MI(VID=346, Ver=348, Dir='DV346_MI0_V348.sd/')
-		$end 'SubData'
-	$end 'MI'
-$end 'SolutionBlock1'
-$begin 'BlockMapName'
-	FileHeader='SolutionBlock1'
-	'SolutionKey(SimSetup=97, Instance=\'SetupDefinition\', Solution=-1, VersionID=348)'='SolutionBlock9'
-	'SolutionKey(SimSetup=97, Instance=\'SolutionDefinition\', Solution=141, VersionID=348)'='SolutionBlock8'
-	'SolutionKey(SimSetup=97, Instance=\'SolutionDefinition\', Solution=98, VersionID=348)'='SolutionBlock6'
-	'SolutionKey(SimSetup=97, Instance=\'SolutionDefinition\', Solution=99, VersionID=348)'='SolutionBlock7'
-	'SolutionKey(SimSetup=97, Instance=\'h=\\\'3mm\\\' hb=\\\'1mm\\\' rhe=\\\'11.5mm\\\' rhi=\\\'5mm\\\'\', Solution=-3, VersionID=348)'='SolutionBlock10'
-$end 'BlockMapName'
-$begin 'SolutionBlock9'
-	SimSetupID=97
-	SimSetupName='Setup1'
-	VersionID=348
-	IsImported=false
-	IsTable=false
-	SolveSetupID=0
-	$begin 'CurrMeshes'
-		M(VID=346, Ver=348, Dir='DV346_S97_V348.cmesh/')
-	$end 'CurrMeshes'
-	$begin 'WaveAdapt'
-		WA(VID=346, Ver=348, A=1)
-	$end 'WaveAdapt'
-	$begin 'LastPassNumbers'
-		LP(VID=346, Ver=348, P=2)
-	$end 'LastPassNumbers'
-	$begin 'Profiles'
-		P(VID=346, Ver=348, File='DV346_S97_V348.profile')
-	$end 'Profiles'
-	$begin 'MI'
-		$begin 'SubData'
-			ID=0
-			MI(VID=346, Ver=348, Dir='DV346_S97_MI0_V348.sd/')
-		$end 'SubData'
-	$end 'MI'
-$end 'SolutionBlock9'
 $begin 'SolutionBlock6'
 	SolutionName='AdaptivePass'
 	SolutionID=98
@@ -109,6 +51,14 @@ $begin 'SolutionBlock6'
 		$end 'SubData'
 	$end 'A'
 $end 'SolutionBlock6'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=97, Instance=\'SetupDefinition\', Solution=-1, VersionID=348)'='SolutionBlock9'
+	'SolutionKey(SimSetup=97, Instance=\'SolutionDefinition\', Solution=141, VersionID=348)'='SolutionBlock8'
+	'SolutionKey(SimSetup=97, Instance=\'SolutionDefinition\', Solution=98, VersionID=348)'='SolutionBlock6'
+	'SolutionKey(SimSetup=97, Instance=\'SolutionDefinition\', Solution=99, VersionID=348)'='SolutionBlock7'
+	'SolutionKey(SimSetup=97, Instance=\'h=\\\'3mm\\\' hb=\\\'1mm\\\' rhe=\\\'11.5mm\\\' rhi=\\\'5mm\\\'\', Solution=-3, VersionID=348)'='SolutionBlock10'
+$end 'BlockMapName'
 $begin 'SolutionBlock7'
 	SolutionName='LastAdaptive'
 	SolutionID=99
@@ -142,17 +92,6 @@ $begin 'SolutionBlock7'
 		$end 'DataMap'
 	$end 'Fields'
 $end 'SolutionBlock7'
-$begin 'SolutionBlock10'
-	ConvSetupName='DrivenDeltaSConvNOV'
-	IsConverged=true
-	MaxPasses='6'
-	MinPasses='1'
-	ConvTarget='0.02'
-	ConvTargetConsecPasses='1'
-	ConvCurrentConsecPasses='1'
-	c(numtets=10217, passno=1)
-	c(numtets=11770, passno=2, magdeltas=0.0007363815936723892)
-$end 'SolutionBlock10'
 $begin 'SolutionBlock8'
 	SolutionName='Sweep100MHz'
 	SolutionID=141
@@ -181,15 +120,76 @@ $begin 'SolutionBlock8'
 		$end 'SubData'
 	$end 'M'
 $end 'SolutionBlock8'
+$begin 'SolutionBlock9'
+	SimSetupID=97
+	SimSetupName='Setup1'
+	VersionID=348
+	IsImported=false
+	IsTable=false
+	SolveSetupID=0
+	$begin 'CurrMeshes'
+		M(VID=346, Ver=348, Dir='DV346_S97_V348.cmesh/')
+	$end 'CurrMeshes'
+	$begin 'WaveAdapt'
+		WA(VID=346, Ver=348, A=1)
+	$end 'WaveAdapt'
+	$begin 'LastPassNumbers'
+		LP(VID=346, Ver=348, P=2)
+	$end 'LastPassNumbers'
+	$begin 'Profiles'
+		P(VID=346, Ver=348, File='DV346_S97_V348.profile')
+	$end 'Profiles'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=346, Ver=348, Dir='DV346_S97_MI0_V348.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock9'
+$begin 'SolutionBlock1'
+	ProductName=''
+	CircuitName='Coaxial_Bio_Setup_Param_Culture_Medium_01_100MHz'
+	VersionID=348
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=458
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='h=\'30mm\' hb=\'0mm\' rhe=\'11.5mm\' rhi=\'5mm\'', ID=263)
+		Map(V='h=\'3mm\' hb=\'1mm\' rhe=\'11.5mm\' rhi=\'5mm\'', ID=346)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=346, Ver=348, Dir='DV346_V348.imesh/')
+	$end 'InitialMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=346, Ver=348, Dir='DV346_MI0_V348.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock1'
+$begin 'SolutionBlock10'
+	ConvSetupName='DrivenDeltaSConvNOV'
+	IsConverged=true
+	MaxPasses='6'
+	MinPasses='1'
+	ConvTarget='0.02'
+	ConvTargetConsecPasses='1'
+	ConvCurrentConsecPasses='1'
+	c(numtets=10217, passno=1)
+	c(numtets=11770, passno=2, magdeltas=0.0007363815936723892)
+$end 'SolutionBlock10'
 $begin '$index$'
 	$begin '$index$'
-		BlockMapName(pos=1022, lin=25, lvl=0)
-		SolutionBlock10(pos=3835, lin=135, lvl=0)
-		SolutionBlock6(pos=2261, lin=59, lvl=0)
-		SolutionBlock7(pos=3174, lin=102, lvl=0)
-		SolutionBlock8(pos=4133, lin=146, lvl=0)
-		SolutionBlock9(pos=1667, lin=33, lvl=0)
-		SolutionBlock1(pos=370, lin=1, lvl=0)
+		SolutionBlock10(pos=4389, lin=163, lvl=0)
+		SolutionBlock6(pos=370, lin=1, lvl=0)
+		BlockMapName(pos=1283, lin=44, lvl=0)
+		SolutionBlock7(pos=1928, lin=52, lvl=0)
+		SolutionBlock8(pos=2589, lin=85, lvl=0)
+		SolutionBlock9(pos=3143, lin=113, lvl=0)
+		SolutionBlock1(pos=3737, lin=139, lvl=0)
 		$base_index$(pos=0, lin=1, lvl=0)
 		$index$(pos=4687, lin=174, lvl=0)
 	$end '$index$'
