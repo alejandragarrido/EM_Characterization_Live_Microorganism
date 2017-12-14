@@ -1,0 +1,267 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002017, month=000000000012, day=000000000012, hour=000000000020, min=000000000049, sec=000000000046)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000007411, lin=000000000243, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock2'
+	SolutionName='AdaptivePass'
+	SolutionID=639
+	V=670
+	$begin 'States'
+		F(VID=668, Ver=670)
+		F(VID=709, Ver=670)
+		F(VID=710, Ver=670)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(1000000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+	$begin 'M'
+		$begin 'SubData'
+			ID=1
+			M(VID=668, Ver=670, File='DV668_SOL639_M1_V670.sd')
+			M(VID=709, Ver=670, File='DV709_SOL639_M1_V670.sd')
+			M(VID=710, Ver=670, File='DV710_SOL639_M1_V670.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			M(VID=668, Ver=670, File='DV668_SOL639_M2_V670.sd')
+			M(VID=709, Ver=670, File='DV709_SOL639_M2_V670.sd')
+			M(VID=710, Ver=670, File='DV710_SOL639_M2_V670.sd')
+		$end 'SubData'
+	$end 'M'
+	$begin 'A'
+		$begin 'SubData'
+			ID=0
+			A(VID=668, Ver=670, File='DV668_SOL639_A0_V670.sd')
+			A(VID=709, Ver=670, File='DV709_SOL639_A0_V670.sd')
+			A(VID=710, Ver=670, File='DV710_SOL639_A0_V670.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=1
+			A(VID=668, Ver=670, File='DV668_SOL639_A1_V670.sd')
+			A(VID=709, Ver=670, File='DV709_SOL639_A1_V670.sd')
+			A(VID=710, Ver=670, File='DV710_SOL639_A1_V670.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			A(VID=668, Ver=670, File='DV668_SOL639_A2_V670.sd')
+			A(VID=709, Ver=670, File='DV709_SOL639_A2_V670.sd')
+			A(VID=710, Ver=670, File='DV710_SOL639_A2_V670.sd')
+		$end 'SubData'
+	$end 'A'
+$end 'SolutionBlock2'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=638, Instance=\'SetupDefinition\', Solution=-1, VersionID=670)'='SolutionBlock5'
+	'SolutionKey(SimSetup=638, Instance=\'SolutionDefinition\', Solution=639, VersionID=670)'='SolutionBlock2'
+	'SolutionKey(SimSetup=638, Instance=\'SolutionDefinition\', Solution=640, VersionID=670)'='SolutionBlock3'
+	'SolutionKey(SimSetup=638, Instance=\'SolutionDefinition\', Solution=641, VersionID=670)'='SolutionBlock4'
+	'SolutionKey(SimSetup=638, Instance=\'h=\\\'10mm\\\' hb=\\\'1mm\\\' rhe=\\\'11.5mm\\\' rhi=\\\'5mm\\\'\', Solution=-3, VersionID=670)'='SolutionBlock8'
+	'SolutionKey(SimSetup=638, Instance=\'h=\\\'20mm\\\' hb=\\\'1mm\\\' rhe=\\\'11.5mm\\\' rhi=\\\'5mm\\\'\', Solution=-3, VersionID=670)'='SolutionBlock7'
+	'SolutionKey(SimSetup=638, Instance=\'h=\\\'3mm\\\' hb=\\\'1mm\\\' rhe=\\\'11.5mm\\\' rhi=\\\'5mm\\\'\', Solution=-3, VersionID=670)'='SolutionBlock6'
+$end 'BlockMapName'
+$begin 'SolutionBlock3'
+	SolutionName='LastAdaptive'
+	SolutionID=640
+	V=670
+	$begin 'States'
+		F(VID=668, Ver=670)
+		F(VID=709, Ver=670)
+		F(VID=710, Ver=670)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(1000000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+	$begin 'M'
+		$begin 'SubData'
+			ID=0
+			M(VID=668, Ver=670, File='DV668_SOL640_M0_V670.sd')
+			M(VID=709, Ver=670, File='DV709_SOL640_M0_V670.sd')
+			M(VID=710, Ver=670, File='DV710_SOL640_M0_V670.sd')
+		$end 'SubData'
+	$end 'M'
+	$begin 'Fields'
+		IDDblMap(701, 1000000000)
+		$begin 'DataMap'
+			VID=668
+			Ver=670
+			F(DblID=701, Dir='DV668_S640_V670_F701/')
+		$end 'DataMap'
+		$begin 'DataMap'
+			VID=709
+			Ver=670
+			F(DblID=701, Dir='DV709_S640_V670_F701/')
+		$end 'DataMap'
+		$begin 'DataMap'
+			VID=710
+			Ver=670
+			F(DblID=701, Dir='DV710_S640_V670_F701/')
+		$end 'DataMap'
+	$end 'Fields'
+$end 'SolutionBlock3'
+$begin 'SolutionBlock4'
+	SolutionName='Sweep'
+	SolutionID=641
+	V=670
+	$begin 'States'
+		F(VID=668, Ver=670)
+		F(VID=709, Ver=670)
+		F(VID=710, Ver=670)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=true
+		SweepDefType='LIN'
+		StartFreq=10000
+		StopFreq=3000000000
+		StepSize=100000000
+		SolutionType=5
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=0
+	KeepAllFastSweepFields=false
+	$begin 'M'
+		$begin 'SubData'
+			ID=0
+			M(VID=668, Ver=670, File='DV668_SOL641_M0_V670.sd')
+			M(VID=709, Ver=670, File='DV709_SOL641_M0_V670.sd')
+			M(VID=710, Ver=670, File='DV710_SOL641_M0_V670.sd')
+		$end 'SubData'
+	$end 'M'
+$end 'SolutionBlock4'
+$begin 'SolutionBlock5'
+	SimSetupID=638
+	SimSetupName='Setup1'
+	VersionID=670
+	IsImported=false
+	IsTable=false
+	SolveSetupID=2
+	$begin 'CurrMeshes'
+		M(VID=668, Ver=670, Dir='DV668_S638_V670.cmesh/')
+		M(VID=709, Ver=670, Dir='DV709_S638_V670.cmesh/')
+		M(VID=710, Ver=670, Dir='DV710_S638_V670.cmesh/')
+	$end 'CurrMeshes'
+	$begin 'WaveAdapt'
+		WA(VID=668, Ver=670, A=1)
+		WA(VID=709, Ver=670, A=1)
+		WA(VID=710, Ver=670, A=1)
+	$end 'WaveAdapt'
+	$begin 'LastPassNumbers'
+		LP(VID=668, Ver=670, P=2)
+		LP(VID=709, Ver=670, P=2)
+		LP(VID=710, Ver=670, P=2)
+	$end 'LastPassNumbers'
+	$begin 'Profiles'
+		P(VID=668, Ver=670, File='DV668_S638_V670.profile')
+		P(VID=709, Ver=670, File='DV709_S638_V670.profile')
+		P(VID=710, Ver=670, File='DV710_S638_V670.profile')
+	$end 'Profiles'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=668, Ver=670, Dir='DV668_S638_MI0_V670.sd/')
+			MI(VID=709, Ver=670, Dir='DV709_S638_MI0_V670.sd/')
+			MI(VID=710, Ver=670, Dir='DV710_S638_MI0_V670.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock5'
+$begin 'SolutionBlock1'
+	ProductName='HFSS'
+	CircuitName='Coaxial_Bio_Setup_Param_Culture_Medium_01_AllFreq_noplastic'
+	VersionID=670
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=711
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='h=\'10mm\' hb=\'1mm\' rhe=\'11.5mm\' rhi=\'5mm\'', ID=710)
+		Map(V='h=\'20mm\' hb=\'1mm\' rhe=\'11.5mm\' rhi=\'5mm\'', ID=709)
+		Map(V='h=\'3mm\' hb=\'1mm\' rhe=\'11.5mm\' rhi=\'5mm\'', ID=668)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=668, Ver=670, Dir='DV668_V670.imesh/')
+		M(VID=709, Ver=670, Dir='DV709_V670.imesh/')
+		M(VID=710, Ver=670, Dir='DV710_V670.imesh/')
+	$end 'InitialMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=668, Ver=670, Dir='DV668_MI0_V670.sd/')
+			MI(VID=709, Ver=670, Dir='DV709_MI0_V670.sd/')
+			MI(VID=710, Ver=670, Dir='DV710_MI0_V670.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock1'
+$begin 'SolutionBlock8'
+	ConvSetupName='DrivenDeltaSConvNOV'
+	IsConverged=true
+	MaxPasses='6'
+	MinPasses='1'
+	ConvTarget='0.02'
+	ConvTargetConsecPasses='1'
+	ConvCurrentConsecPasses='1'
+	c(numtets=9561, passno=1)
+	c(magdeltas=0.001202663745570437, numtets=11013, passno=2)
+$end 'SolutionBlock8'
+$begin 'SolutionBlock7'
+	ConvSetupName='DrivenDeltaSConvNOV'
+	IsConverged=true
+	MaxPasses='6'
+	MinPasses='1'
+	ConvTarget='0.02'
+	ConvTargetConsecPasses='1'
+	ConvCurrentConsecPasses='1'
+	c(numtets=9553, passno=1)
+	c(magdeltas=0.0007678310156130282, numtets=10986, passno=2)
+$end 'SolutionBlock7'
+$begin 'SolutionBlock6'
+	ConvSetupName='DrivenDeltaSConvNOV'
+	IsConverged=true
+	MaxPasses='6'
+	MinPasses='1'
+	ConvTarget='0.02'
+	ConvTargetConsecPasses='1'
+	ConvCurrentConsecPasses='1'
+	c(numtets=9475, passno=1)
+	c(magdeltas=0.0007959612846779243, numtets=10899, passno=2)
+$end 'SolutionBlock6'
+$begin '$index$'
+	$begin '$index$'
+		SolutionBlock6(pos=7116, lin=232, lvl=0)
+		SolutionBlock2(pos=370, lin=1, lvl=0)
+		BlockMapName(pos=1883, lin=56, lvl=0)
+		SolutionBlock3(pos=2840, lin=66, lvl=0)
+		SolutionBlock4(pos=3864, lin=113, lvl=0)
+		SolutionBlock5(pos=4566, lin=145, lvl=0)
+		SolutionBlock1(pos=5598, lin=181, lvl=0)
+		SolutionBlock8(pos=6527, lin=210, lvl=0)
+		SolutionBlock7(pos=6821, lin=221, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=7411, lin=243, lvl=0)
+	$end '$index$'
+$end '$index$'

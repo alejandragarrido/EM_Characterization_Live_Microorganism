@@ -1,0 +1,2605 @@
+$begin 'soln'
+	ObjectType='HfssModal'
+	SolutionType='HfssInterpolatingSweep'
+	Name='Sweep'
+	AdaptivePass=-1
+	EnergyError=0
+	$begin 'Frequencies'
+		$begin 'DataPoint'
+			Frequency=10000000000
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0.2747715875288561, 0.6551193342359643)
+					c(-0.2088745052114821, 0.3952397081657462)
+				$end 'r0'
+				$begin 'r1'
+					c(-0.2088745052109509, 0.3952397081645195)
+					c(0.4849085992902069, 0.4628305323995399)
+				$end 'r1'
+			$end 'SMatrix'
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(0.1464852372180855, 303.4930925150358)
+					c(0.1464852372180873, 303.4930925150344)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(48.98173872175164, 0.02364172955815939)
+					c(48.96543296226069, 0.02363385935252407)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(1.999999767035355, 0.0009653281986830561)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(1.999999767035354, 0.0009653281986830721)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+	$end 'Frequencies'
+	$begin 'Ports'
+		Port(ModalEntryName='1', TerminalEntryName='1', PortName='1', Mode=1, ModeName='', TerminalName='', ParameterName='', MatrixIndex=0)
+		Port(ModalEntryName='2', TerminalEntryName='2', PortName='2', Mode=1, ModeName='', TerminalName='', ParameterName='', MatrixIndex=1)
+	$end 'Ports'
+	HigherOrderMode=false
+	PortNames('1', '2')
+	PortModes(1, 1)
+	ModalData=true
+	LastSolvedFreq=0
+	PreferredImpedance='Zpi'
+	$begin 'InterpolationBasis'
+		ErrorTolerance=0.005
+		MaxBasisSize=250
+		BasisSize=1
+		LowSampleFreq=10000
+		HighSampleFreq=10000000000
+		NumSamples=601
+		MaxSubRangeBasisSize=20
+		MinNumSubRanges=1
+		LastBasisFreq=10000000000
+		NumRanges=1
+		Ranges(10000, 10000000000, 10000000000)
+		FreqSequence(10000000000)
+	$end 'InterpolationBasis'
+$end 'soln'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=10000
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(-0.140545471619954, -8.50876608659659e-005)
+			c(-0.859286943340511, 0.00011331722006443)
+		$end 'r0'
+		$begin 'r1'
+			c(-0.859286943340585, 0.000113317220064436)
+			c(-0.140880601801119, -8.49844578246335e-005)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(3.45984594663808e-008, 0.000304730021266852)
+			c(3.45984594663808e-008, 0.000304730021266852)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.7829278229963, 0.00553871963096572)
+			c(48.766688246593, 0.00553687582075102)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.99999998710911, 0.000227076144972801)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.99999998710911, 0.000227076144972801)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=true
+	Frequency=100000
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(-0.140598559581533, -0.000763496387596637)
+			c(-0.859233710415592, 0.00104569371130102)
+		$end 'r0'
+		$begin 'r1'
+			c(-0.859233710415219, 0.00104569371130049)
+			c(-0.140933671944417, -0.000762498491071845)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(1.26632595795581e-006, 0.00304605784527021)
+			c(1.26632595795581e-006, 0.00304605784527021)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.8028166585075, 0.0202886079960652)
+			c(48.7865704612171, 0.0202818540267081)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.99999982717178, 0.000831452265749764)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.99999982717178, 0.000831452265749761)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=true
+	Frequency=1000000
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(-0.141088216507407, -0.00717168970586282)
+			c(-0.858738781369243, 0.00999170021574771)
+		$end 'r0'
+		$begin 'r1'
+			c(-0.858738781368808, 0.00999170021574258)
+			c(-0.141423432030543, -0.00716187573710217)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(1.49532093396168e-005, 0.030438620742679)
+			c(1.49532093396168e-005, 0.030438620742679)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.8380185248213, 0.0239920567001834)
+			c(48.8217606090173, 0.0239840698725115)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.99999975866584, 0.000982515447179262)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.99999975866584, 0.000982515447179262)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=true
+	Frequency=10000000
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(-0.170323840120123, -0.0531507186840601)
+			c(-0.829090773891711, 0.0813234758118347)
+		$end 'r0'
+		$begin 'r1'
+			c(-0.829090773891702, 0.0813234758118337)
+			c(-0.170669551788977, -0.0530476058058561)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(0.000151978209212204, 0.304163154864752)
+			c(0.000151978206503387, 0.304163156973046)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.8738324611028, 0.0244203064035616)
+			c(48.8575629914159, 0.0244121769789342)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.99999975033978, 0.000999320185959572)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.99999975033979, 0.000999320161221232)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=true
+	Frequency=100000000
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(-0.291448127898669, -0.0717447575388901)
+			c(-0.668634221440937, 0.349286440951138)
+		$end 'r0'
+		$begin 'r1'
+			c(-0.66863422144103, 0.349286440951183)
+			c(-0.292018464012125, -0.0703819960347095)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(0.00152269419022554, 3.03939902083546)
+			c(0.00152269419031383, 3.03939902068455)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.9097317939083, 0.0245030560166117)
+			c(48.8934500052696, 0.0244948990765134)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.99999974901379, 0.00100197044790741)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.99999974901379, 0.00100197044801525)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=true
+	Frequency=1000000000
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(0.636079779955485, 0.622859989011514)
+			c(0.276604750805803, -0.232548970129207)
+		$end 'r0'
+		$begin 'r1'
+			c(0.276604750805686, -0.232548970129084)
+			c(0.660469810772363, 0.596925689163765)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(0.0151856010819616, 30.371648698322)
+			c(0.0151856010819641, 30.3716486982838)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.9457100467795, 0.0244724952150816)
+			c(48.929416281046, 0.0244643484520033)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.9999997500074, 0.000999985172662466)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.9999997500074, 0.000999985172663885)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=55000
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(-0.140575656541768, -0.000435087011237651)
+			c(-0.85925670025085, 0.00059031855132852)
+		$end 'r0'
+		$begin 'r1'
+			c(-0.85925670025051, 0.000590318551328224)
+			c(-0.140910775792259, -0.000434532244162129)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(5.94272699717427e-007, 0.0016756115683405)
+			c(5.94272699717427e-007, 0.0016756115683405)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.794671029891, 0.0173055267895265)
+			c(48.7784275442369, 0.0172997658719875)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.99999987421617, 0.000709320314529741)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.99999987421617, 0.000709320314529739)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=550000
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(-0.140781374424795, -0.00397930911729479)
+			c(-0.859049085434407, 0.00553060886108209)
+		$end 'r0'
+		$begin 'r1'
+			c(-0.859049085434582, 0.00553060886108344)
+			c(-0.141116502439575, -0.0039739042244371)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(8.1058705375163e-006, 0.0167444211769999)
+			c(8.1058705375163e-006, 0.0167444211769999)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.8287445176999, 0.0236376926610997)
+			c(48.8124896891634, 0.0236298237993258)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.99999976565323, 0.000968187493857145)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.99999976565323, 0.000968187493857145)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=5500000
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(-0.151856037114143, -0.0355338161529973)
+			c(-0.84784620302879, 0.0510342596226856)
+		$end 'r0'
+		$begin 'r1'
+			c(-0.847846203029171, 0.0510342596227082)
+			c(-0.152194890952314, -0.0354789002774716)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(8.34564986856969e-005, 0.16732159876019)
+			c(8.34564983318493e-005, 0.167321604058876)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.8645253888762, 0.0243725982026307)
+			c(48.8482576980251, 0.0243644859211358)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.99999975121956, 0.00099755786369382)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.99999975121958, 0.000997557827873939)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=55000000
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(-0.251070348370579, -0.0637436941788472)
+			c(-0.736620804935684, 0.217934648321873)
+		$end 'r0'
+		$begin 'r1'
+			c(-0.73662080493569, 0.217934648321876)
+			c(-0.251507733160467, -0.0630791468794112)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(0.000837355686506263, 1.6719883544218)
+			c(0.000837355686686975, 1.67198835412755)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.9004034209512, 0.0244900215968021)
+			c(48.8841247476742, 0.0244818690012132)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.99999974918508, 0.00100162848536727)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.99999974918508, 0.00100162848575971)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=550000000
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(-0.412028616672933, 0.60895666430898)
+			c(0.371001846177871, 0.385043459957344)
+		$end 'r0'
+		$begin 'r1'
+			c(0.371001846178489, 0.385043459957601)
+			c(-0.39797051178361, 0.618320020964275)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(0.00836545916602929, 16.7075979894403)
+			c(0.00836545916602668, 16.70759798941)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.9363612228555, 0.0245023331183988)
+			c(48.9200705693027, 0.0244941764223859)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.99999974930166, 0.00100139566713458)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.99999974930167, 0.00100139566713608)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=5500000000
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(0.286146356492602, 0.0676267766153387)
+			c(-0.239273844171613, -0.830563431016389)
+		$end 'r0'
+		$begin 'r1'
+			c(-0.239273844171737, -0.830563431016641)
+			c(0.281505416313471, -0.0456185524952078)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(0.0820579750536484, 166.953064464157)
+			c(0.0820579750536562, 166.953064464151)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.9723899625592, 0.0240700891999992)
+			c(48.9560873152215, 0.0240620763957245)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.99999975842459, 0.000983006396503383)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.99999975842459, 0.000983006396503513)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=775000000
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(0.0999514690766501, 0.829684812218343)
+			c(0.433843467346913, 0.0081735801650544)
+		$end 'r0'
+		$begin 'r1'
+			c(0.4338434673466, 0.00817358016515224)
+			c(0.126061210661956, 0.82614844747904)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(0.011778457113756, 23.5399450326967)
+			c(0.0117784571137867, 23.5399450327298)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.9417234775615, 0.0244885020017994)
+			c(48.9254310389429, 0.0244803499101224)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.99999974963948, 0.00100072074280254)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.99999974963948, 0.00100072074280375)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=3250000000
+	DataType='None'
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(0.822341524263099, 0.510614251836627)
+			c(0.104094105611561, -0.19003379164967)
+		$end 'r0'
+		$begin 'r1'
+			c(0.104094105611569, -0.190033791649687)
+			c(0.882331474848059, 0.398217599360598)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(0.0489263372101101, 98.6706752492832)
+			c(0.0489263372100966, 98.6706752492912)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.96415493152, 0.0242791158501186)
+			c(48.9478550255826, 0.0242710334619911)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.99999975412797, 0.000991709665950758)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.99999975412797, 0.000991709665950403)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=7750000000
+	DataType='None'
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(0.00912058085565337, 0.948945008904153)
+			c(-0.242119260790672, 0.0223822049281862)
+		$end 'r0'
+		$begin 'r1'
+			c(-0.242119260790252, 0.0223822049282403)
+			c(0.244193492616529, 0.915115623428954)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(0.114577615400281, 235.226275626892)
+			c(0.11457761540028, 235.226275626893)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.9777552482003, 0.0238568348244333)
+			c(48.9614508147865, 0.0238488930114028)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.9999997627382, 0.000974190502336353)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.9999997627382, 0.000974190502336342)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=77500
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(-0.140588045377477, -0.000600235886387584)
+			c(-0.859244270517261, 0.000818953371168359)
+		$end 'r0'
+		$begin 'r1'
+			c(-0.859244270516896, 0.000818953371167952)
+			c(-0.140923160666936, -0.000599459186255273)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(9.27931269337673e-007, 0.00236086955947903)
+			c(9.27931269337673e-007, 0.00236086955947903)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.7992056274232, 0.0191803518490524)
+			c(48.7829606322256, 0.0191739668122537)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.99999984551455, 0.000786092729211605)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.99999984551455, 0.000786092729211606)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=775000
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(-0.140915948524403, -0.00557853382098945)
+			c(-0.85891298600289, 0.00776421983801131)
+		$end 'r0'
+		$begin 'r1'
+			c(-0.858912986002651, 0.00776421983800911)
+			c(-0.14125111270442, -0.00557092520203697)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(1.15293482202077e-005, 0.0235918423745866)
+			c(1.15293482202077e-005, 0.0235918423745866)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.8340620229094, 0.0238652368530505)
+			c(48.8178054242038, 0.023857292243029)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.99999976117174, 0.000977401142342329)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.99999976117174, 0.000977401142342331)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=7750000
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(-0.160743696956889, -0.045783793838264)
+			c(-0.838834982719167, 0.0676213741226335)
+		$end 'r0'
+		$begin 'r1'
+			c(-0.838834982719073, 0.0676213741226259)
+			c(-0.161085773669354, -0.045705198791991)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(0.00011771604795077, 0.235745593290085)
+			c(0.000117716049543574, 0.23574559257567)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.8698636941954, 0.0244024380548721)
+			c(48.8535950660006, 0.0243943159547082)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.99999975066451, 0.00099867006320263)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.9999997506645, 0.000998670079741953)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=6625000000
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(-0.193831237050179, -0.790714692551949)
+			c(0.463269543412613, -0.120240057879651)
+		$end 'r0'
+		$begin 'r1'
+			c(0.463269543412538, -0.120240057879623)
+			c(-0.399259475935634, -0.707353072267067)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(0.0983943310791209, 201.090597788462)
+			c(0.0983943310791194, 201.090597788463)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.9753020365059, 0.0239637861554778)
+			c(48.958998419754, 0.0239558087389205)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.99999976058214, 0.000978606860614606)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.99999976058214, 0.000978606860614585)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=6062500000
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(0.355935781458267, 0.0882003561481599)
+			c(-0.280654836866256, 0.758750911483413)
+		$end 'r0'
+		$begin 'r1'
+			c(-0.28065483686613, 0.758750911483472)
+			c(0.374243507385225, -0.0680519279192707)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(0.0902452870823375, 184.022083919666)
+			c(0.0902452870823447, 184.022083919666)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.9739137717794, 0.0240170354217346)
+			c(48.9576106171728, 0.0240090402787779)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.99999975950332, 0.000980809197551391)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.99999975950332, 0.000980809197551474)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=5781250000
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(0.0943204437150249, 0.0468687201866656)
+			c(-0.883829333551552, -0.0378313374124133)
+		$end 'r0'
+		$begin 'r1'
+			c(-0.883829333551459, -0.037831337412641)
+			c(0.116252568160709, 0.0106657396014437)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(0.0861564142566359, 175.487640420329)
+			c(0.0861564142566445, 175.487640420331)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.9731704373773, 0.0240435893351677)
+			c(48.9568675302225, 0.0240355853525539)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.9999997589639, 0.000981908511241825)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.9999997589639, 0.000981908511241911)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=4375000000
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(-0.672439429817214, -0.664347703681368)
+			c(-0.177494438422343, 0.221903126093614)
+		$end 'r0'
+		$begin 'r1'
+			c(-0.177494438422317, 0.221903126093582)
+			c(-0.768683734045047, -0.549663891821871)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(0.0655685858161425, 132.813287693605)
+			c(0.0655685858161422, 132.813287693598)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.9688081181743, 0.0241754085993129)
+			c(48.9525066632135, 0.0241673607347703)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.99999975627027, 0.000987379786530093)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.99999975627027, 0.000987379786530138)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=3812500000
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(0.572357032295806, -0.780723103920905)
+			c(-0.181718418908604, -0.114506963845618)
+		$end 'r0'
+		$begin 'r1'
+			c(-0.181718418908567, -0.114506963845588)
+			c(0.463921037761354, -0.849684311509119)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(0.0572665505306964, 115.742385340845)
+			c(0.0572665505306976, 115.742385340839)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.9666538127694, 0.0242275234489968)
+			c(48.9503530749643, 0.0242194582357022)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.99999975519679, 0.000989551811162986)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.99999975519679, 0.000989551811163054)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=4093750000
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(-0.0713607439462252, -0.959052411471033)
+			c(-0.233143927922213, 0.0371233219916907)
+		$end 'r0'
+		$begin 'r1'
+			c(-0.233143927922374, 0.0371233219917117)
+			c(-0.205179162608553, -0.93951249552092)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(0.0614223433404949, 124.277930256132)
+			c(0.0614223433405032, 124.277930256124)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.9677680080517, 0.0242015219678185)
+			c(48.9514668993399, 0.0241934654102763)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.99999975573308, 0.000988467312131487)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.99999975573308, 0.00098846731213168)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=2125000000
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(-0.705216278632826, -0.647092773471225)
+			c(-0.165818567334773, 0.182413453137197)
+		$end 'r0'
+		$begin 'r1'
+			c(-0.165818567334854, 0.182413453137316)
+			c(-0.763474620559225, -0.577159000085649)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(0.0321316529455746, 64.5242055413823)
+			c(0.0321316529455786, 64.5242055413689)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.9575042475717, 0.024379773797541)
+			c(48.9412065556167, 0.0243716579009148)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.99999975201768, 0.000995956438113017)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.99999975201768, 0.000995956438113346)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=1562500000
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(0.649423839635752, -0.68485402345859)
+			c(-0.188820587262251, -0.192493324904532)
+		$end 'r0'
+		$begin 'r1'
+			c(-0.188820587262448, -0.192493324904735)
+			c(0.604462521037815, -0.724789401112878)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(0.0236774267735939, 47.4489324871128)
+			c(0.0236774267735794, 47.4489324871327)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.9526922146146, 0.0244278158543443)
+			c(48.9363961245534, 0.0244196839647948)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.99999975099043, 0.000998017134824766)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.99999975099043, 0.000998017134823734)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=8875000000
+	DataType='None'
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(-0.0978843787992076, -0.885525532888855)
+			c(0.348493607636112, -0.14524481880552)
+		$end 'r0'
+		$begin 'r1'
+			c(0.348493607636016, -0.145244818805638)
+			c(-0.518523313798188, -0.730434521938074)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(0.130607878492081, 269.360372346309)
+			c(0.13060787849208, 269.360372346308)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.9798742110428, 0.0237494379881859)
+			c(48.9635690722375, 0.0237415319269883)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.99999976488991, 0.000969763013028119)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.99999976488991, 0.000969763013028113)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=8312500000
+	DataType='None'
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(0.924691237334542, 0.0927378877712119)
+			c(0.0265148813887918, 0.304571839686286)
+		$end 'r0'
+		$begin 'r1'
+			c(0.0265148813887263, 0.304571839686125)
+			c(0.890850904291663, -0.249432064865591)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(0.122611868674066, 252.293507547514)
+			c(0.122611868674066, 252.293507547511)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.9788507619936, 0.0238031825543714)
+			c(48.9625459638889, 0.0237952586018948)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.99999976381474, 0.000971977879148688)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.99999976381474, 0.000971977879148697)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=9437500000
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(-0.757446630520596, 0.319013632446041)
+			c(-0.259496034429368, -0.279378246999131)
+		$end 'r0'
+		$begin 'r1'
+			c(-0.259496034427535, -0.27937824700306)
+			c(-0.567536028120681, 0.644456522890379)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(0.138565661384233, 286.426893708588)
+			c(0.138565661384233, 286.426893708589)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.9808344309447, 0.0236956161141091)
+			c(48.9645289724877, 0.0236877279699266)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.99999976596351, 0.00096754633180849)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.99999976596351, 0.000967546331808492)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=32500000
+	DataType='Interpolated'
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(-0.22883017299206, -0.0628057983924133)
+			c(-0.766729057376715, 0.154192244805315)
+		$end 'r0'
+		$begin 'r1'
+			c(-0.76672905737674, 0.154192244805317)
+			c(-0.229215859454715, -0.0624338396355087)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(0.00049465611201235, 0.988158911155982)
+			c(0.000494656103753286, 0.988158911369649)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.8921988952008, 0.0244746287410284)
+			c(48.8759229754231, 0.0244664833383525)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.99999974941614, 0.00100116700755603)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.99999974941615, 0.00100116699062349)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=325000000
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(-0.537782263033425, 0.135115295069628)
+			c(-0.0739617273059832, 0.652269724427818)
+		$end 'r0'
+		$begin 'r1'
+			c(-0.073961727306312, 0.652269724429185)
+			c(-0.535947191088933, 0.142710674008581)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(0.00494674674903869, 9.87433068144466)
+			c(0.00494674674903993, 9.87433068141037)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.9281386389651, 0.024511546002981)
+			c(48.9118507224221, 0.0245033862399415)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.99999974902877, 0.0010019405442009)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.99999974902877, 0.00100194054420463)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=9718750000
+	DataType='None'
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(-0.264376072961236, 0.773832485149683)
+			c(-0.391129729326204, 0.0249618219732451)
+		$end 'r0'
+		$begin 'r1'
+			c(-0.391129729326344, 0.0249618219734067)
+			c(0.0522096991061016, 0.823281923339842)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(0.142530223818597, 294.960032222071)
+			c(0.142530223818598, 294.96003222207)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.9812931613419, 0.0236686802093721)
+			c(48.9649875501765, 0.0236608010320087)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.99999976649966, 0.000966437426144976)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.99999976649966, 0.000966437426144986)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=8593750000
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(0.654718036632632, -0.622601575338063)
+			c(0.299693412430248, 0.187892188664389)
+		$end 'r0'
+		$begin 'r1'
+			c(0.299693412430199, 0.187892188664257)
+			c(0.322655612554223, -0.851253344503171)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(0.126614653063516, 260.82698428468)
+			c(0.126614653063514, 260.82698428468)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.9793709017075, 0.023776320808971)
+			c(48.9630659304509, 0.0237684057986255)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.99999976435251, 0.000970870698003467)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.99999976435251, 0.00097087069800345)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=7187500000
+	DataType='None'
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(-0.912286162499618, 0.236184544385046)
+			c(-0.0843515906735142, -0.255554590006)
+		$end 'r0'
+		$begin 'r1'
+			c(-0.0843515906631994, -0.255554589996181)
+			c(-0.840131744001555, 0.429265492304832)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(0.106505105799665, 218.158649482045)
+			c(0.106505105799664, 218.158649482046)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.9765768350968, 0.0239103767368933)
+			c(48.9602727939713, 0.0239024171000452)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.99999976166056, 0.000976400370650869)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.99999976166056, 0.000976400370650865)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=9156250000
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(-0.780829376543096, -0.387300277637498)
+			c(0.0686152152835317, -0.393410941323104)
+		$end 'r0'
+		$begin 'r1'
+			c(0.0686152152829249, -0.393410941322891)
+			c(-0.868681255694318, 0.0100074860215303)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(0.134591547137162, 277.893674592364)
+			c(0.134591547137162, 277.893674592365)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.9803617368425, 0.0237225358769669)
+			c(48.9640564357431, 0.0237146387713396)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.99999976542692, 0.000968654875277851)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.99999976542692, 0.000968654875277848)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=2687500000
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(-0.571993796884275, 0.77348132232596)
+			c(0.195922013127224, 0.134149744100237)
+		$end 'r0'
+		$begin 'r1'
+			c(0.195922013127551, 0.134149744100439)
+			c(-0.471727152744906, 0.838427505422454)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(0.0405480068316766, 81.5980159084807)
+			c(0.0405480068316872, 81.5980159084775)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.9611800372443, 0.0243299820532861)
+			c(48.9448811216344, 0.0243218827320732)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.99999975306665, 0.000993847739406486)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.99999975306665, 0.000993847739406786)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=4937500000
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(-0.516680236986476, 0.616140154887941)
+			c(0.465296843328154, 0.255275885065007)
+		$end 'r0'
+		$begin 'r1'
+			c(0.465296843328404, 0.255275885065176)
+			c(-0.349513852580343, 0.721363080992179)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(0.0738324027123763, 149.883487131176)
+			c(0.0738324027123827, 149.883487131173)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.9707013699698, 0.0241229011538224)
+			c(48.9543992847555, 0.0241148707687304)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.99999975734662, 0.000985197171052183)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.99999975734662, 0.000985197171052283)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=5218750000
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(0.18568816861477, 0.559583476944166)
+			c(0.593580766344144, -0.421136441848883)
+		$end 'r0'
+		$begin 'r1'
+			c(0.59358076634617, -0.42113644184992)
+			c(0.351556972346193, 0.465782208625988)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(0.0779499706484186, 158.418349222173)
+			c(0.0779499706484206, 158.418349222163)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.9715684537298, 0.0240965288574109)
+			c(48.9552660798666, 0.0240885072515137)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.99999975788546, 0.000984102682482665)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.99999975788546, 0.000984102682482754)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=9296875000
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(-0.813661930837535, 0.0113313624277104)
+			c(-0.143649328506924, -0.357916421441083)
+		$end 'r0'
+		$begin 'r1'
+			c(-0.143649328507432, -0.357916421441463)
+			c(-0.749248579633097, 0.343015804055654)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(0.136579798403463, 282.160294380213)
+			c(0.136579798403461, 282.160294380215)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.9805998817602, 0.0237090781047917)
+			c(48.9642945013832, 0.0237011854791842)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.99999976569527, 0.000968100651460013)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.99999976569527, 0.000968100651459989)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=9015625000
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(-0.511013488936169, -0.724144109319608)
+			c(0.247834569986036, -0.306183927181108)
+		$end 'r0'
+		$begin 'r1'
+			c(0.247834569985728, -0.306183927180678)
+			c(-0.795177676730445, -0.394888260044266)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(0.13260090726824, 273.627034024536)
+			c(0.132600907268241, 273.627034024533)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.9801198853073, 0.0237359892382438)
+			c(48.9638146647185, 0.0237280876540633)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.99999976515847, 0.000969208997720961)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.99999976515847, 0.000969208997720976)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=8031250000
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(0.613769569297025, 0.717293352459562)
+			c(-0.179441631437072, 0.198032918380151)
+		$end 'r0'
+		$begin 'r1'
+			c(-0.179441631437482, 0.198032918380171)
+			c(0.799354133036007, 0.505370238910991)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(0.118599523363685, 243.759939082917)
+			c(0.11859952336369, 243.759939082913)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.9783126369684, 0.0238300212732097)
+			c(48.9620080180035, 0.0238220883862673)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.99999976327662, 0.0009730845008597)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.99999976327662, 0.000973084500859753)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=6343750000
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(0.425928491525551, -0.451326888788505)
+			c(0.467094361149772, 0.464232268297058)
+		$end 'r0'
+		$begin 'r1'
+			c(0.467094361149802, 0.464232268296909)
+			c(0.251972714666389, -0.576567422460841)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(0.0943245927998117, 192.556401159263)
+			c(0.0943245927998099, 192.556401159258)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.9746233295205, 0.0239904328044665)
+			c(48.9583199387058, 0.0239824465173803)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.99999976004275, 0.000979708603972728)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.99999976004275, 0.000979708603972731)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=5640625000
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(0.156097267777599, -0.00925762082287962)
+			c(-0.70187545431291, -0.548657527262625)
+		$end 'r0'
+		$begin 'r1'
+			c(-0.701875454312961, -0.548657527262521)
+			c(0.137612473299568, -0.06201418292877)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(0.0841083903898434, 171.220369410243)
+			c(0.0841083903898392, 171.220369410251)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.972785072218, 0.0240568463876076)
+			c(48.9564822933503, 0.0240488379917957)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.99999975869423, 0.000982457642529672)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.99999975869423, 0.000982457642529578)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=8453125000
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(0.87244060176833, -0.286254230207318)
+			c(0.169728558813144, 0.284333357829714)
+		$end 'r0'
+		$begin 'r1'
+			c(0.169728558813135, 0.284333357829841)
+			c(0.687185281722793, -0.61226278594862)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(0.124614455866615, 256.560257186563)
+			c(0.124614455866619, 256.560257186564)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.9791130051295, 0.0237897544338882)
+			c(48.9628081197261, 0.0237818349515626)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.99999976408367, 0.000971424354916405)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.99999976408367, 0.000971424354916434)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=5570312500
+	DataType='None'
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(0.222108328583455, 0.00840039035593791)
+			c(-0.492899934668308, -0.730355346717002)
+		$end 'r0'
+		$begin 'r1'
+			c(-0.492899934668329, -0.730355346716832)
+			c(0.200936841598025, -0.073862493995212)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(0.0830834816460599, 169.086721232801)
+			c(0.0830834816460529, 169.086721232804)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.9725887660546, 0.0240634696222092)
+			c(48.9562860525344, 0.0240554590215566)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.99999975855941, 0.000982732068023331)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.99999975855941, 0.000982732068023228)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=212500000
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(-0.427625429344955, -0.0303038493802076)
+			c(-0.39814774436375, 0.591413222629935)
+		$end 'r0'
+		$begin 'r1'
+			c(-0.398147744363709, 0.591413222629887)
+			c(-0.428061153416126, -0.026236413503832)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(0.00323533961509504, 6.45716913337314)
+			c(0.00323533961505051, 6.45716913330684)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.921500921206, 0.0245119287869346)
+			c(48.9052152150539, 0.0245037688967357)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.99999974895282, 0.00100209213733062)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.99999974895282, 0.00100209213732712)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=5921875000
+	DataType='None'
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(0.156503680839035, 0.125346817796643)
+			c(-0.727882536158999, 0.475922104414186)
+		$end 'r0'
+		$begin 'r1'
+			c(-0.727882536159248, 0.475922104414468)
+			c(0.209552435386728, 0.048688768515416)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(0.0882020465222016, 179.754878326037)
+			c(0.0882020465221994, 179.754878326036)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.9735465256625, 0.0240303187832191)
+			c(48.9572434933103, 0.0240223192183061)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.9999997592336, 0.000981359023193546)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.99999975923361, 0.000981359023193529)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=7468750000
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(-0.56054979141374, 0.760633317657928)
+			c(-0.193320931809637, -0.131549118615181)
+		$end 'r0'
+		$begin 'r1'
+			c(-0.193320931810498, -0.131549118615752)
+			c(-0.386535496725283, 0.863934699142231)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(0.110546143291711, 226.692513680264)
+			c(0.110546143291712, 226.692513680258)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.9771771754889, 0.0238836208490845)
+			c(48.9608729345121, 0.0238756701191283)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.9999997621995, 0.000975295816814361)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.9999997621995, 0.000975295816814395)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=7609375000
+	DataType='None'
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(-0.297500906959642, 0.895175476966402)
+			c(-0.230739136490994, -0.0626627682753724)
+		$end 'r0'
+		$begin 'r1'
+			c(-0.230739136490759, -0.0626627682755338)
+			c(-0.080507384190218, 0.9451850903976)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(0.112563074947657, 230.959407193493)
+			c(0.11256307494766, 230.959407193492)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.9774688922057, 0.0238702314343991)
+			c(48.9611645541188, 0.0238622851617077)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.99999976246888, 0.000974743249879734)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.99999976246889, 0.000974743249879757)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=6906250000
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(-0.806476122683899, -0.418673922989313)
+			c(0.142230442530049, -0.31139351117604)
+		$end 'r0'
+		$begin 'r1'
+			c(0.142230442530158, -0.311393511176931)
+			c(-0.883766524369193, -0.220096962979695)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(0.102454501955577, 209.624678978722)
+			c(0.102454501955575, 209.624678978727)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.9759524536344, 0.0239370995861922)
+			c(48.9596486203619, 0.0239291310534507)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.99999976112143, 0.000977504082225775)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.99999976112143, 0.000977504082225735)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=6484375000
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(0.157866190857869, -0.716296021278173)
+			c(0.529369543562758, 0.132224880849293)
+		$end 'r0'
+		$begin 'r1'
+			c(0.529369543562944, 0.132224880849363)
+			c(-0.0704777370096027, -0.734279882218437)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(0.0963606578752086, 196.823514216477)
+			c(0.0963606578752099, 196.823514216475)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.9749663714924, 0.0239771147149761)
+			c(48.9586628664809, 0.0239691328614118)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.99999976031245, 0.000979157868515661)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.99999976031245, 0.000979157868515683)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=6414062500
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(0.319251552182582, -0.610428064824166)
+			c(0.529226118218977, 0.284253952846328)
+		$end 'r0'
+		$begin 'r1'
+			c(0.529226118218853, 0.284253952846282)
+			c(0.107871487584335, -0.689170745890787)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(0.0953429243215776, 194.689961414088)
+			c(0.0953429243215783, 194.689961414096)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.9747957927462, 0.0239837751007657)
+			c(48.9584923445199, 0.023975791029994)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.9999997601776, 0.000979433271200945)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.9999997601776, 0.000979433271200915)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=6203125000
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(0.460340498677275, -0.166878636172448)
+			c(0.14480162241134, 0.697395091029838)
+		$end 'r0'
+		$begin 'r1'
+			c(0.144801622411541, 0.697395091029843)
+			c(0.372799395888519, -0.335649002528332)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(0.0922861358591771, 188.289257956886)
+			c(0.0922861358591723, 188.289257956884)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.9742725805342, 0.0240037398947429)
+			c(48.9579693064832, 0.023995749177798)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.99999975977303, 0.000980259052223778)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.99999975977303, 0.000980259052223738)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=8734375000
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(0.297329614952734, -0.830168627523224)
+			c(0.372857456092149, 0.0215095215192851)
+		$end 'r0'
+		$begin 'r1'
+			c(0.372857456092089, 0.0215095215191134)
+			c(-0.115507801468824, -0.886958234545985)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(0.128612460516801, 265.093689216909)
+			c(0.128612460516799, 265.093689216909)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.979624592375, 0.0237628819177965)
+			c(48.9633195366667, 0.023754971381187)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.99999976462126, 0.000970316915203865)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.99999976462126, 0.00097031691520385)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=8804687500
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(0.116649562373778, -0.868396597371432)
+			c(0.360516867160901, -0.0641788695198972)
+		$end 'r0'
+		$begin 'r1'
+			c(0.36051686716081, -0.064178869519845)
+			c(-0.320930780722501, -0.833973842354642)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(0.129610468172067, 267.227033484727)
+			c(0.129610468172069, 267.227033484724)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.9797499025907, 0.0237561605689437)
+			c(48.9634448051675, 0.0237482522698352)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.9999997647556, 0.000970039978641653)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.9999997647556, 0.00097003997864168)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=9367187500
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(-0.804225219620486, 0.168109168549148)
+			c(-0.178844176003103, -0.332103931805837)
+		$end 'r0'
+		$begin 'r1'
+			c(-0.178844176005882, -0.332103931806515)
+			c(-0.699969294676658, 0.517845788678657)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(0.137573028409238, 284.293596582178)
+			c(0.137573028409238, 284.293596582177)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.9807175990847, 0.0237023476250405)
+			c(48.9644121795205, 0.0236944572399735)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.99999976582941, 0.000967823503275369)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.9999997658294, 0.000967823503275372)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=9332031250
+	DataType='None'
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(-0.810312478417517, 0.0695488729413497)
+			c(-0.149257536734577, -0.313814971782141)
+		$end 'r0'
+		$begin 'r1'
+			c(-0.149257536736054, -0.313814971781501)
+			c(-0.754707940036896, 0.401609821492582)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(0.137076488037766, 283.226946118073)
+			c(0.137076488037765, 283.226946118071)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.9806588519356, 0.0237057129952608)
+			c(48.9643534519276, 0.0236978214898801)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.99999976576234, 0.000967962080319738)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.99999976576234, 0.000967962080319737)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=9859375000
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(0.0339924565929488, 0.768089230017748)
+			c(-0.344004398374413, 0.22115402794028)
+		$end 'r0'
+		$begin 'r1'
+			c(-0.344004398374934, 0.221154027940656)
+			c(0.311291975003434, 0.690355420507337)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(0.144508923966748, 299.22657200254)
+			c(0.144508923966747, 299.226572002547)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.9815175408559, 0.0236552066439716)
+			c(48.9652118549955, 0.0236473319518868)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.99999976676757, 0.000965882850226531)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.99999976676757, 0.000965882850226505)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=9929687500
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(0.162835622375099, 0.729007998094269)
+			c(-0.293729438448578, 0.298506770474045)
+		$end 'r0'
+		$begin 'r1'
+			c(-0.293729438448258, 0.298506770474137)
+			c(0.430333050055045, 0.607634788923643)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(0.145497378931268, 301.359834649784)
+			c(0.145497378931268, 301.359834649783)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.9816285254826, 0.0236484685310668)
+			c(48.9653228026758, 0.0236405960820626)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.99999976690147, 0.000965605533615593)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.99999976690147, 0.000965605533615598)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'
+$begin 'freq'
+	ForceSubrangeSplit=false
+	Frequency=8171875000
+	$begin 'SMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(0.827128468078952, 0.44128054004802)
+			c(-0.0919759480771322, 0.269891769634575)
+		$end 'r0'
+		$begin 'r1'
+			c(-0.0919759480770834, 0.269891769634389)
+			c(0.929191473726501, 0.14387547814861)
+		$end 'r1'
+	$end 'SMatrix'
+	$begin 'Gamma'
+		n=2
+		$begin 'r0'
+			c(0.120606891247728, 248.026734979913)
+			c(0.120606891247724, 248.026734979912)
+		$end 'r0'
+	$end 'Gamma'
+	$begin 'Zpi'
+		n=2
+		$begin 'r0'
+			c(48.9785840244533, 0.0238166049211718)
+			c(48.9622793151447, 0.0238086765004613)
+		$end 'r0'
+	$end 'Zpi'
+	$begin 'TerminalPMatrix'
+		m=2
+		n=2
+		$begin 'r0'
+			c(1.99999976354572, 0.000972531263603401)
+			c(0, 0)
+		$end 'r0'
+		$begin 'r1'
+			c(0, 0)
+			c(1.99999976354572, 0.000972531263603367)
+		$end 'r1'
+	$end 'TerminalPMatrix'
+$end 'freq'

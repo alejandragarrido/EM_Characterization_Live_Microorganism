@@ -1,7 +1,7 @@
 %Coaxial analysis
 close all
 % clear all
-z = 50e-3;
+z = 3e-3;
 % freq = [1*10^6, 100*10^6, 1*10^9];
 % freq = 1e6;
 % f_min=1e6;                  %[Hz]       1MHz
@@ -13,7 +13,7 @@ w = 2*pi.*freq;
 eps_0 = 1;
 e0 = 8.85e-12;
 mu0 = pi*4e-7;
-eps_b = eps_rea_cul_0;
+eps_b = eps_0;
 sgm_wat_dis = 0.002;
 eps_rea_wat_dis = 81;
 sgm_sea_wat = 4;
@@ -53,24 +53,24 @@ legend('P = 0.1','P = 0.05', 'P = 0.025', 'P = 0.0125');
 
 % Plot S21
 figure('Name', 'S21 for differents P')
-semilogx(freq, S21_cul_01_mod)
-hold on
+% semilogx(freq, S21_cul_01_mod)
+% hold on
 % figure('Name', 'S21 for P= 0')
 semilogx(freq, S21_cul_0_mod )
-hold on
+% hold on
 % figure('Name', 'S21 for P= 0.05')
-semilogx(freq, S21_cul_05_mod)
-hold on
+% semilogx(freq, S21_cul_05_mod)
+% hold on
 % figure('Name', 'S21 for P= 0.025')
-semilogx(freq, S21_cul_025_mod)
-hold on
+% semilogx(freq, S21_cul_025_mod)
+% hold on
 % figure('Name', 'S21 for P= 0.0125')
-semilogx(freq, S21_cul_0125_mod)
-hold on
-title('S21 for differents P for z = 50mm')
-xlabel('Frequency (Hz)') % x-axis label
-ylabel('S21_p') %y-axis label 
-legend('P = 0.1','P = 0.05', 'P = 0.025', 'P = 0.0125');
+% semilogx(freq, S21_cul_0125_mod)
+% hold on
+% title('S21 for differents P for z = 50mm')
+% xlabel('Frequency (Hz)') % x-axis label
+% ylabel('S21_p') %y-axis label 
+% legend('P = 0.1','P = 0.05', 'P = 0.025', 'P = 0.0125');
 
 function [S21, S21_mod] = evaluateCoaxial(eps_1, eps_cmp,eps_b,w,z)
 n1 = sqrt(eps_1);

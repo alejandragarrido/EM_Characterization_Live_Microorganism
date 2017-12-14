@@ -1,0 +1,60 @@
+$begin 'soln'
+	ObjectType='HfssModal'
+	SolutionType='Adaptive'
+	Name='Adaptive_1'
+	AdaptivePass=1
+	EnergyError=61237.9720483466
+	$begin 'Frequencies'
+		$begin 'DataPoint'
+			Frequency=999999999.9999999
+			$begin 'SMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(0.6410166330425795, 0.6359694780891968)
+					c(0.2717289723684585, -0.2462858682742849)
+				$end 'r0'
+				$begin 'r1'
+					c(0.2717289723684455, -0.2462858682743464)
+					c(0.6661394649150159, 0.609570797365746)
+				$end 'r1'
+			$end 'SMatrix'
+			$begin 'Gamma'
+				n=2
+				$begin 'r0'
+					c(0.01518560108190299, 30.37164869833818)
+					c(0.01518560108195575, 30.37164869829842)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=2
+				$begin 'r0'
+					c(48.95932790407179, 0.02447930404360989)
+					c(48.93501356399691, 0.02446714705230623)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'TerminalPMatrix'
+				m=2
+				n=2
+				$begin 'r0'
+					c(1.999999750007397, 0.0009999851726580722)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(1.999999750007398, 0.000999985172662857)
+				$end 'r1'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+	$end 'Frequencies'
+	$begin 'Ports'
+		Port(ModalEntryName='1', TerminalEntryName='1', PortName='1', Mode=1, ModeName='', TerminalName='', ParameterName='', MatrixIndex=0)
+		Port(ModalEntryName='2', TerminalEntryName='2', PortName='2', Mode=1, ModeName='', TerminalName='', ParameterName='', MatrixIndex=1)
+	$end 'Ports'
+	HigherOrderMode=false
+	PortNames('1', '2')
+	PortModes(1, 1)
+	ModalData=true
+	LastSolvedFreq=0
+	PreferredImpedance='Zpi'
+$end 'soln'

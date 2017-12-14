@@ -34,11 +34,33 @@ title('Sensitivity for differents P for z = 3mm');
 % end  
 xlabel('Frequency (Hz)') % x-axis label
 ylabel('(S21_p - S21_0) / S21_p (dB)') %y-axis label 
-% legend('P = 0.1','P = 0.05', 'P = 0.025', 'P = 0.0125');
+legend('P = 0.1','P = 0.05', 'P = 0.025', 'P = 0.0125');
+
+% Plot S21
+figure('Name', 'S21 for differents P')
+semilogx(freq, S21_cul_01)
+hold on
+% figure('Name', 'S21 for P= 0.05')
+semilogx(freq, S21_cul_05)
+hold on
+% figure('Name', 'S21 for P= 0.025')
+semilogx(freq, S21_cul_025)
+hold on
+% figure('Name', 'S21 for P= 0.0125')
+semilogx(freq, S21_cul_0125)
+hold on
+% figure('Name', 'S21 for P= 0')
+semilogx(freq, S21_cul_0 )
+hold on
+title('S21 for differents P for z = 3mm')
+xlabel('Frequency (Hz)') % x-axis label
+ylabel('S21_p') %y-axis label 
+legend('P = 0.1','P = 0.05', 'P = 0.025', 'P = 0.0125');
+
 
 %% Function
 function [sens] = sensibility(S21a,S21b)
 
-    sens = (S21a - S21b) ./ S21a ;
+    sens = abs((S21a - S21b) ./ S21a) ;
     sens = 20*log10(sens);
 end

@@ -1,5 +1,5 @@
 %   Spheroidal Model for E colli
-clc
+
 clear all
 close all
 
@@ -7,8 +7,8 @@ close all
 % Frequency range
 %f_min=0.5*1e5;
 %f_min=1.0*1e6;
-f_min=1.0*1e6;
-f_max=10.0*1e9;
+f_min=1.0*1e4;
+f_max=3.0*1e9;
 %N_f=5001;
 N_f=1003;
 %del_f=(f_max-f_min)/(N_f-1);
